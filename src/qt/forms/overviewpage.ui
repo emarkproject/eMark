@@ -218,7 +218,7 @@
        </layout>
       </widget>
      </item>
-     <item>
+     <item alignment="Qt::AlignHCenter|Qt::AlignBottom">
       <widget class="QLabel" name="label_wallet_bgcoin">
        <property name="text">
         <string/>
@@ -319,7 +319,7 @@
      <item>
       <widget class="QLabel" name="label_eMark_Intro">
        <property name="text">
-        <string></string>
+        <string/>
        </property>
       </widget>
      </item>

@@ -2,22 +2,22 @@
 
 #include <QStringList>
 
-eMarkUnits::eMarkUnits(QObject *parent):
+BitcoinUnits::BitcoinUnits(QObject *parent):
         QAbstractListModel(parent),
         unitlist(availableUnits())
 {
 }
 
-QList<eMarkUnits::Unit> eMarkUnits::availableUnits()
+QList<BitcoinUnits::Unit> BitcoinUnits::availableUnits()
 {
-    QList<eMarkUnits::Unit> unitlist;
+    QList<BitcoinUnits::Unit> unitlist;
     unitlist.append(BTC);
     unitlist.append(mBTC);
     unitlist.append(uBTC);
     return unitlist;
 }
 
-bool eMarkUnits::valid(int unit)
+bool BitcoinUnits::valid(int unit)
 {
     switch(unit)
     {
@@ -30,7 +30,7 @@ bool eMarkUnits::valid(int unit)
     }
 }
 
-QString eMarkUnits::name(int unit)
+QString BitcoinUnits::name(int unit)
 {
     switch(unit)
     {
@@ -41,7 +41,7 @@ QString eMarkUnits::name(int unit)
     }
 }
 
-QString eMarkUnits::description(int unit)
+QString BitcoinUnits::description(int unit)
 {
     switch(unit)
     {
@@ -52,7 +52,7 @@ QString eMarkUnits::description(int unit)
     }
 }
 
-qint64 eMarkUnits::factor(int unit)
+qint64 BitcoinUnits::factor(int unit)
 {
     switch(unit)
     {
@@ -63,7 +63,7 @@ qint64 eMarkUnits::factor(int unit)
     }
 }
 
-int eMarkUnits::amountDigits(int unit)
+int BitcoinUnits::amountDigits(int unit)
 {
     switch(unit)
     {
@@ -74,7 +74,7 @@ int eMarkUnits::amountDigits(int unit)
     }
 }
 
-int eMarkUnits::decimals(int unit)
+int BitcoinUnits::decimals(int unit)
 {
     switch(unit)
     {
@@ -85,7 +85,7 @@ int eMarkUnits::decimals(int unit)
     }
 }
 
-QString eMarkUnits::format(int unit, qint64 n, bool fPlus)
+QString BitcoinUnits::format(int unit, qint64 n, bool fPlus)
 {
     // Note: not using straight sprintf here because we do NOT want
     // localized number formatting.
@@ -112,12 +112,12 @@ QString eMarkUnits::format(int unit, qint64 n, bool fPlus)
     return quotient_str + QString(".") + remainder_str;
 }
 
-QString eMarkUnits::formatWithUnit(int unit, qint64 amount, bool plussign)
+QString BitcoinUnits::formatWithUnit(int unit, qint64 amount, bool plussign)
 {
     return format(unit, amount, plussign) + QString(" ") + name(unit);
 }
 
-bool eMarkUnits::parse(int unit, const QString &value, qint64 *val_out)
+bool BitcoinUnits::parse(int unit, const QString &value, qint64 *val_out)
 {
     if(!valid(unit) || value.isEmpty())
         return false; // Refuse to parse invalid unit or empty string
@@ -154,13 +154,13 @@ bool eMarkUnits::parse(int unit, const QString &value, qint64 *val_out)
     return ok;
 }
 
-int eMarkUnits::rowCount(const QModelIndex &parent) const
+int BitcoinUnits::rowCount(const QModelIndex &parent) const
 {
     Q_UNUSED(parent);
     return unitlist.size();
 }
 
-QVariant eMarkUnits::data(const QModelIndex &index, int role) const
+QVariant BitcoinUnits::data(const QModelIndex &index, int role) const
 {
     int row = index.row();
     if(row >= 0 && row < unitlist.size())

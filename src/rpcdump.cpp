@@ -79,7 +79,7 @@ Value dumpprivkey(const Array& params, bool fHelp)
             "Reveals the private key corresponding to <eMarkaddress>.");
 
     string strAddress = params[0].get_str();
-    CeMarkAddress address;
+    CBitcoinAddress address;
     if (!address.SetString(strAddress))
         throw JSONRPCError(RPC_INVALID_ADDRESS_OR_KEY, "Invalid eMark address");
     if (fWalletUnlockMintOnly) // ppcoin: no dumpprivkey in mint-only mode

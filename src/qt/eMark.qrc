@@ -40,6 +40,8 @@
         <file alias="filesave">res/icons/filesave.png</file>
         <file alias="qrcode">res/icons/qrcode.png</file>
         <file alias="debugwindow">res/icons/debugwindow.png</file>
+        <file alias="staking_off">res/icons/staking_off.png</file>
+        <file alias="staking_on">res/icons/staking_on.png</file>
     </qresource>
     <qresource prefix="/images">
         <file alias="about">res/images/about.png</file>
@@ -69,7 +71,7 @@
         <file alias="es_CL">locale/eMark_es_CL.qm</file>
         <file alias="et">locale/eMark_et.qm</file>
         <file alias="eu_ES">locale/eMark_eu_ES.qm</file>
-        <file alias="da">locale/eMark_fa.qm</file>
+        <file alias="fa">locale/eMark_fa.qm</file>
         <file alias="da_IR">locale/eMark_fa_IR.qm</file>
         <file alias="fi">locale/eMark_fi.qm</file>
         <file alias="fr">locale/eMark_fr.qm</file>

@@ -26,10 +26,11 @@ public:
         ProxyPort,         // int
         ProxySocksVersion, // int
         Fee,               // qint64
-        DisplayUnit,       // eMarkUnits::Unit
+        DisplayUnit,       // BitcoinUnits::Unit
         DisplayAddresses,  // bool
         DetachDatabases,   // bool
         Language,          // QString
+        CoinControlFeatures, // bool
         OptionIDRowCount,
     };
 
@@ -49,16 +50,19 @@ public:
     int getDisplayUnit();
     bool getDisplayAddresses();
     QString getLanguage() { return language; }
+    bool getCoinControlFeatures();
 
 private:
     int nDisplayUnit;
     bool bDisplayAddresses;
     bool fMinimizeToTray;
     bool fMinimizeOnClose;
+    bool fCoinControlFeatures;
     QString language;
 
 signals:
     void displayUnitChanged(int unit);
+    void coinControlFeaturesChanged(bool);
 };
 
 #endif // OPTIONSMODEL_H

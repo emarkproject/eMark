@@ -259,19 +259,19 @@ public:
  * Script-hash-addresses have version 5 (or 196 testnet).
  * The data vector contains RIPEMD160(SHA256(cscript)), where cscript is the serialized redemption script.
  */
-class CeMarkAddress;
-class CeMarkAddressVisitor : public boost::static_visitor<bool>
+class CBitcoinAddress;
+class CBitcoinAddressVisitor : public boost::static_visitor<bool>
 {
 private:
-    CeMarkAddress *addr;
+    CBitcoinAddress *addr;
 public:
-    CeMarkAddressVisitor(CeMarkAddress *addrIn) : addr(addrIn) { }
+    CBitcoinAddressVisitor(CBitcoinAddress *addrIn) : addr(addrIn) { }
     bool operator()(const CKeyID &id) const;
     bool operator()(const CScriptID &id) const;
     bool operator()(const CNoDestination &no) const;
 };
 
-class CeMarkAddress : public CBase58Data
+class CBitcoinAddress : public CBase58Data
 {
 public:
     enum
@@ -294,7 +294,7 @@ public:
 
     bool Set(const CTxDestination &dest)
     {
-        return boost::apply_visitor(CeMarkAddressVisitor(this), dest);
+        return boost::apply_visitor(CBitcoinAddressVisitor(this), dest);
     }
 
     bool IsValid() const
@@ -327,21 +327,21 @@ public:
         return fExpectTestNet == fTestNet && vchData.size() == nExpectedSize;
     }
 
-    CeMarkAddress()
+    CBitcoinAddress()
     {
     }
 
-    CeMarkAddress(const CTxDestination &dest)
+    CBitcoinAddress(const CTxDestination &dest)
     {
         Set(dest);
     }
 
-    CeMarkAddress(const std::string& strAddress)
+    CBitcoinAddress(const std::string& strAddress)
     {
         SetString(strAddress);
     }
 
-    CeMarkAddress(const char* pszAddress)
+    CBitcoinAddress(const char* pszAddress)
     {
         SetString(pszAddress);
     }
@@ -394,9 +394,9 @@ public:
     }
 };
 
-bool inline CeMarkAddressVisitor::operator()(const CKeyID &id) const         { return addr->Set(id); }
-bool inline CeMarkAddressVisitor::operator()(const CScriptID &id) const      { return addr->Set(id); }
-bool inline CeMarkAddressVisitor::operator()(const CNoDestination &id) const { return false; }
+bool inline CBitcoinAddressVisitor::operator()(const CKeyID &id) const         { return addr->Set(id); }
+bool inline CBitcoinAddressVisitor::operator()(const CScriptID &id) const      { return addr->Set(id); }
+bool inline CBitcoinAddressVisitor::operator()(const CNoDestination &id) const { return false; }
 
 /** A base58-encoded secret key */
 class CeMarkSecret : public CBase58Data
@@ -405,7 +405,7 @@ public:
     void SetSecret(const CSecret& vchSecret, bool fCompressed)
     {
         assert(vchSecret.size() == 32);
-        SetData(128 + (fTestNet ? CeMarkAddress::PUBKEY_ADDRESS_TEST : CeMarkAddress::PUBKEY_ADDRESS), &vchSecret[0], vchSecret.size());
+        SetData(128 + (fTestNet ? CBitcoinAddress::PUBKEY_ADDRESS_TEST : CBitcoinAddress::PUBKEY_ADDRESS), &vchSecret[0], vchSecret.size());
         if (fCompressed)
             vchData.push_back(1);
     }
@@ -424,10 +424,10 @@ public:
         bool fExpectTestNet = false;
         switch(nVersion)
         {
-            case (128 + CeMarkAddress::PUBKEY_ADDRESS):
+            case (128 + CBitcoinAddress::PUBKEY_ADDRESS):
                 break;
 
-            case (128 + CeMarkAddress::PUBKEY_ADDRESS_TEST):
+            case (128 + CBitcoinAddress::PUBKEY_ADDRESS_TEST):
                 fExpectTestNet = true;
                 break;
 

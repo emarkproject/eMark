@@ -52,7 +52,7 @@ QString dateTimeStr(qint64 nTime)
     return dateTimeStr(QDateTime::fromTime_t((qint32)nTime));
 }
 
-QFont eMarkAddressFont()
+QFont bitcoinAddressFont()
 {
     QFont font("Monospace");
     font.setStyleHint(QFont::TypeWriter);
@@ -63,7 +63,7 @@ void setupAddressWidget(QLineEdit *widget, QWidget *parent)
 {
     widget->setMaxLength(eMarkAddressValidator::MaxAddressLength);
     widget->setValidator(new eMarkAddressValidator(parent));
-    widget->setFont(eMarkAddressFont());
+    widget->setFont(bitcoinAddressFont());
 }
 
 void setupAmountWidget(QLineEdit *widget, QWidget *parent)
@@ -102,7 +102,7 @@ bool parseeMarkURI(const QUrl &uri, SendCoinsRecipient *out)
         {
             if(!i->second.isEmpty())
             {
-                if(!eMarkUnits::parse(eMarkUnits::BTC, i->second, &rv.amount))
+                if(!BitcoinUnits::parse(BitcoinUnits::BTC, i->second, &rv.amount))
                 {
                     return false;
                 }

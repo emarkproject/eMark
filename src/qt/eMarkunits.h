@@ -7,10 +7,10 @@
 /** eMark unit definitions. Encapsulates parsing and formatting
    and serves as list model for drop-down selection boxes.
 */
-class eMarkUnits: public QAbstractListModel
+class BitcoinUnits: public QAbstractListModel
 {
 public:
-    explicit eMarkUnits(QObject *parent);
+    explicit BitcoinUnits(QObject *parent);
 
     /** eMark units.
       @note Source: https://en.bitcoin.it/wiki/Units . Please add only sensible ones
@@ -59,8 +59,8 @@ public:
     QVariant data(const QModelIndex &index, int role) const;
     ///@}
 private:
-    QList<eMarkUnits::Unit> unitlist;
+    QList<BitcoinUnits::Unit> unitlist;
 };
-typedef eMarkUnits::Unit eMarkUnit;
+typedef BitcoinUnits::Unit eMarkUnit;
 
 #endif // BOUNTYCOINUNITS_H

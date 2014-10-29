@@ -22,7 +22,7 @@ BEGIN
             VALUE "FileDescription",    "eMark-Qt (OSS GUI client for eMark)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
             VALUE "InternalName",       "eMark-qt"
-            VALUE "LegalCopyright",     "2009-2012 The Bitcon developers, 2012-2013 The eMark & PPCoin developers, 2003 The eMark developer"
+            VALUE "LegalCopyright",     "2009-2012 The Bitcon developers, 2012-2013 The eMark & PPCoin developers, 2013-2014 The eMark developers"
             VALUE "LegalTrademarks1",   "Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
             VALUE "OriginalFilename",   "eMark-qt.exe"
             VALUE "ProductName",        "eMark-Qt"

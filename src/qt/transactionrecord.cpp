@@ -53,7 +53,7 @@ QList<TransactionRecord> TransactionRecord::decomposeTransaction(const CWallet *
                 {
                     // Received by eMark Address
                     sub.type = TransactionRecord::RecvWithAddress;
-                    sub.address = CeMarkAddress(address).ToString();
+                    sub.address = CBitcoinAddress(address).ToString();
                 }
                 else
                 {
@@ -114,7 +114,7 @@ QList<TransactionRecord> TransactionRecord::decomposeTransaction(const CWallet *
                 {
                     // Sent to eMark Address
                     sub.type = TransactionRecord::SendToAddress;
-                    sub.address = CeMarkAddress(address).ToString();
+                    sub.address = CBitcoinAddress(address).ToString();
                 }
                 else
                 {

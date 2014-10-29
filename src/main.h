@@ -31,9 +31,8 @@ static const unsigned int MAX_ORPHAN_TRANSACTIONS = MAX_BLOCK_SIZE/100;
 static const unsigned int MAX_INV_SZ = 50000;
 static const int64 MIN_TX_FEE = 0.001 * COIN;
 static const int64 MIN_RELAY_TX_FEE = MIN_TX_FEE;
-static const int64 MAX_MONEY = 20000000000 * COIN; //total of 20 billion coins
+static const int64 MAX_MONEY = 210000000 * COIN; //total of 210 million coins
 static const int64 MAX_MINT_PROOF_OF_WORK = 50 * COIN;	
-static const int64 MAX_MINT_PROOF_OF_STAKE = .038 * MAX_MINT_PROOF_OF_WORK;	//3.8% annual stake
 static const int64 MIN_TXOUT_AMOUNT = MIN_TX_FEE;
 static const unsigned int MAX_TX_COMMENT_LEN = 140; //140 character (Twitter) limitation
 
@@ -60,7 +59,7 @@ extern std::map<uint256, CBlockIndex*> mapBlockIndex;
 extern std::set<std::pair<COutPoint, unsigned int> > setStakeSeen;
 extern uint256 hashGenesisBlock;
 extern CBlockIndex* pindexGenesisBlock;
-extern unsigned int nStakeMinAge;
+unsigned int GetStakeMinAge(int64 nTime);
 extern int nCoinbaseMaturity;
 extern int nBestHeight;
 extern CBigNum bnBestChainTrust;
@@ -591,7 +590,7 @@ public:
         return dPriority > COIN * 1440 / 250;
     }
 
-    int64 GetMinFee(unsigned int nBlockSize=1, bool fAllowFree=false, enum GetMinFee_mode mode=GMF_BLOCK) const;
+    int64 GetMinFee(unsigned int nBlockSize=1, bool fAllowFree=false, enum GetMinFee_mode mode=GMF_BLOCK, unsigned int pnBytes=0) const;
 
     bool ReadFromDisk(CDiskTxPos pos, FILE** pfileRet=NULL)
     {
@@ -754,6 +753,7 @@ public:
 
 
     int SetMerkleBranch(const CBlock* pblock=NULL);
+    int GetDepthInMainChainINTERNAL(CBlockIndex* &pindexRet) const;
     int GetDepthInMainChain(CBlockIndex* &pindexRet) const;
     int GetDepthInMainChain() const { CBlockIndex *pindexRet; return GetDepthInMainChain(pindexRet); }
     bool IsInMainChain() const { return GetDepthInMainChain() > 0; }

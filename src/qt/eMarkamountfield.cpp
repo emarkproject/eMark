@@ -27,7 +27,7 @@ eMarkAmountField::eMarkAmountField(QWidget *parent):
     QHBoxLayout *layout = new QHBoxLayout(this);
     layout->addWidget(amount);
     unit = new QValueComboBox(this);
-    unit->setModel(new eMarkUnits(this));
+    unit->setModel(new BitcoinUnits(this));
     layout->addWidget(unit);
     layout->addStretch(1);
     layout->setContentsMargins(0,0,0,0);
@@ -64,7 +64,7 @@ bool eMarkAmountField::validate()
     bool valid = true;
     if (amount->value() == 0.0)
         valid = false;
-    if (valid && !eMarkUnits::parse(currentUnit, text(), 0))
+    if (valid && !BitcoinUnits::parse(currentUnit, text(), 0))
         valid = false;
 
     setValid(valid);
@@ -118,7 +118,7 @@ QWidget *eMarkAmountField::setupTabChain(QWidget *prev)
 qint64 eMarkAmountField::value(bool *valid_out) const
 {
     qint64 val_out = 0;
-    bool valid = eMarkUnits::parse(currentUnit, text(), &val_out);
+    bool valid = BitcoinUnits::parse(currentUnit, text(), &val_out);
     if(valid_out)
     {
         *valid_out = valid;
@@ -128,7 +128,7 @@ qint64 eMarkAmountField::value(bool *valid_out) const
 
 void eMarkAmountField::setValue(qint64 value)
 {
-    setText(eMarkUnits::format(currentUnit, value));
+    setText(BitcoinUnits::format(currentUnit, value));
 }
 
 void eMarkAmountField::unitChanged(int idx)
@@ -137,7 +137,7 @@ void eMarkAmountField::unitChanged(int idx)
     unit->setToolTip(unit->itemData(idx, Qt::ToolTipRole).toString());
 
     // Determine new unit ID
-    int newUnit = unit->itemData(idx, eMarkUnits::UnitRole).toInt();
+    int newUnit = unit->itemData(idx, BitcoinUnits::UnitRole).toInt();
 
     // Parse current value and convert to new unit
     bool valid = false;
@@ -146,8 +146,8 @@ void eMarkAmountField::unitChanged(int idx)
     currentUnit = newUnit;
 
     // Set max length after retrieving the value, to prevent truncation
-    amount->setDecimals(eMarkUnits::decimals(currentUnit));
-    amount->setMaximum(qPow(10, eMarkUnits::amountDigits(currentUnit)) - qPow(10, -amount->decimals()));
+    amount->setDecimals(BitcoinUnits::decimals(currentUnit));
+    amount->setMaximum(qPow(10, BitcoinUnits::amountDigits(currentUnit)) - qPow(10, -amount->decimals()));
 
     if(valid)
     {

@@ -24,7 +24,10 @@ typedef std::map<int, uint256> MapCheckpoints;
 //
 static MapCheckpoints mapCheckpoints =
         boost::assign::map_list_of
-        ( 0, hashGenesisBlockOfficial )
+        (      0, hashGenesisBlockOfficial )
+        ( 100000, uint256("0x0000000000000d09b191be5c3c0a9c080a5437346687160188ada2aa9f7cfb01") )
+        ( 200000, uint256("0x0000000000002889989080aac405f02a9feb54e461d7cddd92cf1ca8d8b84cc8") )
+        ( 240000, uint256("0x00000000000007bd9af865b57c6640317b8035e935bb4e6b126c8780ac4e5a38") )
         ;
 
 
@@ -349,7 +352,7 @@ static MapCheckpoints mapCheckpointsTestnet =
         assert(mapBlockIndex.count(hashSyncCheckpoint));
         const CBlockIndex* pindexSync = mapBlockIndex[hashSyncCheckpoint];
         return (nBestHeight >= pindexSync->nHeight + nCoinbaseMaturity ||
-                pindexSync->GetBlockTime() + nStakeMinAge < GetAdjustedTime());
+                pindexSync->GetBlockTime() + GetStakeMinAge(GetAdjustedTime()) < GetAdjustedTime());
     }
 
     // Is the sync-checkpoint too old?

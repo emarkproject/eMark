@@ -2,15 +2,12 @@
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
+#include "crypter.h"
+
 #include <openssl/aes.h>
 #include <openssl/evp.h>
 #include <vector>
 #include <string>
-#ifdef WIN32
-#include <windows.h>
-#endif
-
-#include "crypter.h"
 
 bool CCrypter::SetKeyFromPassphrase(const SecureString& strKeyData, const std::vector<unsigned char>& chSalt, const unsigned int nRounds, const unsigned int nDerivationMethod)
 {
