@@ -3,6 +3,7 @@
 
 #include <QMainWindow>
 #include <QSystemTrayIcon>
+#include "util.h"
 
 class TransactionTableModel;
 class ClientModel;
@@ -101,7 +102,7 @@ private:
 
     QMovie *syncIconMovie;
 
-    uint64_t nWeight;
+    uint64 nWeight;
 
     /** Create the main UI actions. */
     void createActions();
