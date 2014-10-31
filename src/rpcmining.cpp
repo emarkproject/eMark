@@ -132,8 +132,8 @@ Value getmininginfo(const Array& params, bool fHelp)
             "getmininginfo\n"
             "Returns an object containing mining-related information.");
 
-    uint64_t nNetworkWeight = GetPoSKernelPS();
-    uint64_t nWeight = 0;
+    uint64 nNetworkWeight = GetPoSKernelPS();
+    uint64 nWeight = 0;
     pwalletMain->GetStakeWeight(nWeight);
 
     Object obj;
@@ -162,10 +162,10 @@ Value getstakinginfo(const Array& params, bool fHelp)
             "getstakinginfo\n"
             "Returns an object containing staking-related information.");
 
-    uint64_t nWeight = 0;
+    uint64 nWeight = 0;
     pwalletMain->GetStakeWeight(nWeight);
 
-    uint64_t nNetworkWeight = GetPoSKernelPS();
+    uint64 nNetworkWeight = GetPoSKernelPS();
     bool staking = nLastCoinStakeSearchInterval && nWeight;
     int nExpectedTime = staking ? (nStakeTargetSpacing * nNetworkWeight / nWeight) : -1;
 
