@@ -118,6 +118,9 @@
 		<Unit filename="strlcpy.h" />
 		<Unit filename="sync.cpp" />
 		<Unit filename="sync.h" />
+		<Unit filename="txdb.h" />
+		<Unit filename="txdb-leveldb.cpp" />
+		<Unit filename="txdb-leveldb.h" />
 		<Unit filename="ui_interface.h" />
 		<Unit filename="uint256.h" />
 		<Unit filename="util.cpp" />

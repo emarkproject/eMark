@@ -6,6 +6,7 @@
 #include "alert.h"
 #include "checkpoints.h"
 #include "db.h"
+#include "txdb.h"
 #include "net.h"
 #include "init.h"
 #include "ui_interface.h"
@@ -2047,8 +2048,6 @@ bool CBlock::AddToBlockIndex(unsigned int nFile, unsigned int nBlockPos)
         if (!SetBestChain(txdb, pindexNew))
             return false;
 
-    txdb.Close();
-
     if (pindexNew == pindexBest)
     {
         // Notify UI to display prev block's coinbase if it was ours
@@ -2064,7 +2063,7 @@ bool CBlock::AddToBlockIndex(unsigned int nFile, unsigned int nBlockPos)
 
 
 
-bool CBlock::CheckBlock(bool fCheckPOW, bool fCheckMerkleRoot) const
+bool CBlock::CheckBlock(bool fCheckPOW, bool fCheckMerkleRoot, bool fCheckSig) const
 {
     // These are checks that are independent of context
     // that can be verified before saving an orphan block.
@@ -2113,6 +2112,9 @@ bool CBlock::CheckBlock(bool fCheckPOW, bool fCheckMerkleRoot) const
     if (IsProofOfStake() && !CheckCoinStakeTimestamp(GetBlockTime(), (int64)vtx[1].nTime))
         return DoS(50, error("CheckBlock() : coinstake timestamp violation nTimeBlock=%"PRI64d" nTimeTx=%u", GetBlockTime(), vtx[1].nTime));
 
+	// Check proof-of-stake block signature
+    if (fCheckSig && !CheckBlockSignature(true))
+        return DoS(100, error("CheckBlock() : bad proof-of-stake block signature"));
 
     // Check transactions
     BOOST_FOREACH(const CTransaction& tx, vtx)
@@ -2420,7 +2422,7 @@ bool CBlock::SignBlock(const CKeyStore& keystore)
 }
 
 // ppcoin: check block signature
-bool CBlock::CheckBlockSignature() const
+bool CBlock::CheckBlockSignature(bool fProofOfStake) const
 {
     if (GetHash() == (!fTestNet ? hashGenesisBlock : hashGenesisBlockTestNet))
         return vchBlockSig.empty();

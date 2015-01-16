@@ -6,6 +6,7 @@ DEPSDIR:=/usr/i586-mingw32msvc
 
 USE_UPNP:=0
 USE_IPV6:=1
+USE_LEVELDB:=1
 
 INCLUDEPATHS= \
  -I"$(CURDIR)" \
@@ -86,6 +87,21 @@ OBJS= \
     obj/kernel.o
 
 all: eMarkd.exe
+
+test check: test_eMark FORCE
+	./test_eMark
+
+#
+# LevelDB support
+#
+LIBS += $(CURDIR)/leveldb/libleveldb.a $(CURDIR)/leveldb/libmemenv.a
+DEFS += -I"$(CURDIR)/leveldb/include" -DUSE_LEVELDB
+DEFS += -I"$(CURDIR)/leveldb/helpers"
+OBJS += obj/txdb-leveldb.o
+leveldb/libleveldb.a:
+	@echo "Building LevelDB ..." && cd leveldb && CC=i586-mingw32msvc-gcc CXX=i586-mingw32msvc-g++ TARGET_OS=OS_WINDOWS_CROSSCOMPILE CXXFLAGS="-I$(INCLUDEPATHS)" LDFLAGS="-L$(LIBPATHS)" $(MAKE) libleveldb.a libmemenv.a && i586-mingw32msvc-ranlib libleveldb.a && i586-mingw32msvc-ranlib libmemenv.a && cd ..
+obj/txdb-leveldb.o: leveldb/libleveldb.a
+
 
 obj/build.h: FORCE
 	/bin/sh ../share/genbuild.sh obj/build.h

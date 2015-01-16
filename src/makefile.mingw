@@ -4,6 +4,7 @@
 
 USE_UPNP:=1
 USE_IPV6:=1
+USE_LEVELDB:=1
 
 BOOST_SUFFIX?=-mgw46-mt-sd-1_54
 
@@ -85,8 +86,20 @@ OBJS= \
 
 all: eMarkd.exe
 
-test check: test_eMark.exe FORCE
-	test_eMark.exe
+test check: test_eMark FORCE
+	./test_eMark
+
+#
+# LevelDB support
+#
+
+LIBS += $(CURDIR)/leveldb/libleveldb.a $(CURDIR)/leveldb/libmemenv.a
+DEFS += $(addprefix -I,$(CURDIR)/leveldb/include) -DUSE_LEVELDB
+DEFS += $(addprefix -I,$(CURDIR)/leveldb/helpers)
+OBJS += obj/txdb-leveldb.o
+leveldb/libleveldb.a:
+	cd leveldb; make; cd ..
+obj/txdb-leveldb.o: leveldb/libleveldb.lib
 
 obj/%.o: %.cpp $(HEADERS)
 	g++ -c $(CFLAGS) -o $@ $<

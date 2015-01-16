@@ -4,6 +4,7 @@
 
 USE_UPNP:=0
 USE_IPV6:=1
+USE_LEVELDB:=-
 
 LINK:=$(CXX)
 
@@ -135,6 +136,18 @@ all: eMarkd
 
 test check: test_eMark FORCE
 	./test_eMark
+
+#
+# LevelDB support
+#
+
+LIBS += $(CURDIR)/leveldb/libleveldb.a $(CURDIR)/leveldb/libmemenv.a
+DEFS += $(addprefix -I,$(CURDIR)/leveldb/include) -DUSE_LEVELDB
+DEFS += $(addprefix -I,$(CURDIR)/leveldb/helpers)
+OBJS += obj/txdb-leveldb.o
+leveldb/libleveldb.a:
+	@echo "Building LevelDB ..."; cd leveldb; make libleveldb.a libmemenv.a; cd ..;
+obj/txdb-leveldb.o: leveldb/libleveldb.a
 
 # auto-generated dependencies:
 -include obj/*.P
