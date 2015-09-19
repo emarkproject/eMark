@@ -1,7 +1,4 @@
 src/*.exe
-src/eMark
-src/eMarkd
-src/test_eMark
 src/build.h
 .*.swp
 *.*~*
@@ -10,8 +7,6 @@ src/build.h
 *.orig
 *.o
 *.patch
-.eMark
-.eMark
 #compilation and Qt preprocessor part
 *.qm
 Makefile
