@@ -8,9 +8,4 @@
 
 #include "txdb-leveldb.h"
 
-
-// Sets up whatever database layer was chosen for in-memory only access. Used by the
-// the unit test framework.
-extern void MakeMockTXDB();
-
 #endif  // BITCOIN_TXDB_H

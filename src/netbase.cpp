@@ -1,18 +1,19 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
-// Copyright (c) 2013  The eMark developer
+// Copyright (c) 2009-2012 The Bitcoin developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #include "netbase.h"
 #include "util.h"
 #include "sync.h"
+#include "hash.h"
 
 #ifndef WIN32
 #include <sys/fcntl.h>
 #endif
 
-#include "strlcpy.h"
 #include <boost/algorithm/string/case_conv.hpp> // for to_lower()
+#include <boost/algorithm/string/predicate.hpp> // for startswith() and endswith()
 
 using namespace std;
 
@@ -73,18 +74,10 @@ bool static LookupIntern(const char *pszName, std::vector<CNetAddr>& vIP, unsign
     aiHint.ai_socktype = SOCK_STREAM;
     aiHint.ai_protocol = IPPROTO_TCP;
 #ifdef WIN32
-#  ifdef USE_IPV6
     aiHint.ai_family = AF_UNSPEC;
-#  else
-    aiHint.ai_family = AF_INET;
-#  endif
     aiHint.ai_flags = fAllowLookup ? 0 : AI_NUMERICHOST;
 #else
-#  ifdef USE_IPV6
     aiHint.ai_family = AF_UNSPEC;
-#  else
-    aiHint.ai_family = AF_INET;
-#  endif
     aiHint.ai_flags = fAllowLookup ? AI_ADDRCONFIG : AI_NUMERICHOST;
 #endif
     struct addrinfo *aiRes = NULL;
@@ -101,13 +94,11 @@ bool static LookupIntern(const char *pszName, std::vector<CNetAddr>& vIP, unsign
             vIP.push_back(CNetAddr(((struct sockaddr_in*)(aiTrav->ai_addr))->sin_addr));
         }
 
-#ifdef USE_IPV6
         if (aiTrav->ai_family == AF_INET6)
         {
             assert(aiTrav->ai_addrlen >= sizeof(sockaddr_in6));
             vIP.push_back(CNetAddr(((struct sockaddr_in6*)(aiTrav->ai_addr))->sin6_addr));
         }
-#endif
 
         aiTrav = aiTrav->ai_next;
     }
@@ -119,23 +110,16 @@ bool static LookupIntern(const char *pszName, std::vector<CNetAddr>& vIP, unsign
 
 bool LookupHost(const char *pszName, std::vector<CNetAddr>& vIP, unsigned int nMaxSolutions, bool fAllowLookup)
 {
-    if (pszName[0] == 0)
+    std::string str(pszName);
+    std::string strHost = str;
+    if (str.empty())
         return false;
-    char psz[256];
-    char *pszHost = psz;
-    strlcpy(psz, pszName, sizeof(psz));
-    if (psz[0] == '[' && psz[strlen(psz)-1] == ']')
+    if (boost::algorithm::starts_with(str, "[") && boost::algorithm::ends_with(str, "]"))
     {
-        pszHost = psz+1;
-        psz[strlen(psz)-1] = 0;
+        strHost = str.substr(1, str.size() - 2);
     }
 
-    return LookupIntern(pszHost, vIP, nMaxSolutions, fAllowLookup);
-}
-
-bool LookupHostNumeric(const char *pszName, std::vector<CNetAddr>& vIP, unsigned int nMaxSolutions)
-{
-    return LookupHost(pszName, vIP, nMaxSolutions, false);
+    return LookupIntern(strHost.c_str(), vIP, nMaxSolutions, fAllowLookup);
 }
 
 bool Lookup(const char *pszName, std::vector<CService>& vAddr, int portDefault, bool fAllowLookup, unsigned int nMaxSolutions)
@@ -173,7 +157,7 @@ bool LookupNumeric(const char *pszName, CService& addr, int portDefault)
 
 bool static Socks4(const CService &addrDest, SOCKET& hSocket)
 {
-    printf("SOCKS4 connecting %s\n", addrDest.ToString().c_str());
+    LogPrintf("SOCKS4 connecting %s\n", addrDest.ToString());
     if (!addrDest.IsIPv4())
     {
         closesocket(hSocket);
@@ -208,16 +192,16 @@ bool static Socks4(const CService &addrDest, SOCKET& hSocket)
     {
         closesocket(hSocket);
         if (pchRet[1] != 0x5b)
-            printf("ERROR: Proxy returned error %d\n", pchRet[1]);
+            LogPrintf("ERROR: Proxy returned error %d\n", pchRet[1]);
         return false;
     }
-    printf("SOCKS4 connected %s\n", addrDest.ToString().c_str());
+    LogPrintf("SOCKS4 connected %s\n", addrDest.ToString());
     return true;
 }
 
 bool static Socks5(string strDest, int port, SOCKET& hSocket)
 {
-    printf("SOCKS5 connecting %s\n", strDest.c_str());
+    LogPrintf("SOCKS5 connecting %s\n", strDest);
     if (strDest.size() > 255)
     {
         closesocket(hSocket);
@@ -250,7 +234,7 @@ bool static Socks5(string strDest, int port, SOCKET& hSocket)
     strSocks5 += strDest;
     strSocks5 += static_cast<char>((port >> 8) & 0xFF);
     strSocks5 += static_cast<char>((port >> 0) & 0xFF);
-    ret = send(hSocket, strSocks5.c_str(), strSocks5.size(), MSG_NOSIGNAL);
+    ret = send(hSocket, strSocks5.data(), strSocks5.size(), MSG_NOSIGNAL);
     if (ret != (ssize_t)strSocks5.size())
     {
         closesocket(hSocket);
@@ -296,8 +280,10 @@ bool static Socks5(string strDest, int port, SOCKET& hSocket)
         case 0x03:
         {
             ret = recv(hSocket, pchRet3, 1, 0) != 1;
-            if (ret)
+            if (ret) {
+                closesocket(hSocket);
                 return error("Error reading from proxy");
+            }
             int nRecv = pchRet3[0];
             ret = recv(hSocket, pchRet3, nRecv, 0) != nRecv;
             break;
@@ -314,7 +300,7 @@ bool static Socks5(string strDest, int port, SOCKET& hSocket)
         closesocket(hSocket);
         return error("Error reading from proxy");
     }
-    printf("SOCKS5 connected %s\n", strDest.c_str());
+    LogPrintf("SOCKS5 connected %s\n", strDest);
     return true;
 }
 
@@ -322,14 +308,10 @@ bool static ConnectSocketDirectly(const CService &addrConnect, SOCKET& hSocketRe
 {
     hSocketRet = INVALID_SOCKET;
 
-#ifdef USE_IPV6
     struct sockaddr_storage sockaddr;
-#else
-    struct sockaddr sockaddr;
-#endif
     socklen_t len = sizeof(sockaddr);
     if (!addrConnect.GetSockAddr((struct sockaddr*)&sockaddr, &len)) {
-        printf("Cannot connect to %s: unsupported network\n", addrConnect.ToString().c_str());
+        LogPrintf("Cannot connect to %s: unsupported network\n", addrConnect.ToString());
         return false;
     }
 
@@ -355,8 +337,9 @@ bool static ConnectSocketDirectly(const CService &addrConnect, SOCKET& hSocketRe
 
     if (connect(hSocket, (struct sockaddr*)&sockaddr, len) == SOCKET_ERROR)
     {
+        int nErr = WSAGetLastError();
         // WSAEINVAL is here because some legacy version of winsock uses it
-        if (WSAGetLastError() == WSAEINPROGRESS || WSAGetLastError() == WSAEWOULDBLOCK || WSAGetLastError() == WSAEINVAL)
+        if (nErr == WSAEINPROGRESS || nErr == WSAEWOULDBLOCK || nErr == WSAEINVAL)
         {
             struct timeval timeout;
             timeout.tv_sec  = nTimeout / 1000;
@@ -368,13 +351,13 @@ bool static ConnectSocketDirectly(const CService &addrConnect, SOCKET& hSocketRe
             int nRet = select(hSocket + 1, NULL, &fdset, NULL, &timeout);
             if (nRet == 0)
             {
-                printf("connection timeout\n");
+                LogPrint("net", "connection to %s timeout\n", addrConnect.ToString());
                 closesocket(hSocket);
                 return false;
             }
             if (nRet == SOCKET_ERROR)
             {
-                printf("select() for connection failed: %i\n",WSAGetLastError());
+                LogPrintf("select() for %s failed: %i\n", addrConnect.ToString(), WSAGetLastError());
                 closesocket(hSocket);
                 return false;
             }
@@ -385,13 +368,13 @@ bool static ConnectSocketDirectly(const CService &addrConnect, SOCKET& hSocketRe
             if (getsockopt(hSocket, SOL_SOCKET, SO_ERROR, &nRet, &nRetSize) == SOCKET_ERROR)
 #endif
             {
-                printf("getsockopt() for connection failed: %i\n",WSAGetLastError());
+                LogPrintf("getsockopt() for %s failed: %i\n", addrConnect.ToString(), WSAGetLastError());
                 closesocket(hSocket);
                 return false;
             }
             if (nRet != 0)
             {
-                printf("connect() failed after select(): %s\n",strerror(nRet));
+                LogPrintf("connect() to %s failed after select(): %s\n", addrConnect.ToString(), strerror(nRet));
                 closesocket(hSocket);
                 return false;
             }
@@ -402,7 +385,7 @@ bool static ConnectSocketDirectly(const CService &addrConnect, SOCKET& hSocketRe
         else
 #endif
         {
-            printf("connect() failed: %i\n",WSAGetLastError());
+            LogPrintf("connect() to %s failed: %i\n", addrConnect.ToString(), WSAGetLastError());
             closesocket(hSocket);
             return false;
         }
@@ -504,6 +487,7 @@ bool ConnectSocket(const CService &addrDest, SOCKET& hSocketRet, int nTimeout)
             return false;
         break;
     default:
+        closesocket(hSocket);
         return false;
     }
 
@@ -535,7 +519,9 @@ bool ConnectSocketByName(CService &addr, SOCKET& hSocketRet, const char *pszDest
 
     switch(nameproxy.second) {
         default:
-        case 4: return false;
+        case 4:
+            closesocket(hSocket);
+            return false;
         case 5:
             if (!Socks5(strDest, port, hSocket))
                 return false;
@@ -548,7 +534,7 @@ bool ConnectSocketByName(CService &addr, SOCKET& hSocketRet, const char *pszDest
 
 void CNetAddr::Init()
 {
-    memset(ip, 0, 16);
+    memset(ip, 0, sizeof(ip));
 }
 
 void CNetAddr::SetIP(const CNetAddr& ipIn)
@@ -593,12 +579,10 @@ CNetAddr::CNetAddr(const struct in_addr& ipv4Addr)
     memcpy(ip+12, &ipv4Addr, 4);
 }
 
-#ifdef USE_IPV6
 CNetAddr::CNetAddr(const struct in6_addr& ipv6Addr)
 {
     memcpy(ip, &ipv6Addr, 16);
 }
-#endif
 
 CNetAddr::CNetAddr(const char *pszIp, bool fAllowLookup)
 {
@@ -782,11 +766,7 @@ std::string CNetAddr::ToStringIP() const
     if (IsI2P())
         return EncodeBase32(&ip[6], 10) + ".oc.b32.i2p";
     CService serv(*this, 0);
-#ifdef USE_IPV6
     struct sockaddr_storage sockaddr;
-#else
-    struct sockaddr sockaddr;
-#endif
     socklen_t socklen = sizeof(sockaddr);
     if (serv.GetSockAddr((struct sockaddr*)&sockaddr, &socklen)) {
         char name[1025] = "";
@@ -831,13 +811,11 @@ bool CNetAddr::GetInAddr(struct in_addr* pipv4Addr) const
     return true;
 }
 
-#ifdef USE_IPV6
 bool CNetAddr::GetIn6Addr(struct in6_addr* pipv6Addr) const
 {
     memcpy(pipv6Addr, ip, 16);
     return true;
 }
-#endif
 
 // get canonical identifier of an address' group
 // no two connections will be attempted to addresses with the same group
@@ -914,17 +892,12 @@ std::vector<unsigned char> CNetAddr::GetGroup() const
     return vchRet;
 }
 
-uint64 CNetAddr::GetHash() const
+uint64_t CNetAddr::GetHash() const
 {
     uint256 hash = Hash(&ip[0], &ip[16]);
-    uint64 nRet;
+    uint64_t nRet;
     memcpy(&nRet, &hash, sizeof(nRet));
     return nRet;
-}
-
-void CNetAddr::print() const
-{
-    printf("CNetAddr(%s)\n", ToString().c_str());
 }
 
 // private extensions to enum Network, only returned by GetExtNetwork,
@@ -1023,23 +996,19 @@ CService::CService(const struct in_addr& ipv4Addr, unsigned short portIn) : CNet
 {
 }
 
-#ifdef USE_IPV6
 CService::CService(const struct in6_addr& ipv6Addr, unsigned short portIn) : CNetAddr(ipv6Addr), port(portIn)
 {
 }
-#endif
 
 CService::CService(const struct sockaddr_in& addr) : CNetAddr(addr.sin_addr), port(ntohs(addr.sin_port))
 {
     assert(addr.sin_family == AF_INET);
 }
 
-#ifdef USE_IPV6
 CService::CService(const struct sockaddr_in6 &addr) : CNetAddr(addr.sin6_addr), port(ntohs(addr.sin6_port))
 {
    assert(addr.sin6_family == AF_INET6);
 }
-#endif
 
 bool CService::SetSockAddr(const struct sockaddr *paddr)
 {
@@ -1047,11 +1016,9 @@ bool CService::SetSockAddr(const struct sockaddr *paddr)
     case AF_INET:
         *this = CService(*(const struct sockaddr_in*)paddr);
         return true;
-#ifdef USE_IPV6
     case AF_INET6:
         *this = CService(*(const struct sockaddr_in6*)paddr);
         return true;
-#endif
     default:
         return false;
     }
@@ -1123,7 +1090,6 @@ bool CService::GetSockAddr(struct sockaddr* paddr, socklen_t *addrlen) const
         paddrin->sin_port = htons(port);
         return true;
     }
-#ifdef USE_IPV6
     if (IsIPv6()) {
         if (*addrlen < (socklen_t)sizeof(struct sockaddr_in6))
             return false;
@@ -1136,7 +1102,6 @@ bool CService::GetSockAddr(struct sockaddr* paddr, socklen_t *addrlen) const
         paddrin6->sin6_port = htons(port);
         return true;
     }
-#endif
     return false;
 }
 
@@ -1167,11 +1132,6 @@ std::string CService::ToStringIPPort() const
 std::string CService::ToString() const
 {
     return ToStringIPPort();
-}
-
-void CService::print() const
-{
-    printf("CService(%s)\n", ToString().c_str());
 }
 
 void CService::SetPort(unsigned short portIn)

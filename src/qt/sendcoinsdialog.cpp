@@ -1,22 +1,22 @@
 #include "sendcoinsdialog.h"
 #include "ui_sendcoinsdialog.h"
 
-#include "init.h"
 #include "walletmodel.h"
 #include "addresstablemodel.h"
 #include "addressbookpage.h"
-#include "eMarkunits.h"
+
+#include "bitcoinunits.h"
 #include "addressbookpage.h"
 #include "optionsmodel.h"
 #include "sendcoinsentry.h"
 #include "guiutil.h"
 #include "askpassphrasedialog.h"
 
+#include "base58.h"
 #include "coincontrol.h"
 #include "coincontroldialog.h"
 
 #include <QMessageBox>
-#include <QLocale>
 #include <QTextDocument>
 #include <QScrollBar>
 #include <QClipboard>
@@ -33,16 +33,19 @@ SendCoinsDialog::SendCoinsDialog(QWidget *parent) :
     ui->clearButton->setIcon(QIcon());
     ui->sendButton->setIcon(QIcon());
 #endif
+
 #if QT_VERSION >= 0x040700
     /* Do not move this to the XML file, Qt before 4.7 will choke on it */
+    ui->lineEditCoinControlChange->setPlaceholderText(tr("Enter a eMark address (e.g. NgJKYsHctQfF8D8r6otTGxdnB6r311NvJf)"));
+    //TX Comment
     ui->editTxComment->setPlaceholderText(tr("Enter a transaction comment (MAX 256 Characters) (Note: This information is public)"));
-    ui->lineEditCoinControlChange->setPlaceholderText(tr("Enter an eMark address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)"));
 #endif
 
     addEntry();
 
     connect(ui->addButton, SIGNAL(clicked()), this, SLOT(addEntry()));
     connect(ui->clearButton, SIGNAL(clicked()), this, SLOT(clear()));
+
     // Coin Control
     ui->lineEditCoinControlChange->setFont(GUIUtil::bitcoinAddressFont());
     connect(ui->pushButtonCoinControl, SIGNAL(clicked()), this, SLOT(coinControlButtonClicked()));
@@ -75,7 +78,6 @@ SendCoinsDialog::SendCoinsDialog(QWidget *parent) :
     ui->labelCoinControlLowOutput->addAction(clipboardLowOutputAction);
     ui->labelCoinControlChange->addAction(clipboardChangeAction);
 
-
     fNewRecipientAllowed = true;
 }
 
@@ -83,16 +85,17 @@ void SendCoinsDialog::setModel(WalletModel *model)
 {
     this->model = model;
 
-    for(int i = 0; i < ui->entries->count(); ++i)
-    {
-        SendCoinsEntry *entry = qobject_cast<SendCoinsEntry*>(ui->entries->itemAt(i)->widget());
-        if(entry)
-        {
-            entry->setModel(model);
-        }
-    }
     if(model && model->getOptionsModel())
     {
+        for(int i = 0; i < ui->entries->count(); ++i)
+        {
+            SendCoinsEntry *entry = qobject_cast<SendCoinsEntry*>(ui->entries->itemAt(i)->widget());
+            if(entry)
+            {
+                entry->setModel(model);
+            }
+        }
+
         setBalance(model->getBalance(), model->getStake(), model->getUnconfirmedBalance(), model->getImmatureBalance());
         connect(model, SIGNAL(balanceChanged(qint64, qint64, qint64, qint64)), this, SLOT(setBalance(qint64, qint64, qint64, qint64)));
         connect(model->getOptionsModel(), SIGNAL(displayUnitChanged(int)), this, SLOT(updateDisplayUnit()));
@@ -113,12 +116,13 @@ SendCoinsDialog::~SendCoinsDialog()
 
 void SendCoinsDialog::on_sendButton_clicked()
 {
+    if(!model || !model->getOptionsModel())
+        return;
+
     QList<SendCoinsRecipient> recipients;
     bool valid = true;
 
-    if(!model)
-        return;
-
+    //TX Comment
     QString txcomment = ui->editTxComment->text();
 
     for(int i = 0; i < ui->entries->count(); ++i)
@@ -146,7 +150,7 @@ void SendCoinsDialog::on_sendButton_clicked()
     QStringList formatted;
     foreach(const SendCoinsRecipient &rcp, recipients)
     {
-        formatted.append(tr("<b>%1</b> to %2 (%3)").arg(BitcoinUnits::formatWithUnit(BitcoinUnits::BTC, rcp.amount), Qt::escape(rcp.label), rcp.address));
+        formatted.append(tr("<b>%1</b> to %2 (%3)").arg(BitcoinUnits::formatWithUnit(model->getOptionsModel()->getDisplayUnit(), rcp.amount), Qt::escape(rcp.label), rcp.address));
     }
 
     fNewRecipientAllowed = false;
@@ -173,9 +177,9 @@ void SendCoinsDialog::on_sendButton_clicked()
     WalletModel::SendCoinsReturn sendstatus;
 
     if (!model->getOptionsModel() || !model->getOptionsModel()->getCoinControlFeatures())
-        sendstatus = model->sendCoins(txcomment, recipients);
+        sendstatus = model->sendCoins(txcomment, recipients); // TX Comment
     else
-        sendstatus = model->sendCoins(txcomment, recipients, CoinControlDialog::coinControl);
+        sendstatus = model->sendCoins(txcomment, recipients, CoinControlDialog::coinControl); // TX Comment
 
     switch(sendstatus.status)
     {
@@ -197,7 +201,7 @@ void SendCoinsDialog::on_sendButton_clicked()
     case WalletModel::AmountWithFeeExceedsBalance:
         QMessageBox::warning(this, tr("Send Coins"),
             tr("The total exceeds your balance when the %1 transaction fee is included.").
-            arg(BitcoinUnits::formatWithUnit(BitcoinUnits::BTC, sendstatus.fee)),
+            arg(BitcoinUnits::formatWithUnit(model->getOptionsModel()->getDisplayUnit(), sendstatus.fee)),
             QMessageBox::Ok, QMessageBox::Ok);
         break;
     case WalletModel::DuplicateAddress:
@@ -207,7 +211,7 @@ void SendCoinsDialog::on_sendButton_clicked()
         break;
     case WalletModel::TransactionCreationFailed:
         QMessageBox::warning(this, tr("Send Coins"),
-            tr("Error: Transaction creation failed."),
+            tr("Error: Transaction creation failed!"),
             QMessageBox::Ok, QMessageBox::Ok);
         break;
     case WalletModel::TransactionCommitFailed:
@@ -228,6 +232,7 @@ void SendCoinsDialog::on_sendButton_clicked()
 
 void SendCoinsDialog::clear()
 {
+    // TX Comment
     ui->editTxComment->clear();
 
     // Remove entries until only one left
@@ -297,6 +302,7 @@ void SendCoinsDialog::removeEntry(SendCoinsEntry* entry)
 
 QWidget *SendCoinsDialog::setupTabChain(QWidget *prev)
 {
+    // TX Comment
     QWidget::setTabOrder(prev, ui->editTxComment);
     prev = ui->editTxComment;
 
@@ -340,7 +346,7 @@ bool SendCoinsDialog::handleURI(const QString &uri)
 {
     SendCoinsRecipient rv;
     // URI has to be valid
-    if (GUIUtil::parseeMarkURI(uri, &rv))
+    if (GUIUtil::parseBitcoinURI(uri, &rv))
     {
         CBitcoinAddress address(rv.address.toStdString());
         if (!address.IsValid())
@@ -357,21 +363,18 @@ void SendCoinsDialog::setBalance(qint64 balance, qint64 stake, qint64 unconfirme
     Q_UNUSED(stake);
     Q_UNUSED(unconfirmedBalance);
     Q_UNUSED(immatureBalance);
-    if(!model || !model->getOptionsModel())
-        return;
 
-    int unit = model->getOptionsModel()->getDisplayUnit();
-    ui->labelBalance->setText(BitcoinUnits::formatWithUnit(unit, balance));
+    if(model && model->getOptionsModel())
+    {
+        ui->labelBalance->setText(BitcoinUnits::formatWithUnit(model->getOptionsModel()->getDisplayUnit(), balance));
+    }
 }
 
 void SendCoinsDialog::updateDisplayUnit()
 {
-    if(model && model->getOptionsModel())
-    {
-        // Update labelBalance with the current balance and the current unit
-        ui->labelBalance->setText(BitcoinUnits::formatWithUnit(model->getOptionsModel()->getDisplayUnit(), model->getBalance()));
-    }
+    setBalance(model->getBalance(), 0, 0, 0);
 }
+
 // Coin Control: copy label "Quantity" to clipboard
 void SendCoinsDialog::coinControlClipboardQuantity()
 {
@@ -467,7 +470,7 @@ void SendCoinsDialog::coinControlChangeEdited(const QString & text)
         else if (!CBitcoinAddress(text.toStdString()).IsValid())
         {
             ui->labelCoinControlChangeLabel->setStyleSheet("QLabel{color:red;}");
-            ui->labelCoinControlChangeLabel->setText(tr("WARNING: Invalid Moneta address"));
+            ui->labelCoinControlChangeLabel->setText(tr("WARNING: Invalid eMark address"));
         }
         else
         {

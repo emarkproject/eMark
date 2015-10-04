@@ -1,26 +1,33 @@
-// Copyright (c) 2013 eMark Developers
+// Copyright (c) 2013 NovaCoin Developers
 
 #include <string.h>
 #include "pbkdf2.h"
 
-static inline uint32_t be32dec(const void *pp)
+static inline uint32_t
+be32dec(const void *pp)
 {
     const uint8_t *p = (uint8_t const *)pp;
+
     return ((uint32_t)(p[3]) + ((uint32_t)(p[2]) << 8) +
         ((uint32_t)(p[1]) << 16) + ((uint32_t)(p[0]) << 24));
 }
 
-static inline void be32enc(void *pp, uint32_t x)
+static inline void
+be32enc(void *pp, uint32_t x)
 {
     uint8_t * p = (uint8_t *)pp;
+
     p[3] = x & 0xff;
     p[2] = (x >> 8) & 0xff;
     p[1] = (x >> 16) & 0xff;
     p[0] = (x >> 24) & 0xff;
 }
 
+
+
 /* Initialize an HMAC-SHA256 operation with the given key. */
-void HMAC_SHA256_Init(HMAC_SHA256_CTX * ctx, const void * _K, size_t Klen)
+void
+HMAC_SHA256_Init(HMAC_SHA256_CTX * ctx, const void * _K, size_t Klen)
 {
     unsigned char pad[64];
     unsigned char khash[32];
@@ -55,14 +62,17 @@ void HMAC_SHA256_Init(HMAC_SHA256_CTX * ctx, const void * _K, size_t Klen)
 }
 
 /* Add bytes to the HMAC-SHA256 operation. */
-void HMAC_SHA256_Update(HMAC_SHA256_CTX * ctx, const void *in, size_t len)
+void
+HMAC_SHA256_Update(HMAC_SHA256_CTX * ctx, const void *in, size_t len)
 {
+
     /* Feed data to the inner SHA256 operation. */
     SHA256_Update(&ctx->ictx, in, len);
 }
 
 /* Finish an HMAC-SHA256 operation. */
-void HMAC_SHA256_Final(unsigned char digest[32], HMAC_SHA256_CTX * ctx)
+void
+HMAC_SHA256_Final(unsigned char digest[32], HMAC_SHA256_CTX * ctx)
 {
     unsigned char ihash[32];
 
@@ -84,7 +94,9 @@ void HMAC_SHA256_Final(unsigned char digest[32], HMAC_SHA256_CTX * ctx)
  * Compute PBKDF2(passwd, salt, c, dkLen) using HMAC-SHA256 as the PRF, and
  * write the output to buf.  The value dkLen must be at most 32 * (2^32 - 1).
  */
-void PBKDF2_SHA256(const uint8_t * passwd, size_t passwdlen, const uint8_t * salt, size_t saltlen, uint64_t c, uint8_t * buf, size_t dkLen)
+void
+PBKDF2_SHA256(const uint8_t * passwd, size_t passwdlen, const uint8_t * salt,
+    size_t saltlen, uint64_t c, uint8_t * buf, size_t dkLen)
 {
     HMAC_SHA256_CTX PShctx, hctx;
     size_t i;
@@ -133,3 +145,4 @@ void PBKDF2_SHA256(const uint8_t * passwd, size_t passwdlen, const uint8_t * sal
     /* Clean PShctx, since we never called _Final on it. */
     memset(&PShctx, 0, sizeof(HMAC_SHA256_CTX));
 }
+

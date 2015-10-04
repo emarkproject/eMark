@@ -13,37 +13,7 @@
   <property name="windowTitle">
    <string>Send Coins</string>
   </property>
-  <layout class="QVBoxLayout" name="verticalLayout" stretch="0,0,1,0">
-   <item>
-    <layout class="QHBoxLayout" name="horizontalLayoutTxComment">
-     <property name="spacing">
-      <number>0</number>
-     </property>
-     <item>
-      <widget class="QLabel" name="labelTxComment">
-       <property name="text">
-        <string>Transaction &amp;comment: </string>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
-       </property>
-       <property name="buddy">
-        <cstring>editTxComment</cstring>
-       </property>
-      </widget>
-     </item>
-     <item>
-      <widget class="QValidatedLineEdit" name="editTxComment" native="true">
-       <property name="enabled">
-        <bool>true</bool>
-       </property>
-       <property name="toolTip">
-        <string>Enter a transaction comment  (MAX 256 Characters) (Note: this information is public)</string>
-       </property>
-      </widget>
-     </item>
-    </layout>
-   </item>
+  <layout class="QVBoxLayout" name="verticalLayout" stretch="0,0,0">
    <item>
     <widget class="QFrame" name="frameCoinControl">
      <property name="sizePolicy">
@@ -66,7 +36,7 @@
      </property>
      <layout class="QVBoxLayout" name="verticalLayoutCoinControl2">
       <property name="spacing">
-       <number>-1</number>
+       <number>6</number>
       </property>
       <property name="leftMargin">
        <number>0</number>
@@ -200,7 +170,16 @@
            <string notr="true"/>
           </property>
           <layout class="QHBoxLayout" name="horizontalLayoutCoinControl5">
-           <property name="margin">
+           <property name="leftMargin">
+            <number>0</number>
+           </property>
+           <property name="topMargin">
+            <number>0</number>
+           </property>
+           <property name="rightMargin">
+            <number>0</number>
+           </property>
+           <property name="bottomMargin">
             <number>0</number>
            </property>
            <item>
@@ -348,7 +327,7 @@
                   <enum>Qt::ActionsContextMenu</enum>
                  </property>
                  <property name="text">
-                  <string>0.00 MNTA</string>
+                  <string>0.00 DEM</string>
                  </property>
                  <property name="textInteractionFlags">
                   <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
@@ -434,7 +413,7 @@
                   <enum>Qt::ActionsContextMenu</enum>
                  </property>
                  <property name="text">
-                  <string>0.00 MNTA</string>
+                  <string>0.00 DEM</string>
                  </property>
                  <property name="textInteractionFlags">
                   <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
@@ -520,7 +499,7 @@
                   <enum>Qt::ActionsContextMenu</enum>
                  </property>
                  <property name="text">
-                  <string>0.00 MNTA</string>
+                  <string>0.00 DEM</string>
                  </property>
                  <property name="textInteractionFlags">
                   <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
@@ -552,7 +531,7 @@
                   <enum>Qt::ActionsContextMenu</enum>
                  </property>
                  <property name="text">
-                  <string>0.00 MNTA</string>
+                  <string>0.00 DEM</string>
                  </property>
                  <property name="textInteractionFlags">
                   <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
@@ -653,11 +632,20 @@
         <x>0</x>
         <y>0</y>
         <width>830</width>
-        <height>165</height>
+        <height>170</height>
        </rect>
       </property>
       <layout class="QVBoxLayout" name="verticalLayout_2">
-       <property name="margin">
+       <property name="leftMargin">
+        <number>0</number>
+       </property>
+       <property name="topMargin">
+        <number>0</number>
+       </property>
+       <property name="rightMargin">
+        <number>0</number>
+       </property>
+       <property name="bottomMargin">
         <number>0</number>
        </property>
        <item>
@@ -665,6 +653,42 @@
          <property name="spacing">
           <number>6</number>
          </property>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayoutTxComment">
+         <property name="spacing">
+          <number>0</number>
+         </property>
+         <property name="leftMargin">
+          <number>0</number>
+         </property>
+         <property name="rightMargin">
+          <number>30</number>
+         </property>
+         <item>
+          <widget class="QLabel" name="labelTxComment">
+           <property name="text">
+            <string>Transaction &amp;comment: </string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+           </property>
+           <property name="buddy">
+            <cstring>editTxComment</cstring>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QValidatedLineEdit" name="editTxComment">
+           <property name="enabled">
+            <bool>true</bool>
+           </property>
+           <property name="toolTip">
+            <string>Enter a transaction comment  (MAX 256 Characters) (Note: this information is public)</string>
+           </property>
+          </widget>
+         </item>
         </layout>
        </item>
        <item>
@@ -694,10 +718,6 @@
        <property name="text">
         <string>Add &amp;Recipient</string>
        </property>
-       <property name="icon">
-        <iconset resource="../eMark.qrc">
-         <normaloff>:/icons/add</normaloff>:/icons/add</iconset>
-       </property>
        <property name="autoDefault">
         <bool>false</bool>
        </property>
@@ -716,10 +736,6 @@
        </property>
        <property name="text">
         <string>Clear &amp;All</string>
-       </property>
-       <property name="icon">
-        <iconset resource="../eMark.qrc">
-         <normaloff>:/icons/remove</normaloff>:/icons/remove</iconset>
        </property>
        <property name="autoRepeatDelay">
         <number>300</number>
@@ -759,7 +775,7 @@
           <cursorShape>IBeamCursor</cursorShape>
          </property>
          <property name="text">
-          <string>123.456 BOC</string>
+          <string>123.456 DEM</string>
          </property>
          <property name="textInteractionFlags">
           <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
@@ -796,7 +812,7 @@
         <string>S&amp;end</string>
        </property>
        <property name="icon">
-        <iconset resource="../eMark.qrc">
+        <iconset resource="../bitcoin.qrc">
          <normaloff>:/icons/send</normaloff>:/icons/send</iconset>
        </property>
        <property name="default">
@@ -811,12 +827,12 @@
  <customwidgets>
   <customwidget>
    <class>QValidatedLineEdit</class>
-   <extends>QWidget</extends>
+   <extends>QLineEdit</extends>
    <header>qvalidatedlineedit.h</header>
   </customwidget>
  </customwidgets>
  <resources>
-  <include location="../eMark.qrc"/>
+  <include location="../bitcoin.qrc"/>
  </resources>
  <connections/>
 </ui>

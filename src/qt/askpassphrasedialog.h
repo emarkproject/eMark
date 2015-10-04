@@ -6,7 +6,6 @@
 namespace Ui {
     class AskPassphraseDialog;
 }
-
 class WalletModel;
 
 /** Multifunctional dialog to ask for passphrases. Used for encryption, unlocking, and changing the passphrase.
@@ -17,11 +16,11 @@ class AskPassphraseDialog : public QDialog
 
 public:
     enum Mode {
-        Encrypt,    /**< Ask passphrase twice and encrypt */
+        Encrypt,       /**< Ask passphrase twice and encrypt */
         UnlockStaking, /**< Ask passphrase and unlock */
-        Unlock,     /**< Ask passphrase and unlock */
-        ChangePass, /**< Ask old passphrase + new passphrase twice */
-        Decrypt     /**< Ask passphrase and decrypt wallet */
+        Unlock,        /**< Ask passphrase and unlock */
+        ChangePass,    /**< Ask old passphrase + new passphrase twice */
+        Decrypt        /**< Ask passphrase and decrypt wallet */
     };
 
     explicit AskPassphraseDialog(Mode mode, QWidget *parent = 0);

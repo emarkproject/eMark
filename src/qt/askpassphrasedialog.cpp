@@ -8,7 +8,7 @@
 #include <QPushButton>
 #include <QKeyEvent>
 
-extern bool fWalletUnlockMintOnly;
+extern bool fWalletUnlockStakingOnly;
 
 AskPassphraseDialog::AskPassphraseDialog(Mode mode, QWidget *parent) :
     QDialog(parent),
@@ -27,14 +27,14 @@ AskPassphraseDialog::AskPassphraseDialog(Mode mode, QWidget *parent) :
     ui->passEdit2->installEventFilter(this);
     ui->passEdit3->installEventFilter(this);
 
-    ui->stakingCheckBox->setChecked(fWalletUnlockMintOnly);
+    ui->stakingCheckBox->setChecked(fWalletUnlockStakingOnly);
 
     switch(mode)
     {
         case Encrypt: // Ask passphrase x2
             ui->passLabel1->hide();
             ui->passEdit1->hide();
-            ui->warningLabel->setText(tr("Enter the new passphrase to the wallet.<br/>Please use a passphrase of <b>10 or more random characters</b>, or <b>eight or more words</b>."));
+            ui->warningLabel->setText(tr("Enter the new passphrase to the wallet.<br/>Please use a passphrase of <b>ten or more random characters</b>, or <b>eight or more words</b>."));
             setWindowTitle(tr("Encrypt wallet"));
             break;
         case UnlockStaking:
@@ -154,7 +154,7 @@ void AskPassphraseDialog::accept()
         }
         else
         {
-            fWalletUnlockMintOnly = ui->stakingCheckBox->isChecked();
+            fWalletUnlockStakingOnly = ui->stakingCheckBox->isChecked();
             QDialog::accept(); // Success
         }
         break;
@@ -256,6 +256,7 @@ bool AskPassphraseDialog::eventFilter(QObject *object, QEvent *event)
     }
     return QDialog::eventFilter(object, event);
 }
+
 void AskPassphraseDialog::secureClearPassFields()
 {
     // Attempt to overwrite text so that they do not linger around in memory

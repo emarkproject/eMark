@@ -2,6 +2,7 @@
 #define SENDCOINSDIALOG_H
 
 #include <QDialog>
+#include <QString>
 
 namespace Ui {
     class SendCoinsDialog;
@@ -14,7 +15,7 @@ QT_BEGIN_NAMESPACE
 class QUrl;
 QT_END_NAMESPACE
 
-/** Dialog for sending eMarks */
+/** Dialog for sending bitcoins */
 class SendCoinsDialog : public QDialog
 {
     Q_OBJECT

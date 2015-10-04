@@ -3,14 +3,14 @@
 
 #include <QDialog>
 
-QT_BEGIN_NAMESPACE
-class QDataWidgetMapper;
-QT_END_NAMESPACE
-
 namespace Ui {
     class EditAddressDialog;
 }
 class AddressTableModel;
+
+QT_BEGIN_NAMESPACE
+class QDataWidgetMapper;
+QT_END_NAMESPACE
 
 /** Dialog for editing an address and associated information.
  */
@@ -34,9 +34,9 @@ public:
 
     QString getAddress() const;
     void setAddress(const QString &address);
-	
+
 public slots:
-	void accept();
+    void accept();
 
 private:
     bool saveCurrentRow();

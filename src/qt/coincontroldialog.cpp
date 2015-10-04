@@ -2,7 +2,8 @@
 #include "ui_coincontroldialog.h"
 
 #include "init.h"
-#include "eMarkunits.h"
+#include "base58.h"
+#include "bitcoinunits.h"
 #include "walletmodel.h"
 #include "addresstablemodel.h"
 #include "optionsmodel.h"
@@ -488,28 +489,13 @@ void CoinControlDialog::updateLabels(WalletModel *model, QDialog* dialog)
         int64_t nFee = nTransactionFee * (1 + (int64_t)nBytes / 1000);
         
         // Min Fee
-        int64_t nMinFee = txDummy.GetMinFee(1, false, GMF_SEND, nBytes);
+        int64_t nMinFee = GetMinFee(txDummy, 1, GMF_SEND, nBytes);
         
         nPayFee = max(nFee, nMinFee);
         
         if (nPayAmount > 0)
         {
             nChange = nAmount - nPayFee - nPayAmount;
-            
-            // if sub-cent change is required, the fee must be raised to at least CTransaction::nMinTxFee   
-            if (nPayFee < CENT && nChange > 0 && nChange < CENT)
-            {
-                if (nChange < CENT) // change < 0.01 => simply move all change to fees
-                {
-                    nPayFee = nChange;
-                    nChange = 0;
-                }
-                else
-                {
-                    nChange = nChange + nPayFee - CENT;
-                    nPayFee = CENT;
-                }  
-            }
             
             if (nChange == 0)
                 nBytes -= 34;
@@ -579,7 +565,6 @@ void CoinControlDialog::updateView()
 
     ui->treeWidget->clear();
     ui->treeWidget->setEnabled(false); // performance, otherwise updateLabels would be called for every checked checkbox
-    ui->treeWidget->setAlternatingRowColors(!treeMode);
     QFlags<Qt::ItemFlag> flgCheckbox=Qt::ItemIsSelectable | Qt::ItemIsEnabled | Qt::ItemIsUserCheckable;
     QFlags<Qt::ItemFlag> flgTristate=Qt::ItemIsSelectable | Qt::ItemIsEnabled | Qt::ItemIsUserCheckable | Qt::ItemIsTristate;    
     
@@ -675,12 +660,6 @@ void CoinControlDialog::updateView()
             // date
             itemOutput->setText(COLUMN_DATE, QDateTime::fromTime_t(out.tx->GetTxTime()).toUTC().toString("yy-MM-dd hh:mm"));
             
-            // immature PoS reward
-            if (out.tx->IsCoinStake() && out.tx->GetBlocksToMaturity() > 0 && out.tx->GetDepthInMainChain() > 0) {
-              itemOutput->setBackground(COLUMN_CONFIRMATIONS, Qt::red);
-              itemOutput->setDisabled(true);
-            }
-
             // confirmations
             itemOutput->setText(COLUMN_CONFIRMATIONS, strPad(QString::number(out.nDepth), 8, " "));
             

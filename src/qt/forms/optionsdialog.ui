@@ -23,7 +23,7 @@
       <enum>QTabWidget::North</enum>
      </property>
      <property name="currentIndex">
-      <number>0</number>
+      <number>3</number>
      </property>
      <widget class="QWidget" name="tabMain">
       <attribute name="title">
@@ -33,7 +33,7 @@
        <item>
         <widget class="QLabel" name="transactionFeeInfoLabel">
          <property name="text">
-          <string>Optional transaction fee per kB that helps make sure your transactions are processed quickly. Most transactions are 1 kB. Fee 0.0001 recommended.</string>
+          <string>Optional transaction fee per kB that helps make sure your transactions are processed quickly. Most transactions are 1 kB. Fee 0.001 recommended.</string>
          </property>
          <property name="textFormat">
           <enum>Qt::PlainText</enum>
@@ -44,7 +44,7 @@
         </widget>
        </item>
        <item>
-        <layout class="QHBoxLayout" name="horizontalLayout_Main">
+        <layout class="QHBoxLayout" name="horizontalLayoutFee">
          <item>
           <widget class="QLabel" name="transactionFeeLabel">
            <property name="text">
@@ -59,10 +59,10 @@
           </widget>
          </item>
          <item>
-          <widget class="eMarkAmountField" name="transactionFee"/>
+          <widget class="BitcoinAmountField" name="transactionFee"/>
          </item>
          <item>
-          <spacer name="horizontalSpacer_Main">
+          <spacer name="horizontalSpacerFee">
            <property name="orientation">
             <enum>Qt::Horizontal</enum>
            </property>
@@ -77,22 +77,58 @@
         </layout>
        </item>
        <item>
-        <widget class="QCheckBox" name="eMarkAtStartup">
+        <widget class="QLabel" name="reserveBalanceInfoLabel">
+         <property name="text">
+          <string>Reserved amount does not participate in staking and is therefore spendable at any time.</string>
+         </property>
+         <property name="textFormat">
+          <enum>Qt::PlainText</enum>
+         </property>
+         <property name="wordWrap">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayoutReserveBalance">
+         <item>
+          <widget class="QLabel" name="reserveBalanceLabel">
+           <property name="text">
+            <string>Reserve</string>
+           </property>
+           <property name="textFormat">
+            <enum>Qt::PlainText</enum>
+           </property>
+           <property name="buddy">
+            <cstring>reserveBalance</cstring>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="BitcoinAmountField" name="reserveBalance"/>
+         </item>
+         <item>
+          <spacer name="horizontalSpacerReserveBalance">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>40</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="bitcoinAtStartup">
          <property name="toolTip">
           <string>Automatically start eMark after logging in to the system.</string>
          </property>
          <property name="text">
           <string>&amp;Start eMark on system login</string>
-         </property>
-        </widget>
-       </item>
-       <item>
-        <widget class="QCheckBox" name="detachDatabases">
-         <property name="toolTip">
-          <string>Detach block and address databases at shutdown. This means they can be moved to another data directory, but it slows down shutdown. The wallet is always detached.</string>
-         </property>
-         <property name="text">
-          <string>&amp;Detach databases at shutdown</string>
          </property>
         </widget>
        </item>
@@ -152,7 +188,7 @@
           </widget>
          </item>
          <item>
-          <widget class="QValidatedLineEdit" name="proxyIp" native="true">
+          <widget class="QValidatedLineEdit" name="proxyIp">
            <property name="maximumSize">
             <size>
              <width>140</width>
@@ -334,22 +370,35 @@
         </layout>
        </item>
        <item>
-        <widget class="QCheckBox" name="displayAddresses">
-         <property name="toolTip">
-          <string>Whether to show eMark addresses in the transaction list or not.</string>
-         </property>
-         <property name="text">
-          <string>&amp;Display addresses in transaction list</string>
-         </property>
-        </widget>
-       </item>
-       <item>
         <widget class="QCheckBox" name="coinControlFeatures">
          <property name="toolTip">
           <string>Whether to show coin control features or not.</string>
          </property>
          <property name="text">
           <string>Display coin &amp;control features (experts only!)</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="minimizeCoinAge">
+         <property name="toolTip">
+          <string>Whether to select the coin outputs randomly or with minimal coin age.</string>
+         </property>
+         <property name="text">
+          <string>Minimize weight consumption (experimental)</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="useBlackTheme">
+         <property name="text">
+          <string>Use black visual theme (requires restart)</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
          </property>
         </widget>
        </item>
@@ -450,19 +499,19 @@
  </widget>
  <customwidgets>
   <customwidget>
-   <class>QValidatedLineEdit</class>
-   <extends>QWidget</extends>
-   <header>qvalidatedlineedit.h</header>
-  </customwidget>
-  <customwidget>
-   <class>eMarkAmountField</class>
+   <class>BitcoinAmountField</class>
    <extends>QSpinBox</extends>
-   <header>eMarkamountfield.h</header>
+   <header>bitcoinamountfield.h</header>
   </customwidget>
   <customwidget>
    <class>QValueComboBox</class>
    <extends>QComboBox</extends>
    <header>qvaluecombobox.h</header>
+  </customwidget>
+  <customwidget>
+   <class>QValidatedLineEdit</class>
+   <extends>QLineEdit</extends>
+   <header>qvalidatedlineedit.h</header>
   </customwidget>
  </customwidgets>
  <resources/>

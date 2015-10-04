@@ -1,25 +1,18 @@
 // Copyright (c) 2010 Satoshi Nakamoto
-// Copyright (c) 2013  The eMark developer
+// Copyright (c) 2009-2012 The Bitcoin developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef _BOUNTYCOINALERT_H_
-#define _BOUNTYCOINALERT_H_ 1
+#ifndef _BITCOINALERT_H_
+#define _BITCOINALERT_H_ 1
+
+#include "serialize.h"
 
 #include <set>
 #include <string>
 
-#include "uint256.h"
-#include "util.h"
-
-
-static const char* pszMainKey = "043fa441fd4203d03f5df2b75ea14e36f20d39f43e7a61aa7552ab9bcd7ecb0e77a3be4585b13fcdaa22ef6e51f1ff6f2929bec2494385b086fb86610e33193195";
-
-// TestNet alerts pubKey
-static const char* pszTestKey = "0471dc165db490094d35cde15b1f5d755fa6ad6f2b5ed0f340e3f17f57389c3c2af113a8cbcc885bde73305a553b5640c83021128008ddf882e856336269080496";
-
-
 class CNode;
+class uint256;
 
 /** Alerts are for notifying old versions if they become too obsolete and
  * need to upgrade.  The message is displayed in the status bar.
@@ -31,8 +24,8 @@ class CUnsignedAlert
 {
 public:
     int nVersion;
-    int64 nRelayUntil;      // when newer nodes stop relaying to newer nodes
-    int64 nExpiration;
+    int64_t nRelayUntil;      // when newer nodes stop relaying to newer nodes
+    int64_t nExpiration;
     int nID;
     int nCancel;
     std::set<int> setCancel;
@@ -68,7 +61,6 @@ public:
     void SetNull();
 
     std::string ToString() const;
-    void print() const;
 };
 
 /** An alert is a combination of a serialized CUnsignedAlert and a signature. */
@@ -98,7 +90,7 @@ public:
     bool AppliesToMe() const;
     bool RelayTo(CNode* pnode) const;
     bool CheckSignature() const;
-    bool ProcessAlert();
+    bool ProcessAlert(bool fThread = true);
 
     /*
      * Get copy of (active) alert object by hash. Returns a null alert if it is not found.
