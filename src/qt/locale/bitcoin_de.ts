@@ -383,23 +383,23 @@ Dieses Produkt enthält Software, enteickelt vom OpenSSL Project für das OpenSS
     </message>
     <message>
         <source>&amp;Verify message...</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Nachricht verifizieren...</translation>
     </message>
     <message>
         <source>&amp;Export...</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Exportieren...</translation>
     </message>
     <message>
         <source>Export the data in the current tab to a file</source>
-        <translation type="unfinished"></translation>
+        <translation>Die Daten der aktuellen Ansicht in eine Datei exportieren</translation>
     </message>
     <message>
         <source>&amp;Debug window</source>
-        <translation type="unfinished"></translation>
+        <translation>eMark - &amp;Debug Fenster</translation>
     </message>
     <message>
         <source>Open debugging and diagnostic console</source>
-        <translation type="unfinished"></translation>
+        <translation>Debugging- und Diagnosekonsole öffnen</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -434,75 +434,79 @@ Dieses Produkt enthält Software, enteickelt vom OpenSSL Project für das OpenSS
     </message>
     <message>
         <source>Processed %1 blocks of transaction history.</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 des Transaktionsverlaufes geladen.</translation>
     </message>
     <message>
         <source>Up to date</source>
-        <translation type="unfinished"></translation>
+        <translation>Auf aktuellem Stand</translation>
     </message>
     <message numerus="yes">
         <source>%n hour(s)</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%n Stunde</numerusform>
+            <numerusform>%n Stunden</numerusform>
         </translation>
     </message>
     <message numerus="yes">
         <source>%n day(s)</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%n Tag</numerusform>
+            <numerusform>%n Tage</numerusform>
         </translation>
     </message>
     <message numerus="yes">
         <source>%n week(s)</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%n Woche</numerusform>
+            <numerusform>%n Wochen</numerusform>
         </translation>
     </message>
     <message>
         <source>%1 and %2</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 und %2</translation>
     </message>
     <message numerus="yes">
         <source>%n year(s)</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%n Jahr</numerusform>
+            <numerusform>%n Jahre</numerusform>
         </translation>
     </message>
     <message>
         <source>%1 behind</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 am aufholen</translation>
     </message>
     <message>
         <source>Catching up...</source>
-        <translation type="unfinished"></translation>
+        <translation>Hole auf...</translation>
     </message>
     <message>
         <source>Last received block was generated %1 ago.</source>
-        <translation type="unfinished"></translation>
+        <translation>Zuletzt empfangene Block wurde vor %1 erstellt.</translation>
     </message>
     <message>
         <source>Transactions after this will not yet be visible.</source>
-        <translation type="unfinished"></translation>
+        <translation>Nachfolgende Transaktionen werden noch nicht sichtbar sein.</translation>
     </message>
     <message>
         <source>eMark</source>
-        <translation type="unfinished"></translation>
+        <translation>eMark</translation>
     </message>
     <message>
         <source>Error</source>
-        <translation type="unfinished"></translation>
+        <translation>Fehler</translation>
     </message>
     <message>
         <source>Warning</source>
-        <translation type="unfinished"></translation>
+        <translation>Warnung</translation>
     </message>
     <message>
         <source>Information</source>
-        <translation type="unfinished"></translation>
+        <translation>Information</translation>
     </message>
     <message>
         <source>This transaction is over the size limit. You can still send it for a fee of %1, which goes to the nodes that process your transaction and helps to support the network. Do you want to pay the fee?</source>
-        <translation type="unfinished"></translation>
+        <translation>Diese Transaktion übersteigt das Limit,unterstützen Sie das Netzwerk indem sie %1 Gebühr an die Knoten entrichten.Möchten Sie die Gebühr bezahlen?</translation>
     </message>
     <message>
         <source>Confirm transaction fee</source>
@@ -522,11 +526,14 @@ Amount: %2
 Type: %3
 Address: %4
 </source>
-        <translation type="unfinished"></translation>
+        <translation>Datum: %1
+Betrag: %2
+Typ: %3
+Adresse: %4</translation>
     </message>
     <message>
         <source>URI handling</source>
-        <translation type="unfinished"></translation>
+        <translation>URI handling</translation>
     </message>
     <message>
         <source>URI can not be parsed! This can be caused by an invalid eMark address or malformed URI parameters.</source>
@@ -774,7 +781,10 @@ Address: %4
  This means a fee of at least %1 per kb is required.
 
  Can vary +/- 1 Byte per input.</source>
-        <translation type="unfinished"></translation>
+        <translation>Dieses Label wird rot, wenn die Transaktion 10000 bytes übersteigt.
+
+Das bedeutet, dass eine Gebühr von %1 per kB benötigt wird.
+</translation>
     </message>
     <message>
         <source>Transactions with higher priority get more likely into a block.
@@ -782,7 +792,11 @@ Address: %4
 This label turns red, if the priority is smaller than &quot;medium&quot;.
 
  This means a fee of at least %1 per kb is required.</source>
-        <translation type="unfinished"></translation>
+        <translation>Transaktionen mit hoher Priorität kommen leichter in den nächsten Block.
+
+Dies wird rot, wenn die Priorität kleiner als &quot;medium&quot; ist.
+
+Dazu wird eine Minimumgebühr von %1pro kb benötigt.</translation>
     </message>
     <message>
         <source>This label turns red, if any recipient receives an amount smaller than %1.
@@ -790,13 +804,20 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
  This means a fee of at least %2 is required. 
 
  Amounts below 0.546 times the minimum relay fee are shown as DUST.</source>
-        <translation type="unfinished"></translation>
+        <translation>Dieses Laber wird rot, wenn alle Empfänger zusammen weniger als %1 empfangen.
+
+ Das bedeutet, dass eine Gebühr von %2 benötigt wird.
+
+Beträge unter 0.0005 DEM werden als Staub angezeigt</translation>
     </message>
     <message>
         <source>This label turns red, if the change is smaller than %1.
 
  This means a fee of at least %2 is required.</source>
-        <translation type="unfinished"></translation>
+        <translation>Dieses Label wird rot, wenn das Wechselgeld kleiner als %1 ist.
+
+Das bedeutet, dass eine Gebühr von %2 benötigt wird.
+</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -1089,7 +1110,6 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <source>Your current spendable balance</source>
         <translation>Ihr aktuell verfügbarer Kontostand</translation>
-
     </message>
     <message>
         <source>Stake:</source>
@@ -1097,11 +1117,11 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <source>Total of coins that was staked, and do not yet count toward the current balance</source>
-        <translation type="unfinished"></translation>
+        <translation>Stakecoins die noch nicht zur Gesamtbalance hinzugefügt sind</translation>
     </message>
     <message>
         <source>Unconfirmed:</source>
-        <translation type="unfinished"></translation>
+        <translation>Unbestätigt:</translation>
     </message>
     <message>
         <source>Total of transactions that have yet to be confirmed, and do not yet count toward the current balance</source>
@@ -1152,12 +1172,10 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <source>Label:</source>
         <translation>Bezeichnung:</translation>
-
     </message>
     <message>
         <source>Message:</source>
         <translation>Nachricht:</translation>
-
     </message>
     <message>
         <source>Amount:</source>
@@ -1249,7 +1267,6 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <source>Last block time</source>
         <translation>Letzte Blockzeit</translation>
-
     </message>
     <message>
         <source>Debug log file</source>
@@ -1281,67 +1298,67 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <source>Clear console</source>
-        <translation type="unfinished"></translation>
+        <translation>Konsole zurücksetzen</translation>
     </message>
     <message>
         <source>&amp;Network Traffic</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Netzwerk-Verkehr</translation>
     </message>
     <message>
         <source>&amp;Clear</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Clear</translation>
     </message>
     <message>
         <source>Totals</source>
-        <translation type="unfinished"></translation>
+        <translation>Gesamt</translation>
     </message>
     <message>
         <source>In:</source>
-        <translation type="unfinished"></translation>
+        <translation>Eingang:</translation>
     </message>
     <message>
         <source>Out:</source>
-        <translation type="unfinished"></translation>
+        <translation>Ausgang:</translation>
     </message>
     <message>
         <source>Welcome to the eMark RPC console.</source>
-        <translation type="unfinished"></translation>
+        <translation>Herzlich Willkommen zur eMark RPC-Konsole.</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
-        <translation type="unfinished"></translation>
+        <translation>Pfeiltaste hoch und runter, um den Verlauf durchzublättern und &lt;b&gt;Strg-L&lt;/b&gt;, um die Konsole zurückzusetzen.</translation>
     </message>
     <message>
         <source>Type &lt;b&gt;help&lt;/b&gt; for an overview of available commands.</source>
-        <translation type="unfinished"></translation>
+        <translation>Bitte &lt;b&gt;help&lt;/b&gt; eingeben, um eine Übersicht der verfügbarer Befehle zu erhalten.</translation>
     </message>
     <message>
         <source>%1 B</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 B</translation>
     </message>
     <message>
         <source>%1 KB</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 KB</translation>
     </message>
     <message>
         <source>%1 MB</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 MB</translation>
     </message>
     <message>
         <source>%1 GB</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 GB</translation>
     </message>
     <message>
         <source>%1 m</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 m</translation>
     </message>
     <message>
         <source>%1 h</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 h</translation>
     </message>
     <message>
         <source>%1 h %2 m</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 h %2 m</translation>
     </message>
 </context>
 <context>
@@ -1384,7 +1401,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <source>0.00 DEM</source>
-        <translation type="unfinished">0.00 DEM</translation>
+        <translation>0.00 DEM</translation>
     </message>
     <message>
         <source>Priority:</source>
@@ -1392,7 +1409,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <source>medium</source>
-        <translation type="unfinished"></translation>
+        <translation>mittel</translation>
     </message>
     <message>
         <source>Fee:</source>
@@ -1404,7 +1421,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <source>no</source>
-        <translation type="unfinished"></translation>
+        <translation>nein</translation>
     </message>
     <message>
         <source>After Fee:</source>
@@ -1412,19 +1429,19 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <source>Change</source>
-        <translation type="unfinished"></translation>
+        <translation>Wechselgeld</translation>
     </message>
     <message>
         <source>custom change address</source>
-        <translation type="unfinished"></translation>
+        <translation>Benutzerdefinierte Wechselgeldadresse</translation>
     </message>
     <message>
         <source>Transaction &amp;comment: </source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Verwendungszweck:</translation>
     </message>
     <message>
         <source>Enter a transaction comment  (MAX 256 Characters) (Note: this information is public)</source>
-        <translation type="unfinished"></translation>
+        <translation>Nachricht zur Transaktion einfügen (Maximal 140 Zeichen) ( Achtung, ist öffentlich einsehbar)</translation>
     </message>
     <message>
         <source>Send to multiple recipients at once</source>
@@ -1436,7 +1453,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <source>Remove all transaction fields</source>
-        <translation type="unfinished"></translation>
+        <translation>alle Transaktionsfelder entfernen</translation>
     </message>
     <message>
         <source>Clear &amp;All</source>
@@ -1460,11 +1477,11 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <source>Enter a eMark address (e.g. NgJKYsHctQfF8D8r6otTGxdnB6r311NvJf)</source>
-        <translation type="unfinished"></translation>
+        <translation>eMark Adresse eingeben (z.B. NgJKYsHctQfF8D8r6otTGxdnB6r311NvJf)</translation>
     </message>
     <message>
         <source>Enter a transaction comment (MAX 256 Characters) (Note: This information is public)</source>
-        <translation type="unfinished"></translation>
+        <translation>Nachricht zur Transaktion einfügen (Maximal 140 Zeichen) ( Achtung, ist öffentlich einsehbar)</translation>
     </message>
     <message>
         <source>Copy quantity</source>
@@ -1500,7 +1517,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <source>&lt;b&gt;%1&lt;/b&gt; to %2 (%3)</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;b&gt;%1&lt;/b&gt; to %2 (%3)</translation>
     </message>
     <message>
         <source>Confirm send coins</source>
@@ -1508,11 +1525,11 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <source>Are you sure you want to send %1?</source>
-        <translation type="unfinished"></translation>
+        <translation>Sind sie sicher das sie %1 senden wollen?</translation>
     </message>
     <message>
         <source> and </source>
-        <translation type="unfinished"></translation>
+        <translation> und </translation>
     </message>
     <message>
         <source>The recipient address is not valid, please recheck.</source>
@@ -1536,11 +1553,11 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <source>Error: Transaction creation failed!</source>
-        <translation type="unfinished"></translation>
+        <translation>Fehler: Transaktion nicht erfolgreich!</translation>
     </message>
     <message>
         <source>Error: The transaction was rejected. This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
-        <translation type="unfinished"></translation>
+        <translation>Fehler: Transaktion wurde nicht angenommen. Dies kann bei schon ausgegebenen Coins passieren.Bitte Überprüfen.</translation>
     </message>
     <message>
         <source>WARNING: Invalid eMark address</source>
@@ -1576,12 +1593,10 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <source>Alt+A</source>
         <translation>Alt+A</translation>
-
     </message>
     <message>
         <source>Paste address from clipboard</source>
         <translation>Adresse aus der Zwischenablage einfügen</translation>
-
     </message>
     <message>
         <source>Alt+P</source>
@@ -1653,7 +1668,6 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <source>Sign the message to prove you own this eMark address</source>
         <translation>Signiere die Nachricht um zu beweisen das du Besitzer dieser eMark Adresse bist.</translation>
-
     </message>
     <message>
         <source>Reset all sign message fields</source>
@@ -1677,7 +1691,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <source>Verify the message to ensure it was signed with the specified eMark address</source>
-        <translation type="unfinished"></translation>
+        <translation>Verifiziere die Nachricht um sicherzustellen das die richtige eMark Adresse zum signieren benutzt wurde</translation>
     </message>
     <message>
         <source>Reset all verify message fields</source>
@@ -1748,15 +1762,16 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <name>TrafficGraphWidget</name>
     <message>
         <source>KB/s</source>
-        <translation type="unfinished"></translation>
+        <translation>KB/s</translation>
     </message>
 </context>
 <context>
     <name>TransactionDesc</name>
     <message numerus="yes">
         <source>Open for %n more block(s)</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>Offen für %n weiteren Block</numerusform>
+            <numerusform>Offen für %n weitere Blöcke</numerusform>
         </translation>
     </message>
     <message>
@@ -1785,11 +1800,14 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <source>, has not been successfully broadcast yet</source>
-        <translation type="unfinished"></translation>
+        <translation>, wurde noch nicht erfolgreich übertragen</translation>
     </message>
     <message numerus="yes">
         <source>, broadcast through %n node(s)</source>
-        <translation><numerusform>, über %n Knoten übertragen</numerusform><numerusform>, über %n Knoten übertragen</numerusform></translation>
+        <translation>
+            <numerusform>, über %n Knoten übertragen</numerusform>
+            <numerusform>, über %n Knoten übertragen</numerusform>
+        </translation>
     </message>
     <message>
         <source>Date</source>
@@ -1825,7 +1843,10 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message numerus="yes">
         <source>matures in %n more block(s)</source>
-        <translation><numerusform>reift noch %n weiteren Block</numerusform><numerusform>reift noch %n weitere Blöcke</numerusform></translation>
+        <translation>
+            <numerusform>reift noch %n weiteren Block</numerusform>
+            <numerusform>reift noch %n weitere Blöcke</numerusform>
+        </translation>
     </message>
     <message>
         <source>not accepted</source>
@@ -1841,7 +1862,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <source>Net amount</source>
-        <translation type="unfinished"></translation>
+        <translation>Nettobetrag</translation>
     </message>
     <message>
         <source>Transaction ID</source>
@@ -1849,19 +1870,19 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <source>Wallet comment</source>
-        <translation type="unfinished"></translation>
+        <translation>Wallet Kommentar</translation>
     </message>
     <message>
         <source>Transaction comment</source>
-        <translation type="unfinished"></translation>
+        <translation>Verwendungszweck</translation>
     </message>
     <message>
         <source>Message</source>
-        <translation type="unfinished"></translation>
+        <translation>Nachricht</translation>
     </message>
     <message>
         <source>Generated coins must mature 100 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to &quot;not accepted&quot; and it won&apos;t be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
-        <translation type="unfinished"></translation>
+        <translation>Generierte Coins müssen 100 Bestätigungen erhalten bevor sie verfügbar sind. Dieser Block wurde ans Netzwerk gesendet und der Blockkette angehängt als der Block generiert wurde. Wenn er der Blockkette nicht erfolgreich angehängt werden konnte, wird er den Status in &quot;nicht Akzeptiert&quot; ändern und wird nicht verfügbar sein. Das kann zufällig geschehen wenn jemand anderes einen Block innerhalb von ein paar Sekunden generiert.</translation>
     </message>
     <message>
         <source>Debug information</source>
@@ -1886,7 +1907,6 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <source>false</source>
         <translation>falsch</translation>
-
     </message>
 </context>
 <context>
@@ -1920,14 +1940,14 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message numerus="yes">
         <source>Open for %n more block(s)</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>Offen für %n weiteren Block</numerusform>
+            <numerusform>Offen für %n weitere Blöcke</numerusform>
         </translation>
     </message>
     <message>
         <source>Open until %1</source>
         <translation>Offen bis %1</translation>
-
     </message>
     <message>
         <source>Offline</source>
@@ -2153,7 +2173,6 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <source>To use the %s option</source>
         <translation>Zur Nutzung der %s Option</translation>
-
     </message>
     <message>
         <source>%s, you must set a rpcpassword in the configuration file:
@@ -2167,7 +2186,17 @@ If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
 for example: alertnotify=echo %%s | mail -s &quot;eMark Alert&quot; admin@foo.com
 </source>
-        <translation type="unfinished"></translation>
+        <translation>%s,Bitte RPC-Passwort in der Konfigurationsdatei eMark.conf erstellen:
+%s
+Es wird empfohlen folgendes Zufallspasswort zu erstellen:
+rpcuser=eMarkrpc
+rpcpassword=%s
+(brauch man sich nicht merken)
+Username und Passwort müssen NICHT gleich sein.
+Wenn diese Datei nicht existiert, erstellen Sie eine eMark.conf mit Leserechten.
+Sie können auch eine Alarm Weiterleitung bei Netzwerknachrichten einrichten;
+Zum Beispiel: alertnotify=echo %%s | mail -s &quot;eMark Alert&quot; admin@foo.com
+</translation>
     </message>
     <message>
         <source>An error occurred while setting up the RPC port %u for listening on IPv6, falling back to IPv4: %s</source>
@@ -2216,12 +2245,10 @@ for example: alertnotify=echo %%s | mail -s &quot;eMark Alert&quot; admin@foo.co
     <message>
         <source>Specify connection timeout in milliseconds (default: 5000)</source>
         <translation>Verbindungstimeout in Millisekunden festlegen (Standard: 5000)</translation>
-
     </message>
     <message>
         <source>Connect through socks proxy</source>
         <translation>Verbinde über socks proxy</translation>
-
     </message>
     <message>
         <source>Select the version of socks proxy to use (4-5, default: 5)</source>
@@ -2234,12 +2261,10 @@ for example: alertnotify=echo %%s | mail -s &quot;eMark Alert&quot; admin@foo.co
     <message>
         <source>Allow DNS lookups for -addnode, -seednode and -connect</source>
         <translation>Erlaube DNS-Namensauflösung für -addnode, -seednode und -connect</translation>
-
     </message>
     <message>
         <source>Listen for connections on &lt;port&gt; (default: 5556 or testnet: 15556)</source>
         <translation>Horche für Verbindungen auf &lt;Port&gt; (Standard: 5556 oder Testnetz: 15556)</translation>
-
     </message>
     <message>
         <source>Maintain at most &lt;n&gt; connections to peers (default: 125)</source>
@@ -2304,12 +2329,10 @@ for example: alertnotify=echo %%s | mail -s &quot;eMark Alert&quot; admin@foo.co
     <message>
         <source>Maximum per-connection receive buffer, &lt;n&gt;*1000 bytes (default: 5000)</source>
         <translation>Maximale Größe, &lt;n&gt; * 1000 Byte, des Empfangspuffers pro Verbindung (Standard: 5000)</translation>
-
     </message>
     <message>
         <source>Maximum per-connection send buffer, &lt;n&gt;*1000 bytes (default: 1000)</source>
         <translation>Maximale Größe, &lt;n&gt; * 1000 Byte, des Sendepuffers pro Verbindung (Standard: 1000)</translation>
-
     </message>
     <message>
         <source>Use UPnP to map the listening port (default: 1 when listening)</source>
@@ -2341,7 +2364,8 @@ for example: alertnotify=echo %%s | mail -s &quot;eMark Alert&quot; admin@foo.co
     </message>
     <message>
         <source>Output debugging information (default: 0, supplying &lt;category&gt; is optional)</source>
-        <translation>Ausgabe debugging Information (standard: 0, supplying &lt;category&gt; ist optional)</translation>    </message>
+        <translation>Ausgabe debugging Information (standard: 0, supplying &lt;category&gt; ist optional)</translation>
+    </message>
     <message>
         <source>If &lt;category&gt; is not supplied, output all debugging information.</source>
         <translation>Wenn &lt;category&gt;nicht verfügbar, Ausgabe der gesammten debugging Information.</translation>
@@ -2353,7 +2377,6 @@ for example: alertnotify=echo %%s | mail -s &quot;eMark Alert&quot; admin@foo.co
     <message>
         <source>Prepend debug output with timestamp</source>
         <translation>Debuginformationen einen Zeitstempel voranstellen</translation>
-
     </message>
     <message>
         <source>Shrink debug.log file on client startup (default: 1 when no -debug)</source>
@@ -2365,7 +2388,7 @@ for example: alertnotify=echo %%s | mail -s &quot;eMark Alert&quot; admin@foo.co
     </message>
     <message>
         <source>Enter regression test mode, which uses a special chain in which blocks can be solved instantly. This is intended for regression testing tools and app development.</source>
-        <translation type="unfinished"></translation>
+        <translation>Enter regression test mode, which uses a special chain in which blocks can be solved instantly. This is intended for regression testing tools and app development.</translation>
     </message>
     <message>
         <source>Username for JSON-RPC connections</source>
@@ -2374,7 +2397,6 @@ for example: alertnotify=echo %%s | mail -s &quot;eMark Alert&quot; admin@foo.co
     <message>
         <source>Password for JSON-RPC connections</source>
         <translation>Passwort für JSON-RPC-Verbindungen</translation>
-
     </message>
     <message>
         <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 6666 or testnet: 16666)</source>
@@ -2394,7 +2416,7 @@ for example: alertnotify=echo %%s | mail -s &quot;eMark Alert&quot; admin@foo.co
     </message>
     <message>
         <source>Set the number of threads to service RPC calls (default: 4)</source>
-        <translation type="unfinished"></translation>
+        <translation>Anzahl der RPC calls (standard: 4)</translation>
     </message>
     <message>
         <source>Execute command when the best block changes (%s in cmd is replaced by block hash)</source>
@@ -2403,7 +2425,6 @@ for example: alertnotify=echo %%s | mail -s &quot;eMark Alert&quot; admin@foo.co
     <message>
         <source>Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)</source>
         <translation>Kommando ausführen wenn sich eine Wallet-Transaktion verändert (%s im Kommando wird durch die TxID ersetzt)</translation>
-
     </message>
     <message>
         <source>Require a confirmations for change (default: 0)</source>
@@ -2436,7 +2457,6 @@ for example: alertnotify=echo %%s | mail -s &quot;eMark Alert&quot; admin@foo.co
     <message>
         <source>How many blocks to check at startup (default: 500, 0 = all)</source>
         <translation>Anzahl der zu prüfenden Blöcke bei Programmstart (Standard: 500, 0 = alle)</translation>
-
     </message>
     <message>
         <source>How thorough the block verification is (0-6, default: 1)</source>
@@ -2445,11 +2465,10 @@ for example: alertnotify=echo %%s | mail -s &quot;eMark Alert&quot; admin@foo.co
     <message>
         <source>Imports blocks from external blk000?.dat file</source>
         <translation>Importiere Blöcke aus externer blk000?.dat Datei.</translation>
-
     </message>
     <message>
         <source>Keep at most &lt;n&gt; unconnectable blocks in memory (default: %u)</source>
-        <translation type="unfinished">Behalte hauptsächlich &lt;n&gt; Blöcke im Speicher zu denen nicht verbunden werden kann (default: %u)</translation>
+        <translation>Behalte hauptsächlich &lt;n&gt; Blöcke im Speicher zu denen nicht verbunden werden kann (default: %u)</translation>
     </message>
     <message>
         <source>Block creation options:</source>
@@ -2502,7 +2521,6 @@ for example: alertnotify=echo %%s | mail -s &quot;eMark Alert&quot; admin@foo.co
     <message>
         <source>Invalid amount for -mininput=&lt;amount&gt;: &apos;%s&apos;</source>
         <translation>Ungültiger Betrag für -mininput=&lt;amount&gt;:&apos;%s&apos;</translation>
-
     </message>
     <message>
         <source>Initialization sanity check failed. eMark is shutting down.</source>
@@ -2531,73 +2549,70 @@ for example: alertnotify=echo %%s | mail -s &quot;eMark Alert&quot; admin@foo.co
     <message>
         <source>wallet.dat corrupt, salvage failed</source>
         <translation>wallet.dat beschädigt, Rettung fehlgeschlagen</translation>
-
     </message>
     <message>
         <source>Unknown -socks proxy version requested: %i</source>
         <translation>Unbekannte Proxyversion in -socks angefordert: %i</translation>
-
     </message>
     <message>
         <source>Unknown network specified in -onlynet: &apos;%s&apos;</source>
-        <translation type="unfinished"></translation>
+        <translation>Unbekannter Netztyp in -onlynet angegeben: &apos;%s&apos;</translation>
     </message>
     <message>
         <source>Invalid -proxy address: &apos;%s&apos;</source>
-        <translation type="unfinished"></translation>
+        <translation>Ungültige Adresse in -proxy: &apos;%s&apos;</translation>
     </message>
     <message>
         <source>Invalid -tor address: &apos;%s&apos;</source>
-        <translation type="unfinished"></translation>
+        <translation>ungültige Tor-Adresse: &apos;%s&apos;</translation>
     </message>
     <message>
         <source>Cannot resolve -bind address: &apos;%s&apos;</source>
-        <translation type="unfinished"></translation>
+        <translation>Kann Adresse nicht auflösen: &apos;%s&apos;</translation>
     </message>
     <message>
         <source>Failed to listen on any port. Use -listen=0 if you want this.</source>
-        <translation type="unfinished"></translation>
+        <translation>Fehler, es konnte kein Port abgehört werden. Wenn dies so gewünscht wird -listen=0 verwenden.</translation>
     </message>
     <message>
         <source>Cannot resolve -externalip address: &apos;%s&apos;</source>
-        <translation type="unfinished"></translation>
+        <translation>Kann Adresse in -externalip nicht auflösen: &apos;%s&apos;</translation>
     </message>
     <message>
         <source>Invalid amount for -reservebalance=&lt;amount&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>Ungültiger Betrag für -reservebalance=&lt;amount&gt;</translation>
     </message>
     <message>
-        <source>Unable to sign checkpoint, wrong checkpointkey?
-</source>
-        <translation type="unfinished"></translation>
+        <source>Unable to sign checkpoint, wrong checkpointkey?</source>
+        <translation>Sicherungspunkt konnte nicht signiert werden. Ist der Schlüssel korrekt?</translation>
     </message>
     <message>
         <source>Loading block index...</source>
-        <translation type="unfinished"></translation>
+        <translation>Lade Blockindex...</translation>
     </message>
     <message>
         <source>Error loading blkindex.dat</source>
-        <translation type="unfinished"></translation>
+        <translation>Fehler beim laden der blkindex.dat</translation>
     </message>
     <message>
         <source>Loading wallet...</source>
-        <translation type="unfinished"></translation>
+        <translation>Lade Wallet...</translation>
     </message>
     <message>
         <source>Error loading wallet.dat: Wallet corrupted</source>
-        <translation type="unfinished"></translation>
+        <translation>Fehler beim Laden von wallet.dat: Wallet beschädigt</translation>
     </message>
     <message>
         <source>Warning: error reading wallet.dat! All keys read correctly, but transaction data or address book entries might be missing or incorrect.</source>
-        <translation type="unfinished"></translation>
+        <translation>Warnung: Lesen von wallet.dat fehlgeschlagen! Alle Schlüssel wurden korrekt gelesen, Transaktionsdaten bzw. Adressbucheinträge fehlen aber möglicherweise oder sind inkorrekt.</translation>
     </message>
     <message>
         <source>Error loading wallet.dat: Wallet requires newer version of eMark</source>
-        <translation type="unfinished"></translation>
+        <translation>Fehler beim Laden wallet.dat. Wallet benötigt neuere Version der eMark App</translation>
     </message>
     <message>
         <source>Wallet needed to be rewritten: restart eMark to complete</source>
-        <translation type="unfinished"></translation>
+        <translation>Wallet muss neu geschrieben werden. Neustart erforderlich</translation>
     </message>
     <message>
         <source>Error loading wallet.dat</source>
@@ -2605,121 +2620,123 @@ for example: alertnotify=echo %%s | mail -s &quot;eMark Alert&quot; admin@foo.co
     </message>
     <message>
         <source>Cannot downgrade wallet</source>
-        <translation type="unfinished"></translation>
+        <translation>Wallet kann nicht auf eine ältere Version herabgestuft werden</translation>
     </message>
     <message>
         <source>Cannot write default address</source>
-        <translation type="unfinished"></translation>
+        <translation>Standardadresse kann nicht geschrieben werden</translation>
     </message>
     <message>
         <source>Rescanning...</source>
-        <translation type="unfinished"></translation>
+        <translation>Durchsuche erneut...</translation>
     </message>
     <message>
         <source>Loading addresses...</source>
-        <translation type="unfinished"></translation>
+        <translation>Lade Adressen...</translation>
     </message>
     <message>
         <source>Done loading</source>
-        <translation type="unfinished"></translation>
+        <translation>Laden abgeschlossen</translation>
     </message>
     <message>
         <source>Unable to bind to %s on this computer. eMark is probably already running.</source>
-        <translation type="unfinished"></translation>
+        <translation>Fehler beim starten von %s auf diesem Computer. eMark Client läuft wahrscheinlich bereits.</translation>
     </message>
     <message>
         <source>Unable to bind to %s on this computer (bind returned error %d, %s)</source>
-        <translation type="unfinished"></translation>
+        <translation>Kann auf diesem Computer nicht an %s binden (zurückgegebener Fehler %d, %s)</translation>
     </message>
     <message>
         <source>eMark version</source>
-        <translation type="unfinished"></translation>
+        <translation>eMark Version</translation>
     </message>
     <message>
         <source>Usage:</source>
-        <translation type="unfinished"></translation>
+        <translation>Benutzung:</translation>
     </message>
     <message>
         <source>Send command to -server or eMarkd</source>
-        <translation type="unfinished"></translation>
+        <translation>Kommando an -server oder eMarkd versenden</translation>
     </message>
     <message>
         <source>List commands</source>
-        <translation type="unfinished"></translation>
+        <translation>Befehle auflisten</translation>
     </message>
     <message>
         <source>Get help for a command</source>
-        <translation type="unfinished"></translation>
+        <translation>Hilfe zu einem Befehl erhalten</translation>
     </message>
     <message>
         <source>You must set rpcpassword=&lt;password&gt; in the configuration file:
 %s
 If the file does not exist, create it with owner-readable-only file permissions.</source>
-        <translation type="unfinished"></translation>
+        <translation>Sie müssen den Wert rpcpassword=&lt;passwort&gt; in der Konfigurationsdatei angeben:
+%s
+Falls die Konfigurationsdatei nicht existiert, erzeugen Sie diese bitte mit Leserechten nur für den Dateibesitzer.</translation>
     </message>
     <message>
         <source>Error: Wallet locked, unable to create transaction!</source>
-        <translation type="unfinished"></translation>
+        <translation>Fehler: Wallet gesperrt, kann keine Transaktionen erstellen!</translation>
     </message>
     <message>
         <source>Error: Wallet unlocked for staking only, unable to create transaction.</source>
-        <translation type="unfinished"></translation>
+        <translation>Fehler: Die Brieftasche wurde nur zur Zinserzeugung entsperrt. Transaktionen können nicht erzeugt werden.</translation>
     </message>
     <message>
         <source>Error: This transaction requires a transaction fee of at least %s because of its amount, complexity, or use of recently received funds!</source>
-        <translation type="unfinished"></translation>
+        <translation>Fehler: Diese Transaktion benötigt eine Mindestgebühr von %s wegen der Summe oder der Komplexität!</translation>
     </message>
     <message>
         <source>Error: Transaction creation failed!</source>
-        <translation type="unfinished"></translation>
+        <translation>Fehler: Transaktion gescheitert!</translation>
     </message>
     <message>
         <source>Sending...</source>
-        <translation type="unfinished"></translation>
+        <translation>Wird gesendet...</translation>
     </message>
     <message>
         <source>Error: The transaction was rejected! This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
-        <translation type="unfinished"></translation>
+        <translation>Fehler: Die Transaktion wurde zurückgewiesen! Dies kann bei bereits ausgegebenen Coins passieren, zum Beispiel einer Kopie der wallet.dat.</translation>
     </message>
     <message>
         <source>Invalid amount</source>
-        <translation type="unfinished"></translation>
+        <translation>Ungültiger Betrag</translation>
     </message>
     <message>
         <source>Insufficient funds</source>
-        <translation type="unfinished"></translation>
+        <translation>Unzureichender Kontostand</translation>
     </message>
     <message>
         <source>Error</source>
-        <translation type="unfinished"></translation>
+        <translation>Fehler</translation>
     </message>
     <message>
         <source>Warning</source>
-        <translation type="unfinished"></translation>
+        <translation>Warnung</translation>
     </message>
     <message>
         <source>Information</source>
-        <translation type="unfinished"></translation>
+        <translation>Information</translation>
     </message>
     <message>
         <source>Warning: This version is obsolete, upgrade required!</source>
-        <translation type="unfinished"></translation>
+        <translation>Warnung: Diese Version is veraltet, Aktualisierung erforderlich!</translation>
     </message>
     <message>
         <source>WARNING: syncronized checkpoint violation detected, but skipped!</source>
-        <translation type="unfinished"></translation>
+        <translation>WARNUNG :Bei Synchronisierung Checkpoint Verletzung entdeckt, vorerst übersprungen!</translation>
     </message>
     <message>
         <source>Error: Disk space is low!</source>
-        <translation type="unfinished"></translation>
+        <translation>Warnung: Festplatte hat wenig freien Speicher!</translation>
     </message>
     <message>
         <source>This is a pre-release test build - use at your own risk - do not use for mining or merchant applications</source>
-        <translation type="unfinished"></translation>
+        <translation>Dies ist eine Vorab-Testversion, bitte nicht zum minen benutzen.</translation>
     </message>
     <message>
         <source>WARNING: Invalid checkpoint found! Displayed transactions may not be correct! You may need to upgrade, or notify developers.</source>
-        <translation type="unfinished"></translation>
+        <translation>WARNUNG : Ungültiger Checkpunkt gefunden! Angezeigte Transaktionen können falsch sein! Sie müssen vielleicht updaten oder die Entwickler benachrichtigen.</translation>
     </message>
 </context>
 </TS>
