@@ -12,7 +12,7 @@
 #include <QImageWriter>
 
 #ifdef USE_DBUS
-#include <QtDBus/QtDBus>
+#include <QtDBus>
 #include <stdint.h>
 #endif
 
@@ -21,8 +21,10 @@
 extern bool qt_mac_execute_apple_script(const QString &script, AEDesc *ret);
 #endif
 
+#ifdef USE_DBUS
 // https://wiki.ubuntu.com/NotificationDevelopmentGuidelines recommends at least 128
 const int FREEDESKTOP_NOTIFICATION_ICON_SIZE = 128;
+#endif
 
 Notificator::Notificator(const QString &programName, QSystemTrayIcon *trayicon, QWidget *parent):
     QObject(parent),
@@ -113,7 +115,7 @@ FreedesktopImage::FreedesktopImage(const QImage &img):
 {
     // Convert 00xAARRGGBB to RGBA bytewise (endian-independent) format
     QImage tmp = img.convertToFormat(QImage::Format_ARGB32);
-    const uint32_t *data = reinterpret_cast<const uint32_t*>(tmp.constBits());
+    const uint32_t *data = reinterpret_cast<const uint32_t*>(tmp.bits());
 
     unsigned int num_pixels = width * height;
     image.resize(num_pixels * BYTES_PER_PIXEL);
