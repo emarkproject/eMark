@@ -29,9 +29,9 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>
 Weitere Informationen unter &lt;a href=&quot;http://www.deutsche-eMark.org&quot;&gt;http://www.deutsche-eMark.org&lt;/a&gt;
 
-Veröffentlicht unter der  MIT/X11 software Lizens, Infos unter &lt;a href=&quot;http://www.opensource.org/licenses/mit-license.php&quot;&gt;http://www.opensource.org/licenses/mit-license.php&lt;/a&gt;.
+Veröffentlicht unter der  MIT/X11 Software Lizens, Infos unter &lt;a href=&quot;http://www.opensource.org/licenses/mit-license.php&quot;&gt;http://www.opensource.org/licenses/mit-license.php&lt;/a&gt;.
 
-Dieses Produkt enthält Software, enteickelt vom OpenSSL Project für das OpenSSL Toolkit (&lt;a href=&quot;https://www.openssl.org/&quot;&gt;https://www.openssl.org/&lt;/a&gt;) und software geschrieben von Eric Young (&lt;a href=&quot;mailto:eay@cryptsoft.com&quot;&gt;eay@cryptsoft.com&lt;/a&gt;) und UPnPSoftware geschreiben von Thomas Bernard.</translation>
+Dieses Produkt enthält Software, entwickelt vom OpenSSL Project für das OpenSSL Toolkit (&lt;a href=&quot;https://www.openssl.org/&quot;&gt;https://www.openssl.org/&lt;/a&gt;) und software geschrieben von Eric Young (&lt;a href=&quot;mailto:eay@cryptsoft.com&quot;&gt;eay@cryptsoft.com&lt;/a&gt;) und UPnPSoftware geschreiben von Thomas Bernard.</translation>
     </message>
 </context>
 <context>
@@ -251,7 +251,7 @@ Dieses Produkt enthält Software, enteickelt vom OpenSSL Project für das OpenSS
     <name>BitcoinGUI</name>
     <message>
         <source>A fatal error occurred. eMark can no longer continue safely and will quit.</source>
-        <translation>Ein fataler Fehler ist aufgetreten. eMark kann nicht fortgesetzt werden und wird beendet.</translation>
+        <translation>Ein fataler Fehler ist aufgetreten. eMark kann nicht fortgesetzt werden. Läuft bereits eine Instanz?.</translation>
     </message>
     <message>
         <source>Deutsche eMark</source>
@@ -311,7 +311,7 @@ Dieses Produkt enthält Software, enteickelt vom OpenSSL Project für das OpenSS
     </message>
     <message>
         <source>&amp;About Deutsche eMark</source>
-        <translation>über Deutsche eMark</translation>
+        <translation>über die Deutsche eMark</translation>
     </message>
     <message>
         <source>Show information about eMark</source>
@@ -591,7 +591,7 @@ Adresse: %4</translation>
     </message>
     <message>
         <source>Not staking because wallet is offline</source>
-        <translation>Es werden keine Zinsen werden erzeugt, da die Brieftasche gesperrt ist</translation>
+        <translation>Es werden keine Zinsen erzeugt, da die Brieftasche gesperrt ist</translation>
     </message>
     <message>
         <source>Not staking because wallet is syncing</source>
@@ -942,7 +942,7 @@ Das bedeutet, dass eine Gebühr von %2 benötigt wird.
     </message>
     <message>
         <source>Reserved amount does not participate in staking and is therefore spendable at any time.</source>
-        <translation>Zurückgehaltener Betrag der nicht zur Zinserzeugung genutzt wird und daher jederzeit zum Ausgeben bereitstehen.</translation>
+        <translation>Zurückgehaltener Betrag der nicht zur Zinserzeugung genutzt wird und daher jederzeit zum ausgeben bereitstehen.</translation>
     </message>
     <message>
         <source>Reserve</source>
