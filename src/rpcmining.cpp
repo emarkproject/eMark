@@ -76,6 +76,15 @@ Value getstakesubsidy(const Array& params, bool fHelp)
     return (uint64_t)GetProofOfStakeReward(nCoinAge, 0, nTime);
 }
 
+Value getnetworkhashps(const Array& params, bool fHelp)
+{
+    if (fHelp || params.size() != 0)
+        throw runtime_error(
+            "getnetworkhashps ( blocks height )\n"
+            "\nReturns the estimated network hashes per second based on the last n blocks.\n"
+       );
+    return GetPoWMHashPS();
+}
 Value getmininginfo(const Array& params, bool fHelp)
 {
     if (fHelp || params.size() != 0)
