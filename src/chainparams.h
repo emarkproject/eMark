@@ -66,6 +66,8 @@ public:
     const std::vector<unsigned char> &Base58Prefix(Base58Type type) const { return base58Prefixes[type]; }
     virtual const vector<CAddress>& FixedSeeds() const = 0;
     int RPCPort() const { return nRPCPort; }
+    int LastPOWBlock() const { return 840000000; }
+
 protected:
     CChainParams() {};
 

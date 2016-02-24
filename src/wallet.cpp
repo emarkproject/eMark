@@ -13,6 +13,8 @@
 #include "txdb.h"
 #include "ui_interface.h"
 #include "walletdb.h"
+#include "bloom.h"
+
 
 #include <boost/algorithm/string/replace.hpp>
 #include <boost/range/algorithm.hpp>
