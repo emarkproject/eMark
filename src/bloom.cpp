@@ -7,6 +7,7 @@
 #include "bloom.h"
 #include "main.h"
 #include "script.h"
+#include "uint256.h"
 
 #define LN2SQUARED 0.4804530139182014246671025263266649717305529515945455
 #define LN2 0.6931471805599453094172321214581765680755001343602552
@@ -45,8 +46,8 @@ void CBloomFilter::insert(const vector<unsigned char>& vKey)
     {
         unsigned int nIndex = Hash(i, vKey);
         // Sets bit nIndex of vData
-        vData[nIndex >> 3] |= bit_mask[7 & nIndex];
-    }
+        vData[nIndex >> 3] |= (1 << (7 & nIndex));
+    };
     isEmpty = false;
 }
 
@@ -74,9 +75,9 @@ bool CBloomFilter::contains(const vector<unsigned char>& vKey) const
     {
         unsigned int nIndex = Hash(i, vKey);
         // Checks bit nIndex of vData
-        if (!(vData[nIndex >> 3] & bit_mask[7 & nIndex]))
+        if (!(vData[nIndex >> 3] & (1 << (7 & nIndex))))
             return false;
-    }
+    };
     return true;
 }
 
@@ -108,8 +109,11 @@ bool CBloomFilter::IsRelevantAndUpdate(const CTransaction& tx)
         return true;
     if (isEmpty)
         return false;
+    
+    const uint256& hash = tx.GetHash();
     if (contains(hash))
-        fFound = true;
+        fFound = true;        // -- don't return here!
+
 
     for (unsigned int i = 0; i < tx.vout.size(); i++)
     {

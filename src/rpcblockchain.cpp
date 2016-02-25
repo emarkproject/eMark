@@ -279,7 +279,7 @@ Value getcheckpoint(const Array& params, bool fHelp)
     Object result;
     CBlockIndex* pindexCheckpoint;
 
-    result.push_back(Pair("synccheckpoint", Checkpoints::hashSyncCheckpoint.ToString().c_str()));
+    result.push_back(Pair("synccheckpoint", Checkpoints::hashSyncCheckpoint.ToString()));
     pindexCheckpoint = mapBlockIndex[Checkpoints::hashSyncCheckpoint];
     result.push_back(Pair("height", pindexCheckpoint->nHeight));
     result.push_back(Pair("timestamp", DateTimeStrFormat(pindexCheckpoint->GetBlockTime()).c_str()));
