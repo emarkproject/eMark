@@ -38,6 +38,7 @@ public:
     enum Network {
         MAIN,
         TESTNET,
+        REGTEST,
 
         MAX_NETWORK_TYPES
     };
@@ -94,7 +95,7 @@ const CChainParams &Params();
 void SelectParams(CChainParams::Network network);
 
 /**
- * Looks for -testnet and then calls SelectParams as appropriate.
+ * Looks for -regtest or -testnet and then calls SelectParams as appropriate.
  * Returns false if an invalid combination is given.
  */
 bool SelectParamsFromCommandLine();
