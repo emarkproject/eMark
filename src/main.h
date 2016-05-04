@@ -54,9 +54,13 @@ static const int64_t COIN_YEAR_REWARD = 3.8 * CENT; // 3.8% per year
 // TX Comment
 static const unsigned int MAX_TX_COMMENT_LEN = 140; //140 character (Twitter) limitation
 
+inline bool IsProtocolV3(int64_t nTime) { return TestNet() || nTime > 1462831200; } //May 10 00:00:00 2016 UTC
+inline int64_t FutureDriftV1(int64_t nTime) { return nTime + 2 * 60 * 60; } //up to 120 minutes from the future
+inline int64_t FutureDriftV2(int64_t nTime) { return nTime + 15; } 
+inline int64_t FutureDrift(int64_t nTime) { return IsProtocolV3(nTime) ? FutureDriftV2(nTime) : FutureDriftV1(nTime); }
 
-inline int64_t PastDrift(int64_t nTime)   { return nTime - 2 * 60 * 60; } // up to 120 minutes from the past   - down from 10 for security
-inline int64_t FutureDrift(int64_t nTime) { return nTime + 2 * 60 * 60; } // up to 120 minutes from the future
+inline int64_t PastDrift(int64_t nTime)   { return IsProtocolV3(nTime) ? nTime      : nTime - 2 * 60 * 60; }
+
 
 extern CScript COINBASE_FLAGS;
 extern CCriticalSection cs_main;
@@ -584,7 +588,7 @@ class CBlockHeader
 {
 public:
     // header
-    static const int CURRENT_VERSION = 4;
+    static const int CURRENT_VERSION = 7;
     int nVersion;
     uint256 hashPrevBlock;
     uint256 hashMerkleRoot;
@@ -1050,7 +1054,10 @@ public:
 
     int64_t GetPastTimeLimit() const
     {
-        return GetMedianTimePast();
+        if (IsProtocolV3(nTime))
+            return GetBlockTime();
+        else
+            return GetMedianTimePast();
     }
 
     enum { nMedianTimeSpan=11 };

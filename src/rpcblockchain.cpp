@@ -99,6 +99,9 @@ double GetPoSKernelPS()
     if (nStakesTime)
         result = dStakeKernelsTriedAvg / nStakesTime;
 
+    if (IsProtocolV3(pindex->nTime))
+        result *= STAKE_TIMESTAMP_MASK + 1;
+
     return result;
 }
 

@@ -68,7 +68,7 @@ Value getstakesubsidy(const Array& params, bool fHelp)
     }
 
     uint64_t nCoinAge;
-    unsigned int nTime; 
+    unsigned int nTime = 0; 
     CTxDB txdb("r");
     if (!tx.GetCoinAge(txdb, nCoinAge))
         throw JSONRPCError(RPC_MISC_ERROR, "GetCoinAge failed");
