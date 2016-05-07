@@ -54,7 +54,7 @@ static const int64_t COIN_YEAR_REWARD = 3.8 * CENT; // 3.8% per year
 // TX Comment
 static const unsigned int MAX_TX_COMMENT_LEN = 140; //140 character (Twitter) limitation
 
-inline bool IsProtocolV3(int64_t nTime) { return TestNet() || nTime > 1462831200; } //May 10 00:00:00 2016 UTC
+inline bool IsProtocolV3(int64_t nTime) { return TestNet() || nTime > 1463263200; } //May 15 00:00:00 2016 UTC
 inline int64_t FutureDriftV1(int64_t nTime) { return nTime + 2 * 60 * 60; } //up to 120 minutes from the future
 inline int64_t FutureDriftV2(int64_t nTime) { return nTime + 15; } 
 inline int64_t FutureDrift(int64_t nTime) { return IsProtocolV3(nTime) ? FutureDriftV2(nTime) : FutureDriftV1(nTime); }

@@ -42,7 +42,7 @@ CBigNum bnProofOfStakeLimitV2(~uint256(0) >> 48);
 
 
 const int64_t nHardforkTime = 1415750400; // 12 Nov 2014 00:00:00 GMT
-const int64_t nHardforkTime2 = 1462831200; // 10 May 00:00:00 2016 UTC
+const int64_t nHardforkTime2 = 1463263200; // 15 May 00:00:00 2016 UTC
 
 unsigned int GetStakeMinAge(int64_t nTime)
 {
