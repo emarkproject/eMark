@@ -31,21 +31,25 @@ public:
     int nType;
     int nVersion;
 
-    void Init() {
+    void Init()
+    {
         SHA256_Init(&ctx);
     }
 
-    CHashWriter(int nTypeIn, int nVersionIn) : nType(nTypeIn), nVersion(nVersionIn) {
+    CHashWriter(int nTypeIn, int nVersionIn) : nType(nTypeIn), nVersion(nVersionIn)
+    {
         Init();
     }
 
-    CHashWriter& write(const char *pch, size_t size) {
+    CHashWriter& write(const char *pch, size_t size)
+    {
         SHA256_Update(&ctx, pch, size);
         return (*this);
     }
 
     // invalidates the object
-    uint256 GetHash() {
+    uint256 GetHash()
+    {
         uint256 hash1;
         SHA256_Final((unsigned char*)&hash1, &ctx);
         uint256 hash2;
@@ -119,6 +123,14 @@ inline uint160 Hash160(const std::vector<unsigned char>& vch)
 {
     return Hash160(vch.begin(), vch.end());
 }
+
+inline uint32_t ROTL32 ( uint32_t x, int8_t r )
+{
+    return (x << r) | (x >> (32 - r));
+}
+
+unsigned int MurmurHash3(unsigned int nHashSeed, const std::vector<unsigned char>& vDataToHash);
+
 
 typedef struct
 {

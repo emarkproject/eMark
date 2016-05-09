@@ -38,6 +38,7 @@ public:
     enum Network {
         MAIN,
         TESTNET,
+        REGTEST,
 
         MAX_NETWORK_TYPES
     };
@@ -66,6 +67,8 @@ public:
     const std::vector<unsigned char> &Base58Prefix(Base58Type type) const { return base58Prefixes[type]; }
     virtual const vector<CAddress>& FixedSeeds() const = 0;
     int RPCPort() const { return nRPCPort; }
+    int LastPOWBlock() const { return 840000000; }
+
 protected:
     CChainParams() {};
 
@@ -92,7 +95,7 @@ const CChainParams &Params();
 void SelectParams(CChainParams::Network network);
 
 /**
- * Looks for -testnet and then calls SelectParams as appropriate.
+ * Looks for -regtest or -testnet and then calls SelectParams as appropriate.
  * Returns false if an invalid combination is given.
  */
 bool SelectParamsFromCommandLine();

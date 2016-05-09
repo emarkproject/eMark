@@ -502,6 +502,7 @@ void CNode::copyStats(CNodeStats &stats)
     X(nMisbehavior);
     X(nSendBytes);
     X(nRecvBytes);
+    X(nBlocksRequested);
     stats.fSyncNode = (this == pnodeSync);
 
     // It is common for nodes with good ping times to suddenly become lagged,
@@ -1730,7 +1731,21 @@ void RelayTransaction(const CTransaction& tx, const uint256& hash, const CDataSt
         vRelayExpiration.push_back(std::make_pair(GetTime() + 15 * 60, inv));
     }
 
-    RelayInventory(inv);
+    LOCK(cs_vNodes);
+    BOOST_FOREACH(CNode* pnode, vNodes)
+    {
+        if(!pnode->fRelayTxes)
+            continue;
+        LOCK(pnode->cs_filter);
+        if (pnode->pfilter)
+        {
+            if (pnode->pfilter->IsRelevantAndUpdate(tx))
+                pnode->PushInventory(inv);
+        } else
+        {
+            pnode->PushInventory(inv);
+        };
+    }
 }
 
 void CNode::RecordBytesRecv(uint64_t bytes)
