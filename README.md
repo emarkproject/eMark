@@ -1,6 +1,10 @@
 
 # Deutsche eMark [DEM] #
 
+### Version 1.4.0: Hardfork 15.05.2016 00.00.00 GMT 
+A reload the blockchain is necessary.
+Vesion < 1.4.0 will no longer work.
+
 ### Version 1.3.0: support LevelDB 
 (you must reload DB, if you don´t want, version 1.1.0 works fine (BerkleyDB). Download [from here](https://github.com/emarkproject/DEM/releases ))
 do not use Version 1.2.x. You can loose Coins
