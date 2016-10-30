@@ -67,14 +67,18 @@ public:
         //     CTxOut(nValue=50.00000000, scriptPubKey=0x5F1DF16B2B704C8A578D0B)
         //   vMerkleTree: 4a5e1e
         const char* pszTimestamp = "Deutsche eMark";
-        CTransaction txNew;
-        txNew.nTime = 1381515983;
-        txNew.vin.resize(1);
-        txNew.vout.resize(1);
-		txNew.vin[0].scriptSig = CScript() << 486604799 << CBigNum(9999) << vector<unsigned char>((const unsigned char*)pszTimestamp, (const unsigned char*)pszTimestamp + strlen(pszTimestamp));
-        txNew.vout[0].SetEmpty();
+        std::vector<CTxIn> vin;
+        vin.resize(1);
+        vin[0].scriptSig = CScript() << 486604799 << CBigNum(9999) << vector<unsigned char>((const unsigned char*)pszTimestamp, (const unsigned char*)pszTimestamp + strlen(pszTimestamp));
+        std::vector<CTxOut> vout;
+        vout.resize(1);
+        vout[0].SetEmpty();
+
         // TX Comment
-        txNew.strTxComment = "text:eMark genesis block";
+        std::string strTxComment = "text:eMark genesis block";
+
+        CTransaction txNew(1, 1381515983, vin, vout, 0, strTxComment); //TX Comment
+
         genesis.vtx.push_back(txNew);
         genesis.hashPrevBlock = 0;
         genesis.hashMerkleRoot = genesis.BuildMerkleTree();

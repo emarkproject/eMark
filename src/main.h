@@ -239,6 +239,13 @@ public:
         SetNull();
     }
 
+	    CTransaction(int nVersion, unsigned int nTime, const std::vector<CTxIn>& vin, const std::vector<CTxOut>& vout, unsigned int nLockTime, std::string strTxComment)
+        : nVersion(nVersion), nTime(nTime), vin(vin), vout(vout), nLockTime(nLockTime), strTxComment(strTxComment), nDoS(0) // TX Comment
+    {
+    }
+
+
+	
     IMPLEMENT_SERIALIZE
     (
         READWRITE(this->nVersion);
