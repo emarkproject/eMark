@@ -67,14 +67,18 @@ public:
         //     CTxOut(nValue=50.00000000, scriptPubKey=0x5F1DF16B2B704C8A578D0B)
         //   vMerkleTree: 4a5e1e
         const char* pszTimestamp = "Deutsche eMark";
-        CTransaction txNew;
-        txNew.nTime = 1381515983;
-        txNew.vin.resize(1);
-        txNew.vout.resize(1);
-		txNew.vin[0].scriptSig = CScript() << 486604799 << CBigNum(9999) << vector<unsigned char>((const unsigned char*)pszTimestamp, (const unsigned char*)pszTimestamp + strlen(pszTimestamp));
-        txNew.vout[0].SetEmpty();
+        std::vector<CTxIn> vin;
+        vin.resize(1);
+        vin[0].scriptSig = CScript() << 486604799 << CBigNum(9999) << vector<unsigned char>((const unsigned char*)pszTimestamp, (const unsigned char*)pszTimestamp + strlen(pszTimestamp));
+        std::vector<CTxOut> vout;
+        vout.resize(1);
+        vout[0].SetEmpty();
+
         // TX Comment
-        txNew.strTxComment = "text:eMark genesis block";
+        std::string strTxComment = "text:eMark genesis block";
+
+        CTransaction txNew(1, 1381515983, vin, vout, 0, strTxComment); //TX Comment
+
         genesis.vtx.push_back(txNew);
         genesis.hashPrevBlock = 0;
         genesis.hashMerkleRoot = genesis.BuildMerkleTree();
@@ -88,9 +92,6 @@ public:
         assert(genesis.hashMerkleRoot == uint256("0x5def52f0e380a698fc529c4aa8c9810d79149a3b2d45b33bb262cb11e22cc5e9"));
 
         vSeeds.push_back(CDNSSeedData("deutsche-emark.org", "seed.deutsche-emark.org"));
-//        vSeeds.push_back(CDNSSeedData("bluematt.me", "dnsseed.bluematt.me"));
-//        vSeeds.push_back(CDNSSeedData("dashjr.org", "dnsseed.bitcoin.dashjr.org"));
-
         base58Prefixes[PUBKEY_ADDRESS] = list_of(53);
         base58Prefixes[SCRIPT_ADDRESS] = list_of(30);
         base58Prefixes[SECRET_KEY] =     list_of(181);
@@ -157,6 +158,32 @@ public:
 static CTestNetParams testNetParams;
 
 
+//
+// Regression test
+//
+class CRegTestParams : public CTestNetParams {
+public:
+    CRegTestParams() {
+        pchMessageStart[0] = 0xfa;
+        pchMessageStart[1] = 0xbf;
+        pchMessageStart[2] = 0xb5;
+        pchMessageStart[3] = 0xda;
+        bnProofOfWorkLimit = CBigNum(~uint256(0) >> 1);
+        genesis.nTime = 1459999999;
+        genesis.nBits  = bnProofOfWorkLimit.GetCompact();
+        genesis.nNonce = 0;
+        hashGenesisBlock = genesis.GetHash();
+        nDefaultPort = 18444;
+        strDataDir = "regtest";
+        assert(hashGenesisBlock == uint256("0x00b465a746c25db8940c9d734c03aa8bad8c64565258c24d47a854df65668afd"));
+
+        vSeeds.clear();  // Regtest mode doesn't have any DNS seeds.
+    }
+
+    virtual bool RequireRPCPassword() const { return false; }
+    virtual Network NetworkID() const { return CChainParams::REGTEST; }
+};
+static CRegTestParams regTestParams;
 
 static CChainParams *pCurrentParams = &mainParams;
 
@@ -172,6 +199,9 @@ void SelectParams(CChainParams::Network network) {
         case CChainParams::TESTNET:
             pCurrentParams = &testNetParams;
             break;
+        case CChainParams::REGTEST:
+            pCurrentParams = &regTestParams;
+            break;
         default:
             assert(false && "Unimplemented network");
             return;
@@ -179,13 +209,16 @@ void SelectParams(CChainParams::Network network) {
 }
 
 bool SelectParamsFromCommandLine() {
+    bool fRegTest = GetBoolArg("-regtest", false);
     bool fTestNet = GetBoolArg("-testnet", false);
 
-    if (fTestNet) {
+    if (fTestNet && fRegTest) {
         return false;
     }
 
-	if (fTestNet) {
+    if (fRegTest) {
+        SelectParams(CChainParams::REGTEST);
+    } else if (fTestNet) {
         SelectParams(CChainParams::TESTNET);
     } else {
         SelectParams(CChainParams::MAIN);

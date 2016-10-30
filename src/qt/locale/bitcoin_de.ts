@@ -595,11 +595,11 @@ Adresse: %4</translation>
     </message>
     <message>
         <source>Not staking because wallet is syncing</source>
-        <translation>Es werden keine Zinsen werden erzeugt, da die Brieftasche nicht synchronisiert ist</translation>
+        <translation>Es werden keine Zinsen erzeugt, da die Brieftasche nicht synchronisiert ist</translation>
     </message>
     <message>
         <source>Not staking because you don&apos;t have mature coins</source>
-        <translation>Es werden keine Zinsen werden erzeugt, da Sie keine reifen Coins haben</translation>
+        <translation>Es werden keine Zinsen erzeugt, da Sie keine reifen Coins haben</translation>
     </message>
     <message>
         <source>Not staking</source>
