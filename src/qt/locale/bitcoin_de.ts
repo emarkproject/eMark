@@ -1113,11 +1113,11 @@ Das bedeutet, dass eine Gebühr von %2 benötigt wird.
     </message>
     <message>
         <source>Stake:</source>
-        <translation>Stake</translation>
+        <translation>Stake:</translation>
     </message>
     <message>
         <source>Total of coins that was staked, and do not yet count toward the current balance</source>
-        <translation>Stakecoins die noch nicht zur Gesamtbalance hinzugefügt sind</translation>
+        <translation>Stakecoins die noch nicht zur Gesamtbilanz hinzugefügt wurden</translation>
     </message>
     <message>
         <source>Unconfirmed:</source>
@@ -1125,7 +1125,7 @@ Das bedeutet, dass eine Gebühr von %2 benötigt wird.
     </message>
     <message>
         <source>Total of transactions that have yet to be confirmed, and do not yet count toward the current balance</source>
-        <translation>Alle Stakecoins die noch nicht zur Gesamtbalance hinzugefügt sind</translation>
+        <translation>Alle Stakecoins die noch nicht zur Gesamtbilanz hinzugefügt wurden</translation>
     </message>
     <message>
         <source>Immature:</source>
