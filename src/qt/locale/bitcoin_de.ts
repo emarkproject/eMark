@@ -587,11 +587,11 @@ Adresse: %4</translation>
     </message>
     <message>
         <source>Not staking because wallet is locked</source>
-        <translation>Keine Zinsen werden erzeugt, da die Brieftasche gesperrt ist</translation>
+        <translation>Es werden keine Zinsen erzeugt, da die Brieftasche gesperrt ist</translation>
     </message>
     <message>
         <source>Not staking because wallet is offline</source>
-        <translation>Es werden keine Zinsen erzeugt, da die Brieftasche gesperrt ist</translation>
+        <translation>Es werden keine Zinsen erzeugt, da die Brieftasche offline ist</translation>
     </message>
     <message>
         <source>Not staking because wallet is syncing</source>
