@@ -1441,7 +1441,7 @@ Das bedeutet, dass eine Gebühr von %2 benötigt wird.
     </message>
     <message>
         <source>Enter a transaction comment  (MAX 256 Characters) (Note: this information is public)</source>
-        <translation>Nachricht zur Transaktion einfügen (Maximal 140 Zeichen) ( Achtung, ist öffentlich einsehbar)</translation>
+        <translation>Nachricht zur Transaktion einfügen (Maximal 140 Zeichen) (Achtung, ist öffentlich einsehbar)</translation>
     </message>
     <message>
         <source>Send to multiple recipients at once</source>
@@ -1481,7 +1481,7 @@ Das bedeutet, dass eine Gebühr von %2 benötigt wird.
     </message>
     <message>
         <source>Enter a transaction comment (MAX 256 Characters) (Note: This information is public)</source>
-        <translation>Nachricht zur Transaktion einfügen (Maximal 140 Zeichen) ( Achtung, ist öffentlich einsehbar)</translation>
+        <translation>Nachricht zur Transaktion einfügen (Maximal 140 Zeichen) (Achtung, ist öffentlich einsehbar)</translation>
     </message>
     <message>
         <source>Copy quantity</source>
@@ -2208,7 +2208,7 @@ Zum Beispiel: alertnotify=echo %%s | mail -s &quot;eMark Alert&quot; admin@foo.c
     </message>
     <message>
         <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong eMark will not work properly.</source>
-        <translation>Wanung : Bitte prüfen Sie ob Datum und Uhrzeit richtig eingestellt sind. Wenn das Datum falsch ist wird eMark nicht richtig funktionieren.</translation>
+        <translation>Wanung: Bitte prüfen Sie ob Datum und Uhrzeit richtig eingestellt sind. Wenn das Datum falsch ist wird eMark nicht richtig funktionieren.</translation>
     </message>
     <message>
         <source>Options:</source>
@@ -2724,7 +2724,7 @@ Falls die Konfigurationsdatei nicht existiert, erzeugen Sie diese bitte mit Lese
     </message>
     <message>
         <source>WARNING: syncronized checkpoint violation detected, but skipped!</source>
-        <translation>WARNUNG :Bei Synchronisierung Checkpoint Verletzung entdeckt, vorerst übersprungen!</translation>
+        <translation>Warnung: Bei Synchronisierung Checkpoint Verletzung entdeckt, vorerst übersprungen!</translation>
     </message>
     <message>
         <source>Error: Disk space is low!</source>
@@ -2736,7 +2736,7 @@ Falls die Konfigurationsdatei nicht existiert, erzeugen Sie diese bitte mit Lese
     </message>
     <message>
         <source>WARNING: Invalid checkpoint found! Displayed transactions may not be correct! You may need to upgrade, or notify developers.</source>
-        <translation>WARNUNG : Ungültiger Checkpunkt gefunden! Angezeigte Transaktionen können falsch sein! Sie müssen vielleicht updaten oder die Entwickler benachrichtigen.</translation>
+        <translation>Warnung: Ungültiger Checkpunkt gefunden! Angezeigte Transaktionen können falsch sein! Sie müssen vielleicht updaten oder die Entwickler benachrichtigen.</translation>
     </message>
 </context>
 </TS>
