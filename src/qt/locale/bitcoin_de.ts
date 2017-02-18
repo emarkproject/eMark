@@ -1258,7 +1258,7 @@ Das bedeutet, dass eine Gebühr von %2 benötigt wird.
     </message>
     <message>
         <source>Block chain</source>
-        <translation>Block kette</translation>
+        <translation>Blockkette</translation>
     </message>
     <message>
         <source>Current number of blocks</source>
