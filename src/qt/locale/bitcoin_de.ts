@@ -1365,7 +1365,7 @@ Das bedeutet, dass eine Gebühr von %2 benötigt wird.
     <name>SendCoinsDialog</name>
     <message>
         <source>Send Coins</source>
-        <translation>eMarks überweisen</translation>
+        <translation>eMark überweisen</translation>
     </message>
     <message>
         <source>Coin Control Features</source>
