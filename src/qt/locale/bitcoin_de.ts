@@ -1620,7 +1620,7 @@ Das bedeutet, dass eine Gebühr von %2 benötigt wird.
     </message>
     <message>
         <source>Enter a eMark address (e.g. NgJKYsHctQfF8D8r6otTGxdnB6r311NvJf)</source>
-        <translation>eMark Adresse eingeben (e.g. NgJKYsHctQfF8D8r6otTGxdnB6r311NvJf)</translation>
+        <translation>eMark Adresse eingeben (z.B. NgJKYsHctQfF8D8r6otTGxdnB6r311NvJf)</translation>
     </message>
 </context>
 <context>
