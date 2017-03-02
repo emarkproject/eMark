@@ -295,7 +295,7 @@ Dieses Produkt enthält Software, entwickelt vom OpenSSL Project für das OpenSS
     </message>
     <message>
         <source>&amp;Address Book</source>
-        <translation>&amp;Addressbuch</translation>
+        <translation>&amp;Adressbuch</translation>
     </message>
     <message>
         <source>Edit the list of stored addresses and labels</source>
@@ -335,7 +335,7 @@ Dieses Produkt enthält Software, entwickelt vom OpenSSL Project für das OpenSS
     </message>
     <message>
         <source>&amp;Show / Hide</source>
-        <translation>&amp;Zeige / Verstecke</translation>
+        <translation>&amp;Zeigen / Verstecken</translation>
     </message>
     <message>
         <source>&amp;Encrypt Wallet...</source>
@@ -506,7 +506,7 @@ Dieses Produkt enthält Software, entwickelt vom OpenSSL Project für das OpenSS
     </message>
     <message>
         <source>This transaction is over the size limit. You can still send it for a fee of %1, which goes to the nodes that process your transaction and helps to support the network. Do you want to pay the fee?</source>
-        <translation>Diese Transaktion übersteigt das Limit,unterstützen Sie das Netzwerk indem sie %1 Gebühr an die Knoten entrichten.Möchten Sie die Gebühr bezahlen?</translation>
+        <translation>Diese Transaktion übersteigt das Limit, unterstützen Sie das Netzwerk indem sie %1 Gebühr an die Knoten entrichten. Möchten Sie die Gebühr bezahlen?</translation>
     </message>
     <message>
         <source>Confirm transaction fee</source>
@@ -537,7 +537,7 @@ Adresse: %4</translation>
     </message>
     <message>
         <source>URI can not be parsed! This can be caused by an invalid eMark address or malformed URI parameters.</source>
-        <translation>Die URI kann nicht erkannt werden! Die Ursache hierfür kann eine ungültige BlackCoin Adresse oder eine fehlerhafte Angabe der URI Parameter sein.</translation>
+        <translation>Die URI kann nicht erkannt werden! Die Ursache hierfür kann eine ungültige eMark Adresse oder eine fehlerhafte Angabe der URI Parameter sein.</translation>
     </message>
     <message>
         <source>Wallet is &lt;b&gt;not encrypted&lt;/b&gt;</source>
@@ -804,17 +804,17 @@ Dazu wird eine Minimumgebühr von %1pro kb benötigt.</translation>
  This means a fee of at least %2 is required. 
 
  Amounts below 0.546 times the minimum relay fee are shown as DUST.</source>
-        <translation>Dieses Laber wird rot, wenn alle Empfänger zusammen weniger als %1 empfangen.
+        <translation>Diese Beschriftung wird rot, wenn alle Empfänger zusammen weniger als %1 empfangen.
 
  Das bedeutet, dass eine Gebühr von %2 benötigt wird.
 
-Beträge unter 0.0005 DEM werden als Staub angezeigt</translation>
+Beträge unter 0.0005 DEM werden als Staub angezeigt.</translation>
     </message>
     <message>
         <source>This label turns red, if the change is smaller than %1.
 
  This means a fee of at least %2 is required.</source>
-        <translation>Dieses Label wird rot, wenn das Wechselgeld kleiner als %1 ist.
+        <translation>Diese Beschriftung wird rot, wenn das Wechselgeld kleiner als %1 ist.
 
 Das bedeutet, dass eine Gebühr von %2 benötigt wird.
 </translation>
@@ -1365,7 +1365,7 @@ Das bedeutet, dass eine Gebühr von %2 benötigt wird.
     <name>SendCoinsDialog</name>
     <message>
         <source>Send Coins</source>
-        <translation>Bitcoins überweisen</translation>
+        <translation>eMark überweisen</translation>
     </message>
     <message>
         <source>Coin Control Features</source>
@@ -1557,7 +1557,7 @@ Das bedeutet, dass eine Gebühr von %2 benötigt wird.
     </message>
     <message>
         <source>Error: The transaction was rejected. This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
-        <translation>Fehler: Transaktion wurde nicht angenommen. Dies kann bei schon ausgegebenen Coins passieren.Bitte Überprüfen.</translation>
+        <translation>Fehler: Transaktion wurde nicht angenommen. Dies kann bei schon ausgegebenen Coins passieren. Bitte Überprüfen.</translation>
     </message>
     <message>
         <source>WARNING: Invalid eMark address</source>
@@ -1584,7 +1584,7 @@ Das bedeutet, dass eine Gebühr von %2 benötigt wird.
     </message>
     <message>
         <source>The address to send the payment to  (e.g. NgJKYsHctQfF8D8r6otTGxdnB6r311NvJf)</source>
-        <translation>Adresse an welche sie eine Zahlung senden möchten (z.B. NgJKYsHctQfF8D8r6otTGxdnB6r311NvJf)</translation>
+        <translation>Die Adresse an welche Sie eine Zahlung senden möchten (z.B. NgJKYsHctQfF8D8r6otTGxdnB6r311NvJf)</translation>
     </message>
     <message>
         <source>Choose address from address book</source>
@@ -1620,7 +1620,7 @@ Das bedeutet, dass eine Gebühr von %2 benötigt wird.
     </message>
     <message>
         <source>Enter a eMark address (e.g. NgJKYsHctQfF8D8r6otTGxdnB6r311NvJf)</source>
-        <translation>eMark Adresse eingeben (e.g. NgJKYsHctQfF8D8r6otTGxdnB6r311NvJf)</translation>
+        <translation>eMark Adresse eingeben (z.B. NgJKYsHctQfF8D8r6otTGxdnB6r311NvJf)</translation>
     </message>
 </context>
 <context>
@@ -1639,7 +1639,7 @@ Das bedeutet, dass eine Gebühr von %2 benötigt wird.
     </message>
     <message>
         <source>The address to sign the message with (e.g. NgJKYsHctQfF8D8r6otTGxdnB6r311NvJf)</source>
-        <translation>die Adresse mit welcher Sie die Nachricht signieren möchten (e.g. NgJKYsHctQfF8D8r6otTGxdnB6r311NvJf)</translation>
+        <translation>Die Adresse mit welcher Sie die Nachricht signieren möchten (e.g. NgJKYsHctQfF8D8r6otTGxdnB6r311NvJf)</translation>
     </message>
     <message>
         <source>Choose an address from the address book</source>
@@ -2737,6 +2737,10 @@ Falls die Konfigurationsdatei nicht existiert, erzeugen Sie diese bitte mit Lese
     <message>
         <source>WARNING: Invalid checkpoint found! Displayed transactions may not be correct! You may need to upgrade, or notify developers.</source>
         <translation>Warnung: Ungültiger Checkpunkt gefunden! Angezeigte Transaktionen können falsch sein! Sie müssen vielleicht updaten oder die Entwickler benachrichtigen.</translation>
+    </message>
+    <message>
+        <source>Importing blocks...</source>
+        <translation>Importiert Blöcke...</translation>
     </message>
 </context>
 </TS>
