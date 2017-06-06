@@ -1955,7 +1955,7 @@ Das bedeutet, dass eine Gebühr von %2 benötigt wird.
     </message>
     <message>
         <source>Unconfirmed</source>
-        <translation>Unbestätigt:</translation>
+        <translation>Unbestätigt</translation>
     </message>
     <message>
         <source>Confirming (%1 of %2 recommended confirmations)</source>
