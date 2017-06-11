@@ -1125,7 +1125,7 @@ Das bedeutet, dass eine Gebühr von %2 benötigt wird.
     </message>
     <message>
         <source>Total of transactions that have yet to be confirmed, and do not yet count toward the current balance</source>
-        <translation>Alle Stakecoins die noch nicht zum Gesamtbetrag hinzugefügt wurden</translation>
+        <translation>Unbestätigte Coins die noch nicht zum Gesamtbetrag hinzugefügt wurden</translation>
     </message>
     <message>
         <source>Immature:</source>
