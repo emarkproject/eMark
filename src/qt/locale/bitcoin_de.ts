@@ -482,11 +482,11 @@ Dieses Produkt enthält Software, entwickelt vom OpenSSL Project für das OpenSS
     </message>
     <message>
         <source>Last received block was generated %1 ago.</source>
-        <translation>Zuletzt empfangene Block wurde vor %1 erstellt.</translation>
+        <translation>Der zuletzt empfangene Block wurde vor %1 erstellt.</translation>
     </message>
     <message>
         <source>Transactions after this will not yet be visible.</source>
-        <translation>Nachfolgende Transaktionen werden noch nicht sichtbar sein.</translation>
+        <translation>Die nachfolgenden Transaktionen werden noch nicht sichtbar sein.</translation>
     </message>
     <message>
         <source>eMark</source>
