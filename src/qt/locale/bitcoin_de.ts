@@ -257,7 +257,10 @@ Dieses Produkt enthält Software, entwickelt vom OpenSSL Project für das OpenSS
         <source>Synchronizing with network...</source>
         <translation>Synchronisiere mit Netzwerk...</translation>
     </message>
-    
+    <message>
+        <source>Importing blocks...</source>
+        <translation>Importiert Blöcke...</translation>
+    </message>
     <message>
         <source>Deutsche eMark</source>
         <translation>Deutsche eMark</translation>
@@ -2742,10 +2745,6 @@ Falls die Konfigurationsdatei nicht existiert, erzeugen Sie diese bitte mit Lese
     <message>
         <source>WARNING: Invalid checkpoint found! Displayed transactions may not be correct! You may need to upgrade, or notify developers.</source>
         <translation>Warnung: Ungültiger Checkpunkt gefunden! Angezeigte Transaktionen können falsch sein! Sie müssen vielleicht updaten oder die Entwickler benachrichtigen.</translation>
-    </message>
-    <message>
-        <source>Importing blocks...</source>
-        <translation>Importiert Blöcke...</translation>
     </message>
 </context>
 </TS>
