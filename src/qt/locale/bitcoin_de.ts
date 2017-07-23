@@ -254,6 +254,11 @@ Dieses Produkt enthält Software, entwickelt vom OpenSSL Project für das OpenSS
         <translation>Ein fataler Fehler ist aufgetreten. eMark kann nicht fortgesetzt werden. Läuft bereits eine Instanz?.</translation>
     </message>
     <message>
+        <source>Synchronizing with network...</source>
+        <translation>Synchronisiere mit Netzwerk...</translation>
+    </message>
+    
+    <message>
         <source>Deutsche eMark</source>
         <translation>Deutsche eMark</translation>
     </message>
