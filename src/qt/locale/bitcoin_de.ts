@@ -403,7 +403,7 @@ Dieses Produkt enthält Software, entwickelt vom OpenSSL Project für das OpenSS
     </message>
     <message>
         <source>&amp;Debug window</source>
-        <translation>&amp;eMark - Debug Fenster</translation>
+        <translation>eMark - &amp;Debug Fenster</translation>
     </message>
     <message>
         <source>Open debugging and diagnostic console</source>
