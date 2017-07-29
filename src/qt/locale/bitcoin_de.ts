@@ -98,7 +98,7 @@ Dieses Produkt enthält Software, entwickelt vom OpenSSL Project für das OpenSS
     </message>
     <message>
         <source>&amp;Edit</source>
-        <translation>&amp;Editieren</translation>
+        <translation>&amp;Bearbeiten</translation>
     </message>
     <message>
         <source>Export Address Book Data</source>
@@ -311,7 +311,7 @@ Dieses Produkt enthält Software, entwickelt vom OpenSSL Project für das OpenSS
     </message>
     <message>
         <source>E&amp;xit</source>
-        <translation>B&amp;eenden</translation>
+        <translation>&amp;Beenden</translation>
     </message>
     <message>
         <source>Quit application</source>
@@ -355,7 +355,7 @@ Dieses Produkt enthält Software, entwickelt vom OpenSSL Project für das OpenSS
     </message>
     <message>
         <source>&amp;Backup Wallet...</source>
-        <translation>Wallet &amp;sichern...</translation>
+        <translation>&amp;Wallet sichern...</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -363,7 +363,7 @@ Dieses Produkt enthält Software, entwickelt vom OpenSSL Project für das OpenSS
     </message>
     <message>
         <source>&amp;Change Passphrase...</source>
-        <translation>Passwort &amp;ändern...</translation>
+        <translation>&amp;Passwort ändern...</translation>
     </message>
     <message>
         <source>Change the passphrase used for wallet encryption</source>
@@ -371,7 +371,7 @@ Dieses Produkt enthält Software, entwickelt vom OpenSSL Project für das OpenSS
     </message>
     <message>
         <source>&amp;Unlock Wallet...</source>
-        <translation>Wallet &amp;entsperren</translation>
+        <translation>&amp;Wallet entsperren</translation>
     </message>
     <message>
         <source>Unlock wallet</source>
@@ -403,7 +403,7 @@ Dieses Produkt enthält Software, entwickelt vom OpenSSL Project für das OpenSS
     </message>
     <message>
         <source>&amp;Debug window</source>
-        <translation>eMark - &amp;Debug Fenster</translation>
+        <translation>&amp;eMark - Debug Fenster</translation>
     </message>
     <message>
         <source>Open debugging and diagnostic console</source>
