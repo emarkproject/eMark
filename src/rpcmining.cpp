@@ -94,7 +94,7 @@ Value getmininginfo(const Array& params, bool fHelp)
 
     uint64_t nWeight = 0;
     if (pwalletMain)
-        pwalletMain->GetStakeWeight(nWeight);
+        nWeight = pwalletMain->GetStakeWeight();
 
     Object obj, diff, weight;
     obj.push_back(Pair("blocks",        (int)nBestHeight));
@@ -132,7 +132,7 @@ Value getstakinginfo(const Array& params, bool fHelp)
 
     uint64_t nWeight = 0;
     if (pwalletMain)
-        pwalletMain->GetStakeWeight(nWeight);
+        nWeight = pwalletMain->GetStakeWeight();
 
     uint64_t nNetworkWeight = GetPoSKernelPS();
     bool staking = nLastCoinStakeSearchInterval && nWeight;

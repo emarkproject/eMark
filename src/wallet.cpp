@@ -1771,13 +1771,13 @@ bool CWallet::CreateTransaction(CScript scriptPubKey, int64_t nValue, CWalletTx&
     return CreateTransaction(vecSend, wtxNew, reservekey, nFeeRet, strTxComment, coinControl); // TX Comment
 }
 
-bool CWallet::GetStakeWeight(uint64_t& nWeight)
+uint64_t CWallet::GetStakeWeight() const
 {
     // Choose coins to use
     int64_t nBalance = GetBalance();
 
     if (nBalance <= nReserveBalance)
-        return false;
+        return 0;
 
     vector<const CWalletTx*> vwtxPrev;
 
@@ -1785,13 +1785,13 @@ bool CWallet::GetStakeWeight(uint64_t& nWeight)
     int64_t nValueIn = 0;
 
     if (!SelectCoinsForStaking(nBalance - nReserveBalance, GetTime(), setCoins, nValueIn))
-        return false;
+        return 0;
 
     if (setCoins.empty())
-        return false;
+        return 0;
 
-    nWeight = 0;
-
+    uint64_t nWeight = 0;
+	int64_t nCurrentTime = GetTime();
     CTxDB txdb("r");
 
     LOCK2(cs_main, cs_wallet);
@@ -1801,17 +1801,13 @@ bool CWallet::GetStakeWeight(uint64_t& nWeight)
         if (!txdb.ReadTxIndex(pcoin.first->GetHash(), txindex))
             continue;
 
-        int64_t nTimeWeight = GetTime() - (int64_t)pcoin.first->nTime - GetStakeMinAge(GetTime());
-        CBigNum bnWeight = CBigNum(pcoin.first->vout[pcoin.second].nValue) * nTimeWeight / COIN / (24 * 60 * 60);
-
-        // Weight is greater than zero
-        if (nTimeWeight > 0)
-            nWeight += bnWeight.getuint64();
-
+        if (nCurrentTime - pcoin.first->nTime > GetStakeMinAge(GetTime()))
+            nWeight += pcoin.first->vout[pcoin.second].nValue;
     }
 
-    return true;
+    return nWeight;
 }
+
 
 bool CWallet::CreateCoinStake(const CKeyStore& keystore, unsigned int nBits, int64_t nSearchInterval, int64_t nFees, CTransaction& txNew, CKey& key)
 {
