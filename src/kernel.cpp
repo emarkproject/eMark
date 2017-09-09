@@ -20,7 +20,7 @@ int64_t GetWeight(int64_t nIntervalBeginning, int64_t nIntervalEnd)
     // this change increases active coins participating the hash and helps
     // to secure the network when proof-of-stake difficulty is low
 
-    return min(nIntervalEnd - nIntervalBeginning, (int64_t)nStakeMaxAge) - GetStakeMinAge(nIntervalEnd);
+    return nIntervalEnd - nIntervalBeginning - GetStakeMinAge(nIntervalEnd);
 }
 
 // Get the last stake modifier and its generation time from a given block

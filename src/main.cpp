@@ -55,7 +55,6 @@ unsigned int GetStakeMinAge(int64_t nTime)
     return 60 * 60 * 24 * 365; // minimum age: 365 days
 }
 
-unsigned int nStakeMaxAge = 60 * 60 * 24 * 720; // stake age of full weight
 unsigned int nStakeTargetSpacing = 120; // 120 seconds block spacing
 
 
