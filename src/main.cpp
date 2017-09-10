@@ -2494,13 +2494,11 @@ bool CBlock::SignBlock(CWallet& wallet, int64_t nFees)
         int64_t nSearchInterval = IsProtocolV3(nTime) ? 1 : nSearchTime - nLastCoinStakeSearchTime;
         if (wallet.CreateCoinStake(wallet, nBits, nSearchInterval, nFees, txCoinStake, key))
         {
-            if (txCoinStake.nTime >= max(pindexBest->GetPastTimeLimit()+1, PastDrift(pindexBest->GetBlockTime())))
+            if (txCoinStake.nTime >= pindexBest->GetPastTimeLimit()+1)
             {
                 // make sure coinstake would meet timestamp protocol
                 //    as it would be the same as the block timestamp
                 vtx[0].nTime = nTime = txCoinStake.nTime;
-                nTime = max(pindexBest->GetPastTimeLimit()+1, GetMaxTransactionTime());
-                nTime = max(GetBlockTime(), PastDrift(pindexBest->GetBlockTime()));
 
                 // we have to make sure that we have no future timestamps in
                 //    our transactions set

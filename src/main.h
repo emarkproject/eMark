@@ -59,9 +59,6 @@ inline int64_t FutureDriftV1(int64_t nTime) { return nTime + 2 * 60 * 60; } //up
 inline int64_t FutureDriftV2(int64_t nTime) { return nTime + 15; } 
 inline int64_t FutureDrift(int64_t nTime) { return IsProtocolV3(nTime) ? FutureDriftV2(nTime) : FutureDriftV1(nTime); }
 
-inline int64_t PastDrift(int64_t nTime)   { return IsProtocolV3(nTime) ? nTime      : nTime - 2 * 60 * 60; }
-
-
 extern CScript COINBASE_FLAGS;
 extern CCriticalSection cs_main;
 extern CTxMemPool mempool;
