@@ -722,7 +722,7 @@ public:
         if (nHeight >= 9689 || TestNet())
         {
             // Take last bit of block hash as entropy bit
-            unsigned int nEntropyBit = ((GetHash().Get64()) & 1llu);
+            unsigned int nEntropyBit = ((GetHash().GetLow64()) & 1llu);
             return nEntropyBit;
         }
 
@@ -730,7 +730,7 @@ public:
         int nBitNum = nHeight & 0xFF;
         int nItemNum = nHeight / 0xFF;
 
-        unsigned int nEntropyBit = (unsigned int) ((entropyStore[nItemNum] & (uint256(1) << nBitNum)) >> nBitNum).Get64();
+        unsigned int nEntropyBit = (unsigned int) ((entropyStore[nItemNum] & (uint256(1) << nBitNum)) >> nBitNum).GetLow64();
         return nEntropyBit;
     }
 
