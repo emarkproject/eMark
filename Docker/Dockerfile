@@ -9,8 +9,7 @@ RUN apt-get update -y \
   && apt-get install -y libboost-all-dev \
   && apt-get install -y libqrencode-dev \
   && apt-get install -y git \
-  && apt-get install -y libqt4-dev libminiupnpc-dev \
-  && apt-get install -y pax-utils
+  && apt-get install -y libqt4-dev libminiupnpc-dev
 
 RUN mkdir ~/.ssh/ \
   && touch ~/.ssh/id_rsa \
@@ -23,7 +22,5 @@ RUN ssh-keyscan github.com >> ~/.ssh/known_hosts \
 
 RUN cd /emark/src \
   && make -f makefile.unix -e PIC=1
-
-RUN scanelf -e /emark/src/eMarkd
 
 CMD ["/emark/src/eMarkd"]
