@@ -1665,7 +1665,8 @@ bool CWallet::CreateTransaction(const vector<pair<CScript, int64_t> >& vecSend, 
     // going ten blocks back. Doesn't yet do anything for sniping, but does act
     // to shake out wallet bugs like not showing nLockTime'd transactions at
     // all.
-    wtxNew.nLockTime = std::max(0, nBestHeight - 10);
+    if (!IsInitialBlockDownload())
+        wtxNew.nLockTime = std::max(0, nBestHeight - 10);
 
     // Secondly occasionally randomly pick a nLockTime even further back, so
     // that transactions that are delayed after signing for whatever reason,
