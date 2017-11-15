@@ -91,7 +91,7 @@ public:
         assert(hashGenesisBlock == uint256("0x00000ac7a13fffb72c10f6fd9a773dcf3e8388b8ffc359cee2483b1236ebcda1"));
         assert(genesis.hashMerkleRoot == uint256("0x5def52f0e380a698fc529c4aa8c9810d79149a3b2d45b33bb262cb11e22cc5e9"));
 
-        vSeeds.push_back(CDNSSeedData("deutsche-emark.org", "seed.deutsche-emark.org"));
+        vSeeds.push_back(CDNSSeedData("deutsche-emark.de", "seed.deutsche-emark.de"));
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 53);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 30);
         base58Prefixes[SECRET_KEY] =     std::vector<unsigned char>(1, 181);
