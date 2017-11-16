@@ -1934,6 +1934,10 @@ Das bedeutet, dass eine Gebühr von %2 benötigt wird.
         <source>Address</source>
         <translation>Adresse</translation>
     </message>
+	<message>
+        <source>Transaction Comment</source>
+        <translation>Verwendungszweck</translation>
+    </message>
     <message>
         <source>Amount</source>
         <translation>Betrag</translation>
@@ -2020,6 +2024,10 @@ Das bedeutet, dass eine Gebühr von %2 benötigt wird.
     <message>
         <source>Destination address of transaction.</source>
         <translation>Zieladresse der Transaktion</translation>
+    </message>
+	<message>
+        <source>Transaction Comment.</source>
+        <translation>Verwendungszweck der Transaktion</translation>
     </message>
     <message>
         <source>Amount removed from or added to balance.</source>
