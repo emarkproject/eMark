@@ -482,11 +482,11 @@ Dieses Produkt enthält Software, entwickelt vom OpenSSL Project für das OpenSS
     </message>
     <message>
         <source>Last received block was generated %1 ago.</source>
-        <translation>Zuletzt empfangene Block wurde vor %1 erstellt.</translation>
+        <translation>Der zuletzt empfangene Block wurde vor %1 erstellt.</translation>
     </message>
     <message>
         <source>Transactions after this will not yet be visible.</source>
-        <translation>Nachfolgende Transaktionen werden noch nicht sichtbar sein.</translation>
+        <translation>Die nachfolgenden Transaktionen werden noch nicht sichtbar sein.</translation>
     </message>
     <message>
         <source>eMark</source>
@@ -541,15 +541,15 @@ Adresse: %4</translation>
     </message>
     <message>
         <source>Wallet is &lt;b&gt;not encrypted&lt;/b&gt;</source>
-        <translation>Wallet ist &lt;b&gt;nicht verschlüsselt&lt;/b&gt; </translation>
+        <translation>Die Wallet ist &lt;b&gt;nicht verschlüsselt&lt;/b&gt; </translation>
     </message>
     <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
-        <translation>Wallet ist &lt;b&gt;verschlüsselt&lt;/b&gt; und aktuell &lt;b&gt;entsperrt&lt;/b&gt;</translation>
+        <translation>Die Wallet ist &lt;b&gt;verschlüsselt&lt;/b&gt; und aktuell &lt;b&gt;entsperrt&lt;/b&gt;</translation>
     </message>
     <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
-        <translation>Wallet ist &lt;b&gt;verschlüsselt&lt;/b&gt; und aktuell &lt;b&gt;gesperrt&lt;/b&gt;</translation>
+        <translation>Die Wallet ist &lt;b&gt;verschlüsselt&lt;/b&gt; und aktuell &lt;b&gt;gesperrt&lt;/b&gt;</translation>
     </message>
     <message>
         <source>Backup Wallet</source>
@@ -1125,7 +1125,7 @@ Das bedeutet, dass eine Gebühr von %2 benötigt wird.
     </message>
     <message>
         <source>Total of transactions that have yet to be confirmed, and do not yet count toward the current balance</source>
-        <translation>Alle Stakecoins die noch nicht zum Gesamtbetrag hinzugefügt wurden</translation>
+        <translation>Unbestätigte Coins die noch nicht zum Gesamtbetrag hinzugefügt wurden</translation>
     </message>
     <message>
         <source>Immature:</source>
