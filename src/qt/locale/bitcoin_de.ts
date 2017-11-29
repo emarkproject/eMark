@@ -98,7 +98,7 @@ Dieses Produkt enthält Software, entwickelt vom OpenSSL Project für das OpenSS
     </message>
     <message>
         <source>&amp;Edit</source>
-        <translation>&amp;Editieren</translation>
+        <translation>&amp;Bearbeiten</translation>
     </message>
     <message>
         <source>Export Address Book Data</source>
@@ -254,6 +254,14 @@ Dieses Produkt enthält Software, entwickelt vom OpenSSL Project für das OpenSS
         <translation>Ein fataler Fehler ist aufgetreten. eMark kann nicht fortgesetzt werden. Läuft bereits eine Instanz?.</translation>
     </message>
     <message>
+        <source>Synchronizing with network...</source>
+        <translation>Synchronisiere mit Netzwerk...</translation>
+    </message>
+    <message>
+        <source>Importing blocks...</source>
+        <translation>Importiert Blöcke...</translation>
+    </message>
+    <message>
         <source>Deutsche eMark</source>
         <translation>Deutsche eMark</translation>
     </message>
@@ -303,7 +311,7 @@ Dieses Produkt enthält Software, entwickelt vom OpenSSL Project für das OpenSS
     </message>
     <message>
         <source>E&amp;xit</source>
-        <translation>B&amp;eenden</translation>
+        <translation>&amp;Beenden</translation>
     </message>
     <message>
         <source>Quit application</source>
@@ -347,7 +355,7 @@ Dieses Produkt enthält Software, entwickelt vom OpenSSL Project für das OpenSS
     </message>
     <message>
         <source>&amp;Backup Wallet...</source>
-        <translation>Wallet &amp;sichern...</translation>
+        <translation>&amp;Wallet sichern...</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -355,7 +363,7 @@ Dieses Produkt enthält Software, entwickelt vom OpenSSL Project für das OpenSS
     </message>
     <message>
         <source>&amp;Change Passphrase...</source>
-        <translation>Passwort &amp;ändern...</translation>
+        <translation>&amp;Passwort ändern...</translation>
     </message>
     <message>
         <source>Change the passphrase used for wallet encryption</source>
@@ -363,7 +371,7 @@ Dieses Produkt enthält Software, entwickelt vom OpenSSL Project für das OpenSS
     </message>
     <message>
         <source>&amp;Unlock Wallet...</source>
-        <translation>Wallet &amp;entsperren</translation>
+        <translation>&amp;Wallet entsperren</translation>
     </message>
     <message>
         <source>Unlock wallet</source>
@@ -2745,10 +2753,6 @@ Falls die Konfigurationsdatei nicht existiert, erzeugen Sie diese bitte mit Lese
     <message>
         <source>WARNING: Invalid checkpoint found! Displayed transactions may not be correct! You may need to upgrade, or notify developers.</source>
         <translation>Warnung: Ungültiger Checkpunkt gefunden! Angezeigte Transaktionen können falsch sein! Sie müssen vielleicht updaten oder die Entwickler benachrichtigen.</translation>
-    </message>
-    <message>
-        <source>Importing blocks...</source>
-        <translation>Importiert Blöcke...</translation>
     </message>
 </context>
 </TS>
