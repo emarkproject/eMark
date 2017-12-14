@@ -40,6 +40,16 @@ greaterThan(QT_MAJOR_VERSION, 4) {
 # QRENCODE_LIB_PATH=C:/deps/qrencode-3.4.4/.libs
 # Windows end
 
+# Mac begin
+# INCLUDEPATH += src src/json src/qt
+# INCLUDEPATH += /usr/local/opt
+# QRENCODE_LIB_PATH= /usr/local/opt/qrencode/4.0.0/lib
+# MINIUPNPC_LIB_PATH= /usr/local/opt/miniupnpc/2.0.2/lib
+# OPENSSL_LIB_PATH= /usr/local/opt/openssl/1.0.2m/lib
+# BDB_LIB_PATH= /usr/local/opt/berkeley@4/4.8.30/lib
+# BOOST_LIB_PATH= /usr/local/opt/boost/1.65.1/lib
+# BOOST_THREAD_LIB_SUFFIX = $$BOOST_LIB_SUFFIX
+# Mac end
 
 OBJECTS_DIR = build
 MOC_DIR = build
@@ -413,8 +423,8 @@ windows:!contains(MINGW_THREAD_BUGFIX, 0) {
     QMAKE_LIBS_QT_ENTRY = -lmingwthrd $$QMAKE_LIBS_QT_ENTRY
 }
 
-macx:HEADERS += src/qt/macdockiconhandler.h
-macx:OBJECTIVE_SOURCES += src/qt/macdockiconhandler.mm
+macx:HEADERS += src/qt/macdockiconhandler.h src/qt/macnotificationhandler.h
+macx:OBJECTIVE_SOURCES += src/qt/macdockiconhandler.mm src/qt/macnotificationhandler.mm
 macx:LIBS += -framework Foundation -framework ApplicationServices -framework AppKit
 macx:DEFINES += MAC_OSX MSG_NOSIGNAL=0
 macx:ICON = src/qt/res/icons/bitcoin.icns
