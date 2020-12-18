@@ -36,6 +36,7 @@ static const int PROTOCOL_VERSION = 60012;
 static const int INIT_PROTO_VERSION = 209;
 
 // disconnect from peers older than this proto version
+//        shouldn't this be just a bit less that PROTOCOL_VERSION (60012) ? dbk 
 static const int MIN_PEER_PROTO_VERSION = 209;
 
 // nTime field added to CAddress, starting with this version;
