@@ -48,8 +48,8 @@ do not use Version 1.2.x. You can loose Coins
 ### Wallet Version V1.0.x no longer work ###
 
 
-
-### Quick install Linux ###
+Quick install Linux:
+====================
 
 eMarkd:
 -------
