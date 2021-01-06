@@ -10,7 +10,8 @@
 
  - Also adds some static hard-coded nodes as backup
 ### Version 1.6.0 ###
-  @Rumhocker  : comments ?
+  Adds 2 hard-coded fixed peers and uses updated Boost and SSL libraries
+  
 ### Version 1.5.0 ###
 - Lots of Security Patches
 - Compatibility with newest Packages
