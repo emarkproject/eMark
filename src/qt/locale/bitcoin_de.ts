@@ -1136,7 +1136,7 @@ Diese Bezeichnungwird rot, wenn die Priorität kleiner als &quot;mittel&quot; is
     </message>
     <message>
         <source>Total of transactions that have yet to be confirmed, and do not yet count toward the current balance</source>
-        <translation>Betrag aus unbestätigten Transaktionen, der noch nicht im aktuellen Kontostand enthalten ist</translation>
+        <translation>Unbestätigt erhaltene eMark die noch nicht zum Gesamtbetrag hinzugefügt wurden</translation>
     </message>
     <message>
         <source>Immature:</source>
