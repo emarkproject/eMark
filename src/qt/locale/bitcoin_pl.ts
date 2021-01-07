@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="en">
+<TS version="2.1" language="pl">
 <context>
     <name>AboutDialog</name>
     <message>
         <source>About eMark Core</source>
-        <translation>About eMark Core</translation>
+        <translation>O eMark Core</translation>
     </message>
     <message>
         <source>&lt;b&gt;eMark Core&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;eMark Core&lt;/b&gt; version</translation>
+        <translation>Wersja &lt;b&gt;eMark Core&lt;/b&gt;</translation>
     </message>
     <message>
         <source>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2012 The Peercoin developers
 Copyright © 2015-2021 The eMark Core developers</source>
-        <translation>Copyright © 2009-2014 The Bitcoin developers
-Copyright © 2012-2012 The Peercoin developers
-Copyright © 2015-2021 The eMark Core developers</translation>
+        <translation>Copyright © 2009-2014 Twórcy Bitcoin
+Copyright © 2012-2012 Twórcy Peercoin
+Copyright © 2015-2021 Programiści eMark Core</translation>
     </message>
     <message>
         <source>
@@ -27,109 +27,109 @@ Distributed under the MIT/X11 software license, see the accompanying file COPYIN
 
 This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit (&lt;a href=&quot;https://www.openssl.org/&quot;&gt;https://www.openssl.org/&lt;/a&gt;) and cryptographic software written by Eric Young (&lt;a href=&quot;mailto:eay@cryptsoft.com&quot;&gt;eay@cryptsoft.com&lt;/a&gt;) and UPnP software written by Thomas Bernard.</source>
         <translation>
-This is experimental software.
+To jest oprogramowanie eksperymentalne.
 
-Distributed under the MIT/X11 software license, see the accompanying file COPYING or &lt;a href=&quot;http://www.opensource.org/licenses/mit-license.php&quot;&gt;http://www.opensource.org/licenses/mit-license.php&lt;/a&gt;.
+Rozpowszechniane na licencji oprogramowania MIT / X11, patrz dołączony plik COPYING lub &lt;a href=&quot;http://www.opensource.org/licenses/mit-license.php&quot;&gt; http://www.opensource.org/licenses /mit-license.php &lt;/a&gt;.
 
-This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit (&lt;a href=&quot;https://www.openssl.org/&quot;&gt;https://www.openssl.org/&lt;/a&gt;) and cryptographic software written by Eric Young (&lt;a href=&quot;mailto:eay@cryptsoft.com&quot;&gt;eay@cryptsoft.com&lt;/a&gt;) and UPnP software written by Thomas Bernard.</translation>
+Ten produkt zawiera oprogramowanie opracowane przez OpenSSL Project do użytku w OpenSSL Toolkit (&lt;a href=&quot;https://www.openssl.org/&quot;&gt; https://www.openssl.org/ &lt;/a&gt;) i kryptograficzne oprogramowanie napisane przez Erica Younga (&lt;a href=&quot;mailto:eay@cryptsoft.com&quot;&gt; eay@cryptsoft.com &lt;/a&gt;) i oprogramowanie UPnP, którego autorem jest Thomas Bernard.</translation>
     </message>
 </context>
 <context>
     <name>AddressBookPage</name>
     <message>
         <source>Address Book</source>
-        <translation>Address Book</translation>
+        <translation>Książka adresowa</translation>
     </message>
     <message>
         <source>These are your eMark addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>These are your eMark addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</translation>
+        <translation>To są Twoje adresy eMark do otrzymywania płatności. Możesz zechcieć podać inny nadawcy, aby móc śledzić, kto Ci płaci.</translation>
     </message>
     <message>
         <source>Double-click to edit address or label</source>
-        <translation>Double-click to edit address or label</translation>
+        <translation>Kliknij dwukrotnie, aby edytować adres lub etykietę</translation>
     </message>
     <message>
         <source>Create a new address</source>
-        <translation>Create a new address</translation>
+        <translation>Utwórz nowy adres</translation>
     </message>
     <message>
         <source>&amp;New Address</source>
-        <translation>&amp;New Address</translation>
+        <translation>&amp;Nowy adres</translation>
     </message>
     <message>
         <source>Copy the currently selected address to the system clipboard</source>
-        <translation>Copy the currently selected address to the system clipboard</translation>
+        <translation>Skopiuj aktualnie wybrany adres do schowka systemowego</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
-        <translation>&amp;Copy Address</translation>
+        <translation>&amp;Kopiuj adres</translation>
     </message>
     <message>
         <source>Show &amp;QR Code</source>
-        <translation>Show &amp;QR Code</translation>
+        <translation>Pokaż &amp;kod QR</translation>
     </message>
     <message>
         <source>Sign a message to prove you own a eMark address</source>
-        <translation>Sign a message to prove you own a eMark address</translation>
+        <translation>Podpisz wiadomość, aby udowodnić, że posiadasz adres eMark</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
-        <translation>Sign &amp;Message</translation>
+        <translation>Podpisz &amp;wiadomość</translation>
     </message>
     <message>
         <source>Verify a message to ensure it was signed with a specified eMark address</source>
-        <translation>Verify a message to ensure it was signed with a specified eMark address</translation>
+        <translation>Sprawdź wiadomość, aby upewnić się, że została podpisana podanym adresem eMark</translation>
     </message>
     <message>
         <source>&amp;Verify Message</source>
-        <translation>&amp;Verify Message</translation>
+        <translation>&amp;Zweryfikuj wiadomość</translation>
     </message>
     <message>
         <source>Delete the currently selected address from the list</source>
-        <translation>Delete the currently selected address from the list</translation>
+        <translation>Usuń aktualnie wybrany adres z listy</translation>
     </message>
     <message>
         <source>&amp;Delete</source>
-        <translation>&amp;Delete</translation>
+        <translation>&amp;Usunąć</translation>
     </message>
     <message>
         <source>Copy &amp;Label</source>
-        <translation>Copy &amp;Label</translation>
+        <translation>Kopiuj &amp;etykietę</translation>
     </message>
     <message>
         <source>&amp;Edit</source>
-        <translation>&amp;Edit</translation>
+        <translation>&amp;Edytować</translation>
     </message>
     <message>
         <source>Export Address Book Data</source>
-        <translation>Export Address Book Data</translation>
+        <translation>Eksportuj dane książki adresowej</translation>
     </message>
     <message>
         <source>Comma separated file (*.csv)</source>
-        <translation>Comma separated file (*.csv)</translation>
+        <translation>Plik rozdzielany przecinkami (*.csv)</translation>
     </message>
     <message>
         <source>Error exporting</source>
-        <translation>Error exporting</translation>
+        <translation>Błąd podczas eksportowania</translation>
     </message>
     <message>
         <source>Could not write to file %1.</source>
-        <translation>Could not write to file %1.</translation>
+        <translation>Nie można zapisać do pliku %1.</translation>
     </message>
 </context>
 <context>
     <name>AddressTableModel</name>
     <message>
         <source>Label</source>
-        <translation>Label</translation>
+        <translation>Etykieta</translation>
     </message>
     <message>
         <source>Address</source>
-        <translation>Address</translation>
+        <translation>Adres</translation>
     </message>
     <message>
         <source>(no label)</source>
-        <translation>(no label)</translation>
+        <translation>(bez etykiety)</translation>
     </message>
 </context>
 <context>
@@ -429,7 +429,8 @@ This product includes software developed by the OpenSSL Project for use in the O
         <source>%n active connection(s) to eMark network</source>
         <translation>
             <numerusform>%n active connection(s) to eMark network</numerusform>
-            <numerusform>%n active connections to eMark network</numerusform>
+            <numerusform></numerusform>
+            <numerusform></numerusform>
         </translation>
     </message>
     <message>
@@ -445,6 +446,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>
             <numerusform>%n hour(s)</numerusform>
             <numerusform>%n hours</numerusform>
+            <numerusform></numerusform>
         </translation>
     </message>
     <message numerus="yes">
@@ -452,6 +454,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>
             <numerusform>%n day(s)</numerusform>
             <numerusform>%n days</numerusform>
+            <numerusform></numerusform>
         </translation>
     </message>
     <message numerus="yes">
@@ -459,6 +462,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>
             <numerusform>%n week(s)</numerusform>
             <numerusform>%n weeks</numerusform>
+            <numerusform></numerusform>
         </translation>
     </message>
     <message>
@@ -470,6 +474,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>
             <numerusform>%n year(s)</numerusform>
             <numerusform>%n years</numerusform>
+            <numerusform></numerusform>
         </translation>
     </message>
     <message>
@@ -573,6 +578,7 @@ Address: %4
         <translation>
             <numerusform>%n second(s)</numerusform>
             <numerusform>%n seconds</numerusform>
+            <numerusform></numerusform>
         </translation>
     </message>
     <message numerus="yes">
@@ -580,6 +586,7 @@ Address: %4
         <translation>
             <numerusform>%n minute(s)</numerusform>
             <numerusform>%n minutes</numerusform>
+            <numerusform></numerusform>
         </translation>
     </message>
     <message>
@@ -1097,7 +1104,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <translation>Form</translation>
     </message>
     <message>
-        <source>Balance</source>
+        <source>Wallet</source>
         <translation>Balance</translation>
     </message>
     <message>
@@ -1773,6 +1780,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <translation>
             <numerusform>Open for %n more block(s)</numerusform>
             <numerusform>Open for %n more blocks</numerusform>
+            <numerusform></numerusform>
         </translation>
     </message>
     <message>
@@ -1808,6 +1816,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <translation>
             <numerusform>, broadcast through %n node(s)</numerusform>
             <numerusform>, broadcast through %n nodes</numerusform>
+            <numerusform></numerusform>
         </translation>
     </message>
     <message>
@@ -1851,6 +1860,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <translation>
             <numerusform>matures in %n more block(s)</numerusform>
             <numerusform>matures in %n more blocks</numerusform>
+            <numerusform></numerusform>
         </translation>
     </message>
     <message>
@@ -1948,6 +1958,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <translation>
             <numerusform>Open for %n more block(s)</numerusform>
             <numerusform>Open for %n more blocks</numerusform>
+            <numerusform></numerusform>
         </translation>
     </message>
     <message>
@@ -2654,8 +2665,8 @@ for example: alertnotify=echo %%s | mail -s &quot;eMark Alert&quot; admin@foo.co
         <translation>Unable to bind to %s on this computer (bind returned error %d, %s)</translation>
     </message>
     <message>
-        <source>eMark version</source>
-        <translation>eMark version</translation>
+        <source>eMark Core version</source>
+        <translation>eMark Core version</translation>
     </message>
     <message>
         <source>Usage:</source>

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="en">
+<TS version="2.1" language="it">
 <context>
     <name>AboutDialog</name>
     <message>
         <source>About eMark Core</source>
-        <translation>About eMark Core</translation>
+        <translation>Info su eMark Core</translation>
     </message>
     <message>
         <source>&lt;b&gt;eMark Core&lt;/b&gt; version</source>
@@ -15,9 +15,9 @@
         <source>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2012 The Peercoin developers
 Copyright © 2015-2021 The eMark Core developers</source>
-        <translation>Copyright © 2009-2014 The Bitcoin developers
-Copyright © 2012-2012 The Peercoin developers
-Copyright © 2015-2021 The eMark Core developers</translation>
+        <translation>Copyright © 2009-2014 Sviluppatori di Bitcoin
+Copyright © 2012-2012 Sviluppatori di Peercoin
+Copyright © 2015-2021 Sviluppatori di eMark Core</translation>
     </message>
     <message>
         <source>
@@ -27,231 +27,241 @@ Distributed under the MIT/X11 software license, see the accompanying file COPYIN
 
 This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit (&lt;a href=&quot;https://www.openssl.org/&quot;&gt;https://www.openssl.org/&lt;/a&gt;) and cryptographic software written by Eric Young (&lt;a href=&quot;mailto:eay@cryptsoft.com&quot;&gt;eay@cryptsoft.com&lt;/a&gt;) and UPnP software written by Thomas Bernard.</source>
         <translation>
-This is experimental software.
+Questo è un software sperimentale. 
 
-Distributed under the MIT/X11 software license, see the accompanying file COPYING or &lt;a href=&quot;http://www.opensource.org/licenses/mit-license.php&quot;&gt;http://www.opensource.org/licenses/mit-license.php&lt;/a&gt;.
+Per maggiori informazioni &lt;a href=&quot;http://www.deutsche-eMark.org&quot;&gt;http://www.deutsche-eMark.org&lt;/a&gt;
 
-This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit (&lt;a href=&quot;https://www.openssl.org/&quot;&gt;https://www.openssl.org/&lt;/a&gt;) and cryptographic software written by Eric Young (&lt;a href=&quot;mailto:eay@cryptsoft.com&quot;&gt;eay@cryptsoft.com&lt;/a&gt;) and UPnP software written by Thomas Bernard.</translation>
+Distribuito sotto la licenza software MIT/X11, vedi il file COPYING incluso oppure su http://www.opensource.org/licenses/mit-license.php.
+
+Questo prodotto include software sviluppato dal progetto OpenSSL per l&apos;uso del Toolkit OpenSSL (https://www.openssl.org/), software crittografico scritto da Eric Young (eay@cryptsoft.com) e software UPnP scritto da Thomas Bernard.</translation>
     </message>
 </context>
 <context>
     <name>AddressBookPage</name>
     <message>
         <source>Address Book</source>
-        <translation>Address Book</translation>
+        <translation>Rubrica</translation>
     </message>
     <message>
         <source>These are your eMark addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>These are your eMark addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</translation>
+        <translation>Questi sono i tuoi indirizzi eMark per ricevere pagamenti. Potrai darne uno diverso ad ognuno per tenere così traccia di chi ti sta pagando.</translation>
     </message>
     <message>
         <source>Double-click to edit address or label</source>
-        <translation>Double-click to edit address or label</translation>
+        <translation>Fai doppio click per modificare o cancellare l&apos;etichetta</translation>
     </message>
     <message>
         <source>Create a new address</source>
-        <translation>Create a new address</translation>
+        <translation>Crea un nuovo indirizzo</translation>
     </message>
     <message>
         <source>&amp;New Address</source>
-        <translation>&amp;New Address</translation>
+        <translation>&amp;Nuovo indirizzo</translation>
     </message>
     <message>
         <source>Copy the currently selected address to the system clipboard</source>
-        <translation>Copy the currently selected address to the system clipboard</translation>
+        <translation>Copia l&apos;indirizzo attualmente selezionato nella clipboard</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
-        <translation>&amp;Copy Address</translation>
+        <translation>&amp;Copia l&apos;indirizzo</translation>
     </message>
     <message>
         <source>Show &amp;QR Code</source>
-        <translation>Show &amp;QR Code</translation>
+        <translation>Mostra il codice &amp;QR</translation>
     </message>
     <message>
         <source>Sign a message to prove you own a eMark address</source>
-        <translation>Sign a message to prove you own a eMark address</translation>
+        <translation>Firma un messaggio per dimostrare di possedere questo indirizzo</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
-        <translation>Sign &amp;Message</translation>
+        <translation>Firma il &amp;messaggio</translation>
     </message>
     <message>
         <source>Verify a message to ensure it was signed with a specified eMark address</source>
-        <translation>Verify a message to ensure it was signed with a specified eMark address</translation>
+        <translation>Verifica un messaggio per accertarsi che sia firmato con un indirizzo eMark specifico</translation>
     </message>
     <message>
         <source>&amp;Verify Message</source>
-        <translation>&amp;Verify Message</translation>
+        <translation>&amp;Verifica Messaggio</translation>
     </message>
     <message>
         <source>Delete the currently selected address from the list</source>
-        <translation>Delete the currently selected address from the list</translation>
+        <translation>Cancella l&apos;indirizzo attualmente selezionato dalla lista</translation>
     </message>
     <message>
         <source>&amp;Delete</source>
-        <translation>&amp;Delete</translation>
+        <translation>&amp;Cancella</translation>
     </message>
     <message>
         <source>Copy &amp;Label</source>
-        <translation>Copy &amp;Label</translation>
+        <translation>Copia &amp;l&apos;etichetta</translation>
     </message>
     <message>
         <source>&amp;Edit</source>
-        <translation>&amp;Edit</translation>
+        <translation>&amp;Modifica</translation>
     </message>
     <message>
         <source>Export Address Book Data</source>
-        <translation>Export Address Book Data</translation>
+        <translation>Esporta gli indirizzi della rubrica</translation>
     </message>
     <message>
         <source>Comma separated file (*.csv)</source>
-        <translation>Comma separated file (*.csv)</translation>
+        <translation>Testo CSV (*.csv)</translation>
     </message>
     <message>
         <source>Error exporting</source>
-        <translation>Error exporting</translation>
+        <translation>Errore nell&apos;esportazione</translation>
     </message>
     <message>
         <source>Could not write to file %1.</source>
-        <translation>Could not write to file %1.</translation>
+        <translation>Impossibile scrivere sul file %1.</translation>
     </message>
 </context>
 <context>
     <name>AddressTableModel</name>
     <message>
         <source>Label</source>
-        <translation>Label</translation>
+        <translation>Etichetta</translation>
     </message>
     <message>
         <source>Address</source>
-        <translation>Address</translation>
+        <translation>Indirizzo</translation>
     </message>
     <message>
         <source>(no label)</source>
-        <translation>(no label)</translation>
+        <translation>(nessuna etichetta)</translation>
     </message>
 </context>
 <context>
     <name>AskPassphraseDialog</name>
     <message>
         <source>Passphrase Dialog</source>
-        <translation>Passphrase Dialog</translation>
+        <translation>Finestra passphrase</translation>
     </message>
     <message>
         <source>Enter passphrase</source>
-        <translation>Enter passphrase</translation>
+        <translation>Inserisci la passphrase</translation>
     </message>
     <message>
         <source>New passphrase</source>
-        <translation>New passphrase</translation>
+        <translation>Nuova passphrase</translation>
     </message>
     <message>
         <source>Repeat new passphrase</source>
-        <translation>Repeat new passphrase</translation>
+        <translation>Ripeti la passphrase</translation>
     </message>
     <message>
         <source>Serves to disable the trivial sendmoney when OS account compromised. Provides no real security.</source>
-        <translation>Serves to disable the trivial sendmoney when OS account compromised. Provides no real security.</translation>
+        <translation>Serve per disabilitare il banale sendmoney quando l&apos;account del sistema operativo viene compromesso. Non fornisce una vera sicurezza.</translation>
     </message>
     <message>
         <source>For staking only</source>
-        <translation>For staking only</translation>
+        <translation></translation>
     </message>
     <message>
         <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
-        <translation>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</translation>
+        <translation>Inserisci la passphrase per il portamonete.&lt;br/&gt;Per piacere usare unapassphrase di &lt;b&gt;10 o più caratteri casuali&lt;/b&gt;, o &lt;b&gt;otto o più parole&lt;/b&gt;.</translation>
     </message>
     <message>
         <source>Encrypt wallet</source>
-        <translation>Encrypt wallet</translation>
+        <translation>Cifra il portamonete</translation>
     </message>
     <message>
         <source>This operation needs your wallet passphrase to unlock the wallet.</source>
-        <translation>This operation needs your wallet passphrase to unlock the wallet.</translation>
+        <translation>Quest&apos;operazione necessita della passphrase per sbloccare il portamonete.</translation>
     </message>
     <message>
         <source>Unlock wallet</source>
-        <translation>Unlock wallet</translation>
+        <translation>Sblocca il portamonete</translation>
     </message>
     <message>
         <source>This operation needs your wallet passphrase to decrypt the wallet.</source>
-        <translation>This operation needs your wallet passphrase to decrypt the wallet.</translation>
+        <translation>Quest&apos;operazione necessita della passphrase per decifrare il portamonete.</translation>
     </message>
     <message>
         <source>Decrypt wallet</source>
-        <translation>Decrypt wallet</translation>
+        <translation>Decifra il portamonete</translation>
     </message>
     <message>
         <source>Change passphrase</source>
-        <translation>Change passphrase</translation>
+        <translation>Cambia la passphrase</translation>
     </message>
     <message>
         <source>Enter the old and new passphrase to the wallet.</source>
-        <translation>Enter the old and new passphrase to the wallet.</translation>
+        <translation>Inserisci la vecchia e la nuova passphrase per il portamonete.</translation>
     </message>
     <message>
         <source>Confirm wallet encryption</source>
-        <translation>Confirm wallet encryption</translation>
+        <translation>Conferma la cifratura del portamonete</translation>
     </message>
     <message>
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR COINS&lt;/b&gt;!</source>
-        <translation>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR COINS&lt;/b&gt;!</translation>
+        <translation>Attenzione: se si cifra il portamonete e si perde la frase d&apos;ordine, &lt;b&gt;SI PERDERANNO TUTTI I PROPRI COIN&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
-        <translation>Are you sure you wish to encrypt your wallet?</translation>
+        <translation>Si è sicuri di voler cifrare il portamonete?</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
-        <translation>Wallet encrypted</translation>
+        <translation>Portamonete cifrato</translation>
     </message>
     <message>
-        <source>eMark Core will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
-        <translation>eMark Core will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</translation>
+        <source>eMark will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
+        <translation>eMark Core verrà ora chiuso per finire il processo di crittazione. Ricorda che criptare il tuo portamonete non può fornire una protezione totale contro furti causati da malware che dovessero infettare il tuo computer.</translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
-        <translation>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</translation>
+        <translation>IMPORTANTE: qualsiasi backup del portafoglio effettuato precedentemente dovrebbe essere sostituito con il file del portafoglio criptato appena generato. Per ragioni di sicurezza, i backup precedenti del file del portafoglio non criptato diventeranno inservibili non appena si inizi ad usare il nuovo portafoglio criptato.</translation>
     </message>
     <message>
         <source>Wallet encryption failed</source>
-        <translation>Wallet encryption failed</translation>
+        <translation>Cifratura del portamonete fallita</translation>
     </message>
     <message>
         <source>Wallet encryption failed due to an internal error. Your wallet was not encrypted.</source>
-        <translation>Wallet encryption failed due to an internal error. Your wallet was not encrypted.</translation>
+        <translation>Cifratura del portamonete fallita a causa di un errore interno. Il portamonete non è stato cifrato.</translation>
     </message>
     <message>
         <source>The supplied passphrases do not match.</source>
-        <translation>The supplied passphrases do not match.</translation>
+        <translation>Le passphrase inserite non corrispondono.</translation>
     </message>
     <message>
         <source>Wallet unlock failed</source>
-        <translation>Wallet unlock failed</translation>
+        <translation>Sblocco del portamonete fallito</translation>
     </message>
     <message>
         <source>The passphrase entered for the wallet decryption was incorrect.</source>
-        <translation>The passphrase entered for the wallet decryption was incorrect.</translation>
+        <translation>La passphrase inserita per la decifrazione del portamonete è errata.</translation>
     </message>
     <message>
         <source>Wallet decryption failed</source>
-        <translation>Wallet decryption failed</translation>
+        <translation>Decifrazione del portamonete fallita</translation>
     </message>
     <message>
         <source>Wallet passphrase was successfully changed.</source>
-        <translation>Wallet passphrase was successfully changed.</translation>
+        <translation>Passphrase del portamonete modificata con successo.</translation>
     </message>
     <message>
         <source>Warning: The Caps Lock key is on!</source>
-        <translation>Warning: The Caps Lock key is on!</translation>
+        <translation>Attenzione: tasto Blocco maiuscole attivo!</translation>
     </message>
 </context>
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <source>A fatal error occurred. eMark Core can no longer continue safely and will quit.</source>
-        <translation>A fatal error occurred. eMark Core can no longer continue safely and will quit.</translation>
+        <source>A fatal error occurred. eMark can no longer continue safely and will quit.</source>
+        <translation>Si è verificato un errore irreversibile. eMark Core non può più continuare in modo sicuro e si chiuderà.</translation>
+    </message>
+    <message>
+        <source>Synchronizing with network...</source>
+        <translation>Sto sincronizzando con la rete...</translation>
+    </message>
+    <message>
+        <source>Importing blocks...</source>
+        <translation>Importazione di blocchi in...</translation>
     </message>
     <message>
         <source>Deutsche eMark Core</source>
@@ -259,147 +269,147 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <source>Wallet</source>
-        <translation>Wallet</translation>
+        <translation>Portamonete</translation>
     </message>
     <message>
         <source>&amp;Dashboard</source>
-        <translation>&amp;Dashboard</translation>
+        <translation>&amp;Cruscotto</translation>
     </message>
     <message>
         <source>Show general overview of wallet</source>
-        <translation>Show general overview of wallet</translation>
+        <translation>Mostra lo stato generale del portamonete</translation>
     </message>
     <message>
         <source>&amp;Receive</source>
-        <translation>&amp;Receive</translation>
+        <translation>&amp;Ricevi</translation>
     </message>
     <message>
         <source>Show the list of addresses for receiving payments</source>
-        <translation>Show the list of addresses for receiving payments</translation>
+        <translation>Mostra la lista di indirizzi su cui ricevere pagamenti</translation>
     </message>
     <message>
         <source>&amp;Send</source>
-        <translation>&amp;Send</translation>
+        <translation>&amp;Spedisci</translation>
     </message>
     <message>
         <source>Send coins to a eMark address</source>
-        <translation>Send coins to a eMark address</translation>
+        <translation>Invia monete ad un indirizzo eMark</translation>
     </message>
     <message>
         <source>&amp;Transactions</source>
-        <translation>&amp;Transactions</translation>
+        <translation>&amp;Transazioni</translation>
     </message>
     <message>
         <source>Browse transaction history</source>
-        <translation>Browse transaction history</translation>
+        <translation>Cerca nelle transazioni</translation>
     </message>
     <message>
         <source>&amp;Address Book</source>
-        <translation>&amp;Address Book</translation>
+        <translation>&amp;Rubrica</translation>
     </message>
     <message>
         <source>Edit the list of stored addresses and labels</source>
-        <translation>Edit the list of stored addresses and labels</translation>
+        <translation>Modifica la lista degli indirizzi salvati e delle etichette</translation>
     </message>
     <message>
         <source>E&amp;xit</source>
-        <translation>E&amp;xit</translation>
+        <translation>&amp;Esci</translation>
     </message>
     <message>
         <source>Quit application</source>
-        <translation>Quit application</translation>
+        <translation>Chiudi applicazione</translation>
     </message>
     <message>
-        <source>&amp;About eMark Core</source>
-        <translation>&amp;About eMark Core</translation>
+        <source>&amp;About Deutsche eMark</source>
+        <translation>&amp;Info su Deutsche eMark</translation>
     </message>
     <message>
-        <source>Show information about eMark Core</source>
-        <translation>Show information about eMark Core</translation>
+        <source>Show information about eMark</source>
+        <translation>Visualizzare informazioni su eMark Core</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
-        <translation>About &amp;Qt</translation>
+        <translation>Informazioni su &amp;Qt</translation>
     </message>
     <message>
         <source>Show information about Qt</source>
-        <translation>Show information about Qt</translation>
+        <translation>Mostra informazioni su Qt</translation>
     </message>
     <message>
         <source>&amp;Options...</source>
-        <translation>&amp;Options...</translation>
+        <translation>&amp;Opzioni...</translation>
     </message>
     <message>
-        <source>Modify configuration options for eMark Core</source>
-        <translation>Modify configuration options for eMark Core</translation>
+        <source>Modify configuration options for eMark</source>
+        <translation>Modificare le opzioni di configurazione per eMark</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
-        <translation>&amp;Show / Hide</translation>
+        <translation>&amp;Mostra/Nascondi</translation>
     </message>
     <message>
         <source>&amp;Encrypt Wallet...</source>
-        <translation>&amp;Encrypt Wallet...</translation>
+        <translation>&amp;Cifra il portamonete...</translation>
     </message>
     <message>
         <source>Encrypt or decrypt wallet</source>
-        <translation>Encrypt or decrypt wallet</translation>
+        <translation>Crittografa o decrittografa portafoglio</translation>
     </message>
     <message>
         <source>&amp;Backup Wallet...</source>
-        <translation>&amp;Backup Wallet...</translation>
+        <translation>&amp;Backup Portamonete...</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
-        <translation>Backup wallet to another location</translation>
+        <translation>Backup portamonete in un&apos;altra locazione</translation>
     </message>
     <message>
         <source>&amp;Change Passphrase...</source>
-        <translation>&amp;Change Passphrase...</translation>
+        <translation>&amp;Cambia la passphrase...</translation>
     </message>
     <message>
         <source>Change the passphrase used for wallet encryption</source>
-        <translation>Change the passphrase used for wallet encryption</translation>
+        <translation>Cambia la passphrase per la cifratura del portamonete</translation>
     </message>
     <message>
         <source>&amp;Unlock Wallet...</source>
-        <translation>&amp;Unlock Wallet...</translation>
+        <translation>&amp;Sblocca il portamonete...</translation>
     </message>
     <message>
         <source>Unlock wallet</source>
-        <translation>Unlock wallet</translation>
+        <translation>Sblocca il portamonete</translation>
     </message>
     <message>
         <source>&amp;Lock Wallet</source>
-        <translation>&amp;Lock Wallet</translation>
+        <translation>&amp;Blocca portafoglio</translation>
     </message>
     <message>
         <source>Lock wallet</source>
-        <translation>Lock wallet</translation>
+        <translation>Blocca portafoglio</translation>
     </message>
     <message>
         <source>Sign &amp;message...</source>
-        <translation>Sign &amp;message...</translation>
+        <translation>Firma il &amp;messaggio...</translation>
     </message>
     <message>
         <source>&amp;Verify message...</source>
-        <translation>&amp;Verify message...</translation>
+        <translation>&amp;Verifica messaggio...</translation>
     </message>
     <message>
         <source>&amp;Export...</source>
-        <translation>&amp;Export...</translation>
+        <translation>&amp;Esporta...</translation>
     </message>
     <message>
         <source>Export the data in the current tab to a file</source>
-        <translation>Export the data in the current tab to a file</translation>
+        <translation>Esporta i dati nella tabella corrente su un file</translation>
     </message>
     <message>
         <source>&amp;Debug window</source>
-        <translation>&amp;Debug window</translation>
+        <translation>eMark Core - Finestra &amp;Debug</translation>
     </message>
     <message>
         <source>Open debugging and diagnostic console</source>
-        <translation>Open debugging and diagnostic console</translation>
+        <translation>Apri la console di debugging e diagnostica</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -407,15 +417,15 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <source>&amp;Settings</source>
-        <translation>&amp;Settings</translation>
+        <translation>&amp;Impostazioni</translation>
     </message>
     <message>
         <source>&amp;Help</source>
-        <translation>&amp;Help</translation>
+        <translation>&amp;Aiuto</translation>
     </message>
     <message>
         <source>Tabs toolbar</source>
-        <translation>Tabs toolbar</translation>
+        <translation>Barra degli strumenti &quot;Tabs&quot;</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -428,65 +438,65 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message numerus="yes">
         <source>%n active connection(s) to eMark network</source>
         <translation>
-            <numerusform>%n active connection(s) to eMark network</numerusform>
-            <numerusform>%n active connections to eMark network</numerusform>
+            <numerusform>%n connessione attiva alla rete eMark</numerusform>
+            <numerusform>%n connessioni attive alla rete eMark</numerusform>
         </translation>
     </message>
     <message>
         <source>Processed %1 blocks of transaction history.</source>
-        <translation>Processed %1 blocks of transaction history.</translation>
+        <translation>Processati %1 blocchi della cronologia transazioni.</translation>
     </message>
     <message>
         <source>Up to date</source>
-        <translation>Up to date</translation>
+        <translation>Aggiornato</translation>
     </message>
     <message numerus="yes">
         <source>%n hour(s)</source>
         <translation>
-            <numerusform>%n hour(s)</numerusform>
-            <numerusform>%n hours</numerusform>
+            <numerusform>%n ora</numerusform>
+            <numerusform>%n ore</numerusform>
         </translation>
     </message>
     <message numerus="yes">
         <source>%n day(s)</source>
         <translation>
-            <numerusform>%n day(s)</numerusform>
-            <numerusform>%n days</numerusform>
+            <numerusform>%n giorno</numerusform>
+            <numerusform>%n giorni</numerusform>
         </translation>
     </message>
     <message numerus="yes">
         <source>%n week(s)</source>
         <translation>
-            <numerusform>%n week(s)</numerusform>
-            <numerusform>%n weeks</numerusform>
+            <numerusform>%n settimana</numerusform>
+            <numerusform>%n settimane</numerusform>
         </translation>
     </message>
     <message>
         <source>%1 and %2</source>
-        <translation>%1 and %2</translation>
+        <translation>%1 e %2</translation>
     </message>
     <message numerus="yes">
         <source>%n year(s)</source>
         <translation>
-            <numerusform>%n year(s)</numerusform>
-            <numerusform>%n years</numerusform>
+            <numerusform>%n anno</numerusform>
+            <numerusform>%n anni</numerusform>
         </translation>
     </message>
     <message>
         <source>%1 behind</source>
-        <translation>%1 behind</translation>
+        <translation>Indietro di %1</translation>
     </message>
     <message>
         <source>Catching up...</source>
-        <translation>Catching up...</translation>
+        <translation>In aggiornamento...</translation>
     </message>
     <message>
         <source>Last received block was generated %1 ago.</source>
-        <translation>Last received block was generated %1 ago.</translation>
+        <translation>L&apos;ultimo blocco ricevuto è stato generato %1 fa.</translation>
     </message>
     <message>
         <source>Transactions after this will not yet be visible.</source>
-        <translation>Transactions after this will not yet be visible.</translation>
+        <translation>Le transazioni effettuate successivamente non sono ancora visibili.</translation>
     </message>
     <message>
         <source>eMark</source>
@@ -494,31 +504,31 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <source>Error</source>
-        <translation>Error</translation>
+        <translation>Errore</translation>
     </message>
     <message>
         <source>Warning</source>
-        <translation>Warning</translation>
+        <translation>Attenzione</translation>
     </message>
     <message>
         <source>Information</source>
-        <translation>Information</translation>
+        <translation>Informazione</translation>
     </message>
     <message>
         <source>This transaction is over the size limit. You can still send it for a fee of %1, which goes to the nodes that process your transaction and helps to support the network. Do you want to pay the fee?</source>
-        <translation>This transaction is over the size limit. You can still send it for a fee of %1, which goes to the nodes that process your transaction and helps to support the network. Do you want to pay the fee?</translation>
+        <translation>Questa transazione è superiore al limite di dimensione. È comunque possibile inviarla con una commissione di %1, che va ai nodi che processano la tua transazione e contribuisce a sostenere la rete. Vuoi pagare la commissione?</translation>
     </message>
     <message>
         <source>Confirm transaction fee</source>
-        <translation>Confirm transaction fee</translation>
+        <translation>Conferma compenso transazione</translation>
     </message>
     <message>
         <source>Sent transaction</source>
-        <translation>Sent transaction</translation>
+        <translation>Transazione inviata</translation>
     </message>
     <message>
         <source>Incoming transaction</source>
-        <translation>Incoming transaction</translation>
+        <translation>Transazione ricevuta</translation>
     </message>
     <message>
         <source>Date: %1
@@ -526,92 +536,92 @@ Amount: %2
 Type: %3
 Address: %4
 </source>
-        <translation>Date: %1
-Amount: %2
-Type: %3
-Address: %4
+        <translation>Data: %1
+Quantità: %2
+Tipo: %3
+Etichetta: %4
 </translation>
     </message>
     <message>
         <source>URI handling</source>
-        <translation>URI handling</translation>
+        <translation>Gestione URI</translation>
     </message>
     <message>
         <source>URI can not be parsed! This can be caused by an invalid eMark address or malformed URI parameters.</source>
-        <translation>URI can not be parsed! This can be caused by an invalid eMark address or malformed URI parameters.</translation>
+        <translation>Impossibile interpretare l&apos;URI! Ciò può essere causato da un indirizzo SolarCoin invalido o da parametri URI non corretti.</translation>
     </message>
     <message>
         <source>Wallet is &lt;b&gt;not encrypted&lt;/b&gt;</source>
-        <translation>Wallet is &lt;b&gt;not encrypted&lt;/b&gt;</translation>
+        <translation>Wallet &lt;b&gt; non è crittografato &lt;/b&gt;</translation>
     </message>
     <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
-        <translation>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</translation>
+        <translation>Il portamonete è &lt;b&gt;cifrato&lt;/b&gt; e attualmente &lt;b&gt;sbloccato&lt;/b&gt;</translation>
     </message>
     <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
-        <translation>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</translation>
+        <translation>Il portamonete è &lt;b&gt;cifrato&lt;/b&gt; e attualmente &lt;b&gt;bloccato&lt;/b&gt;</translation>
     </message>
     <message>
         <source>Backup Wallet</source>
-        <translation>Backup Wallet</translation>
+        <translation>Backup Portamonete</translation>
     </message>
     <message>
         <source>Wallet Data (*.dat)</source>
-        <translation>Wallet Data (*.dat)</translation>
+        <translation>Dati Portamonete (*.dat)</translation>
     </message>
     <message>
         <source>Backup Failed</source>
-        <translation>Backup Failed</translation>
+        <translation>Backup Fallito</translation>
     </message>
     <message>
         <source>There was an error trying to save the wallet data to the new location.</source>
-        <translation>There was an error trying to save the wallet data to the new location.</translation>
+        <translation>Si è verificato un errore durante il tentativo di salvare i dati del portafoglio nella nuova posizione.</translation>
     </message>
     <message numerus="yes">
         <source>%n second(s)</source>
         <translation>
-            <numerusform>%n second(s)</numerusform>
-            <numerusform>%n seconds</numerusform>
+            <numerusform>%n Sekunde</numerusform>
+            <numerusform>%n Sekunden</numerusform>
         </translation>
     </message>
     <message numerus="yes">
         <source>%n minute(s)</source>
         <translation>
-            <numerusform>%n minute(s)</numerusform>
-            <numerusform>%n minutes</numerusform>
+            <numerusform>%n Minute</numerusform>
+            <numerusform>%n Minuten</numerusform>
         </translation>
     </message>
     <message>
         <source>Staking.&lt;br&gt;Your weight is %1&lt;br&gt;Network weight is %2&lt;br&gt;Expected time to earn reward is %3</source>
-        <translation>Staking.&lt;br&gt;Your weight is %1&lt;br&gt;Network weight is %2&lt;br&gt;Expected time to earn reward is %3</translation>
+        <translation></translation>
     </message>
     <message>
         <source>Not staking because wallet is locked</source>
-        <translation>Not staking because wallet is locked</translation>
+        <translation></translation>
     </message>
     <message>
         <source>Not staking because wallet is offline</source>
-        <translation>Not staking because wallet is offline</translation>
+        <translation></translation>
     </message>
     <message>
         <source>Not staking because wallet is syncing</source>
-        <translation>Not staking because wallet is syncing</translation>
+        <translation></translation>
     </message>
     <message>
         <source>Not staking because you don&apos;t have mature coins</source>
-        <translation>Not staking because you don&apos;t have mature coins</translation>
+        <translation></translation>
     </message>
     <message>
         <source>Not staking</source>
-        <translation>Not staking</translation>
+        <translation></translation>
     </message>
 </context>
 <context>
     <name>ClientModel</name>
     <message>
         <source>Network Alert</source>
-        <translation>Network Alert</translation>
+        <translation>Avviso di rete</translation>
     </message>
 </context>
 <context>
@@ -622,155 +632,155 @@ Address: %4
     </message>
     <message>
         <source>Quantity:</source>
-        <translation>Quantity:</translation>
+        <translation>Quantità:</translation>
     </message>
     <message>
         <source>Bytes:</source>
-        <translation>Bytes:</translation>
+        <translation>Byte:</translation>
     </message>
     <message>
         <source>Amount:</source>
-        <translation>Amount:</translation>
+        <translation>Importo:</translation>
     </message>
     <message>
         <source>Priority:</source>
-        <translation>Priority:</translation>
+        <translation>Priorità:</translation>
     </message>
     <message>
         <source>Fee:</source>
-        <translation>Fee:</translation>
+        <translation>Commissione:</translation>
     </message>
     <message>
         <source>Low Output:</source>
-        <translation>Low Output:</translation>
+        <translation>Bassa potenza:</translation>
     </message>
     <message>
         <source>After Fee:</source>
-        <translation>After Fee:</translation>
+        <translation>Dopo Commissione:</translation>
     </message>
     <message>
         <source>Change:</source>
-        <translation>Change:</translation>
+        <translation>Resto:</translation>
     </message>
     <message>
         <source>(un)select all</source>
-        <translation>(un)select all</translation>
+        <translation>(de)seleziona tutto</translation>
     </message>
     <message>
         <source>Tree mode</source>
-        <translation>Tree mode</translation>
+        <translation>Modalità Albero</translation>
     </message>
     <message>
         <source>List mode</source>
-        <translation>List mode</translation>
+        <translation>Modalità Lista</translation>
     </message>
     <message>
         <source>Amount</source>
-        <translation>Amount</translation>
+        <translation>Importo</translation>
     </message>
     <message>
         <source>Label</source>
-        <translation>Label</translation>
+        <translation>Etichetta</translation>
     </message>
     <message>
         <source>Address</source>
-        <translation>Address</translation>
+        <translation>Indirizzo</translation>
     </message>
     <message>
         <source>Date</source>
-        <translation>Date</translation>
+        <translation>Data</translation>
     </message>
     <message>
         <source>Confirmations</source>
-        <translation>Confirmations</translation>
+        <translation>Conferme</translation>
     </message>
     <message>
         <source>Confirmed</source>
-        <translation>Confirmed</translation>
+        <translation>Confermato</translation>
     </message>
     <message>
         <source>Priority</source>
-        <translation>Priority</translation>
+        <translation>Priorità</translation>
     </message>
     <message>
         <source>Copy address</source>
-        <translation>Copy address</translation>
+        <translation>Copia l&apos;indirizzo</translation>
     </message>
     <message>
         <source>Copy label</source>
-        <translation>Copy label</translation>
+        <translation>Copia l&apos;etichetta</translation>
     </message>
     <message>
         <source>Copy amount</source>
-        <translation>Copy amount</translation>
+        <translation>Copia importo</translation>
     </message>
     <message>
         <source>Copy transaction ID</source>
-        <translation>Copy transaction ID</translation>
+        <translation>Copia l&apos;ID transazione</translation>
     </message>
     <message>
         <source>Copy quantity</source>
-        <translation>Copy quantity</translation>
+        <translation>Copia quantità</translation>
     </message>
     <message>
         <source>Copy fee</source>
-        <translation>Copy fee</translation>
+        <translation>Copia commissione</translation>
     </message>
     <message>
         <source>Copy after fee</source>
-        <translation>Copy after fee</translation>
+        <translation>Copia dopo commissione</translation>
     </message>
     <message>
         <source>Copy bytes</source>
-        <translation>Copy bytes</translation>
+        <translation>Copia byte</translation>
     </message>
     <message>
         <source>Copy priority</source>
-        <translation>Copy priority</translation>
+        <translation>Copia priorità</translation>
     </message>
     <message>
         <source>Copy low output</source>
-        <translation>Copy low output</translation>
+        <translation>Copia bassa produzione</translation>
     </message>
     <message>
         <source>Copy change</source>
-        <translation>Copy change</translation>
+        <translation>Copia resto</translation>
     </message>
     <message>
         <source>highest</source>
-        <translation>highest</translation>
+        <translation>massima</translation>
     </message>
     <message>
         <source>high</source>
-        <translation>high</translation>
+        <translation>alta</translation>
     </message>
     <message>
         <source>medium-high</source>
-        <translation>medium-high</translation>
+        <translation>medio-alta</translation>
     </message>
     <message>
         <source>medium</source>
-        <translation>medium</translation>
+        <translation>media</translation>
     </message>
     <message>
         <source>low-medium</source>
-        <translation>low-medium</translation>
+        <translation>medio-bassa</translation>
     </message>
     <message>
         <source>low</source>
-        <translation>low</translation>
+        <translation>bassa</translation>
     </message>
     <message>
         <source>lowest</source>
-        <translation>lowest</translation>
+        <translation>minima</translation>
     </message>
     <message>
         <source>DUST</source>
-        <translation>DUST</translation>
+        <translation>Trascurabile</translation>
     </message>
     <message>
         <source>yes</source>
-        <translation>yes</translation>
+        <translation>sì</translation>
     </message>
     <message>
         <source>no</source>
@@ -782,11 +792,11 @@ Address: %4
  This means a fee of at least %1 per kb is required.
 
  Can vary +/- 1 Byte per input.</source>
-        <translation>This label turns red, if the transaction size is bigger than 10000 bytes.
+        <translation>Dieses Label wird rot, wenn die Transaktion 10000 bytes übersteigt.
 
- This means a fee of at least %1 per kb is required.
+Das bedeutet, dass eine Gebühr von %1 per kB benötigt wird.
 
- Can vary +/- 1 Byte per input.</translation>
+Può variare di +/- 1 byte per ingresso.</translation>
     </message>
     <message>
         <source>Transactions with higher priority get more likely into a block.
@@ -794,11 +804,11 @@ Address: %4
 This label turns red, if the priority is smaller than &quot;medium&quot;.
 
  This means a fee of at least %1 per kb is required.</source>
-        <translation>Transactions with higher priority get more likely into a block.
+        <translation>Transaktionen mit hoher Priorität kommen leichter in den nächsten Block.
 
-This label turns red, if the priority is smaller than &quot;medium&quot;.
+Dies wird rot, wenn die Priorität kleiner als &quot;medium&quot; ist.
 
- This means a fee of at least %1 per kb is required.</translation>
+Dazu wird eine Minimumgebühr von %1pro kb benötigt.</translation>
     </message>
     <message>
         <source>This label turns red, if any recipient receives an amount smaller than %1.
@@ -806,86 +816,86 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
  This means a fee of at least %2 is required. 
 
  Amounts below 0.546 times the minimum relay fee are shown as DUST.</source>
-        <translation>This label turns red, if any recipient receives an amount smaller than %1.
+        <translation>Diese Beschriftung wird rot, wenn alle Empfänger zusammen weniger als %1 empfangen.
 
- This means a fee of at least %2 is required. 
+ Das bedeutet, dass eine Gebühr von %2 benötigt wird.
 
- Amounts below 0.546 times the minimum relay fee are shown as DUST.</translation>
+Beträge unter 0.0005 DEM werden als Staub angezeigt.</translation>
     </message>
     <message>
         <source>This label turns red, if the change is smaller than %1.
 
  This means a fee of at least %2 is required.</source>
-        <translation>This label turns red, if the change is smaller than %1.
+        <translation>Diese Beschriftung wird rot, wenn das Wechselgeld kleiner als %1 ist.
 
- This means a fee of at least %2 is required.</translation>
+Das bedeutet, dass eine Gebühr von %2 benötigt wird.</translation>
     </message>
     <message>
         <source>(no label)</source>
-        <translation>(no label)</translation>
+        <translation>(nessuna etichetta)</translation>
     </message>
     <message>
         <source>change from %1 (%2)</source>
-        <translation>change from %1 (%2)</translation>
+        <translation>resto da %1 (%2)</translation>
     </message>
     <message>
         <source>(change)</source>
-        <translation>(change)</translation>
+        <translation>(resto)</translation>
     </message>
 </context>
 <context>
     <name>EditAddressDialog</name>
     <message>
         <source>Edit Address</source>
-        <translation>Edit Address</translation>
+        <translation>Modifica l&apos;indirizzo</translation>
     </message>
     <message>
         <source>&amp;Label</source>
-        <translation>&amp;Label</translation>
+        <translation>&amp;Etichetta</translation>
     </message>
     <message>
         <source>The label associated with this address book entry</source>
-        <translation>The label associated with this address book entry</translation>
+        <translation>L&apos;etichetta associata con questa voce della lista degli indirizzi</translation>
     </message>
     <message>
         <source>&amp;Address</source>
-        <translation>&amp;Address</translation>
+        <translation>&amp;Indirizzo</translation>
     </message>
     <message>
         <source>The address associated with this address book entry. This can only be modified for sending addresses.</source>
-        <translation>The address associated with this address book entry. This can only be modified for sending addresses.</translation>
+        <translation>L&apos;indirizzo associato con questa voce della lista degli indirizzi. Può essere modificato solo per gli indirizzi d&apos;invio.</translation>
     </message>
     <message>
         <source>New receiving address</source>
-        <translation>New receiving address</translation>
+        <translation>Nuovo indirizzo di ricezione</translation>
     </message>
     <message>
         <source>New sending address</source>
-        <translation>New sending address</translation>
+        <translation>Nuovo indirizzo d&apos;invio</translation>
     </message>
     <message>
         <source>Edit receiving address</source>
-        <translation>Edit receiving address</translation>
+        <translation>Modifica indirizzo di ricezione</translation>
     </message>
     <message>
         <source>Edit sending address</source>
-        <translation>Edit sending address</translation>
+        <translation>Modifica indirizzo d&apos;invio</translation>
     </message>
     <message>
         <source>The entered address &quot;%1&quot; is not a valid eMark address.</source>
-        <translation>The entered address &quot;%1&quot; is not a valid eMark address.</translation>
+        <translation>L&apos;indirizzo &quot;%1&quot; non è un indirizzo eMark valido.</translation>
     </message>
     <message>
         <source>The entered address &quot;%1&quot; is already in the address book.</source>
-        <translation>The entered address &quot;%1&quot; is already in the address book.</translation>
+        <translation>L&apos;indirizzo &quot;%1&quot; è già presente in rubrica.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
-        <translation>Could not unlock wallet.</translation>
+        <translation>Impossibile sbloccare il portamonete.</translation>
     </message>
     <message>
         <source>New key generation failed.</source>
-        <translation>New key generation failed.</translation>
+        <translation>Generazione della nuova chiave non riuscita.</translation>
     </message>
 </context>
 <context>
@@ -896,170 +906,170 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <source>version</source>
-        <translation>version</translation>
+        <translation>versione</translation>
     </message>
     <message>
         <source>Usage:</source>
-        <translation>Usage:</translation>
+        <translation>Utilizzo:</translation>
     </message>
     <message>
         <source>command-line options</source>
-        <translation>command-line options</translation>
+        <translation>opzioni riga di comando</translation>
     </message>
     <message>
         <source>UI options</source>
-        <translation>UI options</translation>
+        <translation>UI opzioni</translation>
     </message>
     <message>
         <source>Set language, for example &quot;de_DE&quot; (default: system locale)</source>
-        <translation>Set language, for example &quot;de_DE&quot; (default: system locale)</translation>
+        <translation>Imposta lingua, ad esempio &quot;it_IT&quot; (predefinita: lingua di sistema)</translation>
     </message>
     <message>
         <source>Start minimized</source>
-        <translation>Start minimized</translation>
+        <translation>Parti in icona</translation>
     </message>
     <message>
         <source>Show splash screen on startup (default: 1)</source>
-        <translation>Show splash screen on startup (default: 1)</translation>
+        <translation>Mostra finestra di presentazione all&apos;avvio (default: 1)</translation>
     </message>
 </context>
 <context>
     <name>OptionsDialog</name>
     <message>
         <source>Options</source>
-        <translation>Options</translation>
+        <translation>Opzioni</translation>
     </message>
     <message>
         <source>&amp;Main</source>
-        <translation>&amp;Main</translation>
+        <translation>&amp;Principale</translation>
     </message>
     <message>
         <source>Optional transaction fee per kB that helps make sure your transactions are processed quickly. Most transactions are 1 kB. Fee 0.001 recommended.</source>
-        <translation>Optional transaction fee per kB that helps make sure your transactions are processed quickly. Most transactions are 1 kB. Fee 0.001 recommended.</translation>
+        <translation></translation>
     </message>
     <message>
         <source>Pay transaction &amp;fee</source>
-        <translation>Pay transaction &amp;fee</translation>
+        <translation>Paga la &amp;commissione</translation>
     </message>
     <message>
         <source>Reserved amount does not participate in staking and is therefore spendable at any time.</source>
-        <translation>Reserved amount does not participate in staking and is therefore spendable at any time.</translation>
+        <translation></translation>
     </message>
     <message>
         <source>Reserve</source>
-        <translation>Reserve</translation>
+        <translation>Riserva</translation>
     </message>
     <message>
-        <source>Automatically start eMark Core after logging in to the system.</source>
-        <translation>Automatically start eMark Core after logging in to the system.</translation>
+        <source>Automatically start eMark after logging in to the system.</source>
+        <translation>Avvia automaticamente eMark Core all&apos;accensione del computer.</translation>
     </message>
     <message>
-        <source>&amp;Start eMark Core on system login</source>
-        <translation>&amp;Start eMark Core on system login</translation>
+        <source>&amp;Start eMark on system login</source>
+        <translation>&amp;Fai partire eMark Core all&apos;avvio del sistema</translation>
     </message>
     <message>
         <source>&amp;Network</source>
-        <translation>&amp;Network</translation>
+        <translation>&amp;Rete</translation>
     </message>
     <message>
         <source>Automatically open the eMark client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automatically open the eMark client port on the router. This only works when your router supports UPnP and it is enabled.</translation>
+        <translation>Apri automaticamente la porta del client eMark sul router. Questo funziona solo se il router supporta UPnP ed è abilitato.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
-        <translation>Map port using &amp;UPnP</translation>
+        <translation>Mappa le porte tramite l&apos;&amp;UPnP</translation>
     </message>
     <message>
         <source>Connect to the eMark network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Connect to the eMark network through a SOCKS proxy (e.g. when connecting through Tor).</translation>
+        <translation>Connettiti alla rete eMark attraverso un proxy SOCKS (ad esempio quando ci si collega via Tor).</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS proxy:</source>
-        <translation>&amp;Connect through SOCKS proxy:</translation>
+        <translation>&amp;Collegati tramite SOCKS proxy:</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
-        <translation>Proxy &amp;IP:</translation>
+        <translation>&amp;IP del proxy:</translation>
     </message>
     <message>
         <source>IP address of the proxy (e.g. 127.0.0.1)</source>
-        <translation>IP address of the proxy (e.g. 127.0.0.1)</translation>
+        <translation>Indirizzo IP del proxy (ad esempio 127.0.0.1)</translation>
     </message>
     <message>
         <source>&amp;Port:</source>
-        <translation>&amp;Port:</translation>
+        <translation>&amp;Porta:</translation>
     </message>
     <message>
         <source>Port of the proxy (e.g. 9050)</source>
-        <translation>Port of the proxy (e.g. 9050)</translation>
+        <translation>Porta del proxy (es. 9050)</translation>
     </message>
     <message>
         <source>SOCKS &amp;Version:</source>
-        <translation>SOCKS &amp;Version:</translation>
+        <translation>SOCKS-&amp;Version:</translation>
     </message>
     <message>
         <source>SOCKS version of the proxy (e.g. 5)</source>
-        <translation>SOCKS version of the proxy (e.g. 5)</translation>
+        <translation>Versione SOCKS del proxy (es. 5)</translation>
     </message>
     <message>
         <source>&amp;Window</source>
-        <translation>&amp;Window</translation>
+        <translation>&amp;Finestra</translation>
     </message>
     <message>
         <source>Show only a tray icon after minimizing the window.</source>
-        <translation>Show only a tray icon after minimizing the window.</translation>
+        <translation>Mostra solo un&apos;icona nel tray quando si minimizza la finestra.</translation>
     </message>
     <message>
         <source>&amp;Minimize to the tray instead of the taskbar</source>
-        <translation>&amp;Minimize to the tray instead of the taskbar</translation>
+        <translation>&amp;Minimizza sul tray invece che sulla barra delle applicazioni</translation>
     </message>
     <message>
         <source>Minimize instead of exit the application when the window is closed. When this option is enabled, the application will be closed only after selecting Quit in the menu.</source>
-        <translation>Minimize instead of exit the application when the window is closed. When this option is enabled, the application will be closed only after selecting Quit in the menu.</translation>
+        <translation>Riduci ad icona, invece di uscire dall&apos;applicazione quando la finestra viene chiusa. Quando questa opzione è attivata, l&apos;applicazione verrà chiusa solo dopo aver selezionato Esci nel menu.</translation>
     </message>
     <message>
         <source>M&amp;inimize on close</source>
-        <translation>M&amp;inimize on close</translation>
+        <translation>M&amp;inimizza alla chiusura</translation>
     </message>
     <message>
         <source>&amp;Display</source>
-        <translation>&amp;Display</translation>
+        <translation>&amp;Mostra</translation>
     </message>
     <message>
         <source>User Interface &amp;language:</source>
-        <translation>User Interface &amp;language:</translation>
+        <translation>&amp;Lingua Interfaccia Utente:</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting eMark Core.</source>
-        <translation>The user interface language can be set here. This setting will take effect after restarting eMark Core.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting eMark.</source>
+        <translation>La lingua dell&apos;interfaccia utente può essere impostata qui. L&apos;impostazione avrà effetto dopo il riavvio di eMark Core.</translation>
     </message>
     <message>
         <source>&amp;Unit to show amounts in:</source>
-        <translation>&amp;Unit to show amounts in:</translation>
+        <translation>&amp;Unità di misura degli importi in:</translation>
     </message>
     <message>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>Choose the default subdivision unit to show in the interface and when sending coins.</translation>
+        <translation>Scegli l&apos;unità di suddivisione di default per l&apos;interfaccia e per l&apos;invio di monete.</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
-        <translation>Whether to show coin control features or not.</translation>
+        <translation>Specifica se le funzionalita di coin control saranno visualizzate.</translation>
     </message>
     <message>
         <source>Display coin &amp;control features (experts only!)</source>
-        <translation>Display coin &amp;control features (experts only!)</translation>
+        <translation></translation>
     </message>
     <message>
         <source>Whether to select the coin outputs randomly or with minimal coin age.</source>
-        <translation>Whether to select the coin outputs randomly or with minimal coin age.</translation>
+        <translation></translation>
     </message>
     <message>
         <source>Minimize weight consumption (experimental)</source>
-        <translation>Minimize weight consumption (experimental)</translation>
+        <translation>Ridurre al minimo il consumo di peso (sperimentale)</translation>
     </message>
     <message>
         <source>Use black visual theme (requires restart)</source>
-        <translation>Use black visual theme (requires restart)</translation>
+        <translation>Usare il tema visivo nero (richiede il riavvio)</translation>
     </message>
     <message>
         <source>&amp;OK</source>
@@ -1067,11 +1077,11 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <source>&amp;Cancel</source>
-        <translation>&amp;Cancel</translation>
+        <translation>&amp;Cancella</translation>
     </message>
     <message>
         <source>&amp;Apply</source>
-        <translation>&amp;Apply</translation>
+        <translation>&amp;Applica</translation>
     </message>
     <message>
         <source>default</source>
@@ -1079,38 +1089,38 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <source>Warning</source>
-        <translation>Warning</translation>
+        <translation>Attenzione</translation>
     </message>
     <message>
-        <source>This setting will take effect after restarting eMark Core.</source>
-        <translation>This setting will take effect after restarting eMark Core.</translation>
+        <source>This setting will take effect after restarting eMark.</source>
+        <translation>L&apos;impostazione avrà effetto dopo il riavvio di eMark Core.</translation>
     </message>
     <message>
         <source>The supplied proxy address is invalid.</source>
-        <translation>The supplied proxy address is invalid.</translation>
+        <translation>L&apos;indirizzo proxy che hai fornito è invalido.</translation>
     </message>
 </context>
 <context>
     <name>OverviewPage</name>
     <message>
         <source>Form</source>
-        <translation>Form</translation>
+        <translation>Modulo</translation>
     </message>
     <message>
         <source>Balance</source>
-        <translation>Balance</translation>
+        <translation>Saldo</translation>
     </message>
     <message>
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the eMark network after a connection is established, but this process has not completed yet.</source>
-        <translation>The displayed information may be out of date. Your wallet automatically synchronizes with the eMark network after a connection is established, but this process has not completed yet.</translation>
+        <translation>Le informazioni visualizzate sono datate. Il tuo partafogli verrà sincronizzato automaticamente con il network eMark dopo che la connessione è stabilita, ma questo processo non può essere completato ora.</translation>
     </message>
     <message>
         <source>Spendable:</source>
-        <translation>Spendable:</translation>
+        <translation>Spendibile:</translation>
     </message>
     <message>
         <source>Your current spendable balance</source>
-        <translation>Your current spendable balance</translation>
+        <translation>Il tuo saldo spendibile attuale</translation>
     </message>
     <message>
         <source>Stake:</source>
@@ -1118,104 +1128,104 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <source>Total of coins that was staked, and do not yet count toward the current balance</source>
-        <translation>Total of coins that was staked, and do not yet count toward the current balance</translation>
+        <translation></translation>
     </message>
     <message>
         <source>Unconfirmed:</source>
-        <translation>Unconfirmed:</translation>
+        <translation>Non confermato:</translation>
     </message>
     <message>
         <source>Total of transactions that have yet to be confirmed, and do not yet count toward the current balance</source>
-        <translation>Total of transactions that have yet to be confirmed, and do not yet count toward the current balance</translation>
+        <translation>Totale delle transazioni che devono ancora essere confermate e non contano ancora per il saldo corrente</translation>
     </message>
     <message>
         <source>Immature:</source>
-        <translation>Immature:</translation>
+        <translation>Immaturo:</translation>
     </message>
     <message>
         <source>Mined balance that has not yet matured</source>
-        <translation>Mined balance that has not yet matured</translation>
+        <translation>Importo scavato che non è ancora maturato</translation>
     </message>
     <message>
         <source>Total:</source>
-        <translation>Total:</translation>
+        <translation>Totale:</translation>
     </message>
     <message>
         <source>Your current total balance</source>
-        <translation>Your current total balance</translation>
+        <translation>Il tuo saldo totale attuale</translation>
     </message>
     <message>
         <source>&lt;b&gt;Recent transactions&lt;/b&gt;</source>
-        <translation>&lt;b&gt;Recent transactions&lt;/b&gt;</translation>
+        <translation>&lt;b&gt;Transazioni recenti&lt;/b&gt;</translation>
     </message>
     <message>
         <source>out of sync</source>
-        <translation>out of sync</translation>
+        <translation>fuori sincrono</translation>
     </message>
 </context>
 <context>
     <name>PaymentServer</name>
     <message>
         <source>Cannot start eMark Core: click-to-pay handler</source>
-        <translation>Cannot start eMark Core: click-to-pay handler</translation>
+        <translation>Impossibile avviare eMark Core: gestore click-to-pay</translation>
     </message>
 </context>
 <context>
     <name>QRCodeDialog</name>
     <message>
         <source>QR Code Dialog</source>
-        <translation>QR Code Dialog</translation>
+        <translation>Codice QR di dialogo</translation>
     </message>
     <message>
         <source>Request Payment</source>
-        <translation>Request Payment</translation>
+        <translation>Richiedi pagamento</translation>
     </message>
     <message>
         <source>Label:</source>
-        <translation>Label:</translation>
+        <translation>Etichetta:</translation>
     </message>
     <message>
         <source>Message:</source>
-        <translation>Message:</translation>
+        <translation>Messaggio:</translation>
     </message>
     <message>
         <source>Amount:</source>
-        <translation>Amount:</translation>
+        <translation>Importo:</translation>
     </message>
     <message>
         <source>&amp;Save As...</source>
-        <translation>&amp;Save As...</translation>
+        <translation>&amp;Salva come...</translation>
     </message>
     <message>
         <source>Error encoding URI into QR Code.</source>
-        <translation>Error encoding URI into QR Code.</translation>
+        <translation>Errore nella codifica URI nel codice QR.</translation>
     </message>
     <message>
         <source>The entered amount is invalid, please check.</source>
-        <translation>The entered amount is invalid, please check.</translation>
+        <translation>L&apos;importo specificato non è valido, prego verificare.</translation>
     </message>
     <message>
         <source>Resulting URI too long, try to reduce the text for label / message.</source>
-        <translation>Resulting URI too long, try to reduce the text for label / message.</translation>
+        <translation>L&apos;URI risulta troppo lungo, prova a ridurre il testo nell&apos;etichetta / messaggio.</translation>
     </message>
     <message>
         <source>Save QR Code</source>
-        <translation>Save QR Code</translation>
+        <translation>Salva codice QR</translation>
     </message>
     <message>
         <source>PNG Images (*.png)</source>
-        <translation>PNG Images (*.png)</translation>
+        <translation>Immagini PNG (*.png)</translation>
     </message>
 </context>
 <context>
     <name>RPCConsole</name>
     <message>
         <source>eMark Core - Debug window</source>
-        <translation>eMark Core - Debug window</translation>
+        <translation>eMark Core - Finestra di debug</translation>
     </message>
     <message>
         <source>&amp;Information</source>
-        <translation>&amp;Information</translation>
+        <translation>&amp;Informazione</translation>
     </message>
     <message>
         <source>eMark Core</source>
@@ -1223,39 +1233,39 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <source>Client name</source>
-        <translation>Client name</translation>
+        <translation>Nome del client</translation>
     </message>
     <message>
         <source>N/A</source>
-        <translation>N/A</translation>
+        <translation>N/D</translation>
     </message>
     <message>
         <source>Client version</source>
-        <translation>Client version</translation>
+        <translation>Versione client</translation>
     </message>
     <message>
         <source>Using OpenSSL version</source>
-        <translation>Using OpenSSL version</translation>
+        <translation>Versione OpenSSL in uso</translation>
     </message>
     <message>
         <source>Build date</source>
-        <translation>Build date</translation>
+        <translation>Data di creazione</translation>
     </message>
     <message>
         <source>Startup time</source>
-        <translation>Startup time</translation>
+        <translation>Tempo di avvio</translation>
     </message>
     <message>
         <source>Network</source>
-        <translation>Network</translation>
+        <translation>Rete</translation>
     </message>
     <message>
         <source>Number of connections</source>
-        <translation>Number of connections</translation>
+        <translation>Numero connessioni</translation>
     </message>
     <message>
         <source>On testnet</source>
-        <translation>On testnet</translation>
+        <translation>Nel testnet</translation>
     </message>
     <message>
         <source>Block chain</source>
@@ -1263,35 +1273,35 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <source>Current number of blocks</source>
-        <translation>Current number of blocks</translation>
+        <translation>Numero attuale di blocchi</translation>
     </message>
     <message>
         <source>Last block time</source>
-        <translation>Last block time</translation>
+        <translation>Ora dell blocco piu recente</translation>
     </message>
     <message>
         <source>Debug log file</source>
-        <translation>Debug log file</translation>
+        <translation>File log del Debug</translation>
     </message>
     <message>
         <source>Open the eMark debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Open the eMark debug log file from the current data directory. This can take a few seconds for large log files.</translation>
+        <translation>Apri il file di log del debug di eMark dalla cartella attuale. Può richiedere alcuni secondi per file di log grandi.</translation>
     </message>
     <message>
         <source>&amp;Open</source>
-        <translation>&amp;Open</translation>
+        <translation>&amp;Apri</translation>
     </message>
     <message>
         <source>Command-line options</source>
-        <translation>Command-line options</translation>
+        <translation>opzioni riga di comando</translation>
     </message>
     <message>
         <source>Show the eMark-Qt help message to get a list with possible command-line options.</source>
-        <translation>Show the eMark-Qt help message to get a list with possible command-line options.</translation>
+        <translation>Mostra il messaggio di aiuto di eMark-QT per avere la lista di tutte le opzioni della riga di comando di eMark.</translation>
     </message>
     <message>
         <source>&amp;Show</source>
-        <translation>&amp;Show</translation>
+        <translation>&amp;Mostra</translation>
     </message>
     <message>
         <source>&amp;Console</source>
@@ -1299,39 +1309,39 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <source>Clear console</source>
-        <translation>Clear console</translation>
+        <translation>Svuota console</translation>
     </message>
     <message>
         <source>&amp;Network Traffic</source>
-        <translation>&amp;Network Traffic</translation>
+        <translation>&amp;Traffico di Rete</translation>
     </message>
     <message>
         <source>&amp;Clear</source>
-        <translation>&amp;Clear</translation>
+        <translation>&amp;Cancella</translation>
     </message>
     <message>
         <source>Totals</source>
-        <translation>Totals</translation>
+        <translation>Totali</translation>
     </message>
     <message>
         <source>In:</source>
-        <translation>In:</translation>
+        <translation>Entrata:</translation>
     </message>
     <message>
         <source>Out:</source>
-        <translation>Out:</translation>
+        <translation>Uscita:</translation>
     </message>
     <message>
         <source>Welcome to the eMark Core RPC console.</source>
-        <translation>Welcome to the eMark Core RPC console.</translation>
+        <translation>Benvenuto nella console RPC di eMark Core.</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
-        <translation>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</translation>
+        <translation>Usa le frecce direzionali per navigare la cronologia, and &lt;b&gt;Ctrl-L&lt;/b&gt; per cancellarla.</translation>
     </message>
     <message>
         <source>Type &lt;b&gt;help&lt;/b&gt; for an overview of available commands.</source>
-        <translation>Type &lt;b&gt;help&lt;/b&gt; for an overview of available commands.</translation>
+        <translation>Scrivi &lt;b&gt;help&lt;/b&gt; per un riassunto dei comandi disponibili.</translation>
     </message>
     <message>
         <source>%1 B</source>
@@ -1366,27 +1376,27 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <name>SendCoinsDialog</name>
     <message>
         <source>Send Coins</source>
-        <translation>Send Coins</translation>
+        <translation>Spedisci eMark</translation>
     </message>
     <message>
         <source>Coin Control Features</source>
-        <translation>Coin Control Features</translation>
+        <translation>Funzionalità di Coin Control</translation>
     </message>
     <message>
         <source>Inputs...</source>
-        <translation>Inputs...</translation>
+        <translation>Input...</translation>
     </message>
     <message>
         <source>automatically selected</source>
-        <translation>automatically selected</translation>
+        <translation>selezionato automaticamente</translation>
     </message>
     <message>
         <source>Insufficient funds!</source>
-        <translation>Insufficient funds!</translation>
+        <translation>Fondi insufficienti!</translation>
     </message>
     <message>
         <source>Quantity:</source>
-        <translation>Quantity:</translation>
+        <translation>Quantità:</translation>
     </message>
     <message>
         <source>0</source>
@@ -1394,11 +1404,11 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <source>Bytes:</source>
-        <translation>Bytes:</translation>
+        <translation>Byte:</translation>
     </message>
     <message>
         <source>Amount:</source>
-        <translation>Amount:</translation>
+        <translation>Importo:</translation>
     </message>
     <message>
         <source>0.00 DEM</source>
@@ -1406,19 +1416,19 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <source>Priority:</source>
-        <translation>Priority:</translation>
+        <translation>Priorità:</translation>
     </message>
     <message>
         <source>medium</source>
-        <translation>medium</translation>
+        <translation>media</translation>
     </message>
     <message>
         <source>Fee:</source>
-        <translation>Fee:</translation>
+        <translation>Commissione:</translation>
     </message>
     <message>
         <source>Low Output:</source>
-        <translation>Low Output:</translation>
+        <translation>Bassa potenza:</translation>
     </message>
     <message>
         <source>no</source>
@@ -1426,43 +1436,43 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <source>After Fee:</source>
-        <translation>After Fee:</translation>
+        <translation>Dopo Commissione:</translation>
     </message>
     <message>
         <source>Change</source>
-        <translation>Change</translation>
+        <translation>Resto</translation>
     </message>
     <message>
         <source>custom change address</source>
-        <translation>custom change address</translation>
+        <translation>Personalizza indirizzo di resto</translation>
     </message>
     <message>
         <source>Transaction &amp;comment: </source>
-        <translation>Transaction &amp;comment: </translation>
+        <translation>&amp;Commento transazione: </translation>
     </message>
     <message>
-        <source>Enter a transaction comment  (MAX 256 Characters) (Note: this information is public)</source>
-        <translation>Enter a transaction comment  (MAX 256 Characters) (Note: this information is public)</translation>
+        <source>Enter a transaction comment (MAX 256 Characters) (Note: this information is public)</source>
+        <translation>Immettere un commento sulla transazione (MAX 256 caratteri) (Nota: questa informazione è pubblica)</translation>
     </message>
     <message>
         <source>Send to multiple recipients at once</source>
-        <translation>Send to multiple recipients at once</translation>
+        <translation>Spedisci a diversi beneficiari in una volta sola</translation>
     </message>
     <message>
         <source>Add &amp;Recipient</source>
-        <translation>Add &amp;Recipient</translation>
+        <translation>&amp;Aggiungi beneficiario</translation>
     </message>
     <message>
         <source>Remove all transaction fields</source>
-        <translation>Remove all transaction fields</translation>
+        <translation>Rimuovi tutti i campi della transazione</translation>
     </message>
     <message>
         <source>Clear &amp;All</source>
-        <translation>Clear &amp;All</translation>
+        <translation>Cancella &amp;tutto</translation>
     </message>
     <message>
         <source>Balance:</source>
-        <translation>Balance:</translation>
+        <translation>Saldo:</translation>
     </message>
     <message>
         <source>123.456 DEM</source>
@@ -1470,51 +1480,51 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <source>Confirm the send action</source>
-        <translation>Confirm the send action</translation>
+        <translation>Conferma la spedizione</translation>
     </message>
     <message>
         <source>S&amp;end</source>
-        <translation>S&amp;end</translation>
+        <translation>&amp;Spedisci</translation>
     </message>
     <message>
         <source>Enter a eMark address (e.g. NgJKYsHctQfF8D8r6otTGxdnB6r311NvJf)</source>
-        <translation>Enter a eMark address (e.g. NgJKYsHctQfF8D8r6otTGxdnB6r311NvJf)</translation>
+        <translation>Inserisci un indirizzo eMark (ad es. NgJKYsHctQfF8D8r6otTGxdnB6r311NvJf)</translation>
     </message>
     <message>
         <source>Enter a transaction comment (MAX 256 Characters) (Note: This information is public)</source>
-        <translation>Enter a transaction comment (MAX 256 Characters) (Note: This information is public)</translation>
+        <translation>Immettere un commento sulla transazione (MAX 256 caratteri) (Nota: questa informazione è pubblica)</translation>
     </message>
     <message>
         <source>Copy quantity</source>
-        <translation>Copy quantity</translation>
+        <translation>Copia quantità</translation>
     </message>
     <message>
         <source>Copy amount</source>
-        <translation>Copy amount</translation>
+        <translation>Copia importo</translation>
     </message>
     <message>
         <source>Copy fee</source>
-        <translation>Copy fee</translation>
+        <translation>Copia commissione</translation>
     </message>
     <message>
         <source>Copy after fee</source>
-        <translation>Copy after fee</translation>
+        <translation>Copia dopo commissione</translation>
     </message>
     <message>
         <source>Copy bytes</source>
-        <translation>Copy bytes</translation>
+        <translation>Copia byte</translation>
     </message>
     <message>
         <source>Copy priority</source>
-        <translation>Copy priority</translation>
+        <translation>Copia priorità</translation>
     </message>
     <message>
         <source>Copy low output</source>
-        <translation>Copy low output</translation>
+        <translation>Copia bassa produzione</translation>
     </message>
     <message>
         <source>Copy change</source>
-        <translation>Copy change</translation>
+        <translation>Copia resto</translation>
     </message>
     <message>
         <source>&lt;b&gt;%1&lt;/b&gt; to %2 (%3)</source>
@@ -1522,74 +1532,74 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <source>Confirm send coins</source>
-        <translation>Confirm send coins</translation>
+        <translation>Conferma la spedizione di solarcoin</translation>
     </message>
     <message>
         <source>Are you sure you want to send %1?</source>
-        <translation>Are you sure you want to send %1?</translation>
+        <translation>Si è sicuri di voler spedire %1?</translation>
     </message>
     <message>
         <source> and </source>
-        <translation> and </translation>
+        <translation> e </translation>
     </message>
     <message>
         <source>The recipient address is not valid, please recheck.</source>
-        <translation>The recipient address is not valid, please recheck.</translation>
+        <translation>L&apos;indirizzo del beneficiario non è valido, per cortesia controlla.</translation>
     </message>
     <message>
         <source>The amount to pay must be larger than 0.</source>
-        <translation>The amount to pay must be larger than 0.</translation>
+        <translation>L&apos;importo da pagare dev&apos;essere maggiore di 0.</translation>
     </message>
     <message>
         <source>The amount exceeds your balance.</source>
-        <translation>The amount exceeds your balance.</translation>
+        <translation>L&apos;importo è superiore al saldo attuale.</translation>
     </message>
     <message>
         <source>The total exceeds your balance when the %1 transaction fee is included.</source>
-        <translation>The total exceeds your balance when the %1 transaction fee is included.</translation>
+        <translation>Il totale è superiore al saldo attuale includendo la commissione %1.</translation>
     </message>
     <message>
         <source>Duplicate address found, can only send to each address once per send operation.</source>
-        <translation>Duplicate address found, can only send to each address once per send operation.</translation>
+        <translation>Trovato un indirizzo doppio, si può spedire solo una volta a ciascun indirizzo in una singola operazione.</translation>
     </message>
     <message>
         <source>Error: Transaction creation failed!</source>
-        <translation>Error: Transaction creation failed!</translation>
+        <translation>Errore: Creazione transazione fallita!</translation>
     </message>
     <message>
         <source>Error: The transaction was rejected. This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
-        <translation>Error: The transaction was rejected. This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</translation>
+        <translation>Errore: la transazione è stata rifiutata. Ciò accade se alcuni solarcoin nel portamonete sono stati già spesi, ad esempio se è stata usata una copia del file wallet.dat e i solarcoin sono stati spesi dalla copia ma non segnati come spesi qui.</translation>
     </message>
     <message>
         <source>WARNING: Invalid eMark address</source>
-        <translation>WARNING: Invalid eMark address</translation>
+        <translation>Attenzione: Indirizzo eMark non valido</translation>
     </message>
     <message>
         <source>(no label)</source>
-        <translation>(no label)</translation>
+        <translation>(nessuna etichetta)</translation>
     </message>
     <message>
         <source>WARNING: unknown change address</source>
-        <translation>WARNING: unknown change address</translation>
+        <translation>Attenzione: Indirizzo per il resto sconosciuto</translation>
     </message>
 </context>
 <context>
     <name>SendCoinsEntry</name>
     <message>
         <source>Form</source>
-        <translation>Form</translation>
+        <translation>Modulo</translation>
     </message>
     <message>
         <source>Pay &amp;To:</source>
-        <translation>Pay &amp;To:</translation>
+        <translation>Paga &amp;a:</translation>
     </message>
     <message>
         <source>The address to send the payment to  (e.g. NgJKYsHctQfF8D8r6otTGxdnB6r311NvJf)</source>
-        <translation>The address to send the payment to  (e.g. NgJKYsHctQfF8D8r6otTGxdnB6r311NvJf)</translation>
+        <translation>L&apos;indirizzo del beneficiario a cui inviare il pagamento (ad esempio NgJKYsHctQfF8D8r6otTGxdnB6r311NvJf)</translation>
     </message>
     <message>
         <source>Choose address from address book</source>
-        <translation>Choose address from address book</translation>
+        <translation>Scegli l&apos;indirizzo dalla rubrica</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -1597,7 +1607,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <source>Paste address from clipboard</source>
-        <translation>Paste address from clipboard</translation>
+        <translation>Incollare l&apos;indirizzo dagli appunti</translation>
     </message>
     <message>
         <source>Alt+P</source>
@@ -1605,46 +1615,46 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <source>Remove this recipient</source>
-        <translation>Remove this recipient</translation>
+        <translation>Rimuovere questo beneficiario</translation>
     </message>
     <message>
         <source>Enter a label for this address to add it to your address book</source>
-        <translation>Enter a label for this address to add it to your address book</translation>
+        <translation>Inserisci un&apos;etichetta per questo indirizzo, per aggiungerlo nella rubrica</translation>
     </message>
     <message>
         <source>A&amp;mount:</source>
-        <translation>A&amp;mount:</translation>
+        <translation>&amp;Importo:</translation>
     </message>
     <message>
         <source>&amp;Label:</source>
-        <translation>&amp;Label:</translation>
+        <translation>&amp;Etichetta:</translation>
     </message>
     <message>
         <source>Enter a eMark address (e.g. NgJKYsHctQfF8D8r6otTGxdnB6r311NvJf)</source>
-        <translation>Enter a eMark address (e.g. NgJKYsHctQfF8D8r6otTGxdnB6r311NvJf)</translation>
+        <translation>Inserisci un indirizzo eMark (ad esempio NgJKYsHctQfF8D8r6otTGxdnB6r311NvJf)</translation>
     </message>
 </context>
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
         <source>Signatures - Sign / Verify a Message</source>
-        <translation>Signatures - Sign / Verify a Message</translation>
+        <translation>Firme - Firma / Verifica un messaggio</translation>
     </message>
     <message>
         <source>&amp;Sign Message</source>
-        <translation>&amp;Sign Message</translation>
+        <translation>&amp;Firma il messaggio</translation>
     </message>
     <message>
         <source>You can sign messages with your addresses to prove you own them. Be careful not to sign anything vague, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
-        <translation>You can sign messages with your addresses to prove you own them. Be careful not to sign anything vague, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</translation>
+        <translation>Puoi firmare messeggi con i tuoi indirizzi per dimostrare che sono tuoi. Fai attenzione a non firmare niente di vago, visto che gli attacchi di phishing potrebbero cercare di spingerti a mettere la tua firma su di loro. Firma solo dichiarazioni completamente dettagliate con cui sei d&apos;accordo.</translation>
     </message>
     <message>
         <source>The address to sign the message with (e.g. NgJKYsHctQfF8D8r6otTGxdnB6r311NvJf)</source>
-        <translation>The address to sign the message with (e.g. NgJKYsHctQfF8D8r6otTGxdnB6r311NvJf)</translation>
+        <translation>Inserisci un indirizzo eMark (ad esempio NgJKYsHctQfF8D8r6otTGxdnB6r311NvJf)</translation>
     </message>
     <message>
         <source>Choose an address from the address book</source>
-        <translation>Choose an address from the address book</translation>
+        <translation>Scegli l&apos;indirizzo dalla rubrica</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -1652,7 +1662,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <source>Paste address from clipboard</source>
-        <translation>Paste address from clipboard</translation>
+        <translation>Incollare l&apos;indirizzo dagli appunti</translation>
     </message>
     <message>
         <source>Alt+P</source>
@@ -1660,103 +1670,103 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <source>Enter the message you want to sign here</source>
-        <translation>Enter the message you want to sign here</translation>
+        <translation>Inserisci qui il messaggio che vuoi firmare</translation>
     </message>
     <message>
         <source>Copy the current signature to the system clipboard</source>
-        <translation>Copy the current signature to the system clipboard</translation>
+        <translation>Copia la firma corrente nella clipboard</translation>
     </message>
     <message>
         <source>Sign the message to prove you own this eMark address</source>
-        <translation>Sign the message to prove you own this eMark address</translation>
+        <translation>Firma un messaggio per dimostrare di possedere questo indirizzo</translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
-        <translation>Reset all sign message fields</translation>
+        <translation>Reimposta tutti i campi della firma</translation>
     </message>
     <message>
         <source>Clear &amp;All</source>
-        <translation>Clear &amp;All</translation>
+        <translation>Cancella &amp;tutto</translation>
     </message>
     <message>
         <source>&amp;Verify Message</source>
-        <translation>&amp;Verify Message</translation>
+        <translation>&amp;Verifica Messaggio</translation>
     </message>
     <message>
         <source>Enter the signing address, message (ensure you copy line breaks, spaces, tabs, etc. exactly) and signature below to verify the message. Be careful not to read more into the signature than what is in the signed message itself, to avoid being tricked by a man-in-the-middle attack.</source>
-        <translation>Enter the signing address, message (ensure you copy line breaks, spaces, tabs, etc. exactly) and signature below to verify the message. Be careful not to read more into the signature than what is in the signed message itself, to avoid being tricked by a man-in-the-middle attack.</translation>
+        <translation></translation>
     </message>
     <message>
         <source>The address the message was signed with (e.g. NgJKYsHctQfF8D8r6otTGxdnB6r311NvJf)</source>
-        <translation>The address the message was signed with (e.g. NgJKYsHctQfF8D8r6otTGxdnB6r311NvJf)</translation>
+        <translation>Inserisci un indirizzo eMark (ad esempio NgJKYsHctQfF8D8r6otTGxdnB6r311NvJf)</translation>
     </message>
     <message>
         <source>Verify the message to ensure it was signed with the specified eMark address</source>
-        <translation>Verify the message to ensure it was signed with the specified eMark address</translation>
+        <translation>Verifica il messaggio per assicurarsi che sia stato firmato con l&apos;indirizzo eMark specificato</translation>
     </message>
     <message>
         <source>Reset all verify message fields</source>
-        <translation>Reset all verify message fields</translation>
+        <translation>Reimposta tutti i campi della verifica messaggio</translation>
     </message>
     <message>
         <source>Enter a eMark address (e.g. NgJKYsHctQfF8D8r6otTGxdnB6r311NvJf)</source>
-        <translation>Enter a eMark address (e.g. NgJKYsHctQfF8D8r6otTGxdnB6r311NvJf)</translation>
+        <translation>Inserisci un indirizzo eMark (ad esempio NgJKYsHctQfF8D8r6otTGxdnB6r311NvJf)</translation>
     </message>
     <message>
         <source>Click &quot;Sign Message&quot; to generate signature</source>
-        <translation>Click &quot;Sign Message&quot; to generate signature</translation>
+        <translation>Clicca &quot;Firma il messaggio&quot; per ottenere la firma</translation>
     </message>
     <message>
         <source>Enter eMark signature</source>
-        <translation>Enter eMark signature</translation>
+        <translation>Inserisci firma eMark</translation>
     </message>
     <message>
         <source>The entered address is invalid.</source>
-        <translation>The entered address is invalid.</translation>
+        <translation>L&apos;indirizzo inserito non è valido.</translation>
     </message>
     <message>
         <source>Please check the address and try again.</source>
-        <translation>Please check the address and try again.</translation>
+        <translation>Per favore controlla l&apos;indirizzo e prova ancora.</translation>
     </message>
     <message>
         <source>The entered address does not refer to a key.</source>
-        <translation>The entered address does not refer to a key.</translation>
+        <translation>L&apos;indirizzo eMark inserito non è associato a nessuna chiave.</translation>
     </message>
     <message>
         <source>Wallet unlock was cancelled.</source>
-        <translation>Wallet unlock was cancelled.</translation>
+        <translation>Sblocco del portafoglio annullato.</translation>
     </message>
     <message>
         <source>Private key for the entered address is not available.</source>
-        <translation>Private key for the entered address is not available.</translation>
+        <translation>La chiave privata per l&apos;indirizzo inserito non è disponibile.</translation>
     </message>
     <message>
         <source>Message signing failed.</source>
-        <translation>Message signing failed.</translation>
+        <translation>Firma messaggio fallita.</translation>
     </message>
     <message>
         <source>Message signed.</source>
-        <translation>Message signed.</translation>
+        <translation>Messaggio firmato.</translation>
     </message>
     <message>
         <source>The signature could not be decoded.</source>
-        <translation>The signature could not be decoded.</translation>
+        <translation>Non è stato possibile decodificare la firma.</translation>
     </message>
     <message>
         <source>Please check the signature and try again.</source>
-        <translation>Please check the signature and try again.</translation>
+        <translation>Per favore controlla la firma e prova ancora.</translation>
     </message>
     <message>
         <source>The signature did not match the message digest.</source>
-        <translation>The signature did not match the message digest.</translation>
+        <translation>La firma non corrisponde al sunto del messaggio.</translation>
     </message>
     <message>
         <source>Message verification failed.</source>
-        <translation>Message verification failed.</translation>
+        <translation>Verifica messaggio fallita.</translation>
     </message>
     <message>
         <source>Message verified.</source>
-        <translation>Message verified.</translation>
+        <translation>Messaggio verificato.</translation>
     </message>
 </context>
 <context>
@@ -1771,17 +1781,17 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message numerus="yes">
         <source>Open for %n more block(s)</source>
         <translation>
-            <numerusform>Open for %n more block(s)</numerusform>
-            <numerusform>Open for %n more blocks</numerusform>
+            <numerusform>Aperto per %n altro blocco</numerusform>
+            <numerusform>Aperto per altri %n blocchi</numerusform>
         </translation>
     </message>
     <message>
         <source>Open until %1</source>
-        <translation>Open until %1</translation>
+        <translation>Aperto fino a %1</translation>
     </message>
     <message>
         <source>conflicted</source>
-        <translation>conflicted</translation>
+        <translation>in conflitto</translation>
     </message>
     <message>
         <source>%1/offline</source>
@@ -1789,170 +1799,170 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <source>%1/unconfirmed</source>
-        <translation>%1/unconfirmed</translation>
+        <translation>%1/non confermato</translation>
     </message>
     <message>
         <source>%1 confirmations</source>
-        <translation>%1 confirmations</translation>
+        <translation>%1 conferme</translation>
     </message>
     <message>
         <source>Status</source>
-        <translation>Status</translation>
+        <translation>Stato</translation>
     </message>
     <message>
         <source>, has not been successfully broadcast yet</source>
-        <translation>, has not been successfully broadcast ye</translation>
+        <translation>, non è stato ancora trasmesso con successo</translation>
     </message>
     <message numerus="yes">
         <source>, broadcast through %n node(s)</source>
         <translation>
-            <numerusform>, broadcast through %n node(s)</numerusform>
-            <numerusform>, broadcast through %n nodes</numerusform>
+            <numerusform>, trasmesso attraverso %n nodo</numerusform>
+            <numerusform>, trasmesso attraverso %n nodi</numerusform>
         </translation>
     </message>
     <message>
         <source>Date</source>
-        <translation>Date</translation>
+        <translation>Data</translation>
     </message>
     <message>
         <source>Source</source>
-        <translation>Source</translation>
+        <translation>Sorgente</translation>
     </message>
     <message>
         <source>Generated</source>
-        <translation>Generated</translation>
+        <translation>Generato</translation>
     </message>
     <message>
         <source>From</source>
-        <translation>From</translation>
-    </message>
-    <message>
-        <source>unknown</source>
-        <translation>unknown</translation>
+        <translation>Da</translation>
     </message>
     <message>
         <source>To</source>
-        <translation>To</translation>
+        <translation>A</translation>
     </message>
     <message>
         <source>own address</source>
-        <translation>own address</translation>
+        <translation>proprio indirizzo</translation>
     </message>
     <message>
         <source>label</source>
-        <translation>label</translation>
+        <translation>etichetta</translation>
     </message>
     <message>
         <source>Credit</source>
-        <translation>Credit</translation>
+        <translation>Credito</translation>
     </message>
     <message numerus="yes">
         <source>matures in %n more block(s)</source>
         <translation>
-            <numerusform>matures in %n more block(s)</numerusform>
-            <numerusform>matures in %n more blocks</numerusform>
+            <numerusform>matura in %n ulteriore blocco</numerusform>
+            <numerusform>matura in altri %n blocchi</numerusform>
         </translation>
     </message>
     <message>
         <source>not accepted</source>
-        <translation>not accepted</translation>
+        <translation>non accettate</translation>
     </message>
     <message>
         <source>Debit</source>
-        <translation>Debit</translation>
+        <translation>Debito</translation>
     </message>
     <message>
         <source>Transaction fee</source>
-        <translation>Transaction fee</translation>
+        <translation>Tranzakciós díj</translation>
     </message>
     <message>
         <source>Net amount</source>
-        <translation>Net amount</translation>
+        <translation>Importo netto</translation>
     </message>
     <message>
         <source>Transaction ID</source>
-        <translation>Transaction ID</translation>
+        <translation>ID della transazione</translation>
     </message>
     <message>
         <source>Wallet comment</source>
-        <translation>Wallet comment</translation>
+        <translation></translation>
     </message>
     <message>
         <source>Transaction comment</source>
-        <translation>Transaction comment</translation>
+        <translation></translation>
     </message>
     <message>
         <source>Message</source>
-        <translation>Message</translation>
+        <translation>Messaggio</translation>
     </message>
     <message>
         <source>Generated coins must mature 100 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to &quot;not accepted&quot; and it won&apos;t be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
-        <translation>Generated coins must mature 100 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to &quot;not accepted&quot; and it won&apos;t be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</translation>
+        <translation>Bisogna attendere 100 blocchi prima di spendere I eMark generati. Quando è stato generato questo blocco, è stato trasmesso alla rete per aggiungerlo alla catena di blocchi. Se non riesce a entrare nella catena, verrà modificato in &quot;non accettato&quot; e non sarà spendibile. Questo può accadere a volte, se un altro nodo genera un blocco entro pochi secondi del tuo.</translation>
     </message>
     <message>
         <source>Debug information</source>
-        <translation>Debug information</translation>
+        <translation>Informazione di debug</translation>
     </message>
     <message>
         <source>Transaction</source>
-        <translation>Transaction</translation>
+        <translation>Transazione</translation>
     </message>
     <message>
         <source>Inputs</source>
-        <translation>Inputs</translation>
+        <translation>Input</translation>
     </message>
     <message>
         <source>Amount</source>
-        <translation>Amount</translation>
+        <translation>Importo</translation>
     </message>
     <message>
         <source>true</source>
-        <translation>true</translation>
+        <translation>vero</translation>
     </message>
     <message>
         <source>false</source>
-        <translation>false</translation>
+        <translation>falso</translation>
     </message>
 </context>
 <context>
     <name>TransactionDescDialog</name>
     <message>
         <source>Transaction details</source>
-        <translation>Transaction details</translation>
+        <translation>Dettagli sulla transazione</translation>
     </message>
     <message>
         <source>This pane shows a detailed description of the transaction</source>
-        <translation>This pane shows a detailed description of the transaction</translation>
+        <translation>Questo pannello mostra una descrizione dettagliata della transazione</translation>
     </message>
 </context>
 <context>
     <name>TransactionTableModel</name>
     <message>
         <source>Date</source>
-        <translation>Date</translation>
+        <translation>Data</translation>
     </message>
     <message>
         <source>Type</source>
-        <translation>Type</translation>
+        <translation>Tipo</translation>
     </message>
     <message>
         <source>Address</source>
-        <translation>Address</translation>
+        <translation>Indirizzo</translation>
+    </message>
+    <message>
+        <source>Transaction Comment</source>
+        <translation></translation>
     </message>
     <message>
         <source>Amount</source>
-        <translation>Amount</translation>
+        <translation>Importo</translation>
     </message>
     <message numerus="yes">
         <source>Open for %n more block(s)</source>
         <translation>
-            <numerusform>Open for %n more block(s)</numerusform>
-            <numerusform>Open for %n more blocks</numerusform>
+            <numerusform>Aperto per %n altro blocco</numerusform>
+            <numerusform>Aperto per altri %n blocchi</numerusform>
         </translation>
     </message>
     <message>
         <source>Open until %1</source>
-        <translation>Open until %1</translation>
+        <translation>Aperto fino a %1</translation>
     </message>
     <message>
         <source>Offline</source>
@@ -1960,190 +1970,194 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <source>Unconfirmed</source>
-        <translation>Unconfirmed</translation>
+        <translation>Non confermata</translation>
     </message>
     <message>
         <source>Confirming (%1 of %2 recommended confirmations)</source>
-        <translation>Confirming (%1 of %2 recommended confirmations)</translation>
+        <translation>In conferma (%1 di %2 conferme raccomandate)</translation>
     </message>
     <message>
         <source>Confirmed (%1 confirmations)</source>
-        <translation>Confirmed (%1 confirmations)</translation>
+        <translation>Confermata (%1 conferme)</translation>
     </message>
     <message>
         <source>Conflicted</source>
-        <translation>Conflicted</translation>
+        <translation>In conflitto</translation>
     </message>
     <message>
         <source>Immature (%1 confirmations, will be available after %2)</source>
-        <translation>Immature (%1 confirmations, will be available after %2)</translation>
+        <translation>Immaturo (%1 conferme, sarà disponibile fra %2)</translation>
     </message>
     <message>
         <source>This block was not received by any other nodes and will probably not be accepted!</source>
-        <translation>This block was not received by any other nodes and will probably not be accepted!</translation>
+        <translation>Questo blocco non è stato ricevuto da alcun altro nodo e probabilmente non sarà accettato!</translation>
     </message>
     <message>
         <source>Generated but not accepted</source>
-        <translation>Generated but not accepted</translation>
+        <translation>Generati, ma non accettati</translation>
     </message>
     <message>
         <source>Received with</source>
-        <translation>Received with</translation>
+        <translation>Ricevuto tramite</translation>
     </message>
     <message>
         <source>Received from</source>
-        <translation>Received from</translation>
+        <translation>Ricevuto da</translation>
     </message>
     <message>
         <source>Sent to</source>
-        <translation>Sent to</translation>
+        <translation>Spedito a</translation>
     </message>
     <message>
         <source>Payment to yourself</source>
-        <translation>Payment to yourself</translation>
+        <translation>Pagamento a te stesso</translation>
     </message>
     <message>
         <source>Mined</source>
-        <translation>Mined</translation>
+        <translation>Ottenuto dal mining</translation>
     </message>
     <message>
         <source>(n/a)</source>
-        <translation>(n/a)</translation>
+        <translation>(N / a)</translation>
     </message>
     <message>
         <source>Transaction status. Hover over this field to show number of confirmations.</source>
-        <translation>Transaction status. Hover over this field to show number of confirmations.</translation>
+        <translation>Stato della transazione. Passare con il mouse su questo campo per vedere il numero di conferme.</translation>
     </message>
     <message>
         <source>Date and time that the transaction was received.</source>
-        <translation>Date and time that the transaction was received.</translation>
+        <translation>Data e ora in cui la transazione è stata ricevuta.</translation>
     </message>
     <message>
         <source>Type of transaction.</source>
-        <translation>Type of transaction.</translation>
+        <translation>Tipo di transazione.</translation>
     </message>
     <message>
         <source>Destination address of transaction.</source>
-        <translation>Destination address of transaction.</translation>
+        <translation>Indirizzo di destinazione della transazione.</translation>
+    </message>
+    <message>
+        <source>Transaction Comment.</source>
+        <translation></translation>
     </message>
     <message>
         <source>Amount removed from or added to balance.</source>
-        <translation>Amount removed from or added to balance.</translation>
+        <translation>Importo rimosso o aggiunto al saldo.</translation>
     </message>
 </context>
 <context>
     <name>TransactionView</name>
     <message>
         <source>All</source>
-        <translation>All</translation>
+        <translation>Tutti</translation>
     </message>
     <message>
         <source>Today</source>
-        <translation>Today</translation>
+        <translation>Oggi</translation>
     </message>
     <message>
         <source>This week</source>
-        <translation>This week</translation>
+        <translation>Questa settimana</translation>
     </message>
     <message>
         <source>This month</source>
-        <translation>This month</translation>
+        <translation>Questo mese</translation>
     </message>
     <message>
         <source>Last month</source>
-        <translation>Last month</translation>
+        <translation>Il mese scorso</translation>
     </message>
     <message>
         <source>This year</source>
-        <translation>This year</translation>
+        <translation>Quest&apos;anno</translation>
     </message>
     <message>
         <source>Range...</source>
-        <translation>Range...</translation>
+        <translation>Intervallo...</translation>
     </message>
     <message>
         <source>Received with</source>
-        <translation>Received with</translation>
+        <translation>Ricevuto tramite</translation>
     </message>
     <message>
         <source>Sent to</source>
-        <translation>Sent to</translation>
+        <translation>Spedito a</translation>
     </message>
     <message>
         <source>To yourself</source>
-        <translation>To yourself</translation>
+        <translation>A te</translation>
     </message>
     <message>
         <source>Mined</source>
-        <translation>Mined</translation>
+        <translation>Ottenuto dal mining</translation>
     </message>
     <message>
         <source>Other</source>
-        <translation>Other</translation>
+        <translation>Altro</translation>
     </message>
     <message>
         <source>Enter address or label to search</source>
-        <translation>Enter address or label to search</translation>
+        <translation>Inserisci un indirizzo o un&apos;etichetta da cercare</translation>
     </message>
     <message>
         <source>Min amount</source>
-        <translation>Min amount</translation>
+        <translation>Importo minimo</translation>
     </message>
     <message>
         <source>Copy address</source>
-        <translation>Copy address</translation>
+        <translation>Copia l&apos;indirizzo</translation>
     </message>
     <message>
         <source>Copy label</source>
-        <translation>Copy label</translation>
+        <translation>Copia l&apos;etichetta</translation>
     </message>
     <message>
         <source>Copy amount</source>
-        <translation>Copy amount</translation>
+        <translation>Copia l&apos;importo</translation>
     </message>
     <message>
         <source>Copy transaction ID</source>
-        <translation>Copy transaction ID</translation>
+        <translation>Copia l&apos;ID transazione</translation>
     </message>
     <message>
         <source>Edit label</source>
-        <translation>Edit label</translation>
+        <translation>Modifica l&apos;etichetta</translation>
     </message>
     <message>
         <source>Show transaction details</source>
-        <translation>Show transaction details</translation>
+        <translation>Mostra i dettagli della transazione</translation>
     </message>
     <message>
         <source>Export Transaction Data</source>
-        <translation>Export Transaction Data</translation>
+        <translation>Esporta i dati della transazione</translation>
     </message>
     <message>
         <source>Comma separated file (*.csv)</source>
-        <translation>Comma separated file (*.csv)</translation>
+        <translation>Testo CSV (*.csv)</translation>
     </message>
     <message>
         <source>Confirmed</source>
-        <translation>Confirmed</translation>
+        <translation>Confermato</translation>
     </message>
     <message>
         <source>Date</source>
-        <translation>Date</translation>
+        <translation>Data</translation>
     </message>
     <message>
         <source>Type</source>
-        <translation>Type</translation>
+        <translation>Tipo</translation>
     </message>
     <message>
         <source>Label</source>
-        <translation>Label</translation>
+        <translation>Etichetta</translation>
     </message>
     <message>
         <source>Address</source>
-        <translation>Address</translation>
+        <translation>Indirizzo</translation>
     </message>
     <message>
         <source>Amount</source>
-        <translation>Amount</translation>
+        <translation>Importo</translation>
     </message>
     <message>
         <source>ID</source>
@@ -2151,33 +2165,33 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <source>Error exporting</source>
-        <translation>Error exporting</translation>
+        <translation>Errore nell&apos;esportazione</translation>
     </message>
     <message>
         <source>Could not write to file %1.</source>
-        <translation>Could not write to file %1.</translation>
+        <translation>Impossibile scrivere sul file %1.</translation>
     </message>
     <message>
         <source>Range:</source>
-        <translation>Range:</translation>
+        <translation>Intervallo:</translation>
     </message>
     <message>
         <source>to</source>
-        <translation>to</translation>
+        <translation>a</translation>
     </message>
 </context>
 <context>
     <name>WalletModel</name>
     <message>
         <source>Sending...</source>
-        <translation>Sending...</translation>
+        <translation>Invio ...</translation>
     </message>
 </context>
 <context>
     <name>bitcoin-core</name>
     <message>
         <source>To use the %s option</source>
-        <translation>To use the %s option</translation>
+        <translation></translation>
     </message>
     <message>
         <source>%s, you must set a rpcpassword in the configuration file:
@@ -2191,559 +2205,545 @@ If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
 for example: alertnotify=echo %%s | mail -s &quot;eMark Alert&quot; admin@foo.com
 </source>
-        <translation>%s, you must set a rpcpassword in the configuration file:
-%s
-It is recommended you use the following random password:
-rpcuser=eMarkrpc
-rpcpassword=%s
-(you do not need to remember this password)
-The username and password MUST NOT be the same.
-If the file does not exist, create it with owner-readable-only file permissions.
-It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;eMark Alert&quot; admin@foo.com
-</translation>
+        <translation></translation>
     </message>
     <message>
         <source>An error occurred while setting up the RPC port %u for listening on IPv6, falling back to IPv4: %s</source>
-        <translation>An error occurred while setting up the RPC port %u for listening on IPv6, falling back to IPv4: %s</translation>
+        <translation>Errore riscontrato durante l&apos;impostazione della porta RPC %u per l&apos;ascolto su IPv6, tornando su IPv4: %s</translation>
     </message>
     <message>
         <source>An error occurred while setting up the RPC port %u for listening on IPv4: %s</source>
-        <translation>An error occurred while setting up the RPC port %u for listening on IPv4: %s</translation>
+        <translation>Errore riscontrato durante l&apos;impostazione della porta RPC %u per l&apos;ascolto su IPv4: %s</translation>
     </message>
     <message>
         <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong eMark Core will not work properly.</source>
-        <translation>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong eMark Core will not work properly.</translation>
+        <translation>Attenzione: si prega di controllare che la data del computer e l&apos;ora siano corrette. Se il vostro orologio è sbagliato eMark Core non funziona correttamente.</translation>
     </message>
     <message>
         <source>Options:</source>
-        <translation>Options:</translation>
+        <translation>Opzioni:</translation>
     </message>
     <message>
         <source>This help message</source>
-        <translation>This help message</translation>
+        <translation>Questo messaggio di aiuto</translation>
     </message>
     <message>
         <source>Specify configuration file (default: eMark.conf)</source>
-        <translation>Specify configuration file (default: eMark.conf)</translation>
+        <translation>Specifica il file di configurazione (predefinito: eMark.conf)</translation>
     </message>
     <message>
         <source>Specify pid file (default: eMarkd.pid)</source>
-        <translation>Specify pid file (default: eMarkd.pid)</translation>
+        <translation>Specifica il file pid (predefinito: eMark.pid)</translation>
     </message>
     <message>
         <source>Specify data directory</source>
-        <translation>Specify data directory</translation>
+        <translation>Specifica la cartella dati</translation>
     </message>
     <message>
         <source>Specify wallet file (within data directory)</source>
-        <translation>Specify wallet file (within data directory)</translation>
+        <translation>Specifica il file del portamonete (all&apos;interno della cartella dati)</translation>
     </message>
     <message>
         <source>Set database cache size in megabytes (default: 25)</source>
-        <translation>Set database cache size in megabytes (default: 25)</translation>
+        <translation>Imposta la dimensione della cache del database in megabyte (predefinito: 25)</translation>
     </message>
     <message>
         <source>Set database disk log size in megabytes (default: 100)</source>
-        <translation>Set database disk log size in megabytes (default: 100)</translation>
+        <translation>Imposta la dimensione del registro del disco del database in megabyte (impostazione predefinita: 100)</translation>
     </message>
     <message>
         <source>Specify connection timeout in milliseconds (default: 5000)</source>
-        <translation>Specify connection timeout in milliseconds (default: 5000)</translation>
+        <translation>Specifica il timeout di connessione in millisecondi (predefinito: 5000)</translation>
     </message>
     <message>
         <source>Connect through socks proxy</source>
-        <translation>Connect through socks proxy</translation>
+        <translation>Connettiti tramite proxy socks</translation>
     </message>
     <message>
         <source>Select the version of socks proxy to use (4-5, default: 5)</source>
-        <translation>Select the version of socks proxy to use (4-5, default: 5)</translation>
+        <translation>Seleziona la versione del proxy socks da utilizzare (4-5, impostazione predefinita: 5)</translation>
     </message>
     <message>
         <source>Use proxy to reach tor hidden services (default: same as -proxy)</source>
-        <translation>Use proxy to reach tor hidden services (default: same as -proxy)</translation>
+        <translation>Usa proxy per raggiungere i servizi nascosti (impostazione predefinita: uguale a -proxy)</translation>
     </message>
     <message>
         <source>Allow DNS lookups for -addnode, -seednode and -connect</source>
-        <translation>Allow DNS lookups for -addnode, -seednode and -connect</translation>
+        <translation>Consente interrogazioni DNS per -addnode, -seednode e -connect</translation>
     </message>
     <message>
-        <source>Listen for connections on &lt;port&gt; (default: 5666 or testnet: 15666)</source>
-        <translation>Listen for connections on &lt;port&gt; (default: 5666 or testnet: 15666)</translation>
+        <source>Listen for connections on &lt;port&gt; (default: 5556 or testnet: 15556)</source>
+        <translation>Resta in attesa di connessioni su &lt;port&gt; (predefinito: 5556 o testnet: 15556)</translation>
     </message>
     <message>
         <source>Maintain at most &lt;n&gt; connections to peers (default: 125)</source>
-        <translation>Maintain at most &lt;n&gt; connections to peers (default: 125)</translation>
+        <translation>Mantiene al massimo &lt;n&gt; connessioni verso i peer (predefinito: 125)</translation>
     </message>
     <message>
         <source>Add a node to connect to and attempt to keep the connection open</source>
-        <translation>Add a node to connect to and attempt to keep the connection open</translation>
+        <translation>Aggiunge un nodo a cui connettersi e tenta di mantenere aperta la connessione</translation>
     </message>
     <message>
         <source>Connect only to the specified node(s)</source>
-        <translation>Connect only to the specified node(s)</translation>
+        <translation>Connessione ai soli nodi specificati</translation>
     </message>
     <message>
         <source>Connect to a node to retrieve peer addresses, and disconnect</source>
-        <translation>Connect to a node to retrieve peer addresses, and disconnect</translation>
+        <translation>Connessione ad un nodo e successiva disconnessione per recuperare gli indirizzi dei peer</translation>
     </message>
     <message>
         <source>Specify your own public address</source>
-        <translation>Specify your own public address</translation>
+        <translation>Specifica il tuo indirizzo pubblico</translation>
     </message>
     <message>
         <source>Only connect to nodes in network &lt;net&gt; (IPv4, IPv6 or Tor)</source>
-        <translation>Only connect to nodes in network &lt;net&gt; (IPv4, IPv6 or Tor)</translation>
+        <translation>Connessione ai soli nodi appartenenti alla rete &lt;net&gt; (IPv4, IPv6 o Tor)</translation>
     </message>
     <message>
         <source>Discover own IP address (default: 1 when listening and no -externalip)</source>
-        <translation>Discover own IP address (default: 1 when listening and no -externalip)</translation>
+        <translation>Scopre i propri indirizzi IP (predefinito: 1, se in ascolto ed -externalip)</translation>
     </message>
     <message>
         <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
-        <translation>Accept connections from outside (default: 1 if no -proxy or -connect)</translation>
+        <translation>Accetta connessioni dall&apos;esterno (predefinito: 1 se -proxy o -connect non sono utilizzati)</translation>
     </message>
     <message>
         <source>Bind to given address. Use [host]:port notation for IPv6</source>
-        <translation>Bind to given address. Use [host]:port notation for IPv6</translation>
+        <translation>Associa a un indirizzo specificato. Usa [host]: notazione porta per IPv6</translation>
     </message>
     <message>
         <source>Query for peer addresses via DNS lookup, if low on addresses (default: 1 unless -connect)</source>
-        <translation>Query for peer addresses via DNS lookup, if low on addresses (default: 1 unless -connect)</translation>
+        <translation>Ottiene gli indirizzi dei peer attraverso interrogazioni DNS, in caso di scarsa disponibilità (predefinito: 1 a meno che -connect non sia specificato)</translation>
     </message>
     <message>
         <source>Always query for peer addresses via DNS lookup (default: 0)</source>
-        <translation>Always query for peer addresses via DNS lookup (default: 0)</translation>
+        <translation>Interroga sempre i DNS per ottenere gli indirizzi dei peer (predefinito: 0)</translation>
     </message>
     <message>
         <source>Sync time with other nodes. Disable if time on your system is precise e.g. syncing with NTP (default: 1)</source>
-        <translation>Sync time with other nodes. Disable if time on your system is precise e.g. syncing with NTP (default: 1)</translation>
+        <translation>Sincronizza l&apos;ora con altri nodi. Disabilita se l&apos;ora sul tuo sistema è precisa, ad es. sincronizzazione con NTP (predefinito: 1)</translation>
     </message>
     <message>
         <source>Sync checkpoints policy (default: strict)</source>
-        <translation>Sync checkpoints policy (default: strict)</translation>
+        <translation>Criterio di sincronizzazione dei checkpoint (impostazione predefinita: rigoroso)</translation>
     </message>
     <message>
         <source>Threshold for disconnecting misbehaving peers (default: 100)</source>
-        <translation>Threshold for disconnecting misbehaving peers (default: 100)</translation>
+        <translation>Soglia di disconnessione per i peer che si comportano in maniera anomala (predefinito: 100)</translation>
     </message>
     <message>
         <source>Number of seconds to keep misbehaving peers from reconnecting (default: 86400)</source>
-        <translation>Number of seconds to keep misbehaving peers from reconnecting (default: 86400)</translation>
+        <translation>Numero di secondi di sospensione prima della riconnessione per i peer che mostrano un comportamento anomalo (predefinito: 86400)</translation>
     </message>
     <message>
         <source>Maximum per-connection receive buffer, &lt;n&gt;*1000 bytes (default: 5000)</source>
-        <translation>Maximum per-connection receive buffer, &lt;n&gt;*1000 bytes (default: 5000)</translation>
+        <translation>Buffer di ricezione massimo per connessione, &lt;n&gt;*1000 byte (predefinito: 5000)</translation>
     </message>
     <message>
         <source>Maximum per-connection send buffer, &lt;n&gt;*1000 bytes (default: 1000)</source>
-        <translation>Maximum per-connection send buffer, &lt;n&gt;*1000 bytes (default: 1000)</translation>
+        <translation>Buffer di invio massimo per connessione, &lt;n&gt;*1000 byte (predefinito: 1000)</translation>
     </message>
     <message>
         <source>Use UPnP to map the listening port (default: 1 when listening)</source>
-        <translation>Use UPnP to map the listening port (default: 1 when listening)</translation>
+        <translation>Usa UPnP per mappare la porta di ascolto (impostazione predefinita: 1 durante l&apos;ascolto)</translation>
     </message>
     <message>
         <source>Use UPnP to map the listening port (default: 0)</source>
-        <translation>Use UPnP to map the listening port (default: 0)</translation>
+        <translation>Usa UPnP per mappare la porta di ascolto (predefinito: 0)</translation>
     </message>
     <message>
         <source>Fee per KB to add to transactions you send</source>
-        <translation>Fee per KB to add to transactions you send</translation>
+        <translation>Tariffa per KB da aggiungere alle transazioni inviate</translation>
     </message>
     <message>
         <source>When creating transactions, ignore inputs with value less than this (default: 0.01)</source>
-        <translation>When creating transactions, ignore inputs with value less than this (default: 0.01)</translation>
+        <translation>Durante la creazione delle transazioni, ignora gli input con un valore inferiore a questo (impostazione predefinita: 0,01)</translation>
     </message>
     <message>
         <source>Accept command line and JSON-RPC commands</source>
-        <translation>Accept command line and JSON-RPC commands</translation>
+        <translation>Accetta comandi da riga di comando e JSON-RPC</translation>
     </message>
     <message>
         <source>Run in the background as a daemon and accept commands</source>
-        <translation>Run in the background as a daemon and accept commands</translation>
+        <translation>Esegui in background come demone ed accetta i comandi</translation>
     </message>
     <message>
         <source>Use the test network</source>
-        <translation>Use the test network</translation>
+        <translation>Usa la rete di prova</translation>
     </message>
     <message>
         <source>Output debugging information (default: 0, supplying &lt;category&gt; is optional)</source>
-        <translation>Output debugging information (default: 0, supplying &lt;category&gt; is optional)</translation>
+        <translation>Emette informazioni di debug (predefinito: %u, fornire &lt;category&gt; è opzionale)</translation>
     </message>
     <message>
         <source>If &lt;category&gt; is not supplied, output all debugging information.</source>
-        <translation>If &lt;category&gt; is not supplied, output all debugging information.</translation>
+        <translation>Se &lt;category&gt; non viene fornito, restituisce tutte le informazioni di debug.</translation>
     </message>
     <message>
         <source>&lt;category&gt; can be:</source>
-        <translation>&lt;category&gt; can be:</translation>
+        <translation>Valori possibili per &lt;category&gt;:</translation>
     </message>
     <message>
         <source>Prepend debug output with timestamp</source>
-        <translation>Prepend debug output with timestamp</translation>
+        <translation>Antepone un timestamp all&apos;output del debug</translation>
     </message>
     <message>
         <source>Shrink debug.log file on client startup (default: 1 when no -debug)</source>
-        <translation>Shrink debug.log file on client startup (default: 1 when no -debug)</translation>
+        <translation>Riduce il file debug.log all&apos;avvio del client (predefinito: 1 se -debug non è impostato)</translation>
     </message>
     <message>
         <source>Send trace/debug info to console instead of debug.log file</source>
-        <translation>Send trace/debug info to console instead of debug.log file</translation>
+        <translation>Invia le informazioni di trace/debug alla console invece che al file debug.log</translation>
     </message>
     <message>
         <source>Enter regression test mode, which uses a special chain in which blocks can be solved instantly. This is intended for regression testing tools and app development.</source>
-        <translation>Enter regression test mode, which uses a special chain in which blocks can be solved instantly. This is intended for regression testing tools and app development.</translation>
+        <translation>Entra in modalità test di regressione, che utilizza una catena speciale in cui i blocchi possono essere risolti istantaneamente. È destinato agli strumenti di test di regressione e allo sviluppo di app.</translation>
     </message>
     <message>
         <source>Username for JSON-RPC connections</source>
-        <translation>Username for JSON-RPC connections</translation>
+        <translation>Nome utente per connessioni JSON-RPC</translation>
     </message>
     <message>
         <source>Password for JSON-RPC connections</source>
-        <translation>Password for JSON-RPC connections</translation>
+        <translation>Password per connessioni JSON-RPC</translation>
     </message>
     <message>
         <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 6666 or testnet: 16666)</source>
-        <translation>Listen for JSON-RPC connections on &lt;port&gt; (default: 6666 or testnet: 16666)</translation>
+        <translation>Resta in attesa di connessioni JSON-RPC su &lt;port&gt; (predefinito: 6666 o testnet: 16666)</translation>
     </message>
     <message>
         <source>Allow JSON-RPC connections from specified IP address</source>
-        <translation>Allow JSON-RPC connections from specified IP address</translation>
+        <translation>Consenti connessioni JSON-RPC dall&apos;indirizzo IP specificato</translation>
     </message>
     <message>
         <source>Send commands to node running on &lt;ip&gt; (default: 127.0.0.1)</source>
-        <translation>Send commands to node running on &lt;ip&gt; (default: 127.0.0.1)</translation>
+        <translation>Invia comandi al nodo in esecuzione su &lt;ip&gt; (predefinito: 127.0.0.1)</translation>
     </message>
     <message>
         <source>Wait for RPC server to start</source>
-        <translation>Wait for RPC server to start</translation>
+        <translation>Attendi l&apos;avvio del server RPC</translation>
     </message>
     <message>
         <source>Set the number of threads to service RPC calls (default: 4)</source>
-        <translation>Set the number of threads to service RPC calls (default: 4)</translation>
+        <translation>Imposta il numero di thread destinati a rispondere alle chiamate RPC (predefinito: 4)</translation>
     </message>
     <message>
         <source>Execute command when the best block changes (%s in cmd is replaced by block hash)</source>
-        <translation>Execute command when the best block changes (%s in cmd is replaced by block hash)</translation>
+        <translation>Esegue un comando quando il miglior blocco cambia (%s nel cmd è sostituito dall&apos;hash del blocco)</translation>
     </message>
     <message>
         <source>Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)</source>
-        <translation>Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)</translation>
+        <translation>Esegue un comando quando lo stato di una transazione del portamonete cambia (%s in cmd è sostituito da TxID)</translation>
     </message>
     <message>
         <source>Require a confirmations for change (default: 0)</source>
-        <translation>Require a confirmations for change (default: 0)</translation>
+        <translation>Richiedi una conferma per la modifica (impostazione predefinita: 0)</translation>
     </message>
     <message>
         <source>Minimize weight consumption (experimental) (default: 0)</source>
-        <translation>Minimize weight consumption (experimental) (default: 0)</translation>
+        <translation>Riduci al minimo il consumo di peso (sperimentale) (predefinito: 0)</translation>
     </message>
     <message>
         <source>Execute command when a relevant alert is received (%s in cmd is replaced by message)</source>
-        <translation>Execute command when a relevant alert is received (%s in cmd is replaced by message)</translation>
+        <translation>Esegue un comando in caso di ricezione di un allarme pertinente (%s in cmd è sostituito dal messaggio)</translation>
     </message>
     <message>
         <source>Upgrade wallet to latest format</source>
-        <translation>Upgrade wallet to latest format</translation>
+        <translation>Aggiorna il wallet all&apos;ultimo formato</translation>
     </message>
     <message>
         <source>Set key pool size to &lt;n&gt; (default: 100)</source>
-        <translation>Set key pool size to &lt;n&gt; (default: 100)</translation>
+        <translation>Imposta la dimensione del pool di chiavi a &lt;n&gt; (predefinito: 100)</translation>
     </message>
     <message>
         <source>Rescan the block chain for missing wallet transactions</source>
-        <translation>Rescan the block chain for missing wallet transactions</translation>
+        <translation>Ripete la scansione della block chain per individuare le transazioni che mancano dal wallet</translation>
     </message>
     <message>
         <source>Attempt to recover private keys from a corrupt wallet.dat</source>
-        <translation>Attempt to recover private keys from a corrupt wallet.dat</translation>
+        <translation>Prova a recuperare le chiavi private da un wallet corrotto</translation>
     </message>
     <message>
         <source>How many blocks to check at startup (default: 500, 0 = all)</source>
-        <translation>How many blocks to check at startup (default: 500, 0 = all)</translation>
+        <translation>Numero di blocchi da controllare all&apos;avvio (predefinito: 500, 0 = tutti)</translation>
     </message>
     <message>
         <source>How thorough the block verification is (0-6, default: 1)</source>
-        <translation>How thorough the block verification is (0-6, default: 1)</translation>
+        <translation>Quanto è accurata la verifica del blocco (0-6, impostazione predefinita: 1)</translation>
     </message>
     <message>
         <source>Imports blocks from external blk000?.dat file</source>
-        <translation>Imports blocks from external blk000?.dat file</translation>
+        <translation>Importa blocchi da un file blk000??.dat esterno</translation>
     </message>
     <message>
         <source>Keep at most &lt;n&gt; unconnectable blocks in memory (default: %u)</source>
-        <translation>Keep at most &lt;n&gt; unconnectable blocks in memory (default: %u)</translation>
+        <translation>Mantieni in memoria al massimo &lt;n&gt; blocchi non collegabili (predefinito:% u)</translation>
     </message>
     <message>
         <source>Block creation options:</source>
-        <translation>Block creation options:</translation>
+        <translation>Opzioni creazione blocco:</translation>
     </message>
     <message>
         <source>Set minimum block size in bytes (default: 0)</source>
-        <translation>Set minimum block size in bytes (default: 0)</translation>
+        <translation>Imposta la dimensione minima del blocco in byte (predefinito: 0)</translation>
     </message>
     <message>
         <source>Set maximum block size in bytes (default: 250000)</source>
-        <translation>Set maximum block size in bytes (default: 250000)</translation>
+        <translation>Imposta la dimensione massima del blocco in byte (predefinito: 250000)</translation>
     </message>
     <message>
         <source>Set maximum size of high-priority/low-fee transactions in bytes (default: 27000)</source>
-        <translation>Set maximum size of high-priority/low-fee transactions in bytes (default: 27000)</translation>
+        <translation>Imposta la dimensione massima in byte delle transazioni ad alta-priorità/basse-commissioni (predefinito: 27000)</translation>
     </message>
     <message>
         <source>SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
-        <translation>SSL options: (see the Bitcoin Wiki for SSL setup instructions)</translation>
+        <translation>Opzioni SSL: (vedi Bitcoin Wiki per le istruzioni di configurazione SSL)</translation>
     </message>
     <message>
         <source>Use OpenSSL (https) for JSON-RPC connections</source>
-        <translation>Use OpenSSL (https) for JSON-RPC connections</translation>
+        <translation>Usa OpenSSL (https) per le connessioni JSON-RPC</translation>
     </message>
     <message>
         <source>Server certificate file (default: server.cert)</source>
-        <translation>Server certificate file (default: server.cert)</translation>
+        <translation>File del certificato del server (predefinito: server.cert)</translation>
     </message>
     <message>
         <source>Server private key (default: server.pem)</source>
-        <translation>Server private key (default: server.pem)</translation>
+        <translation>Chiave privata del server (impostazione predefinita: server.pem)</translation>
     </message>
     <message>
         <source>Acceptable ciphers (default: TLSv1.2+HIGH:TLSv1+HIGH:!SSLv2:!aNULL:!eNULL:!3DES:@STRENGTH)</source>
-        <translation>Acceptable ciphers (default: TLSv1.2+HIGH:TLSv1+HIGH:!SSLv2:!aNULL:!eNULL:!3DES:@STRENGTH)</translation>
+        <translation></translation>
     </message>
     <message>
         <source>Warning: Deprecated argument -debugnet ignored, use -debug=net</source>
-        <translation>Warning: Deprecated argument -debugnet ignored, use -debug=net</translation>
+        <translation>Avvertenza: argomento deprecato -debugnet ignorato, utilizzare -debug = net</translation>
     </message>
     <message>
         <source>Invalid amount for -paytxfee=&lt;amount&gt;: &apos;%s&apos;</source>
-        <translation>Invalid amount for -paytxfee=&lt;amount&gt;: &apos;%s&apos;</translation>
+        <translation>Importo non valido per -paytxfee=&lt;amount&gt;: &apos;%s&apos;</translation>
     </message>
     <message>
         <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
-        <translation>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</translation>
+        <translation></translation>
     </message>
     <message>
         <source>Invalid amount for -mininput=&lt;amount&gt;: &apos;%s&apos;</source>
-        <translation>Invalid amount for -mininput=&lt;amount&gt;: &apos;%s&apos;</translation>
+        <translation>Importo non valido per -mininput = &lt;amount&gt;: &apos;% s&apos;</translation>
     </message>
     <message>
         <source>Initialization sanity check failed. eMark Core is shutting down.</source>
-        <translation>Initialization sanity check failed. eMark Core is shutting down.</translation>
+        <translation>Test di integrità iniziale fallito. eMark Core si arresterà.</translation>
     </message>
     <message>
         <source>Wallet %s resides outside data directory %s.</source>
-        <translation>Wallet %s resides outside data directory %s.</translation>
+        <translation></translation>
     </message>
     <message>
         <source>Cannot obtain a lock on data directory %s. eMark Core is probably already running.</source>
-        <translation>Cannot obtain a lock on data directory %s. eMark Core is probably already running.</translation>
+        <translation>Non è possibile ottenere un lock sulla cartella %s. Probabilmente eMark Core è già in esecuzione.</translation>
     </message>
     <message>
         <source>Verifying database integrity...</source>
-        <translation>Verifying database integrity...</translation>
+        <translation>Verifica dell&apos;integrità del database ...</translation>
     </message>
     <message>
         <source>Error initializing wallet database environment %s!</source>
-        <translation>Error initializing wallet database environment %s!</translation>
+        <translation>Errore durante l&apos;inizializzazione dell&apos;ambiente del database del portamonete %s!</translation>
     </message>
     <message>
         <source>Warning: wallet.dat corrupt, data salvaged! Original wallet.dat saved as wallet.{timestamp}.bak in %s; if your balance or transactions are incorrect you should restore from a backup.</source>
-        <translation>Warning: wallet.dat corrupt, data salvaged! Original wallet.dat saved as wallet.{timestamp}.bak in %s; if your balance or transactions are incorrect you should restore from a backup.</translation>
+        <translation>Attenzione: wallet.dat corrotto, dati recuperati! Il wallet.dat originale è stato salvato come wallet.{timestamp}.bak in %s. Se i dati relativi a saldo o transazioni non dovessero risultare corretti si consiglia di procedere al ripristino da un backup.</translation>
     </message>
     <message>
         <source>wallet.dat corrupt, salvage failed</source>
-        <translation>wallet.dat corrupt, salvage failed</translation>
+        <translation>wallet.dat corrotto, recupero fallito</translation>
     </message>
     <message>
         <source>Unknown -socks proxy version requested: %i</source>
-        <translation>Unknown -socks proxy version requested: %i</translation>
+        <translation>È richiesta la versione del proxy -socks sconosciuta:%i</translation>
     </message>
     <message>
         <source>Unknown network specified in -onlynet: &apos;%s&apos;</source>
-        <translation>Unknown network specified in -onlynet: &apos;%s&apos;</translation>
+        <translation>Rete sconosciuta specificata in -onlynet: &apos;%s&apos;</translation>
     </message>
     <message>
         <source>Invalid -proxy address: &apos;%s&apos;</source>
-        <translation>Invalid -proxy address: &apos;%s&apos;</translation>
+        <translation>Indirizzo -proxy non valido: &apos;%s&apos;</translation>
     </message>
     <message>
         <source>Invalid -tor address: &apos;%s&apos;</source>
-        <translation>Invalid -tor address: &apos;%s&apos;</translation>
+        <translation>Indirizzo -tor non valido: &apos;%s&apos;</translation>
     </message>
     <message>
         <source>Cannot resolve -bind address: &apos;%s&apos;</source>
-        <translation>Cannot resolve -bind address: &apos;%s&apos;</translation>
+        <translation>Impossibile risolvere indirizzo -bind: &apos;%s&apos;</translation>
     </message>
     <message>
         <source>Failed to listen on any port. Use -listen=0 if you want this.</source>
-        <translation>Failed to listen on any port. Use -listen=0 if you want this.</translation>
+        <translation>Nessuna porta disponibile per l&apos;ascolto. Usa -listen=0 se vuoi procedere comunque.</translation>
     </message>
     <message>
         <source>Cannot resolve -externalip address: &apos;%s&apos;</source>
-        <translation>Cannot resolve -externalip address: &apos;%s&apos;</translation>
+        <translation>Impossibile risolvere indirizzo -externalip: &apos;%s&apos;</translation>
     </message>
     <message>
         <source>Invalid amount for -reservebalance=&lt;amount&gt;</source>
-        <translation>Invalid amount for -reservebalance=&lt;amount&gt;</translation>
+        <translation>Importo non valido per -reservebalance=&lt;amount&gt;</translation>
     </message>
     <message>
-        <source>Unable to sign checkpoint, wrong checkpointkey?
-</source>
-        <translation>Unable to sign checkpoint, wrong checkpointkey?
-</translation>
+        <source>Unable to sign checkpoint, wrong checkpointkey?</source>
+        <translation>Impossibile firmare il checkpoint, chiave del checkpoint sbagliata?</translation>
     </message>
     <message>
         <source>Loading block index...</source>
-        <translation>Loading block index...</translation>
+        <translation>Caricamento dell&apos;indice dei blocchi...</translation>
     </message>
     <message>
         <source>Error loading blkindex.dat</source>
-        <translation>Error loading blkindex.dat</translation>
+        <translation>Errore durante il caricamento di blkindex.dat</translation>
     </message>
     <message>
         <source>Loading wallet...</source>
-        <translation>Loading wallet...</translation>
+        <translation>Caricamento portamonete...</translation>
     </message>
     <message>
         <source>Error loading wallet.dat: Wallet corrupted</source>
-        <translation>Error loading wallet.dat: Wallet corrupted</translation>
+        <translation>Errore caricamento wallet.dat: Portamonete corrotto</translation>
     </message>
     <message>
         <source>Warning: error reading wallet.dat! All keys read correctly, but transaction data or address book entries might be missing or incorrect.</source>
-        <translation>Warning: error reading wallet.dat! All keys read correctly, but transaction data or address book entries might be missing or incorrect.</translation>
+        <translation>Attenzione: errore durante la lettura di wallet.dat! Tutte le chiavi vengono lette correttamente, ma i dati della transazione o le voci della rubrica potrebbero essere mancanti o errati.</translation>
     </message>
     <message>
         <source>Error loading wallet.dat: Wallet requires newer version of eMark Core</source>
-        <translation>Error loading wallet.dat: Wallet requires newer version of eMark Core</translation>
+        <translation>Errore durante il caricamento del file wallet.dat: il portamonete richiede una versione di eMark Core più recente</translation>
     </message>
     <message>
         <source>Wallet needed to be rewritten: restart eMark Core to complete</source>
-        <translation>Wallet needed to be rewritten: restart eMark Core to complete</translation>
+        <translation>Il portamonete necessitava di essere riscritto: riavviare eMark Core per completare l&apos;operazione</translation>
     </message>
     <message>
         <source>Error loading wallet.dat</source>
-        <translation>Error loading wallet.dat</translation>
+        <translation>Errore durante il caricamento del file wallet.dat</translation>
     </message>
     <message>
         <source>Cannot downgrade wallet</source>
-        <translation>Cannot downgrade wallet</translation>
+        <translation>Non è possibile effettuare il downgrade del portamonete</translation>
     </message>
     <message>
         <source>Cannot write default address</source>
-        <translation>Cannot write default address</translation>
+        <translation>Non è possibile scrivere l&apos;indirizzo predefinito</translation>
     </message>
     <message>
         <source>Rescanning...</source>
-        <translation>Rescanning...</translation>
+        <translation>Ripetizione scansione...</translation>
     </message>
     <message>
         <source>Loading addresses...</source>
-        <translation>Loading addresses...</translation>
+        <translation>Caricamento indirizzi...</translation>
     </message>
     <message>
         <source>Done loading</source>
-        <translation>Done loading</translation>
+        <translation>Caricamento completato</translation>
     </message>
     <message>
         <source>Unable to bind to %s on this computer. eMark Core is probably already running.</source>
-        <translation>Unable to bind to %s on this computer. eMark Core is probably already running.</translation>
+        <translation>Impossibile associarsi a %s su questo computer. Probabilmente eMark Core è già in esecuzione.</translation>
     </message>
     <message>
         <source>Unable to bind to %s on this computer (bind returned error %d, %s)</source>
-        <translation>Unable to bind to %s on this computer (bind returned error %d, %s)</translation>
+        <translation>Impossibile associarsi a %s su questo computer (l&apos;associazione ha restituito l&apos;errore %d, %s)</translation>
     </message>
     <message>
-        <source>eMark version</source>
-        <translation>eMark version</translation>
+        <source>eMark Core version</source>
+        <translation>eMark Core versione</translation>
     </message>
     <message>
         <source>Usage:</source>
-        <translation>Usage:</translation>
+        <translation>Utilizzo:</translation>
     </message>
     <message>
         <source>Send command to -server or eMarkd</source>
-        <translation>Send command to -server or eMarkd</translation>
+        <translation>Invia il comando a -server o eMarkd</translation>
     </message>
     <message>
         <source>List commands</source>
-        <translation>List commands</translation>
+        <translation>Elenca i comandi</translation>
     </message>
     <message>
         <source>Get help for a command</source>
-        <translation>Get help for a command</translation>
+        <translation>Ottieni aiuto per un comando</translation>
     </message>
     <message>
         <source>You must set rpcpassword=&lt;password&gt; in the configuration file:
 %s
 If the file does not exist, create it with owner-readable-only file permissions.</source>
-        <translation>You must set rpcpassword=&lt;password&gt; in the configuration file:
-%s
-If the file does not exist, create it with owner-readable-only file permissions.</translation>
+        <translation></translation>
     </message>
     <message>
         <source>Error: Wallet locked, unable to create transaction!</source>
-        <translation>Error: Wallet locked, unable to create transaction!</translation>
+        <translation>Errore: portafoglio bloccato, impossibile creare la transazione!</translation>
     </message>
     <message>
         <source>Error: Wallet unlocked for staking only, unable to create transaction.</source>
-        <translation>Error: Wallet unlocked for staking only, unable to create transaction.</translation>
+        <translation></translation>
     </message>
     <message>
         <source>Error: This transaction requires a transaction fee of at least %s because of its amount, complexity, or use of recently received funds!</source>
-        <translation>Error: This transaction requires a transaction fee of at least %s because of its amount, complexity, or use of recently received funds!</translation>
+        <translation>Errore: questa transazione richiede una commissione di transazione di almeno %s a causa della sua quantità, complessità o utilizzo dei fondi ricevuti di recente!</translation>
     </message>
     <message>
         <source>Error: Transaction creation failed!</source>
-        <translation>Error: Transaction creation failed!</translation>
+        <translation>Errore: creazione della transazione non riuscita!</translation>
     </message>
     <message>
         <source>Sending...</source>
-        <translation>Sending...</translation>
+        <translation>Invio...</translation>
     </message>
     <message>
         <source>Error: The transaction was rejected! This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
-        <translation>Error: The transaction was rejected! This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</translation>
+        <translation>Errore: la transazione è stata rifiutata! Ciò potrebbe accadere se alcune delle monete nel tuo portafoglio fossero già state spese, ad esempio se hai utilizzato una copia di wallet.dat e le monete sono state spese nella copia ma non contrassegnate come spese qui.</translation>
     </message>
     <message>
         <source>Invalid amount</source>
-        <translation>Invalid amount</translation>
+        <translation>Importo non valido</translation>
     </message>
     <message>
         <source>Insufficient funds</source>
-        <translation>Insufficient funds</translation>
+        <translation>Fondi insufficienti</translation>
     </message>
     <message>
         <source>Error</source>
-        <translation>Error</translation>
+        <translation>Errore</translation>
     </message>
     <message>
         <source>Warning</source>
-        <translation>Warning</translation>
+        <translation>Attenzione</translation>
     </message>
     <message>
         <source>Information</source>
-        <translation>Information</translation>
+        <translation>Informazioni</translation>
     </message>
     <message>
         <source>Warning: This version is obsolete, upgrade required!</source>
-        <translation>Warning: This version is obsolete, upgrade required!</translation>
+        <translation>Attenzione: questa versione è obsoleta, è necessario l&apos;aggiornamento!</translation>
     </message>
     <message>
         <source>WARNING: syncronized checkpoint violation detected, but skipped!</source>
-        <translation>WARNING: syncronized checkpoint violation detected, but skipped!</translation>
+        <translation>ATTENZIONE: rilevata violazione del checkpoint sincronizzato, ma ignorata!</translation>
     </message>
     <message>
         <source>Error: Disk space is low!</source>
-        <translation>Error: Disk space is low!</translation>
+        <translation>Errore: la spazio libero sul disco è insufficiente!</translation>
     </message>
     <message>
         <source>This is a pre-release test build - use at your own risk - do not use for mining or merchant applications</source>
-        <translation>This is a pre-release test build - use at your own risk - do not use for mining or merchant applications</translation>
+        <translation>Questa versione è una compilazione pre-rilascio - usala a tuo rischio - non utilizzarla per la generazione o per applicazioni di commercio</translation>
     </message>
     <message>
         <source>WARNING: Invalid checkpoint found! Displayed transactions may not be correct! You may need to upgrade, or notify developers.</source>
-        <translation>WARNING: Invalid checkpoint found! Displayed transactions may not be correct! You may need to upgrade, or notify developers.</translation>
+        <translation>ATTENZIONE: punto di controllo non valido trovato! Le transazioni visualizzate potrebbero non essere corrette! Potrebbe essere necessario aggiornare o avvisare gli sviluppatori.</translation>
     </message>
 </context>
 </TS>

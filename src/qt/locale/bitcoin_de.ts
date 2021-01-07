@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.0" language="de">
+<TS version="2.1" language="de">
 <context>
     <name>AboutDialog</name>
     <message>
-        <source>About eMark</source>
-        <translation>Über die eMark</translation>
+        <source>About eMark Core</source>
+        <translation>Über eMark Core</translation>
     </message>
     <message>
-        <source>&lt;b&gt;eMark&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;eMark&lt;/b&gt; version</translation>
+        <source>&lt;b&gt;eMark Core&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;eMark Core&lt;/b&gt; Version</translation>
     </message>
     <message>
         <source>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2012 The Peercoin developers
-Copyright © 2015 The eMark developers</source>
-        <translation>Copyright © 2009-2014 The Bitcoin developers
-Copyright © 2012-2012 The Peercoin developers
-Copyright © 2015 Die eMark Entwickler</translation>
+Copyright © 2015-2021 The eMark Core developers</source>
+        <translation>Copyright © 2009-2014 Die Bitcoin-Entwickler
+Copyright © 2012-2012 Die Peercoin-Entwickler
+Copyright © 2015-2021 Die eMark Core-Entwickler</translation>
     </message>
     <message>
         <source>
@@ -27,6 +27,8 @@ Distributed under the MIT/X11 software license, see the accompanying file COPYIN
 
 This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit (&lt;a href=&quot;https://www.openssl.org/&quot;&gt;https://www.openssl.org/&lt;/a&gt;) and cryptographic software written by Eric Young (&lt;a href=&quot;mailto:eay@cryptsoft.com&quot;&gt;eay@cryptsoft.com&lt;/a&gt;) and UPnP software written by Thomas Bernard.</source>
         <translation>
+Dies ist experimentelle Software. 
+
 Weitere Informationen unter &lt;a href=&quot;http://www.deutsche-eMark.org&quot;&gt;http://www.deutsche-eMark.org&lt;/a&gt;
 
 Veröffentlicht unter der  MIT/X11 Software Lizens, Infos unter &lt;a href=&quot;http://www.opensource.org/licenses/mit-license.php&quot;&gt;http://www.opensource.org/licenses/mit-license.php&lt;/a&gt;.
@@ -42,7 +44,7 @@ Dieses Produkt enthält Software, entwickelt vom OpenSSL Project für das OpenSS
     </message>
     <message>
         <source>These are your eMark addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Das sind Ihre eMark Adressen um Zahlungen zu erhalten. Sie werden vielleicht verschiedene an jeden Sender vergeben, damit Sie im Auge behalten können wer Sie bezahlt.</translation>
+        <translation>Das sind Ihre eMark-Adressen um Zahlungen zu erhalten. Es steht Ihnen frei, jedem Absender eine Andere mitzuteilen, um einen besseren Überblick über eingehende Zahlungen zu erhalten.</translation>
     </message>
     <message>
         <source>Double-click to edit address or label</source>
@@ -66,11 +68,11 @@ Dieses Produkt enthält Software, entwickelt vom OpenSSL Project für das OpenSS
     </message>
     <message>
         <source>Show &amp;QR Code</source>
-        <translation>&amp;QR Code anzeigen</translation>
+        <translation>&amp;QR-Code anzeigen</translation>
     </message>
     <message>
         <source>Sign a message to prove you own a eMark address</source>
-        <translation>Signieren Sie eine Nachricht um zu beweisen, dass Sie eine eMark Adresse besitzen</translation>
+        <translation>Eine Nachricht signieren, um den Besitz einer eMark-Adresse zu beweisen</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -78,7 +80,7 @@ Dieses Produkt enthält Software, entwickelt vom OpenSSL Project für das OpenSS
     </message>
     <message>
         <source>Verify a message to ensure it was signed with a specified eMark address</source>
-        <translation>Verifizieren Sie, ob eine Nachricht mit einer bestimmten eMark Adresse signiert wurde</translation>
+        <translation>Eine Nachricht verifizieren, um sicherzustellen, dass diese mit einer angegebenen eMark-Adresse signiert wurde</translation>
     </message>
     <message>
         <source>&amp;Verify Message</source>
@@ -86,7 +88,7 @@ Dieses Produkt enthält Software, entwickelt vom OpenSSL Project für das OpenSS
     </message>
     <message>
         <source>Delete the currently selected address from the list</source>
-        <translation>Ausgewählte Adresse aus der Liste entfernen</translation>
+        <translation>Die ausgewählte Adresse aus der Liste entfernen</translation>
     </message>
     <message>
         <source>&amp;Delete</source>
@@ -114,7 +116,7 @@ Dieses Produkt enthält Software, entwickelt vom OpenSSL Project für das OpenSS
     </message>
     <message>
         <source>Could not write to file %1.</source>
-        <translation>Datei konnte nicht geschrieben werden: %1</translation>
+        <translation>Konnte nicht in Datei %1 schreiben.</translation>
     </message>
 </context>
 <context>
@@ -136,23 +138,23 @@ Dieses Produkt enthält Software, entwickelt vom OpenSSL Project für das OpenSS
     <name>AskPassphraseDialog</name>
     <message>
         <source>Passphrase Dialog</source>
-        <translation>Passwortdialog</translation>
+        <translation>Passphrase-Dialog</translation>
     </message>
     <message>
         <source>Enter passphrase</source>
-        <translation>Passwort eingeben</translation>
+        <translation>Passphrase eingeben</translation>
     </message>
     <message>
         <source>New passphrase</source>
-        <translation>Neues Passwort</translation>
+        <translation>Neue Passphrase</translation>
     </message>
     <message>
         <source>Repeat new passphrase</source>
-        <translation>Neues Passwort wiederholen</translation>
+        <translation>Neue Passphrase wiederholen</translation>
     </message>
     <message>
         <source>Serves to disable the trivial sendmoney when OS account compromised. Provides no real security.</source>
-        <translation>Die einfache Geldsenden Funktion wurde deaktiviert wenn das Betriebssystem kompromittiert wurde. Das bietet jedoch keine echte Sicherheit</translation>
+        <translation>Dient dazu, das triviale Sendmoney zu deaktivieren, wenn das Betriebssystemkonto kompromittiert wurde. Bietet keine echte Sicherheit.</translation>
     </message>
     <message>
         <source>For staking only</source>
@@ -160,11 +162,11 @@ Dieses Produkt enthält Software, entwickelt vom OpenSSL Project für das OpenSS
     </message>
     <message>
         <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
-        <translation>Geben Sie ihr neues Wallet Passwort ein.&lt;br/&gt;Bitte nutzen sie &lt;b&gt;zehn oder mehr verschiedene Buchstaben&lt;/b&gt;, oder &lt;b&gt;acht oder mehr Wörter&lt;/b&gt;.</translation>
+        <translation>Geben Sie die neue Passphrase in die Brieftasche ein.&lt;br/&gt;Verwenden Sie eine Passphrase mit &lt;b&gt;zehn oder mehr zufälligen Zeichen&lt;/b&gt; oder &lt;b&gt;acht oder mehr Wörtern&lt;/b&gt;.</translation>
     </message>
     <message>
         <source>Encrypt wallet</source>
-        <translation>Wallet verschlüsseln</translation>
+        <translation>Brieftasche verschlüsseln</translation>
     </message>
     <message>
         <source>This operation needs your wallet passphrase to unlock the wallet.</source>
@@ -172,7 +174,7 @@ Dieses Produkt enthält Software, entwickelt vom OpenSSL Project für das OpenSS
     </message>
     <message>
         <source>Unlock wallet</source>
-        <translation>Wallet entsperren</translation>
+        <translation>Brieftasche entsperren</translation>
     </message>
     <message>
         <source>This operation needs your wallet passphrase to decrypt the wallet.</source>
@@ -180,67 +182,67 @@ Dieses Produkt enthält Software, entwickelt vom OpenSSL Project für das OpenSS
     </message>
     <message>
         <source>Decrypt wallet</source>
-        <translation>Wallet entschlüsseln</translation>
+        <translation>Brieftasche entschlüsseln</translation>
     </message>
     <message>
         <source>Change passphrase</source>
-        <translation>Passwort ändern</translation>
+        <translation>Passphrase ändern</translation>
     </message>
     <message>
         <source>Enter the old and new passphrase to the wallet.</source>
-        <translation>Geben Sie das alte und das neue Wallet-Passwort ein.</translation>
+        <translation>Geben Sie die alte und die neue Passphrase in die Brieftasche ein.</translation>
     </message>
     <message>
         <source>Confirm wallet encryption</source>
-        <translation>Wallet-Verschlüsselung bestätigen</translation>
+        <translation>Brieftaschenverschlüsselung bestätigen</translation>
     </message>
     <message>
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR COINS&lt;/b&gt;!</source>
-        <translation>Warnung: Wenn Sie Ihr Wallet verschlüsseln und das Passwort verlieren, führt dies zum &lt;b&gt;VERLUST ALLER COINS - DAS PASSWORT KANN MIT KEINEM RECHNER DER WELT NEU BERECHNET WERDEN&lt;/b&gt;!</translation>
+        <translation>Warnung: Wenn Sie Ihre Brieftasche verschlüsseln und Ihre Passphrase verlieren, &lt;b&gt;VERLIEREN SIE ALLE MÜNZEN&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
-        <translation>Sind Sie sich sicher, dass Sie Ihre Wallet verschlüsseln möchten?</translation>
+        <translation>Sind Sie sich sicher, dass Sie Ihre Brieftasche verschlüsseln möchten?</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
-        <translation>Wallet verschlüsselt</translation>
+        <translation>Brieftasche verschlüsselt</translation>
     </message>
     <message>
-        <source>eMark will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
-        <translation>eMark wird sich schließen um den Verschlüsselungsvorgang abzuschließen. Beachten Sie, dass die Verschlüsselung Ihrer Wallet keinen vollständigen Schutz vor Diebstahl Ihrer Coins duch auf Ihrem Computer installierte Malware gewährleistet</translation>
+        <source>eMark Core will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
+        <translation>eMark Core wird jetzt beendet, um den Verschlüsselungsprozess abzuschließen. Bitte beachten Sie, dass die Verschlüsselung Ihrer Brieftasche nicht vollständig vor Diebstahl Ihrer eMarks durch Schadsoftware schützt, die Ihren Computer befällt.</translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
-        <translation>WICHTIG: Machen Sie unbedingt eine neue Sicherungen ihrer wallet.dat (Anleitung im Forum). Aus Sicherheitsgründen werden vorherige Sicherungen der unverschlüsselten Wallet nutzlos, sobald Sie die neue, verschlüsselte Wallet verwenden.</translation>
+        <translation>WICHTIG: Alle vorherigen Sicherungen Ihrer Brieftasche sollten durch die neu erzeugte, verschlüsselte Brieftasche ersetzt werden. Aus Sicherheitsgründen werden vorherige Sicherungen der unverschlüsselten Brieftasche nutzlos, sobald Sie die neue, verschlüsselte Brieftasche verwenden.</translation>
     </message>
     <message>
         <source>Wallet encryption failed</source>
-        <translation>Wallet-Verschlüsselung fehlgeschlagen</translation>
+        <translation>Brieftaschenverschlüsselung fehlgeschlagen</translation>
     </message>
     <message>
         <source>Wallet encryption failed due to an internal error. Your wallet was not encrypted.</source>
-        <translation>Die Wallet-Verschlüsselung ist aufgrund eines internen Fehlers fehlgeschlagen. Ihr Wallet wurde nicht verschlüsselt.</translation>
+        <translation>Die Brieftaschenverschlüsselung ist aufgrund eines internen Fehlers fehlgeschlagen. Ihre Brieftasche wurde nicht verschlüsselt.</translation>
     </message>
     <message>
         <source>The supplied passphrases do not match.</source>
-        <translation>Die eingegebenen Passwörter stimmen nicht überein.</translation>
+        <translation>Die angegebenen Passphrasen stimmen nicht überein.</translation>
     </message>
     <message>
         <source>Wallet unlock failed</source>
-        <translation>Wallet-Entsperrung fehlgeschlagen</translation>
+        <translation>Brieftaschenentsperrung fehlgeschlagen</translation>
     </message>
     <message>
         <source>The passphrase entered for the wallet decryption was incorrect.</source>
-        <translation>Das eingegebene Passwort zur Wallet-Entschlüsselung war nicht korrekt.</translation>
+        <translation>Die für die Brieftaschenentschlüsselung eingegebene Passphrase war falsch.</translation>
     </message>
     <message>
         <source>Wallet decryption failed</source>
-        <translation>Wallet-Entschlüsselung fehlgeschlagen</translation>
+        <translation>Brieftaschenentschlüsselung fehlgeschlagen</translation>
     </message>
     <message>
         <source>Wallet passphrase was successfully changed.</source>
-        <translation>Die Wallet-Passphrase wurde erfolgreich geändert.</translation>
+        <translation>Die Brieftaschen-Passphrase wurde erfolgreich geändert.</translation>
     </message>
     <message>
         <source>Warning: The Caps Lock key is on!</source>
@@ -250,8 +252,8 @@ Dieses Produkt enthält Software, entwickelt vom OpenSSL Project für das OpenSS
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <source>A fatal error occurred. eMark can no longer continue safely and will quit.</source>
-        <translation>Ein fataler Fehler ist aufgetreten. eMark kann nicht fortgesetzt werden. Läuft bereits eine Instanz?.</translation>
+        <source>A fatal error occurred. eMark Core can no longer continue safely and will quit.</source>
+        <translation>Ein schwerwiegender Fehler ist aufgetreten. eMark Core kann nicht mehr sicher fortgesetzt werden und wird beendet.</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -259,15 +261,15 @@ Dieses Produkt enthält Software, entwickelt vom OpenSSL Project für das OpenSS
     </message>
     <message>
         <source>Importing blocks...</source>
-        <translation>Importiert Blöcke...</translation>
+        <translation>Blöcke werden importiert...</translation>
     </message>
     <message>
-        <source>Deutsche eMark</source>
-        <translation>Deutsche eMark</translation>
+        <source>Deutsche eMark Core</source>
+        <translation>Deutsche eMark Core</translation>
     </message>
     <message>
         <source>Wallet</source>
-        <translation>Wallet</translation>
+        <translation>Brieftasche</translation>
     </message>
     <message>
         <source>&amp;Dashboard</source>
@@ -275,7 +277,7 @@ Dieses Produkt enthält Software, entwickelt vom OpenSSL Project für das OpenSS
     </message>
     <message>
         <source>Show general overview of wallet</source>
-        <translation>Allgemeine Wallet-Übersicht anzeigen</translation>
+        <translation>Allgemeine Übersicht über die Brieftasche anzeigen</translation>
     </message>
     <message>
         <source>&amp;Receive</source>
@@ -283,7 +285,7 @@ Dieses Produkt enthält Software, entwickelt vom OpenSSL Project für das OpenSS
     </message>
     <message>
         <source>Show the list of addresses for receiving payments</source>
-        <translation>Liste mit Adressen für eingehende Zahlungen anzeigen</translation>
+        <translation>Liste der Empfangsadressen anzeigen</translation>
     </message>
     <message>
         <source>&amp;Send</source>
@@ -291,7 +293,7 @@ Dieses Produkt enthält Software, entwickelt vom OpenSSL Project für das OpenSS
     </message>
     <message>
         <source>Send coins to a eMark address</source>
-        <translation>Senden Sie Coins an eine eMark Adresse</translation>
+        <translation>Senden Sie Münzen an eine eMark-Adresse</translation>
     </message>
     <message>
         <source>&amp;Transactions</source>
@@ -318,12 +320,12 @@ Dieses Produkt enthält Software, entwickelt vom OpenSSL Project für das OpenSS
         <translation>Anwendung beenden</translation>
     </message>
     <message>
-        <source>&amp;About Deutsche eMark</source>
-        <translation>über die Deutsche eMark</translation>
+        <source>&amp;About eMark Core</source>
+        <translation>&amp;Über eMark Core</translation>
     </message>
     <message>
-        <source>Show information about eMark</source>
-        <translation>Informationen über die eMark anzeigen</translation>
+        <source>Show information about eMark Core</source>
+        <translation>Informationen über eMark Core anzeigen</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
@@ -338,8 +340,8 @@ Dieses Produkt enthält Software, entwickelt vom OpenSSL Project für das OpenSS
         <translation>&amp;Konfiguration...</translation>
     </message>
     <message>
-        <source>Modify configuration options for eMark</source>
-        <translation>Konfigurationsoptionen für eMark ändern</translation>
+        <source>Modify configuration options for eMark Core</source>
+        <translation>Konfigurationsoptionen für eMark Core ändern</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
@@ -347,47 +349,47 @@ Dieses Produkt enthält Software, entwickelt vom OpenSSL Project für das OpenSS
     </message>
     <message>
         <source>&amp;Encrypt Wallet...</source>
-        <translation>Wallet &amp;verschlüsseln...</translation>
+        <translation>Brieftasche &amp;verschlüsseln...</translation>
     </message>
     <message>
         <source>Encrypt or decrypt wallet</source>
-        <translation>Wallet verschlüsseln oder entschlüsseln</translation>
+        <translation>Brieftasche verschlüsseln oder entschlüsseln</translation>
     </message>
     <message>
         <source>&amp;Backup Wallet...</source>
-        <translation>&amp;Wallet sichern...</translation>
+        <translation>&amp;Brieftasche sichern...</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
-        <translation>Eine Wallet-Sicherungskopie erstellen und abspeichern</translation>
+        <translation>Eine Sicherungskopie der Brieftasche erstellen und abspeichern</translation>
     </message>
     <message>
         <source>&amp;Change Passphrase...</source>
-        <translation>&amp;Passwort ändern...</translation>
+        <translation>&amp;Passphrase ändern...</translation>
     </message>
     <message>
         <source>Change the passphrase used for wallet encryption</source>
-        <translation>Ändert das Passwort, welches für die Wallet-Verschlüsselung benutzt wird</translation>
+        <translation>Ändern der für die Brieftaschenverschlüsselung verwendeten Passphrase</translation>
     </message>
     <message>
         <source>&amp;Unlock Wallet...</source>
-        <translation>&amp;Wallet entsperren</translation>
+        <translation>&amp;Brieftasche entsperren...</translation>
     </message>
     <message>
         <source>Unlock wallet</source>
-        <translation>Wallet entsperren</translation>
+        <translation>Brieftasche entsperren</translation>
     </message>
     <message>
         <source>&amp;Lock Wallet</source>
-        <translation>Wallet &amp;sperren</translation>
+        <translation>Brieftasche &amp;sperren</translation>
     </message>
     <message>
         <source>Lock wallet</source>
-        <translation>Wallet sperren</translation>
+        <translation>Brieftasche sperren</translation>
     </message>
     <message>
         <source>Sign &amp;message...</source>
-        <translation>&amp;Nachricht signieren</translation>
+        <translation>&amp;Nachricht signieren...</translation>
     </message>
     <message>
         <source>&amp;Verify message...</source>
@@ -402,8 +404,8 @@ Dieses Produkt enthält Software, entwickelt vom OpenSSL Project für das OpenSS
         <translation>Die Daten der aktuellen Ansicht in eine Datei exportieren</translation>
     </message>
     <message>
-        <source>&amp;Debug window</source>
-        <translation>eMark - &amp;Debug Fenster</translation>
+        <source>eMark Core - &amp;Debug window</source>
+        <translation>eMark Core - &amp;Debugfenster</translation>
     </message>
     <message>
         <source>Open debugging and diagnostic console</source>
@@ -431,13 +433,13 @@ Dieses Produkt enthält Software, entwickelt vom OpenSSL Project für das OpenSS
     </message>
     <message>
         <source>eMark client</source>
-        <translation>eMark client</translation>
+        <translation>eMark-Client</translation>
     </message>
     <message numerus="yes">
         <source>%n active connection(s) to eMark network</source>
         <translation>
-            <numerusform>%n aktive Verbindung zum eMark Netzwerk</numerusform>
-            <numerusform>%n aktive Verbindungen zum eMark Netzwerk</numerusform>
+            <numerusform>%n aktive Verbindung zum eMark-Netzwerk</numerusform>
+            <numerusform>%n aktive Verbindungen zum eMark-Netzwerk</numerusform>
         </translation>
     </message>
     <message>
@@ -494,7 +496,7 @@ Dieses Produkt enthält Software, entwickelt vom OpenSSL Project für das OpenSS
     </message>
     <message>
         <source>Transactions after this will not yet be visible.</source>
-        <translation>Die nachfolgenden Transaktionen werden noch nicht sichtbar sein.</translation>
+        <translation>Transaktionen danach sind noch nicht sichtbar.</translation>
     </message>
     <message>
         <source>eMark</source>
@@ -537,43 +539,44 @@ Address: %4
         <translation>Datum: %1
 Betrag: %2
 Typ: %3
-Adresse: %4</translation>
+Adresse: %4
+</translation>
     </message>
     <message>
         <source>URI handling</source>
-        <translation>URI handling</translation>
+        <translation>URI-Handhabung</translation>
     </message>
     <message>
         <source>URI can not be parsed! This can be caused by an invalid eMark address or malformed URI parameters.</source>
-        <translation>Die URI kann nicht erkannt werden! Die Ursache hierfür kann eine ungültige eMark Adresse oder eine fehlerhafte Angabe der URI Parameter sein.</translation>
+        <translation>URI kann nicht analysiert werden! Dies kann durch eine ungültige eMark-Adresse oder fehlerhafte URI-Parameter verursacht werden.</translation>
     </message>
     <message>
         <source>Wallet is &lt;b&gt;not encrypted&lt;/b&gt;</source>
-        <translation>Die Wallet ist &lt;b&gt;nicht verschlüsselt&lt;/b&gt; </translation>
+        <translation>Die Brieftasche ist &lt;b&gt;nicht verschlüsselt&lt;/b&gt;</translation>
     </message>
     <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
-        <translation>Die Wallet ist &lt;b&gt;verschlüsselt&lt;/b&gt; und aktuell &lt;b&gt;entsperrt&lt;/b&gt;</translation>
+        <translation>Die Brieftasche ist &lt;b&gt;verschlüsselt&lt;/b&gt; und aktuell &lt;b&gt;entsperrt&lt;/b&gt;</translation>
     </message>
     <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
-        <translation>Die Wallet ist &lt;b&gt;verschlüsselt&lt;/b&gt; und aktuell &lt;b&gt;gesperrt&lt;/b&gt;</translation>
+        <translation>Die Brieftasche ist &lt;b&gt;verschlüsselt&lt;/b&gt; und aktuell &lt;b&gt;gesperrt&lt;/b&gt;</translation>
     </message>
     <message>
         <source>Backup Wallet</source>
-        <translation>Wallet sichern</translation>
+        <translation>Brieftasche sichern</translation>
     </message>
     <message>
         <source>Wallet Data (*.dat)</source>
-        <translation>Wallet Data (*.dat)</translation>
+        <translation>Brieftaschendaten (*.dat)</translation>
     </message>
     <message>
         <source>Backup Failed</source>
-        <translation>Sicherung Fehlgeschlagen</translation>
+        <translation>Sicherung fehlgeschlagen</translation>
     </message>
     <message>
         <source>There was an error trying to save the wallet data to the new location.</source>
-        <translation>Beim Speichern der Wallet Daten an dem neuen Ort ist ein Fehler aufgetreten.</translation>
+        <translation>Beim Versuch, die Brieftaschendaten am neuen Speicherort zu speichern, ist ein Fehler aufgetreten.</translation>
     </message>
     <message numerus="yes">
         <source>%n second(s)</source>
@@ -607,7 +610,7 @@ Adresse: %4</translation>
     </message>
     <message>
         <source>Not staking because you don&apos;t have mature coins</source>
-        <translation>Es werden keine Zinsen erzeugt, da Sie keine reifen Coins haben</translation>
+        <translation>Es werden keine Zinsen erzeugt, da Sie keine reifen Münzen haben</translation>
     </message>
     <message>
         <source>Not staking</source>
@@ -625,7 +628,7 @@ Adresse: %4</translation>
     <name>CoinControlDialog</name>
     <message>
         <source>Coin Control</source>
-        <translation>Coin Control</translation>
+        <translation>Münzkontrolle</translation>
     </message>
     <message>
         <source>Quantity:</source>
@@ -729,7 +732,7 @@ Adresse: %4</translation>
     </message>
     <message>
         <source>Copy bytes</source>
-        <translation>Byte kopieren</translation>
+        <translation>Bytes kopieren</translation>
     </message>
     <message>
         <source>Copy priority</source>
@@ -745,31 +748,31 @@ Adresse: %4</translation>
     </message>
     <message>
         <source>highest</source>
-        <translation>am höchsten</translation>
+        <translation>höchste</translation>
     </message>
     <message>
         <source>high</source>
-        <translation>sehr hoch</translation>
-    </message>
-    <message>
-        <source>medium-high</source>
         <translation>hoch</translation>
     </message>
     <message>
+        <source>medium-high</source>
+        <translation>mittelhoch</translation>
+    </message>
+    <message>
         <source>medium</source>
-        <translation>mittel</translation>
+        <translation>Mittel</translation>
     </message>
     <message>
         <source>low-medium</source>
-        <translation>niedrig</translation>
+        <translation>niedrig-mittel</translation>
     </message>
     <message>
         <source>low</source>
-        <translation>sehr niedrig</translation>
+        <translation>niedrig</translation>
     </message>
     <message>
         <source>lowest</source>
-        <translation>am niedrigsten</translation>
+        <translation>am Niedrigsten</translation>
     </message>
     <message>
         <source>DUST</source>
@@ -789,10 +792,11 @@ Adresse: %4</translation>
  This means a fee of at least %1 per kb is required.
 
  Can vary +/- 1 Byte per input.</source>
-        <translation>Dieses Label wird rot, wenn die Transaktion 10000 bytes übersteigt.
+        <translation>Diese Bezeichnung wird rot, wenn die Transaktionsgröße größer als 10000 Byte ist.
 
-Das bedeutet, dass eine Gebühr von %1 per kB benötigt wird.
-</translation>
+Dies bedeutet, dass eine Gebühr von mindestens %1 pro KB erforderlich ist.
+
+ Kann +/- 1 Byte pro Eingang variieren.</translation>
     </message>
     <message>
         <source>Transactions with higher priority get more likely into a block.
@@ -802,9 +806,9 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
  This means a fee of at least %1 per kb is required.</source>
         <translation>Transaktionen mit hoher Priorität kommen leichter in den nächsten Block.
 
-Dies wird rot, wenn die Priorität kleiner als &quot;medium&quot; ist.
+Diese Bezeichnungwird rot, wenn die Priorität kleiner als &quot;mittel&quot; ist.
 
-Dazu wird eine Minimumgebühr von %1pro kb benötigt.</translation>
+ Dies bedeutet, dass eine Gebühr von mindestens %1 pro KB erforderlich ist.</translation>
     </message>
     <message>
         <source>This label turns red, if any recipient receives an amount smaller than %1.
@@ -816,7 +820,7 @@ Dazu wird eine Minimumgebühr von %1pro kb benötigt.</translation>
 
  Das bedeutet, dass eine Gebühr von %2 benötigt wird.
 
-Beträge unter 0.0005 DEM werden als Staub angezeigt.</translation>
+ Beträge unter 0.0005 DEM werden als Staub angezeigt.</translation>
     </message>
     <message>
         <source>This label turns red, if the change is smaller than %1.
@@ -824,8 +828,7 @@ Beträge unter 0.0005 DEM werden als Staub angezeigt.</translation>
  This means a fee of at least %2 is required.</source>
         <translation>Diese Beschriftung wird rot, wenn das Wechselgeld kleiner als %1 ist.
 
-Das bedeutet, dass eine Gebühr von %2 benötigt wird.
-</translation>
+ Das bedeutet, dass eine Gebühr von %2 benötigt wird.</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -852,7 +855,7 @@ Das bedeutet, dass eine Gebühr von %2 benötigt wird.
     </message>
     <message>
         <source>The label associated with this address book entry</source>
-        <translation>Die Kennzeichnung verbunden mit diesem Adressbucheintrag.</translation>
+        <translation>Die mit diesem Adressbucheintrag verknüpfte Bezeichnung</translation>
     </message>
     <message>
         <source>&amp;Address</source>
@@ -860,7 +863,7 @@ Das bedeutet, dass eine Gebühr von %2 benötigt wird.
     </message>
     <message>
         <source>The address associated with this address book entry. This can only be modified for sending addresses.</source>
-        <translation>Die Adresse verknüpft mit diesem Adressbucheintrag. Kann nur bei Ausgangsadressen verändert werden.</translation>
+        <translation>Die diesem Adressbucheintrag zugeordnete Adresse. Dies kann nur zum Senden von Adressen geändert werden.</translation>
     </message>
     <message>
         <source>New receiving address</source>
@@ -880,7 +883,7 @@ Das bedeutet, dass eine Gebühr von %2 benötigt wird.
     </message>
     <message>
         <source>The entered address &quot;%1&quot; is not a valid eMark address.</source>
-        <translation>Die eingegebene Adresse &quot;%1&quot; ist keine gültige eMark Adresse.</translation>
+        <translation>Die eingegebene Adresse &quot;%1&quot; ist keine gültige eMark-Adresse.</translation>
     </message>
     <message>
         <source>The entered address &quot;%1&quot; is already in the address book.</source>
@@ -888,7 +891,7 @@ Das bedeutet, dass eine Gebühr von %2 benötigt wird.
     </message>
     <message>
         <source>Could not unlock wallet.</source>
-        <translation>Wallet konnte nicht entsperrt werden.</translation>
+        <translation>Brieftasche konnte nicht entsperrt werden.</translation>
     </message>
     <message>
         <source>New key generation failed.</source>
@@ -911,15 +914,15 @@ Das bedeutet, dass eine Gebühr von %2 benötigt wird.
     </message>
     <message>
         <source>command-line options</source>
-        <translation>Kommandozeilen Optionen</translation>
+        <translation>Kommandozeilenoptionen</translation>
     </message>
     <message>
         <source>UI options</source>
-        <translation>UI Optionen</translation>
+        <translation>UI-Optionen</translation>
     </message>
     <message>
         <source>Set language, for example &quot;de_DE&quot; (default: system locale)</source>
-        <translation>Sprachenstellungen, z.B. &quot;de_DE&quot; (default: system locale)</translation>
+        <translation>Sprache festlegen, z.B. &quot;de_DE&quot; (Standard: Sprache des Betriebssystems)</translation>
     </message>
     <message>
         <source>Start minimized</source>
@@ -927,14 +930,14 @@ Das bedeutet, dass eine Gebühr von %2 benötigt wird.
     </message>
     <message>
         <source>Show splash screen on startup (default: 1)</source>
-        <translation>zeige Grafik beim starten</translation>
+        <translation>Startbildschirm beim Starten anzeigen (Standard: 1)</translation>
     </message>
 </context>
 <context>
     <name>OptionsDialog</name>
     <message>
         <source>Options</source>
-        <translation>Erweiterte Einstellungen</translation>
+        <translation>Konfiguration</translation>
     </message>
     <message>
         <source>&amp;Main</source>
@@ -942,7 +945,7 @@ Das bedeutet, dass eine Gebühr von %2 benötigt wird.
     </message>
     <message>
         <source>Optional transaction fee per kB that helps make sure your transactions are processed quickly. Most transactions are 1 kB. Fee 0.001 recommended.</source>
-        <translation>Optionale Transaktionsgebühr pro kB die eine zügige Bearbeitung der Transaktion gewährleistet. Die meisten Transaktionen sind 1 kB groß. Eine Gebühr von 0.01 DEM wird empfohlen.</translation>
+        <translation>Optionale Transaktionsgebühr pro kB, mit der sichergestellt wird, dass Ihre Transaktionen schnell verarbeitet werden. Die meisten Transaktionen sind 1 kB. Gebühr 0,001 empfohlen.</translation>
     </message>
     <message>
         <source>Pay transaction &amp;fee</source>
@@ -950,19 +953,19 @@ Das bedeutet, dass eine Gebühr von %2 benötigt wird.
     </message>
     <message>
         <source>Reserved amount does not participate in staking and is therefore spendable at any time.</source>
-        <translation>Zurückgehaltener Betrag der nicht zur Zinserzeugung genutzt wird und daher jederzeit zum ausgeben bereitstehen.</translation>
+        <translation>Zurückgehaltener Betrag der nicht zur Zinserzeugung genutzt wird und daher jederzeit zum Ausgeben bereitsteht.</translation>
     </message>
     <message>
         <source>Reserve</source>
         <translation>Reserviert</translation>
     </message>
     <message>
-        <source>Automatically start eMark after logging in to the system.</source>
-        <translation>eMark automatisch beim einloggen in das System starten.</translation>
+        <source>Automatically start eMark Core after logging in to the system.</source>
+        <translation>eMark Core nach der Anmeldung am System automatisch ausführen.</translation>
     </message>
     <message>
-        <source>&amp;Start eMark on system login</source>
-        <translation>&amp;starte eMark bei Systemstart</translation>
+        <source>&amp;Start eMark Core on system login</source>
+        <translation>&amp;Starte eMark Core nach Systemanmeldung</translation>
     </message>
     <message>
         <source>&amp;Network</source>
@@ -970,7 +973,7 @@ Das bedeutet, dass eine Gebühr von %2 benötigt wird.
     </message>
     <message>
         <source>Automatically open the eMark client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automatisch den eMark client port auf dem Router öffnen. Das funktioniert nur wenn der Router UPnP unterstützt und UPnP aktiviert ist.</translation>
+        <translation>Automatisch den eMark-Clientport auf dem Router öffnen. Dies funktioniert nur, wenn Ihr Router UPnP unterstützt und dies aktiviert ist.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -978,11 +981,11 @@ Das bedeutet, dass eine Gebühr von %2 benötigt wird.
     </message>
     <message>
         <source>Connect to the eMark network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Verbindung zum eMark Netzwerk über SOCKS Proxy (z.B bei Verbindung über TOR)</translation>
+        <translation>Über einen SOCKS-Proxy mit dem eMark-Netzwerk verbinden (z.B. beim Verbinden über Tor).</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS proxy:</source>
-        <translation>&amp;Verbinde über SOCKS Proxy:</translation>
+        <translation>&amp;Über einen SOCKS-Proxy verbinden:</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -990,7 +993,7 @@ Das bedeutet, dass eine Gebühr von %2 benötigt wird.
     </message>
     <message>
         <source>IP address of the proxy (e.g. 127.0.0.1)</source>
-        <translation>IP Adresse des Proxies (z.B. 127.0.01)</translation>
+        <translation>IP-Adresse des Proxies (z.B. 127.0.0.1)</translation>
     </message>
     <message>
         <source>&amp;Port:</source>
@@ -1037,8 +1040,8 @@ Das bedeutet, dass eine Gebühr von %2 benötigt wird.
         <translation>&amp;Sprache der Benutzeroberfläche:</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting eMark.</source>
-        <translation>Die Sprache der GUI kann hier verändert werden. Die Einstellung wird nach einem Neustart übernommen.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting eMark Core.</source>
+        <translation>Legt die Sprache der Benutzeroberfläche fest. Diese Einstellung wird erst nach einem Neustart von eMark Core aktiv.</translation>
     </message>
     <message>
         <source>&amp;Unit to show amounts in:</source>
@@ -1050,23 +1053,23 @@ Das bedeutet, dass eine Gebühr von %2 benötigt wird.
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
-        <translation>Legt fest, ob die &quot;Coin Control&quot;-Funktionen angezeigt werden sollen.</translation>
+        <translation>Gibt an, ob Münzsteuerungsfunktionen angezeigt werden sollen oder nicht.</translation>
     </message>
     <message>
         <source>Display coin &amp;control features (experts only!)</source>
-        <translation>Coin &amp;control Eigenschaften anzeigen</translation>
+        <translation>Münz- und &amp;Kontrollfunktionen anzeigen (nur für Experten!)</translation>
     </message>
     <message>
         <source>Whether to select the coin outputs randomly or with minimal coin age.</source>
-        <translation>Coin-Output zufällig oder nach Coinalter aussuchen</translation>
+        <translation>Gibt an, ob die Münzausgaben zufällig oder mit minimalem Münzalter ausgewählt werden sollen.</translation>
     </message>
     <message>
         <source>Minimize weight consumption (experimental)</source>
-        <translation>minimire Gewichtung (experimental)</translation>
+        <translation>Gewichtsverbrauch minimieren (experimentell)</translation>
     </message>
     <message>
         <source>Use black visual theme (requires restart)</source>
-        <translation>schwarzes Thema verwenden (Neustart erforderlich)</translation>
+        <translation>schwarzes Design verwenden (Neustart erforderlich)</translation>
     </message>
     <message>
         <source>&amp;OK</source>
@@ -1089,8 +1092,8 @@ Das bedeutet, dass eine Gebühr von %2 benötigt wird.
         <translation>Warnung</translation>
     </message>
     <message>
-        <source>This setting will take effect after restarting eMark.</source>
-        <translation>Diese Einstellung wird nach einem Neustart übernommen.</translation>
+        <source>This setting will take effect after restarting eMark Core.</source>
+        <translation>Diese Einstellung wird erst nach einem Neustart von eMark Core aktiv.</translation>
     </message>
     <message>
         <source>The supplied proxy address is invalid.</source>
@@ -1104,12 +1107,12 @@ Das bedeutet, dass eine Gebühr von %2 benötigt wird.
         <translation>Formular</translation>
     </message>
     <message>
-        <source>Wallet</source>
-        <translation>Wallet</translation>
+        <source>Balance</source>
+        <translation>Guthaben</translation>
     </message>
     <message>
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the eMark network after a connection is established, but this process has not completed yet.</source>
-        <translation>Die angezeigte Information kann falsch sein. Die Brieftasche synchronisiert automatisch mit dem eMark Netzwerk nachdem eine Verbindung zustande gekommen ist, aber dieser Prozess ist noch nicht abgeschlossen.</translation>
+        <translation>Die angezeigten Informationen sind möglicherweise nicht mehr aktuell. Ihre Brieftasche wird automatisch synchronisiert, nachdem eine Verbindung zum eMark-Netzwerk hergestellt wurde. Dieser Prozess ist jedoch derzeit noch nicht abgeschlossen.</translation>
     </message>
     <message>
         <source>Spendable:</source>
@@ -1117,15 +1120,15 @@ Das bedeutet, dass eine Gebühr von %2 benötigt wird.
     </message>
     <message>
         <source>Your current spendable balance</source>
-        <translation>Ihr aktuell verfügbarer Kontostand</translation>
+        <translation>Ihr aktuell verfügbares Guthaben</translation>
     </message>
     <message>
         <source>Stake:</source>
-        <translation>Stake:</translation>
+        <translation>Einsatz:</translation>
     </message>
     <message>
         <source>Total of coins that was staked, and do not yet count toward the current balance</source>
-        <translation>Stakecoins die noch nicht zum Gesamtbetrag hinzugefügt wurden</translation>
+        <translation>Summe der Münzen, die eingesetzt wurden und noch nicht auf den aktuellen Kontostand angerechnet werden</translation>
     </message>
     <message>
         <source>Unconfirmed:</source>
@@ -1133,7 +1136,7 @@ Das bedeutet, dass eine Gebühr von %2 benötigt wird.
     </message>
     <message>
         <source>Total of transactions that have yet to be confirmed, and do not yet count toward the current balance</source>
-        <translation>Unbestätigte Coins die noch nicht zum Gesamtbetrag hinzugefügt wurden</translation>
+        <translation>Betrag aus unbestätigten Transaktionen, der noch nicht im aktuellen Kontostand enthalten ist</translation>
     </message>
     <message>
         <source>Immature:</source>
@@ -1163,15 +1166,15 @@ Das bedeutet, dass eine Gebühr von %2 benötigt wird.
 <context>
     <name>PaymentServer</name>
     <message>
-        <source>Cannot start eMark: click-to-pay handler</source>
-        <translation>Kann eMark nicht starten</translation>
+        <source>Cannot start eMark Core: click-to-pay handler</source>
+        <translation>eMark Core kann nicht gestartet werden: Click-to-Pay-Handler</translation>
     </message>
 </context>
 <context>
     <name>QRCodeDialog</name>
     <message>
         <source>QR Code Dialog</source>
-        <translation>QR Code Dialog</translation>
+        <translation>QR-Code-Dialog</translation>
     </message>
     <message>
         <source>Request Payment</source>
@@ -1191,7 +1194,7 @@ Das bedeutet, dass eine Gebühr von %2 benötigt wird.
     </message>
     <message>
         <source>&amp;Save As...</source>
-        <translation>&amp; Speichern als...</translation>
+        <translation>&amp;Speichern als...</translation>
     </message>
     <message>
         <source>Error encoding URI into QR Code.</source>
@@ -1207,22 +1210,22 @@ Das bedeutet, dass eine Gebühr von %2 benötigt wird.
     </message>
     <message>
         <source>Save QR Code</source>
-        <translation>QR Code Speichern</translation>
+        <translation>QR-Code abspeichern</translation>
     </message>
     <message>
         <source>PNG Images (*.png)</source>
-        <translation>PNG Grafik (*.png)</translation>
+        <translation>PNG-Bild (*.png)</translation>
     </message>
 </context>
 <context>
     <name>RPCConsole</name>
     <message>
-        <source>eMark - Debug window</source>
-        <translation>eMark - Debug Fenster</translation>
+        <source>eMark Core - Debug window</source>
+        <translation>eMark Core - Debugfenster</translation>
     </message>
     <message>
         <source>&amp;Information</source>
-        <translation>Information</translation>
+        <translation>&amp;Information</translation>
     </message>
     <message>
         <source>eMark Core</source>
@@ -1230,15 +1233,15 @@ Das bedeutet, dass eine Gebühr von %2 benötigt wird.
     </message>
     <message>
         <source>Client name</source>
-        <translation>Client Name</translation>
+        <translation>Clientname</translation>
     </message>
     <message>
         <source>N/A</source>
-        <translation>N/A</translation>
+        <translation>n. v.</translation>
     </message>
     <message>
         <source>Client version</source>
-        <translation>Client Version</translation>
+        <translation>Clientversion</translation>
     </message>
     <message>
         <source>Using OpenSSL version</source>
@@ -1262,7 +1265,7 @@ Das bedeutet, dass eine Gebühr von %2 benötigt wird.
     </message>
     <message>
         <source>On testnet</source>
-        <translation>Am Testnetz</translation>
+        <translation>Im Testnetz</translation>
     </message>
     <message>
         <source>Block chain</source>
@@ -1278,11 +1281,11 @@ Das bedeutet, dass eine Gebühr von %2 benötigt wird.
     </message>
     <message>
         <source>Debug log file</source>
-        <translation>Debug log Datei</translation>
+        <translation>Debugprotokolldatei</translation>
     </message>
     <message>
         <source>Open the eMark debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Öffne debug.log Datei aus dem eMark Verzeichnis. Dies kann bei grösseren Dateien einen Moment dauern.</translation>
+        <translation>Öffnet die eMark-Debugprotokolldatei aus dem aktuellen Datenverzeichnis. Dies kann bei großen Protokolldateien einige Sekunden dauern.</translation>
     </message>
     <message>
         <source>&amp;Open</source>
@@ -1290,15 +1293,15 @@ Das bedeutet, dass eine Gebühr von %2 benötigt wird.
     </message>
     <message>
         <source>Command-line options</source>
-        <translation>Komandozeilen Optionen</translation>
+        <translation>Kommandozeilenoptionen</translation>
     </message>
     <message>
-        <source>Show the eMark-Qt help message to get a list with possible eMark command-line options.</source>
-        <translation>Zeige eMark-QT-Hilfe für alle verfügbaren Kommandozeilenoptionen.</translation>
+        <source>Show the eMark-Qt help message to get a list with possible command-line options.</source>
+        <translation>Zeige eMark-QT-Hilfe, um eine Liste mit möglichen Kommandozeilenoptionen zu erhalten.</translation>
     </message>
     <message>
         <source>&amp;Show</source>
-        <translation>&amp;Zeigen</translation>
+        <translation>&amp;Anzeigen</translation>
     </message>
     <message>
         <source>&amp;Console</source>
@@ -1310,11 +1313,11 @@ Das bedeutet, dass eine Gebühr von %2 benötigt wird.
     </message>
     <message>
         <source>&amp;Network Traffic</source>
-        <translation>&amp;Netzwerk-Verkehr</translation>
+        <translation>&amp;Netzwerkverkehr</translation>
     </message>
     <message>
         <source>&amp;Clear</source>
-        <translation>&amp;Clear</translation>
+        <translation>&amp;Leeren</translation>
     </message>
     <message>
         <source>Totals</source>
@@ -1329,8 +1332,8 @@ Das bedeutet, dass eine Gebühr von %2 benötigt wird.
         <translation>Ausgang:</translation>
     </message>
     <message>
-        <source>Welcome to the eMark RPC console.</source>
-        <translation>Herzlich Willkommen zur eMark RPC-Konsole.</translation>
+        <source>Welcome to the eMark Core RPC console.</source>
+        <translation>Willkommen in der eMark Core-RPC-Konsole.</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -1338,7 +1341,7 @@ Das bedeutet, dass eine Gebühr von %2 benötigt wird.
     </message>
     <message>
         <source>Type &lt;b&gt;help&lt;/b&gt; for an overview of available commands.</source>
-        <translation>Bitte &lt;b&gt;help&lt;/b&gt; eingeben, um eine Übersicht der verfügbarer Befehle zu erhalten.</translation>
+        <translation>Bitte &lt;b&gt;help&lt;/b&gt; eingeben, um eine Übersicht verfügbarer Befehle zu erhalten.</translation>
     </message>
     <message>
         <source>%1 B</source>
@@ -1377,7 +1380,7 @@ Das bedeutet, dass eine Gebühr von %2 benötigt wird.
     </message>
     <message>
         <source>Coin Control Features</source>
-        <translation>&quot;Coin Control&quot;-Funktionen</translation>
+        <translation>Münzkontrollfunktionen</translation>
     </message>
     <message>
         <source>Inputs...</source>
@@ -1401,7 +1404,7 @@ Das bedeutet, dass eine Gebühr von %2 benötigt wird.
     </message>
     <message>
         <source>Bytes:</source>
-        <translation>Byte:</translation>
+        <translation>Bytes:</translation>
     </message>
     <message>
         <source>Amount:</source>
@@ -1417,7 +1420,7 @@ Das bedeutet, dass eine Gebühr von %2 benötigt wird.
     </message>
     <message>
         <source>medium</source>
-        <translation>mittel</translation>
+        <translation>Mittel</translation>
     </message>
     <message>
         <source>Fee:</source>
@@ -1445,7 +1448,7 @@ Das bedeutet, dass eine Gebühr von %2 benötigt wird.
     </message>
     <message>
         <source>Transaction &amp;comment: </source>
-        <translation>&amp;Verwendungszweck:</translation>
+        <translation>&amp;Verwendungszweck: </translation>
     </message>
     <message>
         <source>Enter a transaction comment  (MAX 256 Characters) (Note: this information is public)</source>
@@ -1453,7 +1456,7 @@ Das bedeutet, dass eine Gebühr von %2 benötigt wird.
     </message>
     <message>
         <source>Send to multiple recipients at once</source>
-        <translation>In einer Transaktion an mehrere Empfänger auf einmal überweisen</translation>
+        <translation>An mehrere Empfänger gleichzeitig senden</translation>
     </message>
     <message>
         <source>Add &amp;Recipient</source>
@@ -1469,7 +1472,7 @@ Das bedeutet, dass eine Gebühr von %2 benötigt wird.
     </message>
     <message>
         <source>Balance:</source>
-        <translation>Kontostand:</translation>
+        <translation>Guthaben:</translation>
     </message>
     <message>
         <source>123.456 DEM</source>
@@ -1485,7 +1488,7 @@ Das bedeutet, dass eine Gebühr von %2 benötigt wird.
     </message>
     <message>
         <source>Enter a eMark address (e.g. NgJKYsHctQfF8D8r6otTGxdnB6r311NvJf)</source>
-        <translation>eMark Adresse eingeben (z.B. NgJKYsHctQfF8D8r6otTGxdnB6r311NvJf)</translation>
+        <translation>eMark-Adresse eingeben (z.B. NgJKYsHctQfF8D8r6otTGxdnB6r311NvJf)</translation>
     </message>
     <message>
         <source>Enter a transaction comment (MAX 256 Characters) (Note: This information is public)</source>
@@ -1509,7 +1512,7 @@ Das bedeutet, dass eine Gebühr von %2 benötigt wird.
     </message>
     <message>
         <source>Copy bytes</source>
-        <translation>Byte kopieren</translation>
+        <translation>Bytes kopieren</translation>
     </message>
     <message>
         <source>Copy priority</source>
@@ -1533,7 +1536,7 @@ Das bedeutet, dass eine Gebühr von %2 benötigt wird.
     </message>
     <message>
         <source>Are you sure you want to send %1?</source>
-        <translation>Sind sie sicher das sie %1 senden wollen?</translation>
+        <translation>Sind sie sicher das Sie %1 senden wollen?</translation>
     </message>
     <message>
         <source> and </source>
@@ -1549,11 +1552,11 @@ Das bedeutet, dass eine Gebühr von %2 benötigt wird.
     </message>
     <message>
         <source>The amount exceeds your balance.</source>
-        <translation>Der angegebene Betrag übersteigt Ihren Kontostand.</translation>
+        <translation>Der angegebene Betrag übersteigt Ihr Guthaben.</translation>
     </message>
     <message>
         <source>The total exceeds your balance when the %1 transaction fee is included.</source>
-        <translation>Der angegebene Betrag übersteigt aufgrund der Transaktionsgebühr in Höhe von %1 Ihren Kontostand.</translation>
+        <translation>Der angegebene Betrag übersteigt aufgrund der Transaktionsgebühr in Höhe von %1 Ihr Guthaben.</translation>
     </message>
     <message>
         <source>Duplicate address found, can only send to each address once per send operation.</source>
@@ -1565,11 +1568,11 @@ Das bedeutet, dass eine Gebühr von %2 benötigt wird.
     </message>
     <message>
         <source>Error: The transaction was rejected. This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
-        <translation>Fehler: Transaktion wurde nicht angenommen. Dies kann bei schon ausgegebenen Coins passieren. Bitte Überprüfen.</translation>
+        <translation>Fehler: Die Transaktion wurde abgelehnt. Dies kann passieren, wenn einige der Münzen in Ihrer Brieftasche bereits ausgegeben wurden, z. B. wenn Sie eine Kopie von wallet.dat verwendet haben und Münzen in der Kopie ausgegeben wurden, aber hier nicht als ausgegeben markiert sind.</translation>
     </message>
     <message>
         <source>WARNING: Invalid eMark address</source>
-        <translation>Warnung: Ungültige eMark Adresse</translation>
+        <translation>Warnung: Ungültige eMark-Adresse</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -1577,7 +1580,7 @@ Das bedeutet, dass eine Gebühr von %2 benötigt wird.
     </message>
     <message>
         <source>WARNING: unknown change address</source>
-        <translation>Warnung: Unbekannte Wechselgeldadresse</translation>
+        <translation>Warnung: unbekannte Wechselgeldadresse</translation>
     </message>
 </context>
 <context>
@@ -1616,19 +1619,19 @@ Das bedeutet, dass eine Gebühr von %2 benötigt wird.
     </message>
     <message>
         <source>Enter a label for this address to add it to your address book</source>
-        <translation>Adressbezeichnung eingeben (diese wird zusammen mit der Adresse dem Adressbuch hinzugefügt)</translation>
+        <translation>Geben Sie eine Bezeichnung für diese Adresse ein, um sie Ihrem Adressbuch hinzuzufügen</translation>
     </message>
     <message>
         <source>A&amp;mount:</source>
-        <translation>&amp;Betrag</translation>
+        <translation>&amp;Betrag:</translation>
     </message>
     <message>
         <source>&amp;Label:</source>
-        <translation>&amp;Bezeichnung</translation>
+        <translation>&amp;Bezeichnung:</translation>
     </message>
     <message>
         <source>Enter a eMark address (e.g. NgJKYsHctQfF8D8r6otTGxdnB6r311NvJf)</source>
-        <translation>eMark Adresse eingeben (z.B. NgJKYsHctQfF8D8r6otTGxdnB6r311NvJf)</translation>
+        <translation>eMark-Adresse eingeben (z.B. NgJKYsHctQfF8D8r6otTGxdnB6r311NvJf)</translation>
     </message>
 </context>
 <context>
@@ -1675,7 +1678,7 @@ Das bedeutet, dass eine Gebühr von %2 benötigt wird.
     </message>
     <message>
         <source>Sign the message to prove you own this eMark address</source>
-        <translation>Signiere die Nachricht um zu beweisen das du Besitzer dieser eMark Adresse bist.</translation>
+        <translation>Signieren Sie die Nachricht, um zu beweisen, dass Sie diese eMark-Adresse besitzen</translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
@@ -1691,7 +1694,7 @@ Das bedeutet, dass eine Gebühr von %2 benötigt wird.
     </message>
     <message>
         <source>Enter the signing address, message (ensure you copy line breaks, spaces, tabs, etc. exactly) and signature below to verify the message. Be careful not to read more into the signature than what is in the signed message itself, to avoid being tricked by a man-in-the-middle attack.</source>
-        <translation>Geben Sie die signierende Adresse, Nachricht (achten Sie darauf Zeilenumbrüche, Leerzeichen, Tabulatoren usw. exakt zu kopieren) und Signatur unten ein, um die Nachricht zu verifizieren. Vorsicht, interpretieren Sie nicht mehr in die Signatur, als in der signierten Nachricht selber enthalten ist, um nicht von einem Man-in-the-middle-Angriff hinters Licht geführt zu werden.</translation>
+        <translation>Geben Sie die Signaturadresse, die Nachricht (stellen Sie sicher, dass Sie Zeilenumbrüche, Leerzeichen, Tabulatoren usw. genau kopieren) und die Signatur unten ein, um die Nachricht zu überprüfen. Achten Sie darauf, nicht mehr in die Signatur zu lesen als in der signierten Nachricht selbst, um nicht von einem Man-in-the-Middle-Angriff ausgetrickst zu werden.</translation>
     </message>
     <message>
         <source>The address the message was signed with (e.g. NgJKYsHctQfF8D8r6otTGxdnB6r311NvJf)</source>
@@ -1699,7 +1702,7 @@ Das bedeutet, dass eine Gebühr von %2 benötigt wird.
     </message>
     <message>
         <source>Verify the message to ensure it was signed with the specified eMark address</source>
-        <translation>Verifiziere die Nachricht um sicherzustellen das die richtige eMark Adresse zum signieren benutzt wurde</translation>
+        <translation>Überprüfen Sie die Nachricht, um sicherzustellen, dass sie mit der angegebenen eMark-Adresse signiert wurde</translation>
     </message>
     <message>
         <source>Reset all verify message fields</source>
@@ -1707,15 +1710,15 @@ Das bedeutet, dass eine Gebühr von %2 benötigt wird.
     </message>
     <message>
         <source>Enter a eMark address (e.g. NgJKYsHctQfF8D8r6otTGxdnB6r311NvJf)</source>
-        <translation>eMark Adresse eingeben (z.B. NgJKYsHctQfF8D8r6otTGxdnB6r311NvJf)</translation>
+        <translation>eMark-Adresse eingeben (z.B. NgJKYsHctQfF8D8r6otTGxdnB6r311NvJf)</translation>
     </message>
     <message>
         <source>Click &quot;Sign Message&quot; to generate signature</source>
-        <translation>Auf &quot;Nachricht signieren&quot; klicken, um die Signatur zu erzeugen</translation>
+        <translation>Klicken Sie auf &quot;Nachricht signieren&quot;, um eine Signatur zu generieren</translation>
     </message>
     <message>
         <source>Enter eMark signature</source>
-        <translation>eMark Signatur eingeben</translation>
+        <translation>eMark-Signatur eingeben</translation>
     </message>
     <message>
         <source>The entered address is invalid.</source>
@@ -1727,15 +1730,15 @@ Das bedeutet, dass eine Gebühr von %2 benötigt wird.
     </message>
     <message>
         <source>The entered address does not refer to a key.</source>
-        <translation>Die eingegebene Adresse verweist nicht auf einen Schlüssel.</translation>
+        <translation>Die eingegebene Adresse bezieht sich nicht auf einen Schlüssel.</translation>
     </message>
     <message>
         <source>Wallet unlock was cancelled.</source>
-        <translation>Wallet-Entsperrung wurde abgebrochen.</translation>
+        <translation>Das Entsperren der Brieftasche wurde abgebrochen.</translation>
     </message>
     <message>
         <source>Private key for the entered address is not available.</source>
-        <translation>Privater Schlüssel zur eingegebenen Adresse ist nicht verfügbar.</translation>
+        <translation>Der private Schlüssel für die eingegebene Adresse ist nicht verfügbar.</translation>
     </message>
     <message>
         <source>Message signing failed.</source>
@@ -1755,7 +1758,7 @@ Das bedeutet, dass eine Gebühr von %2 benötigt wird.
     </message>
     <message>
         <source>The signature did not match the message digest.</source>
-        <translation>Die Signatur entspricht nicht dem Message Digest.</translation>
+        <translation>Die Signatur stimmte nicht mit dem Message Digest überein.</translation>
     </message>
     <message>
         <source>Message verification failed.</source>
@@ -1770,7 +1773,7 @@ Das bedeutet, dass eine Gebühr von %2 benötigt wird.
     <name>TrafficGraphWidget</name>
     <message>
         <source>KB/s</source>
-        <translation>KB/s</translation>
+        <translation>KB / s</translation>
     </message>
 </context>
 <context>
@@ -1788,7 +1791,7 @@ Das bedeutet, dass eine Gebühr von %2 benötigt wird.
     </message>
     <message>
         <source>conflicted</source>
-        <translation>kollidiert</translation>
+        <translation>Konflikt</translation>
     </message>
     <message>
         <source>%1/offline</source>
@@ -1858,7 +1861,7 @@ Das bedeutet, dass eine Gebühr von %2 benötigt wird.
     </message>
     <message>
         <source>not accepted</source>
-        <translation>nicht angenommen</translation>
+        <translation>nicht akzeptiert</translation>
     </message>
     <message>
         <source>Debit</source>
@@ -1878,7 +1881,7 @@ Das bedeutet, dass eine Gebühr von %2 benötigt wird.
     </message>
     <message>
         <source>Wallet comment</source>
-        <translation>Wallet Kommentar</translation>
+        <translation>Brieftaschenkommentar</translation>
     </message>
     <message>
         <source>Transaction comment</source>
@@ -1890,7 +1893,7 @@ Das bedeutet, dass eine Gebühr von %2 benötigt wird.
     </message>
     <message>
         <source>Generated coins must mature 100 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to &quot;not accepted&quot; and it won&apos;t be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
-        <translation>Generierte Coins müssen 100 Bestätigungen erhalten bevor sie verfügbar sind. Dieser Block wurde ans Netzwerk gesendet und der Blockkette angehängt als der Block generiert wurde. Wenn er der Blockkette nicht erfolgreich angehängt werden konnte, wird er den Status in &quot;nicht Akzeptiert&quot; ändern und wird nicht verfügbar sein. Das kann zufällig geschehen wenn jemand anderes einen Block innerhalb von ein paar Sekunden generiert.</translation>
+        <translation>Generierte Münzen müssen 100 Blöcke reifen, bevor sie ausgegeben werden können. Wenn Sie diesen Block generiert haben, wurde er an das Netzwerk gesendet, um zur Blockkette hinzugefügt zu werden. Wenn es nicht in die Kette gelangt, ändert sich sein Status in &quot;nicht akzeptiert&quot; und es kann nicht ausgegeben werden. Dies kann gelegentlich vorkommen, wenn ein anderer Knoten innerhalb weniger Sekunden nach Ihrem einen Block generiert.</translation>
     </message>
     <message>
         <source>Debug information</source>
@@ -1925,7 +1928,7 @@ Das bedeutet, dass eine Gebühr von %2 benötigt wird.
     </message>
     <message>
         <source>This pane shows a detailed description of the transaction</source>
-        <translation>Dieser Bereich zeigt eine detaillierte Beschreibung der Transaktion an</translation>
+        <translation>Dieser Bereich enthält eine detaillierte Beschreibung der Transaktion</translation>
     </message>
 </context>
 <context>
@@ -1936,13 +1939,13 @@ Das bedeutet, dass eine Gebühr von %2 benötigt wird.
     </message>
     <message>
         <source>Type</source>
-        <translation>Typ</translation>
+        <translation>Art</translation>
     </message>
     <message>
         <source>Address</source>
         <translation>Adresse</translation>
     </message>
-	<message>
+    <message>
         <source>Transaction Comment</source>
         <translation>Verwendungszweck</translation>
     </message>
@@ -1987,11 +1990,11 @@ Das bedeutet, dass eine Gebühr von %2 benötigt wird.
     </message>
     <message>
         <source>This block was not received by any other nodes and will probably not be accepted!</source>
-        <translation>Dieser Block wurde von keinem anderen Knoten empfangen und wird wahrscheinlich nicht angenommen werden!</translation>
+        <translation>Dieser Block wurde von keinem anderen Knoten empfangen und wird wahrscheinlich nicht akzeptiert!</translation>
     </message>
     <message>
         <source>Generated but not accepted</source>
-        <translation>Generiert, aber nicht angenommen</translation>
+        <translation>Generiert aber nicht akzeptiert</translation>
     </message>
     <message>
         <source>Received with</source>
@@ -2015,7 +2018,7 @@ Das bedeutet, dass eine Gebühr von %2 benötigt wird.
     </message>
     <message>
         <source>(n/a)</source>
-        <translation>(k.A.)</translation>
+        <translation>(n. v.)</translation>
     </message>
     <message>
         <source>Transaction status. Hover over this field to show number of confirmations.</source>
@@ -2023,19 +2026,19 @@ Das bedeutet, dass eine Gebühr von %2 benötigt wird.
     </message>
     <message>
         <source>Date and time that the transaction was received.</source>
-        <translation>Datum und Uhrzeit als die Transaktion empfangen wurde.</translation>
+        <translation>Datum und Uhrzeit des Eingangs der Transaktion.</translation>
     </message>
     <message>
         <source>Type of transaction.</source>
-        <translation>Art der Transaktion</translation>
+        <translation>Art der Transaktion.</translation>
     </message>
     <message>
         <source>Destination address of transaction.</source>
-        <translation>Zieladresse der Transaktion</translation>
+        <translation>Zieladresse der Transaktion.</translation>
     </message>
-	<message>
+    <message>
         <source>Transaction Comment.</source>
-        <translation>Verwendungszweck der Transaktion</translation>
+        <translation>Verwendungszweck der Transaktion.</translation>
     </message>
     <message>
         <source>Amount removed from or added to balance.</source>
@@ -2142,7 +2145,7 @@ Das bedeutet, dass eine Gebühr von %2 benötigt wird.
     </message>
     <message>
         <source>Type</source>
-        <translation>Typ</translation>
+        <translation>Art</translation>
     </message>
     <message>
         <source>Label</source>
@@ -2166,7 +2169,7 @@ Das bedeutet, dass eine Gebühr von %2 benötigt wird.
     </message>
     <message>
         <source>Could not write to file %1.</source>
-        <translation>Kann Datei nicht schreiben %1.</translation>
+        <translation>Konnte nicht in Datei %1 schreiben.</translation>
     </message>
     <message>
         <source>Range:</source>
@@ -2223,12 +2226,12 @@ Zum Beispiel: alertnotify=echo %%s | mail -s &quot;eMark Alert&quot; admin@foo.c
         <translation>Beim Einrichten des abzuhörenden RPC-Ports %u für IPv4 ist ein Fehler aufgetreten: %s</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong eMark will not work properly.</source>
-        <translation>Wanung: Bitte prüfen Sie ob Datum und Uhrzeit richtig eingestellt sind. Wenn das Datum falsch ist wird eMark nicht richtig funktionieren.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong eMark Core will not work properly.</source>
+        <translation>Wanung: Bitte prüfen Sie ob Datum und Uhrzeit richtig eingestellt sind. Wenn das Datum falsch ist wird eMark Core nicht richtig funktionieren.</translation>
     </message>
     <message>
         <source>Options:</source>
-        <translation>Optionen</translation>
+        <translation>Optionen:</translation>
     </message>
     <message>
         <source>This help message</source>
@@ -2240,7 +2243,7 @@ Zum Beispiel: alertnotify=echo %%s | mail -s &quot;eMark Alert&quot; admin@foo.c
     </message>
     <message>
         <source>Specify pid file (default: eMarkd.pid)</source>
-        <translation>PID Datei angeben (Standard: eMark.pid)</translation>
+        <translation>PID-Datei angeben (Standard: eMark.pid)</translation>
     </message>
     <message>
         <source>Specify data directory</source>
@@ -2248,7 +2251,7 @@ Zum Beispiel: alertnotify=echo %%s | mail -s &quot;eMark Alert&quot; admin@foo.c
     </message>
     <message>
         <source>Specify wallet file (within data directory)</source>
-        <translation>Wallet-Datei festlegen (innerhalb des Datenverzeichnisses)</translation>
+        <translation>Geben Sie die Brieftaschendatei an (im Datenverzeichnis)</translation>
     </message>
     <message>
         <source>Set database cache size in megabytes (default: 25)</source>
@@ -2268,7 +2271,7 @@ Zum Beispiel: alertnotify=echo %%s | mail -s &quot;eMark Alert&quot; admin@foo.c
     </message>
     <message>
         <source>Select the version of socks proxy to use (4-5, default: 5)</source>
-        <translation>SOCKS Proxy Version auswählen (4-5, Standart: 5)</translation>
+        <translation>SOCKS Proxy Version auswählen (4-5, Standard: 5)</translation>
     </message>
     <message>
         <source>Use proxy to reach tor hidden services (default: same as -proxy)</source>
@@ -2288,15 +2291,15 @@ Zum Beispiel: alertnotify=echo %%s | mail -s &quot;eMark Alert&quot; admin@foo.c
     </message>
     <message>
         <source>Add a node to connect to and attempt to keep the connection open</source>
-        <translation>Mit dem Knoten verbinden und versuchen die Verbindung aufrecht zu halten</translation>
+        <translation>Fügen Sie einen Knoten hinzu, zu dem eine Verbindung hergestellt werden soll, und versuchen Sie, die Verbindung offen zu halten</translation>
     </message>
     <message>
         <source>Connect only to the specified node(s)</source>
-        <translation>Nur mit dem/den angegebenen Knoten verbinden</translation>
+        <translation>Stellen Sie nur eine Verbindung zu den angegebenen Knoten her</translation>
     </message>
     <message>
         <source>Connect to a node to retrieve peer addresses, and disconnect</source>
-        <translation>Mit dem Knoten verbinden um Adressen von Gegenstellen abzufragen, danach trennen</translation>
+        <translation>Stellen Sie eine Verbindung zu einem Knoten her, um Peer-Adressen abzurufen, und trennen Sie die Verbindung</translation>
     </message>
     <message>
         <source>Specify your own public address</source>
@@ -2308,7 +2311,7 @@ Zum Beispiel: alertnotify=echo %%s | mail -s &quot;eMark Alert&quot; admin@foo.c
     </message>
     <message>
         <source>Discover own IP address (default: 1 when listening and no -externalip)</source>
-        <translation>Eigene IP-Adresse erkennen (Standard: 1, wenn abgehört wird und nicht -externalip)</translation>
+        <translation>Eigene IP-Adresse ermitteln (Standard: 1 beim Abhören und ohne -externalip)</translation>
     </message>
     <message>
         <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
@@ -2316,43 +2319,43 @@ Zum Beispiel: alertnotify=echo %%s | mail -s &quot;eMark Alert&quot; admin@foo.c
     </message>
     <message>
         <source>Bind to given address. Use [host]:port notation for IPv6</source>
-        <translation>Nutze die gegebene Adresse. Benutze [host]:port notation für IPv6</translation>
+        <translation>An angegebene Adresse binden. Verwenden Sie [Host]:Port notation für IPv6</translation>
     </message>
     <message>
         <source>Query for peer addresses via DNS lookup, if low on addresses (default: 1 unless -connect)</source>
-        <translation>Wenn zuwenige Peeradressen, Abfrage über DNS (default: 1 unless -connect)</translation>
+        <translation>Abfrage nach Peeradressen über DNS-Suche, wenn die Adressen niedrig sind (Standard: 1, es sei denn -connect)</translation>
     </message>
     <message>
         <source>Always query for peer addresses via DNS lookup (default: 0)</source>
-        <translation>Peer-Adressen immer per DNS abfragen(default: 0)</translation>
+        <translation>Abfrage nach Peeradressen immer über DNS-Suche (Standard: 0)</translation>
     </message>
     <message>
         <source>Sync time with other nodes. Disable if time on your system is precise e.g. syncing with NTP (default: 1)</source>
-        <translation>Synchronisierungszeit mit anderen Knoten. Bitte deaktivieren wenn Systemzeit präzise (default: 1)</translation>
+        <translation>Zeit mit anderen Knoten synchronisieren. Deaktivieren Sie diese Option, wenn die Zeit auf Ihrem System genau ist, z. B. Synchronisierung mit NTP (Standard: 1)</translation>
     </message>
     <message>
         <source>Sync checkpoints policy (default: strict)</source>
-        <translation>Syncronisiere nach Checkpoint Regeln (default: strict)</translation>
+        <translation>Richtlinie für Synchronisierungsprüfpunkte (Standard: streng)</translation>
     </message>
     <message>
         <source>Threshold for disconnecting misbehaving peers (default: 100)</source>
-        <translation>Schwellenwert, um Verbindungen zu sich nicht konform verhaltenden Gegenstellen zu beenden (Standard: 100)</translation>
+        <translation>Schwellenwert für das Trennen von Peers mit schlechtem Verhalten (Standard: 100)</translation>
     </message>
     <message>
         <source>Number of seconds to keep misbehaving peers from reconnecting (default: 86400)</source>
-        <translation>Anzahl Sekunden, während denen sich nicht konform verhaltenden Gegenstellen die Wiederverbindung verweigert wird (Standard: 86400)</translation>
+        <translation>Anzahl der Sekunden, um zu verhindern, dass sich Peers mit schlechtem Verhalten wieder verbinden (Standard: 86400)</translation>
     </message>
     <message>
         <source>Maximum per-connection receive buffer, &lt;n&gt;*1000 bytes (default: 5000)</source>
-        <translation>Maximale Größe, &lt;n&gt; * 1000 Byte, des Empfangspuffers pro Verbindung (Standard: 5000)</translation>
+        <translation>Maximaler Empfangspuffer pro Verbindung, &lt;n&gt;*1000 Byte (Standard: 5000)</translation>
     </message>
     <message>
         <source>Maximum per-connection send buffer, &lt;n&gt;*1000 bytes (default: 1000)</source>
-        <translation>Maximale Größe, &lt;n&gt; * 1000 Byte, des Sendepuffers pro Verbindung (Standard: 1000)</translation>
+        <translation>Maximaler Sendepuffer pro Verbindung, &lt;n&gt;*1000 Byte (Standard: 1000)</translation>
     </message>
     <message>
         <source>Use UPnP to map the listening port (default: 1 when listening)</source>
-        <translation>UPnP verwenden, um die Portweiterleitung einzurichten (Standard: 1, wenn abgehört wird)</translation>
+        <translation>UPnP verwenden, um die Portweiterleitung einzurichten (Standard: 1 beim Abhören)</translation>
     </message>
     <message>
         <source>Use UPnP to map the listening port (default: 0)</source>
@@ -2364,11 +2367,11 @@ Zum Beispiel: alertnotify=echo %%s | mail -s &quot;eMark Alert&quot; admin@foo.c
     </message>
     <message>
         <source>When creating transactions, ignore inputs with value less than this (default: 0.01)</source>
-        <translation>Beim erstellen einer Transaktion werden eingaben kleiner als dieser Wert ignoriert (Standard 0,01)</translation>
+        <translation>Beim Erstellen einer Transaktion werden Eingaben kleiner als dieser Wert ignoriert (Standard 0,01)</translation>
     </message>
     <message>
         <source>Accept command line and JSON-RPC commands</source>
-        <translation>Kommandozeilenbefehle und JSON-RPC-Befehle annehmen</translation>
+        <translation>Kommandozeilen- und JSON-RPC-Befehle annehmen</translation>
     </message>
     <message>
         <source>Run in the background as a daemon and accept commands</source>
@@ -2380,15 +2383,15 @@ Zum Beispiel: alertnotify=echo %%s | mail -s &quot;eMark Alert&quot; admin@foo.c
     </message>
     <message>
         <source>Output debugging information (default: 0, supplying &lt;category&gt; is optional)</source>
-        <translation>Ausgabe debugging Information (standard: 0, supplying &lt;category&gt; ist optional)</translation>
+        <translation>Debugging-Informationen ausgeben (Standard: 0, Angabe von &lt;Kategorie&gt; ist optional)</translation>
     </message>
     <message>
         <source>If &lt;category&gt; is not supplied, output all debugging information.</source>
-        <translation>Wenn &lt;category&gt;nicht verfügbar, Ausgabe der gesammten debugging Information.</translation>
+        <translation>Wenn &lt;Kategorie&gt; nicht angegeben wird, alle Debugging-Informationen ausgeben.</translation>
     </message>
     <message>
         <source>&lt;category&gt; can be:</source>
-        <translation>&lt;category&gt; kann sein:</translation>
+        <translation>&lt;Kategorie&gt; kann sein:</translation>
     </message>
     <message>
         <source>Prepend debug output with timestamp</source>
@@ -2396,7 +2399,7 @@ Zum Beispiel: alertnotify=echo %%s | mail -s &quot;eMark Alert&quot; admin@foo.c
     </message>
     <message>
         <source>Shrink debug.log file on client startup (default: 1 when no -debug)</source>
-        <translation>Verkleinere Datei debug.log beim Starten des Clients (Standard: 1, wenn kein -debug)</translation>
+        <translation>Verkleinern der Debug.log-Datei beim Clientstart (Standard: 1, wenn kein -debug)</translation>
     </message>
     <message>
         <source>Send trace/debug info to console instead of debug.log file</source>
@@ -2404,7 +2407,7 @@ Zum Beispiel: alertnotify=echo %%s | mail -s &quot;eMark Alert&quot; admin@foo.c
     </message>
     <message>
         <source>Enter regression test mode, which uses a special chain in which blocks can be solved instantly. This is intended for regression testing tools and app development.</source>
-        <translation>Enter regression test mode, which uses a special chain in which blocks can be solved instantly. This is intended for regression testing tools and app development.</translation>
+        <translation>Rufen Sie den Regressionstestmodus auf, der eine spezielle Kette verwendet, in der Blöcke sofort gelöst werden können. Dies ist für Regressionstest-Tools und die App-Entwicklung vorgesehen.</translation>
     </message>
     <message>
         <source>Username for JSON-RPC connections</source>
@@ -2424,23 +2427,23 @@ Zum Beispiel: alertnotify=echo %%s | mail -s &quot;eMark Alert&quot; admin@foo.c
     </message>
     <message>
         <source>Send commands to node running on &lt;ip&gt; (default: 127.0.0.1)</source>
-        <translation>Sende Befehle an Knoten &lt;ip&gt; (Standard: 127.0.0.1)</translation>
+        <translation>Sende Befehle an Knoten, der auf &lt;ip&gt; ausgeführt wird (Standard: 127.0.0.1)</translation>
     </message>
     <message>
         <source>Wait for RPC server to start</source>
-        <translation>Warte auf Start von RPC Server</translation>
+        <translation>Warten Sie, bis der RPC-Server gestartet ist</translation>
     </message>
     <message>
         <source>Set the number of threads to service RPC calls (default: 4)</source>
-        <translation>Anzahl der RPC calls (standard: 4)</translation>
+        <translation>Legt die Anzahl der Threads fest, die RPC-Aufrufe bedienen sollen (Standard: 4)</translation>
     </message>
     <message>
         <source>Execute command when the best block changes (%s in cmd is replaced by block hash)</source>
-        <translation>Kommando ausführen wenn der beste Block wechselt (%s im Kommando wird durch den Hash des Blocks ersetzt)</translation>
+        <translation>Befehl ausführen, wenn sich der beste Block ändert (%s in cmd wird durch Block-Hash ersetzt)</translation>
     </message>
     <message>
         <source>Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)</source>
-        <translation>Kommando ausführen wenn sich eine Wallet-Transaktion verändert (%s im Kommando wird durch die TxID ersetzt)</translation>
+        <translation>Befehl ausführen, wenn sich eine Brieftaschentransaktion ändert (% s in cmd wird durch TxID ersetzt)</translation>
     </message>
     <message>
         <source>Require a confirmations for change (default: 0)</source>
@@ -2448,7 +2451,7 @@ Zum Beispiel: alertnotify=echo %%s | mail -s &quot;eMark Alert&quot; admin@foo.c
     </message>
     <message>
         <source>Minimize weight consumption (experimental) (default: 0)</source>
-        <translation>minimire Gewichtung (experimental)</translation>
+        <translation>Gewichtsverbrauch minimieren (experimentell) (Standard: 0)</translation>
     </message>
     <message>
         <source>Execute command when a relevant alert is received (%s in cmd is replaced by message)</source>
@@ -2456,7 +2459,7 @@ Zum Beispiel: alertnotify=echo %%s | mail -s &quot;eMark Alert&quot; admin@foo.c
     </message>
     <message>
         <source>Upgrade wallet to latest format</source>
-        <translation>Wallet auf das neueste Format aktualisieren</translation>
+        <translation>Brieftasche auf das neueste Format aktualisieren</translation>
     </message>
     <message>
         <source>Set key pool size to &lt;n&gt; (default: 100)</source>
@@ -2464,11 +2467,11 @@ Zum Beispiel: alertnotify=echo %%s | mail -s &quot;eMark Alert&quot; admin@foo.c
     </message>
     <message>
         <source>Rescan the block chain for missing wallet transactions</source>
-        <translation>Blockkette erneut nach fehlenden Wallet-Transaktionen durchsuchen</translation>
+        <translation>Scannen Sie die Blockkette erneut auf fehlende Brieftaschentransaktionen</translation>
     </message>
     <message>
         <source>Attempt to recover private keys from a corrupt wallet.dat</source>
-        <translation>Versucht private Schlüssel aus einer beschädigten wallet.dat wiederherzustellen</translation>
+        <translation>Versuche private Schlüssel aus einer beschädigten wallet.dat wiederherzustellen</translation>
     </message>
     <message>
         <source>How many blocks to check at startup (default: 500, 0 = all)</source>
@@ -2476,15 +2479,15 @@ Zum Beispiel: alertnotify=echo %%s | mail -s &quot;eMark Alert&quot; admin@foo.c
     </message>
     <message>
         <source>How thorough the block verification is (0-6, default: 1)</source>
-        <translation>Wie genau die Blockverifizierung ist (0-6, default: 1)</translation>
+        <translation>Wie gründlich die Blocküberprüfung ist (0-6, Standard: 1)</translation>
     </message>
     <message>
         <source>Imports blocks from external blk000?.dat file</source>
-        <translation>Importiere Blöcke aus externer blk000?.dat Datei.</translation>
+        <translation>Importiert Blöcke aus einer externen blk000?.dat-Datei</translation>
     </message>
     <message>
         <source>Keep at most &lt;n&gt; unconnectable blocks in memory (default: %u)</source>
-        <translation>Behalte hauptsächlich &lt;n&gt; Blöcke im Speicher zu denen nicht verbunden werden kann (default: %u)</translation>
+        <translation>Behalte hauptsächlich &lt;n&gt; Blöcke im Speicher zu denen nicht verbunden werden kann (Standard:%u)</translation>
     </message>
     <message>
         <source>Block creation options:</source>
@@ -2496,7 +2499,7 @@ Zum Beispiel: alertnotify=echo %%s | mail -s &quot;eMark Alert&quot; admin@foo.c
     </message>
     <message>
         <source>Set maximum block size in bytes (default: 250000)</source>
-        <translation>Maximale Blockgröße in Bytes festlegen (Standard: 250000)</translation>
+        <translation>Maximale Blockgröße in Byte festlegen (Standard: 250000)</translation>
     </message>
     <message>
         <source>Set maximum size of high-priority/low-fee transactions in bytes (default: 27000)</source>
@@ -2524,43 +2527,43 @@ Zum Beispiel: alertnotify=echo %%s | mail -s &quot;eMark Alert&quot; admin@foo.c
     </message>
     <message>
         <source>Warning: Deprecated argument -debugnet ignored, use -debug=net</source>
-        <translation>Warnung: Veralteter Befehl -debugnet ignoriert, benutze -debug=net</translation>
+        <translation>Warnung: Veraltetes Argument -debugnet ignoriert, verwenden Sie -debug=net</translation>
     </message>
     <message>
         <source>Invalid amount for -paytxfee=&lt;amount&gt;: &apos;%s&apos;</source>
-        <translation>Ungültiger Betrag für -paytxfee=&lt;amount&gt;: &apos;%s&apos;</translation>
+        <translation>Ungültiger Betrag für -paytxfee=&lt;Betrag&gt;: &apos;%s&apos;</translation>
     </message>
     <message>
         <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
-        <translation>Warnung: -paytxfee ist auf einen sehr hohen Wert festgelegt! Dies ist die Gebühr die beim Senden einer Transaktion fällig wird.</translation>
+        <translation>Warnung: -paytxfee ist sehr hoch eingestellt! Dies ist die Transaktionsgebühr, die Sie zahlen, wenn Sie eine Transaktion senden.</translation>
     </message>
     <message>
         <source>Invalid amount for -mininput=&lt;amount&gt;: &apos;%s&apos;</source>
-        <translation>Ungültiger Betrag für -mininput=&lt;amount&gt;:&apos;%s&apos;</translation>
+        <translation>Ungültiger Betrag für -mininput=&lt;Betrag&gt;: &apos;%s&apos;</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. eMark is shutting down.</source>
-        <translation>Funktionstest gescheitert, eMark wird beendet.</translation>
+        <source>Initialization sanity check failed. eMark Core is shutting down.</source>
+        <translation>Initialisierungsüberprüfung fehlgeschlagen. eMark Core wird beendet.</translation>
     </message>
     <message>
         <source>Wallet %s resides outside data directory %s.</source>
-        <translation>Wallet %s liegt außerhalb des Daten Verzeichnisses %s.</translation>
+        <translation>Brieftasche %s befindet sich außerhalb des Datenverzeichnisses %s.</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. eMark is probably already running.</source>
-        <translation>Kein Zugriff auf den Daten Ordner. eMark läuft vermutlich bereits.</translation>
+        <source>Cannot obtain a lock on data directory %s. eMark Core is probably already running.</source>
+        <translation>Das Datenverzeichnis %s kann nicht gesperrt werden. eMark Core läuft wahrscheinlich bereits.</translation>
     </message>
     <message>
         <source>Verifying database integrity...</source>
-        <translation>Überprüfe Datenbank Integrität...</translation>
+        <translation>Überprüfen der Datenbankintegrität ...</translation>
     </message>
     <message>
         <source>Error initializing wallet database environment %s!</source>
-        <translation>Fehler beim initialisieren der Wallet-Daten</translation>
+        <translation>Fehler beim Initialisieren der Brieftaschen-Datenbankumgebung %s!</translation>
     </message>
     <message>
         <source>Warning: wallet.dat corrupt, data salvaged! Original wallet.dat saved as wallet.{timestamp}.bak in %s; if your balance or transactions are incorrect you should restore from a backup.</source>
-        <translation>Warnung: wallet.dat beschädigt, Rettung erfolgreich! Original wallet.dat wurde als wallet.{Zeitstempel}.dat in %s gespeichert. Falls ihr Kontostand oder Transaktionen nicht korrekt sind, sollten Sie von einer Datensicherung wiederherstellen.</translation>
+        <translation>Warnung: wallet.dat beschädigt, Daten gerettet! Original wallet.dat als wallet{Zeitstempel}.bak  in %s; Wenn Ihr Guthaben oder Ihre Transaktionen falsch sind, sollten Sie eine Sicherung wiederherstellen.</translation>
     </message>
     <message>
         <source>wallet.dat corrupt, salvage failed</source>
@@ -2596,7 +2599,7 @@ Zum Beispiel: alertnotify=echo %%s | mail -s &quot;eMark Alert&quot; admin@foo.c
     </message>
     <message>
         <source>Invalid amount for -reservebalance=&lt;amount&gt;</source>
-        <translation>Ungültiger Betrag für -reservebalance=&lt;amount&gt;</translation>
+        <translation>Ungültiger Betrag für -reservebalance=&lt;Betrag&gt;</translation>
     </message>
     <message>
         <source>Unable to sign checkpoint, wrong checkpointkey?</source>
@@ -2604,31 +2607,31 @@ Zum Beispiel: alertnotify=echo %%s | mail -s &quot;eMark Alert&quot; admin@foo.c
     </message>
     <message>
         <source>Loading block index...</source>
-        <translation>Lade Blockindex...</translation>
+        <translation>Blockindex wird geladen...</translation>
     </message>
     <message>
         <source>Error loading blkindex.dat</source>
-        <translation>Fehler beim laden der blkindex.dat</translation>
+        <translation>Fehler beim Laden von blkindex.dat</translation>
     </message>
     <message>
         <source>Loading wallet...</source>
-        <translation>Lade Wallet...</translation>
+        <translation>Brieftasche wird geladen...</translation>
     </message>
     <message>
         <source>Error loading wallet.dat: Wallet corrupted</source>
-        <translation>Fehler beim Laden von wallet.dat: Wallet beschädigt</translation>
+        <translation>Fehler beim Laden von wallet.dat: Brieftasche beschädigt</translation>
     </message>
     <message>
         <source>Warning: error reading wallet.dat! All keys read correctly, but transaction data or address book entries might be missing or incorrect.</source>
-        <translation>Warnung: Lesen von wallet.dat fehlgeschlagen! Alle Schlüssel wurden korrekt gelesen, Transaktionsdaten bzw. Adressbucheinträge fehlen aber möglicherweise oder sind inkorrekt.</translation>
+        <translation>Warnung: Fehler beim Lesen von wallet.dat! Alle Schlüssel werden korrekt gelesen, aber möglicherweise fehlen Transaktionsdaten oder Adressbucheinträge.</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of eMark</source>
-        <translation>Fehler beim Laden wallet.dat. Wallet benötigt neuere Version der eMark App</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of eMark Core</source>
+        <translation>Fehler beim Laden wallet.dat. Brieftasche benötigt neuere Version der eMark Core-App</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart eMark to complete</source>
-        <translation>Wallet muss neu geschrieben werden. Neustart erforderlich</translation>
+        <source>Wallet needed to be rewritten: restart eMark Core to complete</source>
+        <translation>Die Brieftasche muss neu geschrieben werden: Starten Sie eMark Core neu, um den Vorgang abzuschließen</translation>
     </message>
     <message>
         <source>Error loading wallet.dat</source>
@@ -2636,7 +2639,7 @@ Zum Beispiel: alertnotify=echo %%s | mail -s &quot;eMark Alert&quot; admin@foo.c
     </message>
     <message>
         <source>Cannot downgrade wallet</source>
-        <translation>Wallet kann nicht auf eine ältere Version herabgestuft werden</translation>
+        <translation>Brieftasche kann nicht auf eine ältere Version herabgestuft werden</translation>
     </message>
     <message>
         <source>Cannot write default address</source>
@@ -2655,16 +2658,16 @@ Zum Beispiel: alertnotify=echo %%s | mail -s &quot;eMark Alert&quot; admin@foo.c
         <translation>Laden abgeschlossen</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. eMark is probably already running.</source>
-        <translation>Fehler beim starten von %s auf diesem Computer. eMark Client läuft wahrscheinlich bereits.</translation>
+        <source>Unable to bind to %s on this computer. eMark Core is probably already running.</source>
+        <translation>Fehler beim Starten von %s auf diesem Computer. eMark-Client läuft wahrscheinlich bereits.</translation>
     </message>
     <message>
         <source>Unable to bind to %s on this computer (bind returned error %d, %s)</source>
-        <translation>Kann auf diesem Computer nicht an %s binden (zurückgegebener Fehler %d, %s)</translation>
+        <translation>Auf diesem Computer kann keine Bindung an %s hergestellt werden (Bindung hat den Fehler %d, %s zurückgegeben)</translation>
     </message>
     <message>
         <source>eMark version</source>
-        <translation>eMark Version</translation>
+        <translation>eMark-Version</translation>
     </message>
     <message>
         <source>Usage:</source>
@@ -2672,7 +2675,7 @@ Zum Beispiel: alertnotify=echo %%s | mail -s &quot;eMark Alert&quot; admin@foo.c
     </message>
     <message>
         <source>Send command to -server or eMarkd</source>
-        <translation>Kommando an -server oder eMarkd versenden</translation>
+        <translation>Befehl an -server oder eMarkd senden</translation>
     </message>
     <message>
         <source>List commands</source>
@@ -2686,25 +2689,25 @@ Zum Beispiel: alertnotify=echo %%s | mail -s &quot;eMark Alert&quot; admin@foo.c
         <source>You must set rpcpassword=&lt;password&gt; in the configuration file:
 %s
 If the file does not exist, create it with owner-readable-only file permissions.</source>
-        <translation>Sie müssen den Wert rpcpassword=&lt;passwort&gt; in der Konfigurationsdatei angeben:
+        <translation>Sie müssen rpcpassword=&lt;Kennwort&gt; in der Konfigurationsdatei festlegen:
 %s
-Falls die Konfigurationsdatei nicht existiert, erzeugen Sie diese bitte mit Leserechten nur für den Dateibesitzer.</translation>
+Wenn die Datei nicht vorhanden ist, erstellen Sie sie mit nur vom Eigentümer lesbaren Dateiberechtigungen.</translation>
     </message>
     <message>
         <source>Error: Wallet locked, unable to create transaction!</source>
-        <translation>Fehler: Wallet gesperrt, kann keine Transaktionen erstellen!</translation>
+        <translation>Fehler: Brieftasche gesperrt, Transaktion kann nicht erstellt werden!</translation>
     </message>
     <message>
         <source>Error: Wallet unlocked for staking only, unable to create transaction.</source>
-        <translation>Fehler: Die Brieftasche wurde nur zur Zinserzeugung entsperrt. Transaktionen können nicht erzeugt werden.</translation>
+        <translation>Fehler: Brieftasche nur zur Zinserzeugung entsperrt, Transaktion kann nicht erstellt werden.</translation>
     </message>
     <message>
         <source>Error: This transaction requires a transaction fee of at least %s because of its amount, complexity, or use of recently received funds!</source>
-        <translation>Fehler: Diese Transaktion benötigt eine Mindestgebühr von %s wegen der Summe oder der Komplexität!</translation>
+        <translation>Fehler: Diese Transaktion erfordert eine Transaktionsgebühr von mindestens %s aufgrund der Höhe, Komplexität oder Verwendung der kürzlich erhaltenen Mittel!</translation>
     </message>
     <message>
         <source>Error: Transaction creation failed!</source>
-        <translation>Fehler: Transaktion gescheitert!</translation>
+        <translation>Fehler: Transaktionserstellung fehlgeschlagen!</translation>
     </message>
     <message>
         <source>Sending...</source>
@@ -2712,7 +2715,7 @@ Falls die Konfigurationsdatei nicht existiert, erzeugen Sie diese bitte mit Lese
     </message>
     <message>
         <source>Error: The transaction was rejected! This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
-        <translation>Fehler: Die Transaktion wurde zurückgewiesen! Dies kann bei bereits ausgegebenen Coins passieren, zum Beispiel einer Kopie der wallet.dat.</translation>
+        <translation>Fehler: Die Transaktion wurde abgelehnt! Dies kann passieren, wenn einige der Münzen in Ihrer Brieftasche bereits ausgegeben wurden, z. B. wenn Sie eine Kopie von wallet.dat verwendet haben und Münzen in der Kopie ausgegeben wurden, aber hier nicht als ausgegeben markiert sind.</translation>
     </message>
     <message>
         <source>Invalid amount</source>
@@ -2740,7 +2743,7 @@ Falls die Konfigurationsdatei nicht existiert, erzeugen Sie diese bitte mit Lese
     </message>
     <message>
         <source>WARNING: syncronized checkpoint violation detected, but skipped!</source>
-        <translation>Warnung: Bei Synchronisierung Checkpoint Verletzung entdeckt, vorerst übersprungen!</translation>
+        <translation>WARNUNG: Synchronisierte Kontrollpunkt-Verletzung erkannt, aber übersprungen!</translation>
     </message>
     <message>
         <source>Error: Disk space is low!</source>
@@ -2748,11 +2751,11 @@ Falls die Konfigurationsdatei nicht existiert, erzeugen Sie diese bitte mit Lese
     </message>
     <message>
         <source>This is a pre-release test build - use at your own risk - do not use for mining or merchant applications</source>
-        <translation>Dies ist eine Vorab-Testversion, bitte nicht zum minen benutzen.</translation>
+        <translation>Dies ist ein Test-Build vor der Veröffentlichung - auf eigene Gefahr verwenden - nicht für Mining- oder Händleranwendungen verwenden</translation>
     </message>
     <message>
         <source>WARNING: Invalid checkpoint found! Displayed transactions may not be correct! You may need to upgrade, or notify developers.</source>
-        <translation>Warnung: Ungültiger Checkpunkt gefunden! Angezeigte Transaktionen können falsch sein! Sie müssen vielleicht updaten oder die Entwickler benachrichtigen.</translation>
+        <translation>WARNUNG: Ungültiger Kontrollpunkt gefunden! Angezeigte Transaktionen sind möglicherweise nicht korrekt! Möglicherweise müssen Sie ein Upgrade durchführen oder Entwickler benachrichtigen.</translation>
     </message>
 </context>
 </TS>
