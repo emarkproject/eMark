@@ -82,7 +82,7 @@ BitcoinGUI::BitcoinGUI(QWidget *parent):
     nWeight(0)
 {
     resize(850+95, 550);
-    setWindowTitle(tr("Deutsche eMark") + " - " + tr("Wallet"));
+    setWindowTitle(tr("Deutsche eMark Core"));
 #ifndef Q_OS_MAC
     qApp->setWindowIcon(QIcon(":icons/bitcoin"));
     setWindowIcon(QIcon(":icons/bitcoin"));
@@ -184,7 +184,7 @@ BitcoinGUI::BitcoinGUI(QWidget *parent):
     {
         // Override style sheet for progress bar for styles that have a segmented progress bar,
         // as they make the text unreadable (workaround for issue #1071)
-        // See https://qt-project.org/doc/qt-4.8/gallery.html
+        // See https://doc.qt.io/archives/qt-4.8/gallery.html
         QString curStyle = qApp->style()->metaObject()->className();
         if(curStyle == "QWindowsStyle" || curStyle == "QWindowsXPStyle")
         {
@@ -275,14 +275,14 @@ void BitcoinGUI::createActions()
     quitAction->setToolTip(tr("Quit application"));
     quitAction->setShortcut(QKeySequence(Qt::CTRL + Qt::Key_Q));
     quitAction->setMenuRole(QAction::QuitRole);
-    aboutAction = new QAction(tr("&About Deutsche eMark"), this);
-    aboutAction->setToolTip(tr("Show information about eMark"));
+    aboutAction = new QAction(tr("&About eMark Core"), this);
+    aboutAction->setToolTip(tr("Show information about eMark Core"));
     aboutAction->setMenuRole(QAction::AboutRole);
     aboutQtAction = new QAction(tr("About &Qt"), this);
     aboutQtAction->setToolTip(tr("Show information about Qt"));
     aboutQtAction->setMenuRole(QAction::AboutQtRole);
     optionsAction = new QAction(tr("&Options..."), this);
-    optionsAction->setToolTip(tr("Modify configuration options for eMark"));
+    optionsAction->setToolTip(tr("Modify configuration options for eMark Core"));
     optionsAction->setMenuRole(QAction::PreferencesRole);
     toggleHideAction = new QAction(QIcon(":/icons/bitcoin"), tr("&Show / Hide"), this);
     encryptWalletAction = new QAction(tr("&Encrypt Wallet..."), this);

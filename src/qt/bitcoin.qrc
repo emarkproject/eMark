@@ -72,6 +72,10 @@
     <qresource prefix="/translations">
         <file alias="de">locale/bitcoin_de.qm</file>
         <file alias="en">locale/bitcoin_en.qm</file>
+        <file alias="it">locale/bitcoin_it.qm</file>	
+        <file alias="nl">locale/bitcoin_nl.qm</file>	
+        <file alias="pl">locale/bitcoin_pl.qm</file>	
+        <file alias="ru">locale/bitcoin_ru.qm</file>	
 
     </qresource>
 </RCC>
