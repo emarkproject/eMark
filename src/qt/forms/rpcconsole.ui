@@ -11,7 +11,7 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>eMark - Debug window</string>
+   <string>eMark Core - Debug window</string>
   </property>
   <layout class="QVBoxLayout" name="verticalLayout_2">
    <item>
@@ -325,7 +325,7 @@
        <item row="16" column="0">
         <widget class="QPushButton" name="showCLOptionsButton">
          <property name="toolTip">
-          <string>Show the eMark-Qt help message to get a list with possible eMark command-line options.</string>
+          <string>Show the eMark-Qt help message to get a list with possible command-line options.</string>
          </property>
          <property name="text">
           <string>&amp;Show</string>
