@@ -1,6 +1,6 @@
 TEMPLATE = app
 TARGET = eMark-qt
-VERSION = 1.6.1
+VERSION = 1.6.1.2
 INCLUDEPATH += src src/json src/qt
 QT += network
 DEFINES += ENABLE_WALLET
@@ -26,18 +26,18 @@ greaterThan(QT_MAJOR_VERSION, 4) {
 
 
 # Windows begin
-# BOOST_LIB_SUFFIX=-mgw49-mt-s-1_57
+# BOOST_LIB_SUFFIX=-mgw49-mt-s-1_75
 # BOOST_THREAD_LIB_SUFFIX = $$BOOST_LIB_SUFFIX
-# BOOST_INCLUDE_PATH=C:/deps/boost_1_57_0
-# BOOST_LIB_PATH=C:/deps/boost_1_57_0/stage/lib
-# BDB_INCLUDE_PATH=C:/deps/db-4.8.30.NC/build_unix
-# BDB_LIB_PATH=C:/deps/db-4.8.30.NC/build_unix
-# OPENSSL_INCLUDE_PATH=C:/deps/openssl-1.0.1j/include
-# OPENSSL_LIB_PATH=C:/deps/openssl-1.0.1j
+# BOOST_INCLUDE_PATH=C:/deps/boost_1_75_0
+# BOOST_LIB_PATH=C:/deps/boost_1_75_0/stage/lib
+# BDB_INCLUDE_PATH=C:/deps/db-5.3.28.NC/build_unix
+# BDB_LIB_PATH=C:/deps/db-5.3.28.NC/build_unix
+# OPENSSL_INCLUDE_PATH=C:/deps/openssl-1.1.1f/include
+# OPENSSL_LIB_PATH=C:/deps/openssl-1.1.1f
 # MINIUPNPC_INCLUDE_PATH=C:/deps/
 # MINIUPNPC_LIB_PATH=C:/deps/miniupnpc
-# QRENCODE_INCLUDE_PATH=C:/deps/qrencode-3.4.4
-# QRENCODE_LIB_PATH=C:/deps/qrencode-3.4.4/.libs
+# QRENCODE_INCLUDE_PATH=C:/deps/qrencode-4.1.1
+# QRENCODE_LIB_PATH=C:/deps/qrencode-4.1.1/.libs
 # Windows end
 
 # Mac begin
