@@ -293,7 +293,7 @@ Dieses Produkt enthält Software, entwickelt vom OpenSSL Project für das OpenSS
     </message>
     <message>
         <source>Send coins to a eMark address</source>
-        <translation>Senden Sie Münzen an eine eMark-Adresse</translation>
+        <translation>DEM an eine eMark-Adresse versenden</translation>
     </message>
     <message>
         <source>&amp;Transactions</source>
@@ -496,7 +496,7 @@ Dieses Produkt enthält Software, entwickelt vom OpenSSL Project für das OpenSS
     </message>
     <message>
         <source>Transactions after this will not yet be visible.</source>
-        <translation>Transaktionen danach sind noch nicht sichtbar.</translation>
+        <translation>Die Transaktionen danach sind noch nicht sichtbar.</translation>
     </message>
     <message>
         <source>eMark</source>
@@ -610,7 +610,7 @@ Adresse: %4
     </message>
     <message>
         <source>Not staking because you don&apos;t have mature coins</source>
-        <translation>Es werden keine Zinsen erzeugt, da Sie keine reifen Münzen haben</translation>
+        <translation>Es werden keine Zinsen erzeugt, da Sie keine reifen eMark haben</translation>
     </message>
     <message>
         <source>Not staking</source>
@@ -806,7 +806,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
  This means a fee of at least %1 per kb is required.</source>
         <translation>Transaktionen mit hoher Priorität kommen leichter in den nächsten Block.
 
-Diese Bezeichnungwird rot, wenn die Priorität kleiner als &quot;mittel&quot; ist.
+Diese Bezeichnung wird rot, wenn die Priorität kleiner als &quot;mittel&quot; ist.
 
  Dies bedeutet, dass eine Gebühr von mindestens %1 pro KB erforderlich ist.</translation>
     </message>
@@ -1773,7 +1773,7 @@ Diese Bezeichnungwird rot, wenn die Priorität kleiner als &quot;mittel&quot; is
     <name>TrafficGraphWidget</name>
     <message>
         <source>KB/s</source>
-        <translation>KB / s</translation>
+        <translation>KB/s</translation>
     </message>
 </context>
 <context>
