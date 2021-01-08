@@ -60,18 +60,18 @@ If you are just starting to explore eMark, or upgrading wallet from versions pri
 
 2) Remove the block-chain data under the .eMark (unix-like system) or eMark (OS X or Windows) folder, except for wallet.dat;
 
-3) Download latest blockchain data from here: https://deutsche-emark.com/blockchain;
+3) Download latest blockchain data [from here](https://mega.nz/folder/O0RxmIIT#j5NuduxIYW3WjAXbfwKlDg);
 
-4) Unzip all the contents under "eMark-Blockchain" into the .eMark or eMark folder;
+4) Unzip all the contents under "QT-Wallet_v1.5.x_eMark-Blockchain_xxxx-xxxx-xx.zip" into the .eMark or eMark folder;
 
 5) Launch the new wallet. 
 
 Info
 ----
 
-- Website: https://deutsche-emark.com/
+- Website: https://deutsche-emark.org/
 - Bitcointalk thread: https://bitcointalk.org/index.php?topic=310939.0
-- Forum: https://deutsche-emark.com/forum/
+- Forum: https://deutsche-emark.org/forum/
 
 
 
