@@ -3,7 +3,7 @@ Version 1.3.0 is now available.
 ### Features: ###
 * support LevelDB
 
-(you must reload DB, if you don´t want, version 1.1.0 works fine (BerkleyDB). Download from here) do not use Version 1.2.x. You can loose Coins
+(you must reload DB, if you don´t want, version 1.1.0 works fine (BerkleyDB). Download [from here](https://github.com/emarkproject/eMark/releases )) do not use Version 1.2.x. You can loose Coins!
 
 ### eMark specification ###
 - SHA256D, Proof of Work + Proof of Stake
@@ -17,4 +17,3 @@ Version 1.3.0 is now available.
 ### Mandatory Wallet Update ###
 ### from 1415750400; // 12 Nov 2014 00:00:00 GMT ###
 ### Wallet Version V1.0.x no longer work ###
-
