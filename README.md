@@ -12,11 +12,10 @@ information or see https://opensource.org/licenses/mit-license.php.
 Intro
 -----
 
-Deutsche eMark (DEM) is an experimental digital currency that enables instant payments to
-anyone, anywhere in the world. Deutsche eMark uses peer-to-peer technology to operate
-with no central authority: managing transactions and issuing money are carried
-out collectively by the network. eMark Core is the name of open source
-software which enables the use of this currency.
+Deutsche eMark (DEM) is a free open source project derived from Bitcoin, with
+the goal of providing a long-term energy-efficient crypto-currency.
+Built on the foundation of Bitcoin, PPCoin and NovaCoin, innovations such as proof-of-stake
+help further advance the field of crypto-currency.
 
 For more information, as well as an immediately usable, binary version of
 the eMark Core software, see https://deutsche-emark.org/filebase/, or read the
