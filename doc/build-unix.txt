@@ -54,9 +54,9 @@ Licenses of statically linked libraries:
 
 Versions used in this release:
  GCC           4.9.0
- OpenSSL       1.0.1g
- Berkeley DB   5.3.28.NC
- Boost         1.55.0
+ OpenSSL       1.1.1f
+ Berkeley DB   6.2.23.NC
+ Boost         1.75.0
  miniupnpc     1.9.20140401
 
 Dependency Build Instructions: Ubuntu & Debian
@@ -89,8 +89,8 @@ symbols, which reduces the executable size by about 90%.
 
 miniupnpc
 ---------
-tar -xzvf miniupnpc-1.6.tar.gz
-cd miniupnpc-1.6
+tar -xzvf miniupnpc-1.9.tar.gz
+cd miniupnpc-1.9
 make
 sudo su
 make install
