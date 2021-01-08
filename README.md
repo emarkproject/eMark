@@ -16,7 +16,7 @@ information or see https://opensource.org/licenses/mit-license.php.
 Intro
 -----
 
-eMark is a free open source project derived from Bitcoin, with
+Deutsche eMark (DEM) is a free open source project derived from Bitcoin, with
 the goal of providing a long-term energy-efficient crypto-currency.
 Built on the foundation of Bitcoin, PPCoin and NovaCoin, innovations such as proof-of-stake
 help further advance the field of crypto-currency.
