@@ -1,11 +1,7 @@
 Deutsche eMark Core
 ===================
 
-Copyright (c) 2009-2014 The Bitcoin developers
-
-Copyright (c) 2012-2012 The Peercoin developers
-
-Copyright (c) 2014-2021 The eMark Core developers
+https://deutsche-emark.org/
 
 License
 -------
@@ -52,28 +48,3 @@ Changes should be tested by somebody other than the developer who wrote the
 code. This is especially important for large or high-risk changes. It is useful
 to add a test plan to the pull request description if testing the changes is
 not straightforward.
-
-Setup
------
-
-If you are just starting to explore eMark, or upgrading wallet from versions prior to v1.5, the following procedure is recommended:
-
-1) Backup wallet.dat;
-
-2) Remove the block-chain data under the .eMark (unix-like system) or eMark (OS X or Windows) folder, except for wallet.dat;
-
-3) Download latest blockchain data from here: https://deutsche-emark.org/blockchain;
-
-4) Unzip all the contents under "eMark-Blockchain" into the .eMark or eMark folder;
-
-5) Launch the new wallet. 
-
-Info
-----
-
-- Website: https://deutsche-emark.org/
-- Bitcointalk thread: https://bitcointalk.org/index.php?topic=310939.0
-- Forum: https://deutsche-emark.org/forum/
-
-
-
