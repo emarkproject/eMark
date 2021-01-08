@@ -36,7 +36,6 @@ regularly from release branches to indicate new official, stable release version
 Feature branches are created when there are major new features being
 worked on by several people.
 
-
 Testing
 -------
 
@@ -51,27 +50,9 @@ code. This is especially important for large or high-risk changes. It is useful
 to add a test plan to the pull request description if testing the changes is
 not straightforward.
 
-Setup
------
-
-If you are just starting to explore eMark, or upgrading wallet from versions prior to v1.5, the following procedure is recommended:
-
-1) Backup wallet.dat;
-
-2) Remove the block-chain data under the .eMark (unix-like system) or eMark (OS X or Windows) folder, except for wallet.dat;
-
-3) Download latest blockchain data [from here](https://mega.nz/folder/O0RxmIIT#j5NuduxIYW3WjAXbfwKlDg);
-
-4) Unzip all the contents under "QT-Wallet_v1.5.x_eMark-Blockchain_xxxx-xxxx-xx.zip" into the .eMark or eMark folder;
-
-5) Launch the new wallet. 
-
 Info
 ----
 
 - Website: https://deutsche-emark.org/
 - Bitcointalk thread: https://bitcointalk.org/index.php?topic=310939.0
 - Forum: https://deutsche-emark.org/forum/
-
-
-
