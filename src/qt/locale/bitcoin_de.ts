@@ -628,7 +628,7 @@ Adresse: %4
     <name>CoinControlDialog</name>
     <message>
         <source>Coin Control</source>
-        <translation>Münzkontrolle</translation>
+        <translation>Coin Control</translation>
     </message>
     <message>
         <source>Quantity:</source>
@@ -1053,11 +1053,11 @@ Diese Bezeichnung wird rot, wenn die Priorität kleiner als &quot;mittel&quot; i
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
-        <translation>Gibt an, ob Münzsteuerungsfunktionen angezeigt werden sollen oder nicht.</translation>
+        <translation>Gibt an, ob die &quot;Coin Control&quot;-Funktionen angezeigt werden sollen oder nicht.</translation>
     </message>
     <message>
         <source>Display coin &amp;control features (experts only!)</source>
-        <translation>Münz- und &amp;Kontrollfunktionen anzeigen (nur für Experten!)</translation>
+        <translation>&quot;Coin Control&quot;-Funktionen anzeigen (nur für Experten!)</translation>
     </message>
     <message>
         <source>Whether to select the coin outputs randomly or with minimal coin age.</source>
@@ -1380,7 +1380,7 @@ Diese Bezeichnung wird rot, wenn die Priorität kleiner als &quot;mittel&quot; i
     </message>
     <message>
         <source>Coin Control Features</source>
-        <translation>Münzkontrollfunktionen</translation>
+        <translation>&quot;Coin Control&quot;-Funktionen</translation>
     </message>
     <message>
         <source>Inputs...</source>
