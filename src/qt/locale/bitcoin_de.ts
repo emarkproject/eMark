@@ -1128,7 +1128,7 @@ Diese Bezeichnung wird rot, wenn die Priorität kleiner als &quot;mittel&quot; i
     </message>
     <message>
         <source>Total of coins that was staked, and do not yet count toward the current balance</source>
-        <translation>Summe der Münzen, die eingesetzt wurden und noch nicht auf den aktuellen Kontostand angerechnet werden</translation>
+        <translation>Summe der eMark, die eingesetzt wurden und noch nicht auf den aktuellen Kontostand angerechnet werden</translation>
     </message>
     <message>
         <source>Unconfirmed:</source>
@@ -1568,7 +1568,7 @@ Diese Bezeichnung wird rot, wenn die Priorität kleiner als &quot;mittel&quot; i
     </message>
     <message>
         <source>Error: The transaction was rejected. This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
-        <translation>Fehler: Die Transaktion wurde abgelehnt. Dies kann passieren, wenn einige der Münzen in Ihrer Brieftasche bereits ausgegeben wurden, z. B. wenn Sie eine Kopie von wallet.dat verwendet haben und Münzen in der Kopie ausgegeben wurden, aber hier nicht als ausgegeben markiert sind.</translation>
+        <translation>Fehler: Die Transaktion wurde abgelehnt. Dies kann passieren, wenn einige der Münzen in Ihrer Brieftasche bereits ausgegeben wurden, z. B. wenn Sie eine Kopie von wallet.dat verwendet haben und eMark in der Kopie ausgegeben wurden, aber hier nicht als ausgegeben markiert sind.</translation>
     </message>
     <message>
         <source>WARNING: Invalid eMark address</source>
@@ -2603,7 +2603,7 @@ Zum Beispiel: alertnotify=echo %%s | mail -s &quot;eMark Alert&quot; admin@foo.c
     </message>
     <message>
         <source>Unable to sign checkpoint, wrong checkpointkey?</source>
-        <translation>Sicherungspunkt konnte nicht signiert werden. Ist der Schlüssel korrekt?</translation>
+        <translation>Kontrollpunkt konnte nicht signiert werden. Ist der Schlüssel korrekt?</translation>
     </message>
     <message>
         <source>Loading block index...</source>
