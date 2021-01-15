@@ -70,8 +70,12 @@
         <file alias="update_spinner_black">res/movies/update_spinner_black.mng</file>
     </qresource>
     <qresource prefix="/translations">
+        <file alias="af">locale/bitcoin_af.qm</file>
+        <file alias="bg">locale/bitcoin_bg.qm</file>
+        <file alias="cs">locale/bitcoin_cs.qm</file>
         <file alias="de">locale/bitcoin_de.qm</file>
         <file alias="en">locale/bitcoin_en.qm</file>
+        <file alias="es">locale/bitcoin_es.qm</file>
         <file alias="it">locale/bitcoin_it.qm</file>	
         <file alias="nl">locale/bitcoin_nl.qm</file>	
         <file alias="pl">locale/bitcoin_pl.qm</file>	
