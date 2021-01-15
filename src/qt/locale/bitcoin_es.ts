@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="nl">
+<TS version="2.1" language="es">
 <context>
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="14"/>
         <source>About eMark Core</source>
-        <translation>Over eMark Core</translation>
+        <translation>Acerca de eMark Core</translation>
     </message>
     <message>
         <location filename="../forms/aboutdialog.ui" line="53"/>
         <source>&lt;b&gt;eMark Core&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;eMark Core&lt;/b&gt; versie</translation>
+        <translation>Versión de &lt;b&gt;eMark Core&lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="../forms/aboutdialog.ui" line="94"/>
         <source>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2012 The Peercoin developers
-Copyright © 2015-2021 The eMark Core developers</source>
-        <translation>Copyright © 2009-2014 De Bitcoin-ontwikkelaars
-Copyright © 2012-2012 De Peercoin-ontwikkelaars
-Copyright © 2015-2021 De eMark Core-ontwikkelaars</translation>
+Copyright © 2015-2021 The eMark developers</source>
+        <translation>Copyright © 2009-2014 Los programadores Bitcoin
+Copyright © 2012-2012 Los programadores Peercoin
+Copyright © 2015-2021 Los programadores eMark Core</translation>
     </message>
     <message>
         <location filename="../forms/aboutdialog.ui" line="110"/>
@@ -31,11 +31,11 @@ Distributed under the MIT/X11 software license, see the accompanying file COPYIN
 
 This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit (&lt;a href=&quot;https://www.openssl.org/&quot;&gt;https://www.openssl.org/&lt;/a&gt;) and cryptographic software written by Eric Young (&lt;a href=&quot;mailto:eay@cryptsoft.com&quot;&gt;eay@cryptsoft.com&lt;/a&gt;) and UPnP software written by Thomas Bernard.</source>
         <translation>
-Dit is experimentele software.
+Este es un software experimental.
 
-Gedistribueerd onder de MIT/X11 software licentie, zie het bijgevoegde bestand COPYING of &lt;a href=&quot;http://www.opensource.org/licenses/mit-license.php&quot;&gt;http://www.opensource.org/licenses/mit-license.php&lt;/a&gt;.
+Distribuido bajo la licencia MIT/X11, vea el archivo adjunto COPYING o &lt;a href=&quot;http://www.opensource.org/licenses/mit-license.php&quot;&gt;http://www.opensource.org/licenses/mit-license.php&lt;/a&gt;.
 
-Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in de OpenSSL Toolkit (&lt;a href=&quot;https://www.openssl.org/&quot;&gt;https://www.openssl.org/&lt;/a&gt;) en cryptografische software gemaakt door Eric Young (&lt;a href=&quot;mailto:eay@cryptsoft.com&quot;&gt;eay@cryptsoft.com&lt;/a&gt;) en UPnP software geschreven door Thomas Bernard.</translation>
+Este producto incluye software desarrollado por OpenSSL Project para su uso en el OpenSSL Toolkit (&lt;a href=&quot;https://www.openssl.org/&quot;&gt;https://www.openssl.org/&lt;/a&gt;)  y software criptográfico escrito por Eric Young (&lt;a href=&quot;mailto:eay@cryptsoft.com&quot;&gt;eay@cryptsoft.com&lt;/a&gt;) y el software UPnP escrito por Thomas Bernard.</translation>
     </message>
 </context>
 <context>
@@ -43,102 +43,102 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     <message>
         <location filename="../forms/addressbookpage.ui" line="14"/>
         <source>Address Book</source>
-        <translation>Adresboek</translation>
+        <translation>Libreta de direcciones</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="20"/>
         <source>These are your eMark addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Dit zijn uw eMarkadressen om betalingen mee te ontvangen. U kunt er voor kiezen om een uniek adres aan te maken voor elke afzender. Op deze manier kunt u bijhouden wie al aan u betaald heeft.</translation>
+        <translation>Estas son sus direcciones eMark para recibir pagos. Puede utilizar una diferente por cada persona emisora para saber quién le está pagando.</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="36"/>
         <source>Double-click to edit address or label</source>
-        <translation>Dubbelklik om adres of label te wijzigen</translation>
+        <translation>Haga doble clic para editar una dirección o etiqueta</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="60"/>
         <source>Create a new address</source>
-        <translation>Maak een nieuw adres aan</translation>
+        <translation>Crear una nueva dirección</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="63"/>
         <source>&amp;New Address</source>
-        <translation>&amp;Nieuw Adres</translation>
+        <translation>&amp;Añadir dirección</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="70"/>
         <source>Copy the currently selected address to the system clipboard</source>
-        <translation>Kopieer het huidig geselecteerde adres naar het klembord</translation>
+        <translation>Copiar la dirección seleccionada al portapapeles del sistema</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="73"/>
         <source>&amp;Copy Address</source>
-        <translation>&amp;Kopiëer Adres</translation>
+        <translation>&amp;Copiar dirección</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="80"/>
         <source>Show &amp;QR Code</source>
-        <translation>Toon &amp;QR-Code</translation>
+        <translation>Mostrar código &amp;QR</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="87"/>
         <source>Sign a message to prove you own a eMark address</source>
-        <translation>Onderteken een bericht om te bewijzen dat u een bepaald eMarkadres bezit</translation>
+        <translation>Firmar un mensaje para demostrar que se posee una dirección eMark</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="90"/>
         <source>Sign &amp;Message</source>
-        <translation>&amp;Onderteken Bericht</translation>
+        <translation>&amp;Firmar mensaje</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="97"/>
         <source>Verify a message to ensure it was signed with a specified eMark address</source>
-        <translation>Controleer een bericht om te verifiëren dat het gespecificeerde eMarkadres het bericht heeft ondertekend</translation>
+        <translation>Verificar un mensaje para comprobar que fue firmado con la dirección eMark indicada</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="100"/>
         <source>&amp;Verify Message</source>
-        <translation>&amp;Verifiëer Bericht</translation>
+        <translation>&amp;Verificar mensaje</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="107"/>
         <source>Delete the currently selected address from the list</source>
-        <translation>Verwijder het geselecteerde adres van de lijst</translation>
+        <translation>Borrar de la lista la dirección seleccionada</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="110"/>
         <source>&amp;Delete</source>
-        <translation>&amp;Verwijder</translation>
+        <translation>&amp;Eliminar</translation>
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="62"/>
         <source>Copy &amp;Label</source>
-        <translation>Kopiëer &amp;Label</translation>
+        <translation>Copiar &amp;etiqueta</translation>
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="64"/>
         <source>&amp;Edit</source>
-        <translation>&amp;Bewerk</translation>
+        <translation>&amp;Editar</translation>
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="309"/>
         <source>Export Address Book Data</source>
-        <translation>Exporteer Gegevens van het Adresboek</translation>
+        <translation>Exportar datos de la libreta de direcciones</translation>
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="310"/>
         <source>Comma separated file (*.csv)</source>
-        <translation>Kommagescheiden bestand (*.csv)</translation>
+        <translation>Archivos de columnas separadas por coma (*.csv)</translation>
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="323"/>
         <source>Error exporting</source>
-        <translation>Fout bij exporteren</translation>
+        <translation>Error al exportar</translation>
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="323"/>
         <source>Could not write to file %1.</source>
-        <translation>Kon niet schrijven naar bestand %1.</translation>
+        <translation>No se pudo escribir en el archivo %1.</translation>
     </message>
 </context>
 <context>
@@ -146,17 +146,17 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     <message>
         <location filename="../addresstablemodel.cpp" line="145"/>
         <source>Label</source>
-        <translation>Label</translation>
+        <translation>Etiqueta</translation>
     </message>
     <message>
         <location filename="../addresstablemodel.cpp" line="145"/>
         <source>Address</source>
-        <translation>Adres</translation>
+        <translation>Dirección</translation>
     </message>
     <message>
         <location filename="../addresstablemodel.cpp" line="181"/>
         <source>(no label)</source>
-        <translation>(geen label)</translation>
+        <translation>(sin etiqueta)</translation>
     </message>
 </context>
 <context>
@@ -164,22 +164,22 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     <message>
         <location filename="../forms/askpassphrasedialog.ui" line="26"/>
         <source>Passphrase Dialog</source>
-        <translation>Wachtwoorddialoogscherm</translation>
+        <translation>Diálogo de contraseña</translation>
     </message>
     <message>
         <location filename="../forms/askpassphrasedialog.ui" line="47"/>
         <source>Enter passphrase</source>
-        <translation>Voer wachtwoord in</translation>
+        <translation>Introducir contraseña</translation>
     </message>
     <message>
         <location filename="../forms/askpassphrasedialog.ui" line="61"/>
         <source>New passphrase</source>
-        <translation>Nieuw wachtwoord</translation>
+        <translation>Nueva contraseña</translation>
     </message>
     <message>
         <location filename="../forms/askpassphrasedialog.ui" line="75"/>
         <source>Repeat new passphrase</source>
-        <translation>Herhaal wachtwoord</translation>
+        <translation>Repita la nueva contraseña</translation>
     </message>
     <message>
         <location filename="../forms/askpassphrasedialog.ui" line="108"/>
@@ -194,73 +194,73 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     <message>
         <location filename="../askpassphrasedialog.cpp" line="37"/>
         <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
-        <translation>Vul een nieuw wachtwoord in voor uw portemonnee. &lt;br/&gt; Gebruik een wachtwoord van &lt;b&gt;10 of meer lukrake karakters&lt;/b&gt;, of &lt;b&gt; acht of meer woorden&lt;/b&gt;.</translation>
+        <translation>Introduzca la nueva contraseña del monedero.&lt;br/&gt;Por favor elija una con &lt;b&gt;10 o más caracteres aleatorios&lt;/b&gt; u &lt;b&gt;ocho o más palabras&lt;/b&gt;.</translation>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="38"/>
         <source>Encrypt wallet</source>
-        <translation>Versleutel portemonnee</translation>
+        <translation>Cifrar el monedero</translation>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="45"/>
         <source>This operation needs your wallet passphrase to unlock the wallet.</source>
-        <translation>Deze operatie vereist uw portemonneewachtwoord om de portemonnee te openen.</translation>
+        <translation>Esta operación requiere su contraseña para desbloquear el monedero.</translation>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="50"/>
         <source>Unlock wallet</source>
-        <translation>Open portemonnee</translation>
+        <translation>Desbloquear monedero</translation>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="53"/>
         <source>This operation needs your wallet passphrase to decrypt the wallet.</source>
-        <translation>Deze operatie vereist uw portemonneewachtwoord om de portemonnee te ontsleutelen.</translation>
+        <translation>Esta operación requiere su contraseña para descifrar el monedero.</translation>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="58"/>
         <source>Decrypt wallet</source>
-        <translation>Ontsleutel portemonnee</translation>
+        <translation>Descifrar el monedero</translation>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="61"/>
         <source>Change passphrase</source>
-        <translation>Wijzig wachtwoord</translation>
+        <translation>Cambiar contraseña</translation>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="62"/>
         <source>Enter the old and new passphrase to the wallet.</source>
-        <translation>Vul uw oude en nieuwe portemonneewachtwoord in.</translation>
+        <translation>Introduzca la contraseña anterior del monedero y la nueva.</translation>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="107"/>
         <source>Confirm wallet encryption</source>
-        <translation>Bevestig versleuteling van de portemonnee</translation>
+        <translation>Confirmar cifrado del monedero</translation>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="108"/>
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR EMARKS&lt;/b&gt;!</source>
-        <translation>Waarschuwing: Als u uw portemonnee versleutelt en uw wachtwoord vergeet, zult u &lt;b&gt;AL UW EMARKS VERLIEZEN&lt;/b&gt;!</translation>
+        <translation>Atencion: ¡Si cifra su monedero y pierde la contraseña perderá &lt;b&gt;TODOS SUS EMARKS&lt;/b&gt;!</translation>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="108"/>
         <source>Are you sure you wish to encrypt your wallet?</source>
-        <translation>Weet u zeker dat u uw portemonnee wilt versleutelen?</translation>
+        <translation>¿Seguro que desea cifrar su monedero?</translation>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="117"/>
         <location filename="../askpassphrasedialog.cpp" line="177"/>
         <source>Wallet encrypted</source>
-        <translation>Portemonnee versleuteld</translation>
+        <translation>Monedero cifrado</translation>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="119"/>
         <source>eMark Core will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
-        <translation>eMark Core zal nu afsluiten om het versleutelingsproces te voltooien. Onthoud dat het versleutelen van uw portemonnee u niet volledig kan beschermen: Malware kan uw computer infecteren en uw solarcoins stelen.</translation>
+        <translation>eMark Core se cerrará para finalizar el proceso de cifrado. Recuerde que el cifrado de su monedero no puede proteger totalmente sus solarcoins de robo por malware que infecte su sistema.</translation>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="123"/>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
-        <translation>BELANGRIJK: Elke eerder gemaakte backup van uw portemonneebestand dient u te vervangen door het nieuw gegenereerde, versleutelde portemonneebestand. Om veiligheidsredenen zullen eerdere backups van het niet-versleutelde portemonneebestand onbruikbaar worden zodra u uw nieuwe, versleutelde, portemonnee begint te gebruiken.</translation>
+        <translation>IMPORTANTE: Cualquier copia de seguridad que haya realizado previamente de su archivo de monedero debe reemplazarse con el nuevo archivo de monedero cifrado. Por razones de seguridad, las copias de seguridad previas del archivo de monedero no cifradas serán inservibles en cuanto comience a usar el nuevo monedero cifrado.</translation>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="132"/>
@@ -268,47 +268,47 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
         <location filename="../askpassphrasedialog.cpp" line="183"/>
         <location filename="../askpassphrasedialog.cpp" line="189"/>
         <source>Wallet encryption failed</source>
-        <translation>Portemonneeversleuteling mislukt</translation>
+        <translation>Ha fallado el cifrado del monedero</translation>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="133"/>
         <source>Wallet encryption failed due to an internal error. Your wallet was not encrypted.</source>
-        <translation>Portemonneeversleuteling mislukt door een interne fout. Uw portemonnee is niet versleuteld.</translation>
+        <translation>Ha fallado el cifrado del monedero debido a un error interno. El monedero no ha sido cifrado.</translation>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="140"/>
         <location filename="../askpassphrasedialog.cpp" line="190"/>
         <source>The supplied passphrases do not match.</source>
-        <translation>De opgegeven wachtwoorden komen niet overeen.</translation>
+        <translation>Las contraseñas no coinciden.</translation>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="152"/>
         <location filename="../askpassphrasedialog.cpp" line="164"/>
         <source>Wallet unlock failed</source>
-        <translation>Portemonnee openen mislukt</translation>
+        <translation>Ha fallado el desbloqueo del monedero</translation>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="153"/>
         <location filename="../askpassphrasedialog.cpp" line="165"/>
         <location filename="../askpassphrasedialog.cpp" line="184"/>
         <source>The passphrase entered for the wallet decryption was incorrect.</source>
-        <translation>Het opgegeven wachtwoord voor de portemonnee-ontsleuteling is niet correct.</translation>
+        <translation>La contraseña introducida para descifrar el monedero es incorrecta.</translation>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="164"/>
         <source>Wallet decryption failed</source>
-        <translation>Portemonnee-ontsleuteling mislukt</translation>
+        <translation>Ha fallado el descifrado del monedero</translation>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="178"/>
         <source>Wallet passphrase was successfully changed.</source>
-        <translation>Portemonneewachtwoord is met succes gewijzigd.</translation>
+        <translation>Se ha cambiado correctamente la contraseña del monedero.</translation>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="226"/>
         <location filename="../askpassphrasedialog.cpp" line="250"/>
         <source>Warning: The Caps Lock key is on!</source>
-        <translation>Waarschuwing: De Caps-Lock-toets staat aan!</translation>
+        <translation>Aviso: ¡La tecla de bloqueo de mayúsculas está activada!</translation>
     </message>
 </context>
 <context>
@@ -316,11 +316,11 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     <message>
         <location filename="../bitcoin.cpp" line="104"/>
         <source>A fatal error occurred. eMark Core can no longer continue safely and will quit.</source>
-        <translation>Er is een fatale fout opgetreden. eMark Core kan niet meer veilig doorgaan en zal nu afgesloten worden.</translation>
+        <translation>Ha ocurrido un error crítico. eMark Core ya no puede continuar con seguridad y se cerrará.</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
-        <translation>Synchroniseren met netwerk...</translation>
+        <translation>Sincronizando con la red…</translation>
     </message>
     <message>
         <source>Importing blocks...</source>
@@ -334,107 +334,107 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     <message>
         <location filename="../bitcoingui.cpp" line="85"/>
         <source>Wallet</source>
-        <translation>Portemonnee</translation>
+        <translation>Monedero</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="233"/>
         <source>&amp;Overview</source>
-        <translation>&amp;Overzicht</translation>
+        <translation>&amp;Vista general</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="234"/>
         <source>Show general overview of wallet</source>
-        <translation>Toon algemeen overzicht van de portemonnee</translation>
+        <translation>Mostrar vista general del monedero</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="239"/>
         <source>&amp;Receive</source>
-        <translation>&amp;Ontvangen</translation>
+        <translation>&amp;Recibir</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="240"/>
         <source>Show the list of addresses for receiving payments</source>
-        <translation>Toon lijst van adressen om betalingen mee te ontvangen</translation>
+        <translation>Mostrar la lista de direcciones utilizadas para recibir pagos</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="245"/>
         <source>&amp;Send</source>
-        <translation>&amp;Versturen</translation>
+        <translation>&amp;Enviar</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="246"/>
         <source>Send coins to a eMark address</source>
-        <translation>Verstuur munten naar een eMarkadres</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="251"/>
         <source>&amp;Transactions</source>
-        <translation>&amp;Transacties</translation>
+        <translation>&amp;Transacciones</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="252"/>
         <source>Browse transaction history</source>
-        <translation>Blader door transactieverleden</translation>
+        <translation>Examinar el historial de transacciones</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="257"/>
         <source>&amp;Address Book</source>
-        <translation>&amp;Adresboek</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="258"/>
         <source>Edit the list of stored addresses and labels</source>
-        <translation>Bewerk de lijst van opgeslagen adressen en labels</translation>
+        <translation>Editar la lista de las direcciones y etiquetas almacenadas</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="274"/>
         <source>E&amp;xit</source>
-        <translation>&amp;Afsluiten</translation>
+        <translation>&amp;Salir</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="275"/>
         <source>Quit application</source>
-        <translation>Programma afsluiten</translation>
+        <translation>Salir de la aplicación</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="278"/>
         <source>&amp;About eMark Core</source>
-        <translation>&amp;Over eMark Core</translation>
+        <translation>&amp;Acerca de eMark Core</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="279"/>
         <source>Show information about eMark Core</source>
-        <translation>Laat informatie zien over eMark Core</translation>
+        <translation>Mostrar información acerca de eMark Core</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="281"/>
         <source>About &amp;Qt</source>
-        <translation>Over &amp;Qt</translation>
+        <translation>Acerca de &amp;Qt</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="282"/>
         <source>Show information about Qt</source>
-        <translation>Toon informatie over Qt</translation>
+        <translation>Mostrar información acerca de Qt</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="284"/>
         <source>&amp;Options...</source>
-        <translation>O&amp;pties...</translation>
+        <translation>&amp;Opciones...</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="285"/>
         <source>Modify configuration options for eMark Core</source>
-        <translation>Wijzig instellingen van eMark Core</translation>
+        <translation>Modificar las opciones de configuración de eMark Core</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="287"/>
         <source>&amp;Show / Hide</source>
-        <translation>&amp;Toon / Verberg</translation>
+        <translation>Mo&amp;strar/ocultar</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="288"/>
         <source>&amp;Encrypt Wallet...</source>
-        <translation>&amp;Versleutel Portemonnee...</translation>
+        <translation>&amp;Cifrar monedero…</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="289"/>
@@ -444,22 +444,22 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     <message>
         <location filename="../bitcoingui.cpp" line="290"/>
         <source>&amp;Backup Wallet...</source>
-        <translation>&amp;Backup Portemonnee...</translation>
+        <translation>Copia de &amp;respaldo del monedero...</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="291"/>
         <source>Backup wallet to another location</source>
-        <translation>Backup portemonnee naar een andere locatie</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="292"/>
         <source>&amp;Change Passphrase...</source>
-        <translation>&amp;Wijzig Wachtwoord...</translation>
+        <translation>&amp;Cambiar la contraseña…</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="293"/>
         <source>Change the passphrase used for wallet encryption</source>
-        <translation>Wijzig het wachtwoord voor uw portemonneversleuteling</translation>
+        <translation>Cambiar la contraseña utilizada para el cifrado del monedero</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="294"/>
@@ -474,7 +474,7 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     <message>
         <location filename="../bitcoingui.cpp" line="296"/>
         <source>&amp;Lock Wallet</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Lock Wallet</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="297"/>
@@ -484,104 +484,104 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     <message>
         <location filename="../bitcoingui.cpp" line="298"/>
         <source>Sign &amp;message...</source>
-        <translation>&amp;Onderteken bericht...</translation>
+        <translation>Firmar &amp;mensaje...</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="299"/>
         <source>&amp;Verify message...</source>
-        <translation>&amp;Verifiëer bericht...</translation>
+        <translation>&amp;Verificar mensaje...</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="301"/>
         <source>&amp;Export...</source>
-        <translation>&amp;Exporteer...</translation>
+        <translation>&amp;Exportar...</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="302"/>
         <source>Export the data in the current tab to a file</source>
-        <translation>Exporteer de data in de huidige tab naar een bestand</translation>
+        <translation>Exportar a un archivo los datos de esta pestaña</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="303"/>
         <source>eMark Core - &amp;Debug window</source>
-        <translation>eMark Core - &amp;Debugscherm</translation>
+        <translation>eMark Core - Ventana de &amp;depuración</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="304"/>
         <source>Open debugging and diagnostic console</source>
-        <translation>Open debugging en diagnostische console</translation>
+        <translation>Abrir la consola de depuración y diagnóstico</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="330"/>
         <source>&amp;File</source>
-        <translation>&amp;Bestand</translation>
+        <translation>&amp;Archivo</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="338"/>
         <source>&amp;Settings</source>
-        <translation>&amp;Instellingen</translation>
+        <translation>&amp;Configuración</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="346"/>
         <source>&amp;Help</source>
-        <translation>&amp;Hulp</translation>
+        <translation>A&amp;yuda</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="363"/>
         <source>Tabs toolbar</source>
-        <translation>Tab-werkbalk</translation>
+        <translation>Barra de pestañas</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="409"/>
         <location filename="../bitcoingui.cpp" line="418"/>
         <source>[testnet]</source>
-        <translation>[testnetwerk]</translation>
+        <translation>[testnet]</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="418"/>
         <source>eMark client</source>
-        <translation>eMark client</translation>
+        <translation>Cliente eMark</translation>
     </message>
     <message numerus="yes">
         <location filename="../bitcoingui.cpp" line="546"/>
         <source>%n active connection(s) to eMark network</source>
         <translation>
-            <numerusform>%n actieve connectie naar eMarknetwerk</numerusform>
-            <numerusform>%n actieve connecties naar eMarknetwerk</numerusform>
+            <numerusform>%n conexión activa hacia la red eMark</numerusform>
+            <numerusform>%n conexiones activas hacia la red eMark</numerusform>
         </translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="567"/>
         <source>Processed %1 blocks of transaction history.</source>
-        <translation>%1 blokken van transactiehistorie verwerkt.</translation>
+        <translation>Procesados %1 bloques del historial de transacciones.</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="572"/>
         <source>Up to date</source>
-        <translation>Bijgewerkt</translation>
+        <translation>Actualizado</translation>
     </message>
     <message numerus="yes">
         <location filename="../bitcoingui.cpp" line="590"/>
         <source>%n hour(s)</source>
         <translation>
-            <numerusform>%n uur</numerusform>
-            <numerusform>%n uur</numerusform>
+            <numerusform>%n hora</numerusform>
+            <numerusform>%n horas</numerusform>
         </translation>
     </message>
     <message numerus="yes">
         <location filename="../bitcoingui.cpp" line="594"/>
         <source>%n day(s)</source>
         <translation>
-            <numerusform>%n dag</numerusform>
-            <numerusform>%n dagen</numerusform>
+            <numerusform>%n día</numerusform>
+            <numerusform>%n días</numerusform>
         </translation>
     </message>
     <message numerus="yes">
         <location filename="../bitcoingui.cpp" line="598"/>
         <source>%n week(s)</source>
         <translation>
-            <numerusform>%n week</numerusform>
-            <numerusform>%n weken</numerusform>
+            <numerusform>%n semana</numerusform>
+            <numerusform>%n semanas</numerusform>
         </translation>
     </message>
     <message>
@@ -600,22 +600,22 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     <message>
         <location filename="../bitcoingui.cpp" line="609"/>
         <source>%1 behind</source>
-        <translation>%1 achter</translation>
+        <translation>%1 atrás</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="615"/>
         <source>Catching up...</source>
-        <translation>Aan het bijwerken...</translation>
+        <translation>Actualizando...</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="624"/>
         <source>Last received block was generated %1 ago.</source>
-        <translation>Laatst ontvangen blok was %1 geleden gegenereerd.</translation>
+        <translation>El último bloque recibido fue generado hace %1.</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="626"/>
         <source>Transactions after this will not yet be visible.</source>
-        <translation>Transacties na dit moment zullen nu nog niet zichtbaar zijn.</translation>
+        <translation>Las transacciones posteriores a esta aún no están visibles.</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="641"/>
@@ -625,37 +625,37 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     <message>
         <location filename="../bitcoingui.cpp" line="649"/>
         <source>Error</source>
-        <translation>Fout</translation>
+        <translation>Error</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="652"/>
         <source>Warning</source>
-        <translation>Waarschuwing</translation>
+        <translation>Aviso</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="655"/>
         <source>Information</source>
-        <translation>Informatie</translation>
+        <translation>Información</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="724"/>
         <source>This transaction is over the size limit. You can still send it for a fee of %1, which goes to the nodes that process your transaction and helps to support the network. Do you want to pay the fee?</source>
-        <translation>Deze transactie overschrijdt de groottelimiet. Om de transactie alsnog te versturen kunt u transactiekosten betalen van %1. Deze transactiekosten gaan naar de nodes die uw transactie verwerken en het helpt op deze manier bij het ondersteunen van het SolarCoinnetwerk. Wilt u de transactiekosten betalen?</translation>
+        <translation>Esta transacción supera el límite de tamaño. Puede enviarla con una comisión de %1, destinada a los nodos que procesen su transacción para contribuir al mantenimiento de la red. ¿Desea pagar esta comisión?</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="728"/>
         <source>Confirm transaction fee</source>
-        <translation>Bevestig transactiekosten</translation>
+        <translation>Confirme la tarifa de la transacción</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="755"/>
         <source>Sent transaction</source>
-        <translation>Verzonden transactie</translation>
+        <translation>Transacción enviada</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="756"/>
         <source>Incoming transaction</source>
-        <translation>Binnenkomende transactie</translation>
+        <translation>Transacción entrante</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="757"/>
@@ -664,23 +664,23 @@ Amount: %2
 Type: %3
 Address: %4
 </source>
-        <translation>Datum: %1
-Bedrag: %2
-Type: %3
-Adres: %4
+        <translation>Fecha: %1
+Cantidad: %2
+Tipo: %3
+Dirección: %4
 </translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="857"/>
         <location filename="../bitcoingui.cpp" line="872"/>
         <source>URI handling</source>
-        <translation>URI-behandeling</translation>
+        <translation>Gestión de URI</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="857"/>
         <location filename="../bitcoingui.cpp" line="872"/>
         <source>URI can not be parsed! This can be caused by an invalid eMark address or malformed URI parameters.</source>
-        <translation>URI kan niet worden geïnterpreteerd. Dit kan komen door een ongeldig eMarkadres of misvormde URI-parameters.</translation>
+        <translation>¡No se puede interpretar la URI! Esto puede deberse a una dirección eMark inválida o a parámetros de URI mal formados.</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="881"/>
@@ -690,32 +690,32 @@ Adres: %4
     <message>
         <location filename="../bitcoingui.cpp" line="889"/>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
-        <translation>Portemonnee is &lt;b&gt;versleuteld&lt;/b&gt; en momenteel &lt;b&gt;geopend&lt;/b&gt;</translation>
+        <translation>El monedero está &lt;b&gt;cifrado&lt;/b&gt; y actualmente &lt;b&gt;desbloqueado&lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="897"/>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
-        <translation>Portemonnee is &lt;b&gt;versleuteld&lt;/b&gt; en momenteel &lt;b&gt;gesloten&lt;/b&gt;</translation>
+        <translation>El monedero está &lt;b&gt;cifrado&lt;/b&gt; y actualmente &lt;b&gt;bloqueado&lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="921"/>
         <source>Backup Wallet</source>
-        <translation>Portomonnee backuppen</translation>
+        <translation>Respaldo de monedero</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="921"/>
         <source>Wallet Data (*.dat)</source>
-        <translation>Portemonnee-data (*.dat)</translation>
+        <translation>Datos de monedero (*.dat)</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="924"/>
         <source>Backup Failed</source>
-        <translation>Backup Mislukt</translation>
+        <translation>Ha fallado el respaldo</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="924"/>
         <source>There was an error trying to save the wallet data to the new location.</source>
-        <translation>Er is een fout opgetreden bij het wegschrijven van de portemonnee-data naar de nieuwe locatie.</translation>
+        <translation>Se ha producido un error al intentar guardar los datos del monedero en la nueva ubicación.</translation>
     </message>
     <message numerus="yes">
         <location filename="../bitcoingui.cpp" line="1015"/>
@@ -761,7 +761,7 @@ Adres: %4
     <message>
         <location filename="../bitcoingui.cpp" line="1048"/>
         <source>Not staking</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
 </context>
 <context>
@@ -769,7 +769,7 @@ Adres: %4
     <message>
         <location filename="../clientmodel.cpp" line="119"/>
         <source>Network Alert</source>
-        <translation>Netwerkwaarschuwing</translation>
+        <translation>Alerta de red</translation>
     </message>
 </context>
 <context>
@@ -792,7 +792,7 @@ Adres: %4
     <message>
         <location filename="../forms/coincontroldialog.ui" line="125"/>
         <source>Amount:</source>
-        <translation>Bedrag:</translation>
+        <translation>Cantidad:</translation>
     </message>
     <message>
         <location filename="../forms/coincontroldialog.ui" line="157"/>
@@ -837,22 +837,22 @@ Adres: %4
     <message>
         <location filename="../forms/coincontroldialog.ui" line="469"/>
         <source>Amount</source>
-        <translation>Bedrag</translation>
+        <translation>Cantidad</translation>
     </message>
     <message>
         <location filename="../forms/coincontroldialog.ui" line="474"/>
         <source>Label</source>
-        <translation>Label</translation>
+        <translation>Etiqueta</translation>
     </message>
     <message>
         <location filename="../forms/coincontroldialog.ui" line="479"/>
         <source>Address</source>
-        <translation>Adres</translation>
+        <translation>Dirección</translation>
     </message>
     <message>
         <location filename="../forms/coincontroldialog.ui" line="484"/>
         <source>Date</source>
-        <translation>Datum</translation>
+        <translation>Fecha</translation>
     </message>
     <message>
         <location filename="../forms/coincontroldialog.ui" line="489"/>
@@ -862,7 +862,7 @@ Adres: %4
     <message>
         <location filename="../forms/coincontroldialog.ui" line="492"/>
         <source>Confirmed</source>
-        <translation>Bevestigd</translation>
+        <translation>Confirmado</translation>
     </message>
     <message>
         <location filename="../forms/coincontroldialog.ui" line="497"/>
@@ -872,23 +872,23 @@ Adres: %4
     <message>
         <location filename="../coincontroldialog.cpp" line="37"/>
         <source>Copy address</source>
-        <translation>Kopieer adres</translation>
+        <translation>Copiar dirección</translation>
     </message>
     <message>
         <location filename="../coincontroldialog.cpp" line="38"/>
         <source>Copy label</source>
-        <translation>Kopieer label</translation>
+        <translation>Copiar etiqueta</translation>
     </message>
     <message>
         <location filename="../coincontroldialog.cpp" line="39"/>
         <location filename="../coincontroldialog.cpp" line="65"/>
         <source>Copy amount</source>
-        <translation>Kopieer bedrag</translation>
+        <translation>Copiar cuantía</translation>
     </message>
     <message>
         <location filename="../coincontroldialog.cpp" line="40"/>
         <source>Copy transaction ID</source>
-        <translation>Kopieer transactie-ID</translation>
+        <translation>Copiar identificador de transacción</translation>
     </message>
     <message>
         <location filename="../coincontroldialog.cpp" line="64"/>
@@ -1013,7 +1013,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <location filename="../coincontroldialog.cpp" line="586"/>
         <location filename="../coincontroldialog.cpp" line="652"/>
         <source>(no label)</source>
-        <translation>(geen label)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../coincontroldialog.cpp" line="643"/>
@@ -1031,67 +1031,67 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../forms/editaddressdialog.ui" line="14"/>
         <source>Edit Address</source>
-        <translation>Bewerk Adres</translation>
+        <translation>Editar Dirección</translation>
     </message>
     <message>
         <location filename="../forms/editaddressdialog.ui" line="25"/>
         <source>&amp;Label</source>
-        <translation>&amp;Label</translation>
+        <translation>&amp;Etiqueta</translation>
     </message>
     <message>
         <location filename="../forms/editaddressdialog.ui" line="35"/>
         <source>The label associated with this address book entry</source>
-        <translation>Het label dat geassocieerd is met dit adres</translation>
+        <translation>La etiqueta asociada con esta entrada en la libreta</translation>
     </message>
     <message>
         <location filename="../forms/editaddressdialog.ui" line="42"/>
         <source>&amp;Address</source>
-        <translation>&amp;Adres</translation>
+        <translation>&amp;Dirección</translation>
     </message>
     <message>
         <location filename="../forms/editaddressdialog.ui" line="52"/>
         <source>The address associated with this address book entry. This can only be modified for sending addresses.</source>
-        <translation>Het adres dat geassocieerd is met deze inschrijving in het adresboek. Dit kan alleen worden veranderd voor zend-adressen.</translation>
+        <translation>La dirección asociada con esta entrada en la guía. Solo puede ser modificada para direcciones de envío.</translation>
     </message>
     <message>
         <location filename="../editaddressdialog.cpp" line="21"/>
         <source>New receiving address</source>
-        <translation>Nieuw ontvangstadres</translation>
+        <translation>Nueva dirección para recibir</translation>
     </message>
     <message>
         <location filename="../editaddressdialog.cpp" line="25"/>
         <source>New sending address</source>
-        <translation>Nieuw adres om naar te verzenden</translation>
+        <translation>Nueva dirección para enviar</translation>
     </message>
     <message>
         <location filename="../editaddressdialog.cpp" line="28"/>
         <source>Edit receiving address</source>
-        <translation>Bewerk ontvangstadres</translation>
+        <translation>Editar dirección de recepción</translation>
     </message>
     <message>
         <location filename="../editaddressdialog.cpp" line="32"/>
         <source>Edit sending address</source>
-        <translation>Bewerk adres om naar te verzenden</translation>
+        <translation>Editar dirección de envío</translation>
     </message>
     <message>
         <location filename="../editaddressdialog.cpp" line="103"/>
         <source>The entered address &quot;%1&quot; is not a valid eMark address.</source>
-        <translation>Het opgegeven adres &quot;%1&quot; is een ongeldig eMarkadres.</translation>
+        <translation>La dirección introducida &quot;%1&quot; no es una dirección eMark válida.</translation>
     </message>
     <message>
         <location filename="../editaddressdialog.cpp" line="108"/>
         <source>The entered address &quot;%1&quot; is already in the address book.</source>
-        <translation>Het opgegeven adres &quot;%1&quot; bestaat al in uw adresboek.</translation>
+        <translation>La dirección introducida &quot;%1&quot; ya está presente en la libreta de direcciones.</translation>
     </message>
     <message>
         <location filename="../editaddressdialog.cpp" line="113"/>
         <source>Could not unlock wallet.</source>
-        <translation>Kon de portemonnee niet openen.</translation>
+        <translation>No se pudo desbloquear el monedero.</translation>
     </message>
     <message>
         <location filename="../editaddressdialog.cpp" line="118"/>
         <source>New key generation failed.</source>
-        <translation>Genereren nieuwe sleutel mislukt.</translation>
+        <translation>Ha fallado la generación de la nueva clave.</translation>
     </message>
 </context>
 <context>
@@ -1105,37 +1105,37 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../guiutil.cpp" line="425"/>
         <source>version</source>
-        <translation>versie</translation>
+        <translation>versión</translation>
     </message>
     <message>
         <location filename="../guiutil.cpp" line="427"/>
         <source>Usage:</source>
-        <translation>Gebruik:</translation>
+        <translation>Uso:</translation>
     </message>
     <message>
         <location filename="../guiutil.cpp" line="428"/>
         <source>command-line options</source>
-        <translation>commandoregel-opties</translation>
+        <translation>opciones de la línea de órdenes</translation>
     </message>
     <message>
         <location filename="../guiutil.cpp" line="432"/>
         <source>UI options</source>
-        <translation>gebruikersinterfaceopties</translation>
+        <translation>Opciones GUI</translation>
     </message>
     <message>
         <location filename="../guiutil.cpp" line="433"/>
         <source>Set language, for example &quot;de_DE&quot; (default: system locale)</source>
-        <translation>Stel taal in, bijvoorbeeld &apos;&apos;de_DE&quot; (standaard: systeeminstellingen)</translation>
+        <translation>Establecer el idioma, por ejemplo, &quot;es_ES&quot; (predeterminado: configuración regional del sistema)</translation>
     </message>
     <message>
         <location filename="../guiutil.cpp" line="434"/>
         <source>Start minimized</source>
-        <translation>Geminimaliseerd starten</translation>
+        <translation>Arrancar minimizado</translation>
     </message>
     <message>
         <location filename="../guiutil.cpp" line="435"/>
         <source>Show splash screen on startup (default: 1)</source>
-        <translation>Laat laadscherm zien bij het opstarten. (standaard: 1)</translation>
+        <translation>Mostrar pantalla de bienvenida en el inicio (predeterminado: 1)</translation>
     </message>
 </context>
 <context>
@@ -1143,22 +1143,22 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../forms/optionsdialog.ui" line="14"/>
         <source>Options</source>
-        <translation>Opties</translation>
+        <translation>Opciones</translation>
     </message>
     <message>
         <location filename="../forms/optionsdialog.ui" line="30"/>
         <source>&amp;Main</source>
-        <translation>&amp;Algemeen</translation>
+        <translation>&amp;Principal</translation>
     </message>
     <message>
         <location filename="../forms/optionsdialog.ui" line="36"/>
         <source>Optional transaction fee per kB that helps make sure your transactions are processed quickly. Most transactions are 1 kB. Fee 0.001 recommended.</source>
-        <translation>Optionele transactiekosten per kB. Transactiekosten helpen ervoor te zorgen dat uw transacties snel verwerkt worden. De meeste transacties zijn 1kB.</translation>
+        <translation>Tarifa de transacción opcional por kB que ayuda a asegurar que sus transacciones sean procesadas rápidamente. La mayoría de transacciones son de 1kB.</translation>
     </message>
     <message>
         <location filename="../forms/optionsdialog.ui" line="51"/>
         <source>Pay transaction &amp;fee</source>
-        <translation>Betaal &amp;transactiekosten</translation>
+        <translation>Comisión de &amp;transacciones</translation>
     </message>
     <message>
         <location filename="../forms/optionsdialog.ui" line="82"/>
@@ -1173,115 +1173,115 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../forms/optionsdialog.ui" line="128"/>
         <source>Automatically start eMark Core after logging in to the system.</source>
-        <translation>Start eMark Core automatisch na inloggen in het systeem.</translation>
+        <translation>Iniciar eMark Core automáticamente al encender el sistema.</translation>
     </message>
     <message>
         <location filename="../forms/optionsdialog.ui" line="131"/>
         <source>&amp;Start eMark Core on system login</source>
-        <translation>&amp;Start eMark Core bij het inloggen in het systeem</translation>
+        <translation>&amp;Iniciar eMark Core al iniciar el sistema</translation>
     </message>
     <message>
         <location filename="../forms/optionsdialog.ui" line="152"/>
         <source>&amp;Network</source>
-        <translation>&amp;Netwerk</translation>
+        <translation>&amp;Red</translation>
     </message>
     <message>
         <location filename="../forms/optionsdialog.ui" line="158"/>
         <source>Automatically open the eMark client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Open de eMark-poort automatisch op de router. Dit werkt alleen als de router UPnP ondersteunt en het aanstaat.</translation>
+        <translation>Abrir automáticamente el puerto del cliente eMark en el router. Esta opción solo funciona si el router admite UPnP y está activado.</translation>
     </message>
     <message>
         <location filename="../forms/optionsdialog.ui" line="161"/>
         <source>Map port using &amp;UPnP</source>
-        <translation>Portmapping via &amp;UPnP</translation>
+        <translation>Mapear el puerto usando &amp;UPnP</translation>
     </message>
     <message>
         <location filename="../forms/optionsdialog.ui" line="168"/>
         <source>Connect to the eMark network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Verbind met het eMark-netwerk via een SOCKS-proxy (bijv. wanneer u via Tor wilt verbinden).</translation>
+        <translation>Conectar a la red eMark a través de un proxy SOCKS (ej. para conectar con la red Tor).</translation>
     </message>
     <message>
         <location filename="../forms/optionsdialog.ui" line="171"/>
         <source>&amp;Connect through SOCKS proxy:</source>
-        <translation>&amp;Verbind via een SOCKS-proxy:</translation>
+        <translation>&amp;Conectar a través de un proxy SOCKS:</translation>
     </message>
     <message>
         <location filename="../forms/optionsdialog.ui" line="180"/>
         <source>Proxy &amp;IP:</source>
-        <translation>Proxy &amp;IP:</translation>
+        <translation>Dirección &amp;IP del proxy:</translation>
     </message>
     <message>
         <location filename="../forms/optionsdialog.ui" line="199"/>
         <source>IP address of the proxy (e.g. 127.0.0.1)</source>
-        <translation>IP-adres van de proxy (bijv. 127.0.0.1)</translation>
+        <translation>Dirección IP del proxy (ej. 127.0.0.1)</translation>
     </message>
     <message>
         <location filename="../forms/optionsdialog.ui" line="206"/>
         <source>&amp;Port:</source>
-        <translation>&amp;Poort:</translation>
+        <translation>&amp;Puerto:</translation>
     </message>
     <message>
         <location filename="../forms/optionsdialog.ui" line="225"/>
         <source>Port of the proxy (e.g. 9050)</source>
-        <translation>Poort van de proxy (bijv. 9050)</translation>
+        <translation>Puerto del servidor proxy (ej. 9050)</translation>
     </message>
     <message>
         <source>SOCKS &amp;Version:</source>
-        <translation>SOCKS-&amp;Versie:</translation>
+        <translation>&amp;Versión SOCKS:</translation>
     </message>
     <message>
         <source>SOCKS version of the proxy (e.g. 5)</source>
-        <translation>SOCKS-versie van de proxy (bijv. 5)</translation>
+        <translation>Versión del proxy SOCKS (ej. 5)</translation>
     </message>
     <message>
         <location filename="../forms/optionsdialog.ui" line="261"/>
         <source>&amp;Window</source>
-        <translation>&amp;Scherm</translation>
+        <translation>&amp;Ventana</translation>
     </message>
     <message>
         <location filename="../forms/optionsdialog.ui" line="267"/>
         <source>Show only a tray icon after minimizing the window.</source>
-        <translation>Laat alleen een systeemvak-icoon zien wanneer het venster geminimaliseerd is.</translation>
+        <translation>Minimizar la ventana a la bandeja de iconos del sistema.</translation>
     </message>
     <message>
         <location filename="../forms/optionsdialog.ui" line="270"/>
         <source>&amp;Minimize to the tray instead of the taskbar</source>
-        <translation>&amp;Minimaliseer naar het systeemvak in plaats van de taakbalk</translation>
+        <translation>&amp;Minimizar a la bandeja en vez de a la barra de tareas</translation>
     </message>
     <message>
         <location filename="../forms/optionsdialog.ui" line="277"/>
         <source>Minimize instead of exit the application when the window is closed. When this option is enabled, the application will be closed only after selecting Quit in the menu.</source>
-        <translation>Minimaliseer het venster in de plaats van de applicatie af te sluiten als het venster gesloten wordt. Wanneer deze optie aan staan, kan de applicatie alleen worden afgesloten door Afsluiten te kiezen in het menu.</translation>
+        <translation>Minimizar en lugar de salir de la aplicación al cerrar la ventana.Cuando esta opción está activa, la aplicación solo se puede cerrar seleccionando Salir desde el menú.</translation>
     </message>
     <message>
         <location filename="../forms/optionsdialog.ui" line="280"/>
         <source>M&amp;inimize on close</source>
-        <translation>Minimaliseer bij sluiten van het &amp;venster</translation>
+        <translation>M&amp;inimizar al cerrar</translation>
     </message>
     <message>
         <location filename="../forms/optionsdialog.ui" line="301"/>
         <source>&amp;Display</source>
-        <translation>&amp;Interface</translation>
+        <translation>&amp;Interfaz</translation>
     </message>
     <message>
         <location filename="../forms/optionsdialog.ui" line="309"/>
         <source>User Interface &amp;language:</source>
-        <translation>Taal &amp;Gebruikersinterface:</translation>
+        <translation>I&amp;dioma de la interfaz de usuario:</translation>
     </message>
     <message>
         <location filename="../forms/optionsdialog.ui" line="322"/>
         <source>The user interface language can be set here. This setting will take effect after restarting eMark Core.</source>
-        <translation>De taal van de gebruikersinterface kan hier ingesteld worden. Deze instelling zal pas van kracht worden nadat eMark Core herstart wordt.</translation>
+        <translation>El idioma de la interfaz de usuario puede establecerse aquí. Este ajuste se aplicará cuando se reinicie eMark Core.</translation>
     </message>
     <message>
         <location filename="../forms/optionsdialog.ui" line="333"/>
         <source>&amp;Unit to show amounts in:</source>
-        <translation>&amp;Eenheid om bedrag in te tonen:</translation>
+        <translation>Mostrar las cantidades en la &amp;unidad:</translation>
     </message>
     <message>
         <location filename="../forms/optionsdialog.ui" line="346"/>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>Kies de standaard onderverdelingseenheid om weer te geven in uw programma, en voor het versturen van munten.</translation>
+        <translation>Elegir la subdivisión predeterminada para mostrar cantidades en la interfaz y cuando se envían monedas.</translation>
     </message>
     <message>
         <location filename="../forms/optionsdialog.ui" line="355"/>
@@ -1311,39 +1311,39 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../forms/optionsdialog.ui" line="452"/>
         <source>&amp;OK</source>
-        <translation>&amp;OK</translation>
+        <translation>&amp;Aceptar</translation>
     </message>
     <message>
         <location filename="../forms/optionsdialog.ui" line="459"/>
         <source>&amp;Cancel</source>
-        <translation>Ann&amp;uleren</translation>
+        <translation>&amp;Cancelar</translation>
     </message>
     <message>
         <location filename="../forms/optionsdialog.ui" line="469"/>
         <source>&amp;Apply</source>
-        <translation>&amp;Toepassen</translation>
+        <translation>&amp;Aplicar</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="47"/>
         <source>default</source>
-        <translation>standaard</translation>
+        <translation>predeterminado</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="195"/>
         <location filename="../optionsdialog.cpp" line="204"/>
         <source>Warning</source>
-        <translation>Waarschuwing</translation>
+        <translation>Aviso</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="195"/>
         <location filename="../optionsdialog.cpp" line="204"/>
         <source>This setting will take effect after restarting eMark Core.</source>
-        <translation>Deze instelling zal pas van kracht worden na het herstarten van eMark Core.</translation>
+        <translation>Esta configuración tendrá efecto tras reiniciar eMark Core.</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="233"/>
         <source>The supplied proxy address is invalid.</source>
-        <translation>Het opgegeven proxyadres is ongeldig.</translation>
+        <translation>La dirección proxy indicada es inválida.</translation>
     </message>
 </context>
 <context>
@@ -1351,7 +1351,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../forms/overviewpage.ui" line="14"/>
         <source>Form</source>
-        <translation>Vorm</translation>
+        <translation>Desde</translation>
     </message>
     <message>
         <location filename="../forms/overviewpage.ui" line="53"/>
@@ -1362,7 +1362,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <location filename="../forms/overviewpage.ui" line="60"/>
         <location filename="../forms/overviewpage.ui" line="307"/>
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the eMark network after a connection is established, but this process has not completed yet.</source>
-        <translation>De weergegeven informatie kan verouderd zijn. Uw portemonnee synchroniseert automaticsh met het eMarknetwerk nadat een verbinding is gelegd, maar dit proces is nog niet voltooid.</translation>
+        <translation>La información mostrada puede estar desactualizada. Su monedero se sincroniza automáticamente con la red eMark después de que se haya establecido una conexión , pero este proceso aún no se ha completado.</translation>
     </message>
     <message>
         <location filename="../forms/overviewpage.ui" line="102"/>
@@ -1387,22 +1387,22 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../forms/overviewpage.ui" line="166"/>
         <source>Unconfirmed:</source>
-        <translation>Onbevestigd:</translation>
+        <translation>No confirmado(s):</translation>
     </message>
     <message>
         <location filename="../forms/overviewpage.ui" line="182"/>
         <source>Total of transactions that have yet to be confirmed, and do not yet count toward the current balance</source>
-        <translation>Totaal van de transacties die nog moeten worden bevestigd en nog niet zijn meegeteld in uw huidige saldo</translation>
+        <translation>Total de las transacciones que faltan por confirmar y que no contribuyen al saldo actual</translation>
     </message>
     <message>
         <location filename="../forms/overviewpage.ui" line="198"/>
         <source>Immature:</source>
-        <translation>Immatuur:</translation>
+        <translation>No disponible:</translation>
     </message>
     <message>
         <location filename="../forms/overviewpage.ui" line="211"/>
         <source>Mined balance that has not yet matured</source>
-        <translation>Gedolven saldo dat nog niet tot wasdom is gekomen</translation>
+        <translation>Saldo recién minado que aún no está disponible</translation>
     </message>
     <message>
         <location filename="../forms/overviewpage.ui" line="234"/>
@@ -1417,13 +1417,13 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../forms/overviewpage.ui" line="300"/>
         <source>&lt;b&gt;Recent transactions&lt;/b&gt;</source>
-        <translation>&lt;b&gt;Recente transacties&lt;/b&gt;</translation>
+        <translation>&lt;b&gt;Movimientos recientes&lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="../forms/overviewpage.ui" line="66"/>
         <location filename="../forms/overviewpage.ui" line="313"/>
         <source>out of sync</source>
-        <translation>niet gesynchroniseerd</translation>
+        <translation>desincronizado</translation>
     </message>
 </context>
 <context>
@@ -1431,7 +1431,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../paymentserver.cpp" line="107"/>
         <source>Cannot start eMark Core: click-to-pay handler</source>
-        <translation>Kan eMark Core niet starten: click-to-pay handler</translation>
+        <translation>No se pudo iniciar eMark Core: manejador de pago-al-clic</translation>
     </message>
 </context>
 <context>
@@ -1439,57 +1439,57 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../forms/qrcodedialog.ui" line="14"/>
         <source>QR Code Dialog</source>
-        <translation>QR-codescherm</translation>
+        <translation>Diálogo de códigos QR</translation>
     </message>
     <message>
         <location filename="../forms/qrcodedialog.ui" line="73"/>
         <source>Request Payment</source>
-        <translation>Vraag betaling aan</translation>
+        <translation>Solicitud de pago</translation>
     </message>
     <message>
         <location filename="../forms/qrcodedialog.ui" line="85"/>
         <source>Label:</source>
-        <translation>Label:</translation>
+        <translation>Etiqueta:</translation>
     </message>
     <message>
         <location filename="../forms/qrcodedialog.ui" line="104"/>
         <source>Message:</source>
-        <translation>Bericht:</translation>
+        <translation>Mensaje:</translation>
     </message>
     <message>
         <location filename="../forms/qrcodedialog.ui" line="129"/>
         <source>Amount:</source>
-        <translation>Bedrag:</translation>
+        <translation>Cuantía:</translation>
     </message>
     <message>
         <location filename="../forms/qrcodedialog.ui" line="175"/>
         <source>&amp;Save As...</source>
-        <translation>&amp;Opslaan Als...</translation>
+        <translation>&amp;Guardar como...</translation>
     </message>
     <message>
         <location filename="../qrcodedialog.cpp" line="62"/>
         <source>Error encoding URI into QR Code.</source>
-        <translation>Fout tijdens encoderen URI in QR-code.</translation>
+        <translation>Error al codificar la URI en el código QR.</translation>
     </message>
     <message>
         <location filename="../qrcodedialog.cpp" line="102"/>
         <source>The entered amount is invalid, please check.</source>
-        <translation>Het opgegeven bedrag is ongeldig, controleer het s.v.p.</translation>
+        <translation>La cantidad introducida es inválida. Compruébela, por favor.</translation>
     </message>
     <message>
         <location filename="../qrcodedialog.cpp" line="125"/>
         <source>Resulting URI too long, try to reduce the text for label / message.</source>
-        <translation>Resulterende URI te lang, probeer de tekst korter te maken voor het label/bericht.</translation>
+        <translation>URI esultante demasiado larga. Intente reducir el texto de la etiqueta / mensaje.</translation>
     </message>
     <message>
         <location filename="../qrcodedialog.cpp" line="150"/>
         <source>Save QR Code</source>
-        <translation>Sla QR-code op</translation>
+        <translation>Guardar código QR</translation>
     </message>
     <message>
         <location filename="../qrcodedialog.cpp" line="150"/>
         <source>PNG Images (*.png)</source>
-        <translation>PNG-Afbeeldingen (*.png)</translation>
+        <translation>Imágenes PNG (*.png)</translation>
     </message>
 </context>
 <context>
@@ -1497,12 +1497,12 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../forms/rpcconsole.ui" line="14"/>
         <source>eMark Core - Debug window</source>
-        <translation>eMark Core - debugscherm</translation>
+        <translation>eMark Core - Ventana de depuración</translation>
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="24"/>
         <source>&amp;Information</source>
-        <translation>&amp;Informatie</translation>
+        <translation>&amp;Información</translation>
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="39"/>
@@ -1512,7 +1512,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../forms/rpcconsole.ui" line="46"/>
         <source>Client name</source>
-        <translation>Clientnaam</translation>
+        <translation>Nombre del cliente</translation>
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="56"/>
@@ -1524,102 +1524,102 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <location filename="../forms/rpcconsole.ui" line="240"/>
         <location filename="../forms/rpcconsole.ui" line="263"/>
         <source>N/A</source>
-        <translation>N.v.t.</translation>
+        <translation>N/D</translation>
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="69"/>
         <source>Client version</source>
-        <translation>Clientversie</translation>
+        <translation>Versión del cliente</translation>
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="92"/>
         <source>Using OpenSSL version</source>
-        <translation>Gebruikt OpenSSL versie</translation>
+        <translation>Utilizando la versión OpenSSL</translation>
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="118"/>
         <source>Build date</source>
-        <translation>Bouwdatum</translation>
+        <translation>Fecha de compilación</translation>
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="141"/>
         <source>Startup time</source>
-        <translation>Opstarttijd</translation>
+        <translation>Hora de inicio</translation>
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="170"/>
         <source>Network</source>
-        <translation>Netwerk</translation>
+        <translation>Red</translation>
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="177"/>
         <source>Number of connections</source>
-        <translation>Aantal connecties</translation>
+        <translation>Número de conexiones</translation>
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="200"/>
         <source>On testnet</source>
-        <translation>Op testnet</translation>
+        <translation>En la red de pruebas</translation>
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="223"/>
         <source>Block chain</source>
-        <translation>Blokketen</translation>
+        <translation>Cadena de bloques</translation>
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="230"/>
         <source>Current number of blocks</source>
-        <translation>Huidig aantal blokken</translation>
+        <translation>Número actual de bloques</translation>
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="253"/>
         <source>Last block time</source>
-        <translation>Tijd laatste blok</translation>
+        <translation>Hora del último bloque</translation>
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="295"/>
         <source>Debug log file</source>
-        <translation>Debug-logbestand</translation>
+        <translation>Archivo de registro de depuración</translation>
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="302"/>
         <source>Open the eMark debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Open het eMarkdebug-logbestand van de huidige datamap. Dit kan een aantal seconden duren voor grote logbestanden.</translation>
+        <translation>Abra el archivo de registro de depuración de eMark desde el directorio de datos actual. Esto puede tardar unos segundos en archivos de registro grandes.</translation>
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="305"/>
         <source>&amp;Open</source>
-        <translation>&amp;Open</translation>
+        <translation>&amp;Abrir</translation>
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="321"/>
         <source>Command-line options</source>
-        <translation>Commandoregel-opties</translation>
+        <translation>Opciones de la línea de órdenes</translation>
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="328"/>
         <source>Show the eMark-Qt help message to get a list with possible command-line options.</source>
-        <translation>Toon het eMark-Qt-hulpbericht voor een lijst met mogelijke eMark Core commandoregel-opties.</translation>
+        <translation>Mostrar el mensaje de ayuda de eMark-Qt que enumera las opciones disponibles de línea de órdenes para eMark.</translation>
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="331"/>
         <source>&amp;Show</source>
-        <translation>&amp;Toon</translation>
+        <translation>&amp;Mostrar</translation>
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="355"/>
         <source>&amp;Console</source>
-        <translation>&amp;Console</translation>
+        <translation>&amp;Consola</translation>
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="404"/>
         <source>Clear console</source>
-        <translation>Maak console leeg</translation>
+        <translation>Borrar consola</translation>
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="427"/>
         <source>&amp;Network Traffic</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Tráfico de red</translation>
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="479"/>
@@ -1644,17 +1644,17 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../rpcconsole.cpp" line="325"/>
         <source>Welcome to the eMark Core RPC console.</source>
-        <translation>Welkom bij de eMark Core RPC-console.</translation>
+        <translation>Bienvenido a la consola RPC de eMark Core.</translation>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="326"/>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
-        <translation>Gebruik de pijltjestoetsen om door de geschiedenis te navigeren, en &lt;b&gt;Ctrl-L&lt;/b&gt; om het scherm leeg te maken.</translation>
+        <translation>Use las flechas arriba y abajo para navegar por el historial y &lt;b&gt;Control+L&lt;/b&gt; para limpiar la pantalla.</translation>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="327"/>
         <source>Type &lt;b&gt;help&lt;/b&gt; for an overview of available commands.</source>
-        <translation>Typ &lt;b&gt;help&lt;/b&gt; voor een overzicht van de beschikbare commando&apos;s.</translation>
+        <translation>Escriba &lt;b&gt;help&lt;/b&gt; para ver un resumen de los comandos disponibles.</translation>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="461"/>
@@ -1704,7 +1704,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <location filename="../sendcoinsdialog.cpp" line="213"/>
         <location filename="../sendcoinsdialog.cpp" line="218"/>
         <source>Send Coins</source>
-        <translation>Verstuur munten</translation>
+        <translation>Enviar monedas</translation>
     </message>
     <message>
         <location filename="../forms/sendcoinsdialog.ui" line="87"/>
@@ -1714,7 +1714,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../forms/sendcoinsdialog.ui" line="107"/>
         <source>Inputs...</source>
-        <translation>Inputs...</translation>
+        <translation>Entradas...</translation>
     </message>
     <message>
         <location filename="../forms/sendcoinsdialog.ui" line="114"/>
@@ -1724,7 +1724,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../forms/sendcoinsdialog.ui" line="133"/>
         <source>Insufficient funds!</source>
-        <translation>Ontoereikend saldo!</translation>
+        <translation>Fondos insuficientes!</translation>
     </message>
     <message>
         <location filename="../forms/sendcoinsdialog.ui" line="219"/>
@@ -1744,7 +1744,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../forms/sendcoinsdialog.ui" line="308"/>
         <source>Amount:</source>
-        <translation>Bedrag:</translation>
+        <translation>Cantidad:</translation>
     </message>
     <message>
         <location filename="../forms/sendcoinsdialog.ui" line="330"/>
@@ -1807,22 +1807,22 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../forms/sendcoinsdialog.ui" line="716"/>
         <source>Send to multiple recipients at once</source>
-        <translation>Verstuur aan verschillende ontvangers ineens</translation>
+        <translation>Enviar a multiples destinatarios de una vez</translation>
     </message>
     <message>
         <location filename="../forms/sendcoinsdialog.ui" line="719"/>
         <source>Add &amp;Recipient</source>
-        <translation>Voeg &amp;Ontvanger Toe</translation>
+        <translation>Añadir &amp;destinatario</translation>
     </message>
     <message>
         <location filename="../forms/sendcoinsdialog.ui" line="735"/>
         <source>Remove all transaction fields</source>
-        <translation>Verwijder alle transactievelden</translation>
+        <translation>Eliminar todos los campos de las transacciones</translation>
     </message>
     <message>
         <location filename="../forms/sendcoinsdialog.ui" line="738"/>
         <source>Clear &amp;All</source>
-        <translation>Verwijder &amp;Alles</translation>
+        <translation>Limpiar &amp;todo</translation>
     </message>
     <message>
         <location filename="../forms/sendcoinsdialog.ui" line="762"/>
@@ -1837,17 +1837,17 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../forms/sendcoinsdialog.ui" line="809"/>
         <source>Confirm the send action</source>
-        <translation>Bevestig de verstuuractie</translation>
+        <translation>Confirmar el envío</translation>
     </message>
     <message>
         <location filename="../forms/sendcoinsdialog.ui" line="812"/>
         <source>S&amp;end</source>
-        <translation>&amp;Verstuur</translation>
+        <translation>&amp;Enviar</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="39"/>
         <source>Enter a eMark address (e.g. NgJKYsHctQfF8D8r6otTGxdnB6r311NvJf)</source>
-        <translation>Vul een eMarkadres in (bijv. NgJKYsHctQfF8D8r6otTGxdnB6r311NvJf)</translation>
+        <translation>Introduzca una dirección eMark (ej. NgJKYsHctQfF8D8r6otTGxdnB6r311NvJf)</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="41"/>
@@ -1862,7 +1862,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../sendcoinsdialog.cpp" line="57"/>
         <source>Copy amount</source>
-        <translation>Kopieer bedrag</translation>
+        <translation>Copiar cuantía</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="58"/>
@@ -1897,57 +1897,57 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../sendcoinsdialog.cpp" line="153"/>
         <source>&lt;b&gt;%1&lt;/b&gt; to %2 (%3)</source>
-        <translation>&lt;b&gt;%1&lt;/b&gt; aan %2 (%3)</translation>
+        <translation>&lt;b&gt;%1&lt;/b&gt; a %2 (%3)</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="158"/>
         <source>Confirm send coins</source>
-        <translation>Bevestig versturen munten</translation>
+        <translation>Confirmar el envío de monedas</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="159"/>
         <source>Are you sure you want to send %1?</source>
-        <translation>Weet u zeker dat u %1 wil versturen?</translation>
+        <translation>¿Está seguro de que desea enviar %1?</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="159"/>
         <source> and </source>
-        <translation> en </translation>
+        <translation> y </translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="188"/>
         <source>The recipient address is not valid, please recheck.</source>
-        <translation>Het ontvangstadres is niet geldig, controleer uw invoer.</translation>
+        <translation>La dirección de recepción no es válida, compruébela de nuevo.</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="193"/>
         <source>The amount to pay must be larger than 0.</source>
-        <translation>Het ingevoerde bedrag moet groter zijn dan 0.</translation>
+        <translation>La cantidad por pagar tiene que ser mayor de 0.</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="198"/>
         <source>The amount exceeds your balance.</source>
-        <translation>Bedrag is hoger dan uw huidige saldo.</translation>
+        <translation>La cantidad sobrepasa su saldo.</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="203"/>
         <source>The total exceeds your balance when the %1 transaction fee is included.</source>
-        <translation>Totaal overschrijdt uw huidige saldo wanneer de %1 transactiekosten worden meegerekend.</translation>
+        <translation>El total sobrepasa su saldo cuando se incluye la tasa de envío de %1.</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="209"/>
         <source>Duplicate address found, can only send to each address once per send operation.</source>
-        <translation>Dubbel adres gevonden, u kunt slechts eenmaal naar een bepaald adres verzenden per verstuurtransactie.</translation>
+        <translation>Se ha encontrado una dirección duplicada. Solo se puede enviar a cada dirección una vez por operación de envío.</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="214"/>
         <source>Error: Transaction creation failed!</source>
-        <translation>Fout: Aanmaak transactie mislukt!</translation>
+        <translation>Error: ¡Ha fallado la creación de la transacción!</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="219"/>
         <source>Error: The transaction was rejected. This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
-        <translation>Fout: De transactie was afgewezen. Dit kan gebeuren als u eerder uitgegeven munten opnieuw wilt versturen, zoals wanneer u een kopie van uw portemonneebestand (wallet.dat) heeft gebruikt en in de kopie deze munten zijn uitgegeven, maar in de huidige portemonnee deze nog niet als zodanig zijn gemarkeerd.</translation>
+        <translation>Error: transacción rechazada. Puede haber ocurrido si alguna de las monedas ya estaba gastada o si ha usado una copia de wallet.dat y las monedas se gastaron en la copia pero no se han marcado así aquí.</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="473"/>
@@ -1957,7 +1957,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../sendcoinsdialog.cpp" line="486"/>
         <source>(no label)</source>
-        <translation>(geen label)</translation>
+        <translation>(sin etiqueta)</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="490"/>
@@ -1970,22 +1970,22 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../forms/sendcoinsentry.ui" line="14"/>
         <source>Form</source>
-        <translation>Vorm</translation>
+        <translation>Envío</translation>
     </message>
     <message>
         <location filename="../forms/sendcoinsentry.ui" line="29"/>
         <source>Pay &amp;To:</source>
-        <translation>Betaal &amp;Aan:</translation>
+        <translation>&amp;Pagar a:</translation>
     </message>
     <message>
         <location filename="../forms/sendcoinsentry.ui" line="47"/>
         <source>The address to send the payment to  (e.g. NgJKYsHctQfF8D8r6otTGxdnB6r311NvJf)</source>
-        <translation>Het adres waaraan u wilt betalen  (bijv. NgJKYsHctQfF8D8r6otTGxdnB6r311NvJf)</translation>
+        <translation>La dirección a la que enviar el pago (p. ej. NgJKYsHctQfF8D8r6otTGxdnB6r311NvJf)</translation>
     </message>
     <message>
         <location filename="../forms/sendcoinsentry.ui" line="57"/>
         <source>Choose address from address book</source>
-        <translation>Kies adres uit adresboek</translation>
+        <translation>Elija una dirección de la libreta de direcciones</translation>
     </message>
     <message>
         <location filename="../forms/sendcoinsentry.ui" line="67"/>
@@ -1995,7 +1995,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../forms/sendcoinsentry.ui" line="74"/>
         <source>Paste address from clipboard</source>
-        <translation>Plak adres vanuit klembord</translation>
+        <translation>Pegar dirección desde portapapeles</translation>
     </message>
     <message>
         <location filename="../forms/sendcoinsentry.ui" line="84"/>
@@ -2005,28 +2005,28 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../forms/sendcoinsentry.ui" line="91"/>
         <source>Remove this recipient</source>
-        <translation>Verwijder deze ontvanger</translation>
+        <translation>Eliminar destinatario</translation>
     </message>
     <message>
         <location filename="../forms/sendcoinsentry.ui" line="107"/>
         <location filename="../sendcoinsentry.cpp" line="26"/>
         <source>Enter a label for this address to add it to your address book</source>
-        <translation>Vul een label in voor dit adres om het toe te voegen aan uw adresboek</translation>
+        <translation>Etiquete esta dirección para añadirla a la libreta</translation>
     </message>
     <message>
         <location filename="../forms/sendcoinsentry.ui" line="114"/>
         <source>A&amp;mount:</source>
-        <translation>Bedra&amp;g:</translation>
+        <translation>Ca&amp;ntidad:</translation>
     </message>
     <message>
         <location filename="../forms/sendcoinsentry.ui" line="127"/>
         <source>&amp;Label:</source>
-        <translation>&amp;Label:</translation>
+        <translation>&amp;Etiqueta:</translation>
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="27"/>
         <source>Enter a eMark address (e.g. NgJKYsHctQfF8D8r6otTGxdnB6r311NvJf)</source>
-        <translation>Vul een eMarkadres in (bijv. NgJKYsHctQfF8D8r6otTGxdnB6r311NvJf)</translation>
+        <translation>Introduzca una dirección eMark (ej. NgJKYsHctQfF8D8r6otTGxdnB6r311NvJf)</translation>
     </message>
 </context>
 <context>
@@ -2034,29 +2034,29 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../forms/signverifymessagedialog.ui" line="14"/>
         <source>Signatures - Sign / Verify a Message</source>
-        <translation>Handtekeningen - Onderteken een bericht / Verifiëer een handtekening</translation>
+        <translation>Firmas - Firmar / verificar un mensaje</translation>
     </message>
     <message>
         <location filename="../forms/signverifymessagedialog.ui" line="27"/>
         <location filename="../forms/signverifymessagedialog.ui" line="151"/>
         <source>&amp;Sign Message</source>
-        <translation>O&amp;nderteken Bericht</translation>
+        <translation>&amp;Firmar mensaje</translation>
     </message>
     <message>
         <location filename="../forms/signverifymessagedialog.ui" line="33"/>
         <source>You can sign messages with your addresses to prove you own them. Be careful not to sign anything vague, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
-        <translation>U kunt berichten ondertekenen met een van uw adressen om te bewijzen dat u dit adres bezit. Pas op dat u geen onduidelijke dingen ondertekent, want phishingaanvallen zouden u kunnen misleiden om zo uw identiteit te stelen. Onderteken alleen berichten waarmee u het volledig eens bent.</translation>
+        <translation>Puede firmar mensajes con sus direcciones para demostrar que las posee. Tenga cuidado de no firmar cualquier cosa vaga, ya que los ataques de phishing pueden tratar de engañarle para suplantar su identidad. Firme solo declaraciones totalmente detalladas con las que usted esté de acuerdo.</translation>
     </message>
     <message>
         <location filename="../forms/signverifymessagedialog.ui" line="51"/>
         <source>The address to sign the message with (e.g. NgJKYsHctQfF8D8r6otTGxdnB6r311NvJf)</source>
-        <translation>Het adres om het bericht mee te ondertekenen (Vb.: NgJKYsHctQfF8D8r6otTGxdnB6r311NvJf)</translation>
+        <translation>La dirección con la que firmar el mensaje (ej. NgJKYsHctQfF8D8r6otTGxdnB6r311NvJf)</translation>
     </message>
     <message>
         <location filename="../forms/signverifymessagedialog.ui" line="61"/>
         <location filename="../forms/signverifymessagedialog.ui" line="264"/>
         <source>Choose an address from the address book</source>
-        <translation>Kies een adres uit het adresboek</translation>
+        <translation>Elija una dirección de la libreta de direcciones</translation>
     </message>
     <message>
         <location filename="../forms/signverifymessagedialog.ui" line="71"/>
@@ -2067,7 +2067,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../forms/signverifymessagedialog.ui" line="81"/>
         <source>Paste address from clipboard</source>
-        <translation>Plak adres vanuit klembord</translation>
+        <translation>Pegar dirección desde portapapeles</translation>
     </message>
     <message>
         <location filename="../forms/signverifymessagedialog.ui" line="91"/>
@@ -2077,76 +2077,76 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../forms/signverifymessagedialog.ui" line="103"/>
         <source>Enter the message you want to sign here</source>
-        <translation>Typ hier het bericht dat u wilt ondertekenen</translation>
+        <translation>Introduzca el mensaje que desea firmar aquí</translation>
     </message>
     <message>
         <location filename="../forms/signverifymessagedialog.ui" line="127"/>
         <source>Copy the current signature to the system clipboard</source>
-        <translation>Kopieer de huidige handtekening naar het systeemklembord</translation>
+        <translation>Copiar la firma actual al portapapeles del sistema</translation>
     </message>
     <message>
         <location filename="../forms/signverifymessagedialog.ui" line="148"/>
         <source>Sign the message to prove you own this eMark address</source>
-        <translation>Onderteken een bericht om te bewijzen dat u een bepaald eMarkadres bezit</translation>
+        <translation>Firmar el mensaje para demostrar que se posee esta dirección eMark</translation>
     </message>
     <message>
         <location filename="../forms/signverifymessagedialog.ui" line="165"/>
         <source>Reset all sign message fields</source>
-        <translation>Verwijder alles in de invulvelden</translation>
+        <translation>Limpiar todos los campos de la firma de mensaje</translation>
     </message>
     <message>
         <location filename="../forms/signverifymessagedialog.ui" line="168"/>
         <location filename="../forms/signverifymessagedialog.ui" line="314"/>
         <source>Clear &amp;All</source>
-        <translation>Verwijder &amp;Alles</translation>
+        <translation>Limpiar &amp;todo</translation>
     </message>
     <message>
         <location filename="../forms/signverifymessagedialog.ui" line="227"/>
         <location filename="../forms/signverifymessagedialog.ui" line="297"/>
         <source>&amp;Verify Message</source>
-        <translation>&amp;Verifiëer Bericht</translation>
+        <translation>&amp;Verificar mensaje</translation>
     </message>
     <message>
         <location filename="../forms/signverifymessagedialog.ui" line="233"/>
         <source>Enter the signing address, message (ensure you copy line breaks, spaces, tabs, etc. exactly) and signature below to verify the message. Be careful not to read more into the signature than what is in the signed message itself, to avoid being tricked by a man-in-the-middle attack.</source>
-        <translation>Voer het ondertekenende adres, bericht en handtekening hieronder in (let erop dat u nieuwe regels, spaties en tabs juist overneemt) om de handtekening te verifiëren. Let erop dat u niet meer uit het bericht interpreteert dan er daadwerkelijk staat,  om te voorkomen dat u wordt misleid in een man-in-the-middle-aanval.</translation>
+        <translation>Introduzca la dirección para la firma, el mensaje (asegurándose de copiar tal cual los saltos de línea, espacios, tabulaciones, etc.) y la firma a continuación para verificar el mensaje. Tenga cuidado de no asumir más información de lo que dice el propio mensaje firmado para evitar fraudes basados en ataques de tipo man-in-the-middle.</translation>
     </message>
     <message>
         <location filename="../forms/signverifymessagedialog.ui" line="254"/>
         <source>The address the message was signed with (e.g. NgJKYsHctQfF8D8r6otTGxdnB6r311NvJf)</source>
-        <translation>The address the message was signed with (e.g. NgJKYsHctQfF8D8r6otTGxdnB6r311NvJf)</translation>
+        <translation>La dirección con la que se firmó el mensaje (ej. NgJKYsHctQfF8D8r6otTGxdnB6r311NvJf)</translation>
     </message>
     <message>
         <location filename="../forms/signverifymessagedialog.ui" line="294"/>
         <source>Verify the message to ensure it was signed with the specified eMark address</source>
-        <translation>Controleer een bericht om te verifiëren dat het gespecificeerde eMarkadres het bericht heeft ondertekend</translation>
+        <translation>Verificar el mensaje para comprobar que fue firmado con la dirección eMark indicada</translation>
     </message>
     <message>
         <location filename="../forms/signverifymessagedialog.ui" line="311"/>
         <source>Reset all verify message fields</source>
-        <translation>Verwijder alles in de invulvelden</translation>
+        <translation>Limpiar todos los campos de la verificación de mensaje</translation>
     </message>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="27"/>
         <location filename="../signverifymessagedialog.cpp" line="30"/>
         <source>Enter a eMark address (e.g. NgJKYsHctQfF8D8r6otTGxdnB6r311NvJf)</source>
-        <translation>Vul een eMarkadres in (bijv. NgJKYsHctQfF8D8r6otTGxdnB6r311NvJf)</translation>
+        <translation>Introduzca una dirección eMark (ej. NgJKYsHctQfF8D8r6otTGxdnB6r311NvJf)</translation>
     </message>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="28"/>
         <source>Click &quot;Sign Message&quot; to generate signature</source>
-        <translation>Klik &quot;Onderteken Bericht&quot; om de handtekening te genereren</translation>
+        <translation>Haga clic en &quot;Firmar mensaje&quot; para generar la firma</translation>
     </message>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="31"/>
         <source>Enter eMark signature</source>
-        <translation>Voer eMark-handtekening in</translation>
+        <translation>Introduzca una firma eMark</translation>
     </message>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="116"/>
         <location filename="../signverifymessagedialog.cpp" line="197"/>
         <source>The entered address is invalid.</source>
-        <translation>Het opgegeven adres is ongeldig.</translation>
+        <translation>La dirección introducida es inválida.</translation>
     </message>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="116"/>
@@ -2154,59 +2154,59 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <location filename="../signverifymessagedialog.cpp" line="197"/>
         <location filename="../signverifymessagedialog.cpp" line="205"/>
         <source>Please check the address and try again.</source>
-        <translation>Controleer s.v.p. het adres en probeer het opnieuw.</translation>
+        <translation>Verifique la dirección e inténtelo de nuevo.</translation>
     </message>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="124"/>
         <location filename="../signverifymessagedialog.cpp" line="205"/>
         <source>The entered address does not refer to a key.</source>
-        <translation>Het opgegeven adres verwijst niet naar een sleutel.</translation>
+        <translation>La dirección introducida no corresponde a una clave.</translation>
     </message>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="132"/>
         <source>Wallet unlock was cancelled.</source>
-        <translation>Portemonnee-ontsleuteling is geannuleerd.</translation>
+        <translation>Se ha cancelado el desbloqueo del monedero.</translation>
     </message>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="140"/>
         <source>Private key for the entered address is not available.</source>
-        <translation>Geheime sleutel voor het ingevoerde adres is niet beschikbaar.</translation>
+        <translation>No se dispone de la clave privada para la dirección introducida.</translation>
     </message>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="152"/>
         <source>Message signing failed.</source>
-        <translation>Ondertekenen van het bericht is mislukt.</translation>
+        <translation>Ha fallado la firma del mensaje.</translation>
     </message>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="157"/>
         <source>Message signed.</source>
-        <translation>Bericht ondertekend.</translation>
+        <translation>Mensaje firmado.</translation>
     </message>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="216"/>
         <source>The signature could not be decoded.</source>
-        <translation>De handtekening kon niet worden gedecodeerd.</translation>
+        <translation>No se puede decodificar la firma.</translation>
     </message>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="216"/>
         <location filename="../signverifymessagedialog.cpp" line="229"/>
         <source>Please check the signature and try again.</source>
-        <translation>Controleer s.v.p. de handtekening en probeer het opnieuw.</translation>
+        <translation>Compruebe la firma e inténtelo de nuevo.</translation>
     </message>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="229"/>
         <source>The signature did not match the message digest.</source>
-        <translation>De handtekening hoort niet bij het bericht.</translation>
+        <translation>La firma no coincide con el resumen del mensaje.</translation>
     </message>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="236"/>
         <source>Message verification failed.</source>
-        <translation>Berichtverificatie mislukt.</translation>
+        <translation>La verificación del mensaje ha fallado.</translation>
     </message>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="241"/>
         <source>Message verified.</source>
-        <translation>Bericht correct geverifiëerd.</translation>
+        <translation>Mensaje verificado.</translation>
     </message>
 </context>
 <context>
@@ -2214,7 +2214,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../trafficgraphwidget.cpp" line="75"/>
         <source>KB/s</source>
-        <translation>KB/s</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -2223,14 +2223,14 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <location filename="../transactiondesc.cpp" line="23"/>
         <source>Open for %n more block(s)</source>
         <translation>
-            <numerusform>Open voor nog %n blok</numerusform>
-            <numerusform>Open voor nog %n blokken</numerusform>
+            <numerusform>Abrir para %n bloque más</numerusform>
+            <numerusform>Abrir para %n bloques más</numerusform>
         </translation>
     </message>
     <message>
         <location filename="../transactiondesc.cpp" line="25"/>
         <source>Open until %1</source>
-        <translation>Openen totdat %1</translation>
+        <translation>Abierto hasta %1</translation>
     </message>
     <message>
         <location filename="../transactiondesc.cpp" line="31"/>
@@ -2240,79 +2240,79 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../transactiondesc.cpp" line="33"/>
         <source>%1/offline</source>
-        <translation>%1/offline</translation>
+        <translation>%1/fuera de línea</translation>
     </message>
     <message>
         <location filename="../transactiondesc.cpp" line="35"/>
         <source>%1/unconfirmed</source>
-        <translation>%1/onbevestigd</translation>
+        <translation>%1/no confirmado</translation>
     </message>
     <message>
         <location filename="../transactiondesc.cpp" line="37"/>
         <source>%1 confirmations</source>
-        <translation>%1 bevestigingen</translation>
+        <translation>%1 confirmaciones</translation>
     </message>
     <message>
         <location filename="../transactiondesc.cpp" line="54"/>
         <source>Status</source>
-        <translation>Status</translation>
+        <translation>Estado</translation>
     </message>
     <message>
         <location filename="../transactiondesc.cpp" line="59"/>
         <source>, has not been successfully broadcast yet</source>
-        <translation>, is nog niet met succes uitgezonden</translation>
+        <translation>, todavía no se ha sido difundido satisfactoriamente</translation>
     </message>
     <message numerus="yes">
         <location filename="../transactiondesc.cpp" line="61"/>
         <source>, broadcast through %n node(s)</source>
         <translation>
-            <numerusform>, uitgezonden naar %n node</numerusform>
-            <numerusform>, uitgezonden naar %n nodes</numerusform>
+            <numerusform>, transmitir a través de %n nodo</numerusform>
+            <numerusform>, transmitir a través de %n nodos</numerusform>
         </translation>
     </message>
     <message>
         <location filename="../transactiondesc.cpp" line="65"/>
         <source>Date</source>
-        <translation>Datum</translation>
+        <translation>Fecha</translation>
     </message>
     <message>
         <location filename="../transactiondesc.cpp" line="72"/>
         <source>Source</source>
-        <translation>Bron</translation>
+        <translation>Fuente</translation>
     </message>
     <message>
         <location filename="../transactiondesc.cpp" line="72"/>
         <source>Generated</source>
-        <translation>Gegenereerd</translation>
+        <translation>Generado</translation>
     </message>
     <message>
         <location filename="../transactiondesc.cpp" line="77"/>
         <location filename="../transactiondesc.cpp" line="90"/>
         <source>From</source>
-        <translation>Van</translation>
+        <translation>De</translation>
     </message>
     <message>
         <location filename="../transactiondesc.cpp" line="90"/>
         <source>unknown</source>
-        <translation>onbekend</translation>
+        <translation>desconocido</translation>
     </message>
     <message>
         <location filename="../transactiondesc.cpp" line="91"/>
         <location filename="../transactiondesc.cpp" line="110"/>
         <location filename="../transactiondesc.cpp" line="168"/>
         <source>To</source>
-        <translation>Aan</translation>
+        <translation>Para</translation>
     </message>
     <message>
         <location filename="../transactiondesc.cpp" line="94"/>
         <location filename="../transactiondesc.cpp" line="96"/>
         <source>own address</source>
-        <translation>eigen adres</translation>
+        <translation>dirección propia</translation>
     </message>
     <message>
         <location filename="../transactiondesc.cpp" line="94"/>
         <source>label</source>
-        <translation>label</translation>
+        <translation>etiqueta</translation>
     </message>
     <message>
         <location filename="../transactiondesc.cpp" line="128"/>
@@ -2321,20 +2321,20 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <location filename="../transactiondesc.cpp" line="202"/>
         <location filename="../transactiondesc.cpp" line="238"/>
         <source>Credit</source>
-        <translation>Credit</translation>
+        <translation>Crédito</translation>
     </message>
     <message numerus="yes">
         <location filename="../transactiondesc.cpp" line="130"/>
         <source>matures in %n more block(s)</source>
         <translation>
-            <numerusform>komt tot wasdom na %n nieuw blok</numerusform>
-            <numerusform>komt tot wasdom na %n nieuwe blokken</numerusform>
+            <numerusform>disponible en %n bloque más</numerusform>
+            <numerusform>disponible en %n bloques más</numerusform>
         </translation>
     </message>
     <message>
         <location filename="../transactiondesc.cpp" line="132"/>
         <source>not accepted</source>
-        <translation>niet geaccepteerd</translation>
+        <translation>no aceptada</translation>
     </message>
     <message>
         <location filename="../transactiondesc.cpp" line="176"/>
@@ -2342,22 +2342,22 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <location filename="../transactiondesc.cpp" line="199"/>
         <location filename="../transactiondesc.cpp" line="235"/>
         <source>Debit</source>
-        <translation>Debet</translation>
+        <translation>Débito</translation>
     </message>
     <message>
         <location filename="../transactiondesc.cpp" line="190"/>
         <source>Transaction fee</source>
-        <translation>Transactiekosten</translation>
+        <translation>Comisión de transacción</translation>
     </message>
     <message>
         <location filename="../transactiondesc.cpp" line="206"/>
         <source>Net amount</source>
-        <translation>Netto bedrag</translation>
+        <translation>Cantidad neta</translation>
     </message>
     <message>
         <location filename="../transactiondesc.cpp" line="207"/>
         <source>Transaction ID</source>
-        <translation>Transactie-ID</translation>
+        <translation>Identificador de transacción</translation>
     </message>
     <message>
         <location filename="../transactiondesc.cpp" line="212"/>
@@ -2372,42 +2372,42 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../transactiondesc.cpp" line="221"/>
         <source>Message</source>
-        <translation>Bericht</translation>
+        <translation>Mensaje</translation>
     </message>
     <message>
         <location filename="../transactiondesc.cpp" line="225"/>
         <source>Generated coins must mature 100 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to &quot;not accepted&quot; and it won&apos;t be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
-        <translation>Gegeneerde munten moeten 100 blokken wachten voordat ze tot wasdom komen en kunnen worden uitgegeven. Uw net gegenereerde blok is uitgezonden aan het netwerk om te worden toegevoegd aan de blokketen. Als het niet wordt geaccepteerd in de keten, zal het blok als &quot;niet geaccepteerd&quot; worden aangemerkt en kan het niet worden uitgegeven. Dit kan soms gebeuren als een andere node net iets sneller een blok heeft gegenereerd; een paar seconden voor het uwe.</translation>
+        <translation>Las monedas generadas deben esperar 100 bloques antes de que se puedan gastar. Cuando se generó este bloque, se emitió a la red para ser agregado a la cadena de bloques. Si no consigue incorporarse a la cadena, su estado cambiará a &quot;no aceptado&quot; y las monedas no se podrán gastar. Esto puede ocurrir ocasionalmente si otro nodo genera un bloque casi al mismo tiempo que el suyo.</translation>
     </message>
     <message>
         <location filename="../transactiondesc.cpp" line="232"/>
         <source>Debug information</source>
-        <translation>Debug-informatie</translation>
+        <translation>Información de depuración</translation>
     </message>
     <message>
         <location filename="../transactiondesc.cpp" line="240"/>
         <source>Transaction</source>
-        <translation>Transactie</translation>
+        <translation>Transacción</translation>
     </message>
     <message>
         <location filename="../transactiondesc.cpp" line="245"/>
         <source>Inputs</source>
-        <translation>Inputs</translation>
+        <translation>entradas</translation>
     </message>
     <message>
         <location filename="../transactiondesc.cpp" line="266"/>
         <source>Amount</source>
-        <translation>Bedrag</translation>
+        <translation>Cantidad</translation>
     </message>
     <message>
         <location filename="../transactiondesc.cpp" line="267"/>
         <source>true</source>
-        <translation>waar</translation>
+        <translation>verdadero</translation>
     </message>
     <message>
         <location filename="../transactiondesc.cpp" line="267"/>
         <source>false</source>
-        <translation>onwaar</translation>
+        <translation>falso</translation>
     </message>
 </context>
 <context>
@@ -2415,12 +2415,12 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../forms/transactiondescdialog.ui" line="14"/>
         <source>Transaction details</source>
-        <translation>Transactiedetails</translation>
+        <translation>Detalles de transacción</translation>
     </message>
     <message>
         <location filename="../forms/transactiondescdialog.ui" line="20"/>
         <source>This pane shows a detailed description of the transaction</source>
-        <translation>Dit venster laat een uitgebreide beschrijving van de transactie zien</translation>
+        <translation>Esta ventana muestra información detallada sobre la transacción</translation>
     </message>
 </context>
 <context>
@@ -2428,17 +2428,17 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../transactiontablemodel.cpp" line="232"/>
         <source>Date</source>
-        <translation>Datum</translation>
+        <translation>Fecha</translation>
     </message>
     <message>
         <location filename="../transactiontablemodel.cpp" line="232"/>
         <source>Type</source>
-        <translation>Type</translation>
+        <translation>Tipo</translation>
     </message>
     <message>
         <location filename="../transactiontablemodel.cpp" line="232"/>
         <source>Address</source>
-        <translation>Adres</translation>
+        <translation>Dirección</translation>
     </message>
     <message>
         <location filename="../transactiontablemodel.cpp" line="232"/>
@@ -2448,30 +2448,30 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../transactiontablemodel.cpp" line="232"/>
         <source>Amount</source>
-        <translation>Bedrag</translation>
+        <translation>Cantidad</translation>
     </message>
     <message numerus="yes">
         <location filename="../transactiontablemodel.cpp" line="281"/>
         <source>Open for %n more block(s)</source>
         <translation>
-            <numerusform>Open voor nog %n blok</numerusform>
-            <numerusform>Open voor nog %n blokken</numerusform>
+            <numerusform>Abrir para %n bloque más</numerusform>
+            <numerusform>Abrir para %n bloques más</numerusform>
         </translation>
     </message>
     <message>
         <location filename="../transactiontablemodel.cpp" line="284"/>
         <source>Open until %1</source>
-        <translation>Open tot %1</translation>
+        <translation>Abierto hasta %1</translation>
     </message>
     <message>
         <location filename="../transactiontablemodel.cpp" line="287"/>
         <source>Offline</source>
-        <translation>Niet verbonden</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../transactiontablemodel.cpp" line="290"/>
         <source>Unconfirmed</source>
-        <translation>Onbevestigd</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../transactiontablemodel.cpp" line="293"/>
@@ -2481,7 +2481,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../transactiontablemodel.cpp" line="296"/>
         <source>Confirmed (%1 confirmations)</source>
-        <translation>Bevestigd (%1 bevestigingen)</translation>
+        <translation>Confirmado (%1 confirmaciones)</translation>
     </message>
     <message>
         <location filename="../transactiontablemodel.cpp" line="299"/>
@@ -2496,63 +2496,63 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../transactiontablemodel.cpp" line="305"/>
         <source>This block was not received by any other nodes and will probably not be accepted!</source>
-        <translation>Dit blok is niet ontvangen bij andere nodes en zal waarschijnlijk niet worden geaccepteerd!</translation>
+        <translation>Este bloque no ha sido recibido por otros nodos y probablemente no sea aceptado!</translation>
     </message>
     <message>
         <location filename="../transactiontablemodel.cpp" line="308"/>
         <source>Generated but not accepted</source>
-        <translation>Gegenereerd maar niet geaccepteerd</translation>
+        <translation>Generado pero no aceptado</translation>
     </message>
     <message>
         <location filename="../transactiontablemodel.cpp" line="350"/>
         <source>Received with</source>
-        <translation>Ontvangen met</translation>
+        <translation>Recibido con</translation>
     </message>
     <message>
         <location filename="../transactiontablemodel.cpp" line="352"/>
         <source>Received from</source>
-        <translation>Ontvangen van</translation>
+        <translation>Recibidos de</translation>
     </message>
     <message>
         <location filename="../transactiontablemodel.cpp" line="355"/>
         <source>Sent to</source>
-        <translation>Verzonden aan</translation>
+        <translation>Enviado a</translation>
     </message>
     <message>
         <location filename="../transactiontablemodel.cpp" line="357"/>
         <source>Payment to yourself</source>
-        <translation>Betaling aan uzelf</translation>
+        <translation>Pago propio</translation>
     </message>
     <message>
         <location filename="../transactiontablemodel.cpp" line="359"/>
         <source>Mined</source>
-        <translation>Gedolven</translation>
+        <translation>Minado</translation>
     </message>
     <message>
         <location filename="../transactiontablemodel.cpp" line="397"/>
         <location filename="../transactiontablemodel.cpp" line="415"/>
         <source>(n/a)</source>
-        <translation>(nvt)</translation>
+        <translation>(nd)</translation>
     </message>
     <message>
         <location filename="../transactiontablemodel.cpp" line="615"/>
         <source>Transaction status. Hover over this field to show number of confirmations.</source>
-        <translation>Transactiestatus. Houd de muiscursor boven dit veld om het aantal bevestigingen te laten zien.</translation>
+        <translation>Estado de transacción. Pasa el ratón sobre este campo para ver el número de confirmaciones.</translation>
     </message>
     <message>
         <location filename="../transactiontablemodel.cpp" line="617"/>
         <source>Date and time that the transaction was received.</source>
-        <translation>Datum en tijd waarop deze transactie is ontvangen.</translation>
+        <translation>Fecha y hora en que se recibió la transacción.</translation>
     </message>
     <message>
         <location filename="../transactiontablemodel.cpp" line="619"/>
         <source>Type of transaction.</source>
-        <translation>Type transactie.</translation>
+        <translation>Tipo de transacción.</translation>
     </message>
     <message>
         <location filename="../transactiontablemodel.cpp" line="621"/>
         <source>Destination address of transaction.</source>
-        <translation>Ontvangend adres van transactie.</translation>
+        <translation>Dirección de destino de la transacción.</translation>
     </message>
     <message>
         <location filename="../transactiontablemodel.cpp" line="623"/>
@@ -2562,7 +2562,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../transactiontablemodel.cpp" line="625"/>
         <source>Amount removed from or added to balance.</source>
-        <translation>Bedrag verwijderd van of toegevoegd aan saldo.</translation>
+        <translation>Cantidad retirada o añadida al saldo.</translation>
     </message>
 </context>
 <context>
@@ -2571,142 +2571,142 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <location filename="../transactionview.cpp" line="54"/>
         <location filename="../transactionview.cpp" line="71"/>
         <source>All</source>
-        <translation>Alles</translation>
+        <translation>Todo</translation>
     </message>
     <message>
         <location filename="../transactionview.cpp" line="55"/>
         <source>Today</source>
-        <translation>Vandaag</translation>
+        <translation>Hoy</translation>
     </message>
     <message>
         <location filename="../transactionview.cpp" line="56"/>
         <source>This week</source>
-        <translation>Deze week</translation>
+        <translation>Esta semana</translation>
     </message>
     <message>
         <location filename="../transactionview.cpp" line="57"/>
         <source>This month</source>
-        <translation>Deze maand</translation>
+        <translation>Este mes</translation>
     </message>
     <message>
         <location filename="../transactionview.cpp" line="58"/>
         <source>Last month</source>
-        <translation>Vorige maand</translation>
+        <translation>Mes pasado</translation>
     </message>
     <message>
         <location filename="../transactionview.cpp" line="59"/>
         <source>This year</source>
-        <translation>Dit jaar</translation>
+        <translation>Este año</translation>
     </message>
     <message>
         <location filename="../transactionview.cpp" line="60"/>
         <source>Range...</source>
-        <translation>Bereik...</translation>
+        <translation>Rango...</translation>
     </message>
     <message>
         <location filename="../transactionview.cpp" line="72"/>
         <source>Received with</source>
-        <translation>Ontvangen met</translation>
+        <translation>Recibido con</translation>
     </message>
     <message>
         <location filename="../transactionview.cpp" line="74"/>
         <source>Sent to</source>
-        <translation>Verzonden aan</translation>
+        <translation>Enviado a</translation>
     </message>
     <message>
         <location filename="../transactionview.cpp" line="76"/>
         <source>To yourself</source>
-        <translation>Aan uzelf</translation>
+        <translation>A usted mismo</translation>
     </message>
     <message>
         <location filename="../transactionview.cpp" line="77"/>
         <source>Mined</source>
-        <translation>Gedolven</translation>
+        <translation>Minado</translation>
     </message>
     <message>
         <location filename="../transactionview.cpp" line="78"/>
         <source>Other</source>
-        <translation>Anders</translation>
+        <translation>Otra</translation>
     </message>
     <message>
         <location filename="../transactionview.cpp" line="85"/>
         <source>Enter address or label to search</source>
-        <translation>Vul adres of label in om te zoeken</translation>
+        <translation>Introduzca una dirección o etiqueta que buscar</translation>
     </message>
     <message>
         <location filename="../transactionview.cpp" line="92"/>
         <source>Min amount</source>
-        <translation>Min. bedrag</translation>
+        <translation>Cantidad mínima</translation>
     </message>
     <message>
         <location filename="../transactionview.cpp" line="126"/>
         <source>Copy address</source>
-        <translation>Kopieer adres</translation>
+        <translation>Copiar dirección</translation>
     </message>
     <message>
         <location filename="../transactionview.cpp" line="127"/>
         <source>Copy label</source>
-        <translation>Kopieer label</translation>
+        <translation>Copiar etiqueta</translation>
     </message>
     <message>
         <location filename="../transactionview.cpp" line="128"/>
         <source>Copy amount</source>
-        <translation>Kopieer bedrag</translation>
+        <translation>Copiar cuantía</translation>
     </message>
     <message>
         <location filename="../transactionview.cpp" line="129"/>
         <source>Copy transaction ID</source>
-        <translation>Kopieer transactie-ID</translation>
+        <translation>Copiar identificador de transacción</translation>
     </message>
     <message>
         <location filename="../transactionview.cpp" line="130"/>
         <source>Edit label</source>
-        <translation>Bewerk label</translation>
+        <translation>Editar etiqueta</translation>
     </message>
     <message>
         <location filename="../transactionview.cpp" line="131"/>
         <source>Show transaction details</source>
-        <translation>Toon transactiedetails</translation>
+        <translation>Mostrar detalles de la transacción</translation>
     </message>
     <message>
         <location filename="../transactionview.cpp" line="270"/>
         <source>Export Transaction Data</source>
-        <translation>Exporteer transactiegegevens</translation>
+        <translation>Exportar datos de la transacción</translation>
     </message>
     <message>
         <location filename="../transactionview.cpp" line="271"/>
         <source>Comma separated file (*.csv)</source>
-        <translation>Kommagescheiden bestand (*.csv)</translation>
+        <translation>Archivos de columnas separadas por coma (*.csv)</translation>
     </message>
     <message>
         <location filename="../transactionview.cpp" line="279"/>
         <source>Confirmed</source>
-        <translation>Bevestigd</translation>
+        <translation>Confirmado</translation>
     </message>
     <message>
         <location filename="../transactionview.cpp" line="280"/>
         <source>Date</source>
-        <translation>Datum</translation>
+        <translation>Fecha</translation>
     </message>
     <message>
         <location filename="../transactionview.cpp" line="281"/>
         <source>Type</source>
-        <translation>Type</translation>
+        <translation>Tipo</translation>
     </message>
     <message>
         <location filename="../transactionview.cpp" line="282"/>
         <source>Label</source>
-        <translation>Label</translation>
+        <translation>Etiqueta</translation>
     </message>
     <message>
         <location filename="../transactionview.cpp" line="283"/>
         <source>Address</source>
-        <translation>Adres</translation>
+        <translation>Dirección</translation>
     </message>
     <message>
         <location filename="../transactionview.cpp" line="284"/>
         <source>Amount</source>
-        <translation>Bedrag</translation>
+        <translation>Cantidad</translation>
     </message>
     <message>
         <location filename="../transactionview.cpp" line="285"/>
@@ -2716,22 +2716,22 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../transactionview.cpp" line="289"/>
         <source>Error exporting</source>
-        <translation>Fout bij exporteren</translation>
+        <translation>Error exportando</translation>
     </message>
     <message>
         <location filename="../transactionview.cpp" line="289"/>
         <source>Could not write to file %1.</source>
-        <translation>Kon niet schrijven naar bestand %1.</translation>
+        <translation>No se pudo escribir en el archivo %1.</translation>
     </message>
     <message>
         <location filename="../transactionview.cpp" line="389"/>
         <source>Range:</source>
-        <translation>Bereik:</translation>
+        <translation>Rango:</translation>
     </message>
     <message>
         <location filename="../transactionview.cpp" line="397"/>
         <source>to</source>
-        <translation>naar</translation>
+        <translation>para</translation>
     </message>
 </context>
 <context>
@@ -2739,7 +2739,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../walletmodel.cpp" line="217"/>
         <source>Sending...</source>
-        <translation type="unfinished"></translation>
+        <translation>Enviando...</translation>
     </message>
 </context>
 <context>
@@ -2747,7 +2747,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../bitcoinstrings.cpp" line="8"/>
         <source>To use the %s option</source>
-        <translation>Om de %s optie te gebruiken</translation>
+        <translation>Para utilizar la opción %s</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="10"/>
@@ -2762,56 +2762,68 @@ If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
 for example: alertnotify=echo %%s | mail -s &quot;eMark Alert&quot; admin@foo.com
 </source>
-        <translation>%s, u moet een RPC-wachtwoord instellen in het configuratiebestand: %s
-U wordt aangeraden het volgende willekeurige wachtwoord te gebruiken:
+        <translatorcomment>%s, debe establecer un valor rpcpassword en el archivo de configuración:
+%s
+Se recomienda utilizar la siguiente contraseña aleatoria:
 rpcuser=eMarkrpc
 rpcpassword=%s
-(u hoeft dit wachtwoord niet te onthouden)
-De gebruikersnaam en wachtwoord mogen niet hetzelfde zijn.
-Als het bestand niet bestaat, make hem dan aan met leesrechten voor enkel de eigenaar.
-Het is ook aan te bevelen &quot;alertnotify&quot; in te stellen zodat u op de hoogte gesteld wordt van problemen;
+(no es necesario recordar esta contraseña)
+El nombre de usuario y la contraseña DEBEN NO ser iguales.
+Si el archivo no existe, créelo con permisos de archivo de solo lectura.
+Se recomienda también establecer alertnotify para recibir notificaciones de problemas.
+Por ejemplo: alertnotify=echo %%s | mail -s &quot;eMark Alert&quot; admin@foo.com
+</translatorcomment>
+        <translation>%s, you must set a rpcpassword in the configuration file:
+%s
+It is recommended you use the following random password:
+rpcuser=eMarkrpc
+rpcpassword=%s
+(you do not need to remember this password)
+The username and password MUST NOT be the same.
+If the file does not exist, create it with owner-readable-only file permissions.
+It is also recommended to set alertnotify so you are notified of problems;
 for example: alertnotify=echo %%s | mail -s &quot;eMark Alert&quot; admin@foo.com
 </translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="23"/>
         <source>An error occurred while setting up the RPC port %u for listening on IPv6, falling back to IPv4: %s</source>
-        <translation>Er is een fout opgetreden tijdens het instellen van de inkomende RPC-poort %u op IPv6, terugval naar IPv4: %s</translation>
+        <translation>Ha ocurrido un error al configurar el puerto RPC %u para escuchar mediante IPv6. Recurriendo a IPv4: %s</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="26"/>
         <source>An error occurred while setting up the RPC port %u for listening on IPv4: %s</source>
-        <translation>Er is een fout opgetreden tijdens het instellen van de inkomende RPC-poort %u op IPv4: %s</translation>
+        <translation>Ha ocurrido un error al configurar el puerto RPC %u para escucha en IPv4: %s</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="28"/>
         <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong eMark Core will not work properly.</source>
-        <translation>Waarschuwing: Controleer dat de datum en tijd op uw computer correct zijn ingesteld. Als uw klok fout staat zal eMark Core niet correct werken.</translation>
+        <translation>Precaución: Por favor, ¡revise que la fecha y hora de su ordenador son correctas! Si su reloj está mal, eMark Core no funcionará correctamente.</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="30"/>
         <source>Options:</source>
-        <translation>Opties:</translation>
+        <translation>Opciones:</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="31"/>
         <source>This help message</source>
-        <translation>Dit helpbericht</translation>
+        <translation>Este mensaje de ayuda</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="32"/>
         <source>Specify configuration file (default: eMark.conf)</source>
-        <translation>Specificeer configuratiebestand (standaard: eMark.conf)</translation>
+        <translation>Especificar archivo de configuración (predeterminado: eMark.conf)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="33"/>
         <source>Specify pid file (default: eMarkd.pid)</source>
-        <translation>Specificeer pid-bestand (standaard: eMarkd.pid)</translation>
+        <translation>Especificar archivo pid (predeterminado: eMarkd.pid)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="34"/>
         <source>Specify data directory</source>
-        <translation>Stel datamap in</translation>
+        <translation>Especificar directorio para los datos</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="35"/>
@@ -2821,7 +2833,7 @@ for example: alertnotify=echo %%s | mail -s &quot;eMark Alert&quot; admin@foo.co
     <message>
         <location filename="../bitcoinstrings.cpp" line="36"/>
         <source>Set database cache size in megabytes (default: 25)</source>
-        <translation>Stel databankcachegrootte in in megabytes (standaard: 25)</translation>
+        <translation>Establecer el tamaño de caché de la base de datos en megabytes (predeterminado: 25)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="37"/>
@@ -2831,77 +2843,77 @@ for example: alertnotify=echo %%s | mail -s &quot;eMark Alert&quot; admin@foo.co
     <message>
         <location filename="../bitcoinstrings.cpp" line="38"/>
         <source>Specify connection timeout in milliseconds (default: 5000)</source>
-        <translation>Specificeer de time-outtijd in milliseconden (standaard: 5000)</translation>
+        <translation>Especificar el tiempo máximo de conexión en milisegundos (predeterminado: 5000)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="39"/>
         <source>Connect through socks proxy</source>
-        <translation>Verbind via een socks-proxy</translation>
+        <translation>Conectar mediante proxy socks</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="40"/>
         <source>Select the version of socks proxy to use (4-5, default: 5)</source>
-        <translation>Selecteer de versie van de SOCKS-proxy om te gebruiken (4 of 5, standaard is 5)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="41"/>
         <source>Use proxy to reach tor hidden services (default: same as -proxy)</source>
-        <translation>Gebruik proxy om &apos;tor hidden services&apos; te bereiken (standaard: hetzelfde als -proxy)</translation>
+        <translation>Utilizar proxy para conectar a Tor servicios ocultos (predeterminado: igual que -proxy)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="42"/>
         <source>Allow DNS lookups for -addnode, -seednode and -connect</source>
-        <translation>Sta DNS-naslag toe voor -addnode, -seednode en -connect</translation>
+        <translation>Permitir búsquedas DNS para -addnode, -seednode y -connect</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="43"/>
         <source>Listen for connections on &lt;port&gt; (default: 5556 or testnet: 15556)</source>
-        <translation>Luister voor verbindingen op &lt;poort&gt; (standaard: 5556 of testnet: 15556)</translation>
+        <translation>Escuchar conexiones en &lt;puerto&gt; (predeterminado: 5556 o testnet: 15556)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="44"/>
         <source>Maintain at most &lt;n&gt; connections to peers (default: 125)</source>
-        <translation>Onderhoud maximaal &lt;n&gt; verbindingen naar peers (standaard: 125)</translation>
+        <translation>Mantener como máximo &lt;n&gt; conexiones a pares (predeterminado: 125)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="45"/>
         <source>Add a node to connect to and attempt to keep the connection open</source>
-        <translation>Voeg een node om naar te verbinden toe en probeer de verbinding open te houden</translation>
+        <translation>Añadir un nodo al que conectarse y tratar de mantener la conexión abierta</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="46"/>
         <source>Connect only to the specified node(s)</source>
-        <translation>Verbind alleen naar de gespecificeerde node(s)</translation>
+        <translation>Conectar sólo a los nodos (o nodo) especificados</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="47"/>
         <source>Connect to a node to retrieve peer addresses, and disconnect</source>
-        <translation>Verbind naar een node om adressen van anderen op te halen, en verbreek vervolgens de verbinding</translation>
+        <translation>Conectar a un nodo para obtener direcciones de pares y desconectar</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="48"/>
         <source>Specify your own public address</source>
-        <translation>Specificeer uw eigen publieke adres</translation>
+        <translation>Especifique su propia dirección pública</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="49"/>
         <source>Only connect to nodes in network &lt;net&gt; (IPv4, IPv6 or Tor)</source>
-        <translation>Verbind alleen naar nodes in netwerk &lt;net&gt; (IPv4, IPv6 of Tor)</translation>
+        <translation>Conectarse solo a nodos de la red &lt;net&gt; (IPv4, IPv6 o Tor)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="50"/>
         <source>Discover own IP address (default: 1 when listening and no -externalip)</source>
-        <translation>Ontdek eigen IP-adres (standaard: 1 als er wordt geluisterd en geen -externalip is opgegeven)</translation>
+        <translation>Descubrir dirección IP propia (predeterminado: 1 al escuchar sin -externalip)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="51"/>
         <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
-        <translation>Accepteer verbindingen van buitenaf (standaard: 1 als geen -proxy of -connect is opgegeven)</translation>
+        <translation>Aceptar conexiones desde el exterior (predeterminado: 1 si no -proxy o -connect)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="52"/>
         <source>Bind to given address. Use [host]:port notation for IPv6</source>
-        <translation>Bind aan opgegeven adres. Gebruik [host]:port notatie voor IPv6</translation>
+        <translation>Vincular a la dirección dada y escuchar siempre en ella. Utilice la notación [host]:port para IPv6</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="54"/>
@@ -2926,37 +2938,37 @@ for example: alertnotify=echo %%s | mail -s &quot;eMark Alert&quot; admin@foo.co
     <message>
         <location filename="../bitcoinstrings.cpp" line="61"/>
         <source>Threshold for disconnecting misbehaving peers (default: 100)</source>
-        <translation>Drempel om verbinding te verbreken naar zich misdragende peers (standaard: 100)</translation>
+        <translation>Umbral para la desconexión de pares con mal comportamiento (predeterminado: 100)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="63"/>
         <source>Number of seconds to keep misbehaving peers from reconnecting (default: 86400)</source>
-        <translation>Aantal seconden dat zich misdragende peers niet opnieuw mogen verbinden (standaard: 86400)</translation>
+        <translation>Número de segundos en que se evita la reconexión de pares con mal comportamiento (predeterminado: 86400)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="65"/>
         <source>Maximum per-connection receive buffer, &lt;n&gt;*1000 bytes (default: 5000)</source>
-        <translation>Maximum per-connectie ontvangstbuffer, &lt;n&gt;*1000 bytes (standaard: 5000)</translation>
+        <translation>Búfer de recepción máximo por conexión, &lt;n&gt;*1000 bytes (predeterminado: 5000)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="66"/>
         <source>Maximum per-connection send buffer, &lt;n&gt;*1000 bytes (default: 1000)</source>
-        <translation>Maximum per-connectie zendbuffer, &lt;n&gt;*1000 bytes (standaard: 1000)</translation>
+        <translation>Búfer de recepción máximo por conexión, , &lt;n&gt;*1000 bytes (predeterminado: 1000)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="67"/>
         <source>Use UPnP to map the listening port (default: 1 when listening)</source>
-        <translation>Gebruik UPnP om de luisterende poort te mappen (standaard: 1 als er wordt geluisterd)</translation>
+        <translation>Usar UPnP para asignar el puerto de escucha (predeterminado: 1 al escuchar)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="68"/>
         <source>Use UPnP to map the listening port (default: 0)</source>
-        <translation>Gebruik UPnP om de luisterende poort te mappen (standaard: 0)</translation>
+        <translation>Usar UPnP para asignar el puerto de escucha (predeterminado: 0)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="69"/>
         <source>Fee per KB to add to transactions you send</source>
-        <translation>Kosten per KB om aan transacties toe te voegen die u verstuurt</translation>
+        <translation>Tarifa por KB que añadir a las transacciones que envíe</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="71"/>
@@ -2966,17 +2978,17 @@ for example: alertnotify=echo %%s | mail -s &quot;eMark Alert&quot; admin@foo.co
     <message>
         <location filename="../bitcoinstrings.cpp" line="73"/>
         <source>Accept command line and JSON-RPC commands</source>
-        <translation>Aanvaard commandoregel- en JSON-RPC-commando&apos;s</translation>
+        <translation>Aceptar comandos consola y JSON-RPC</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="74"/>
         <source>Run in the background as a daemon and accept commands</source>
-        <translation>Draai in de achtergrond als daemon en aanvaard commando&apos;s</translation>
+        <translation>Correr como demonio y aceptar comandos</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="75"/>
         <source>Use the test network</source>
-        <translation>Gebruik het testnetwerk</translation>
+        <translation>Usar la red de pruebas</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="77"/>
@@ -2996,17 +3008,17 @@ for example: alertnotify=echo %%s | mail -s &quot;eMark Alert&quot; admin@foo.co
     <message>
         <location filename="../bitcoinstrings.cpp" line="80"/>
         <source>Prepend debug output with timestamp</source>
-        <translation>Voorzie de debuggingsuitvoer van een tijdsaanduiding</translation>
+        <translation>Anteponer marca temporal a la información de depuración</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="81"/>
         <source>Shrink debug.log file on client startup (default: 1 when no -debug)</source>
-        <translation>Verklein debug.log-bestand bij het opstarten van de client (standaard: 1 als geen -debug)</translation>
+        <translation>Reducir el archivo debug.log al iniciar el cliente (predeterminado: 1 sin -debug)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="82"/>
         <source>Send trace/debug info to console instead of debug.log file</source>
-        <translation>Stuur trace/debug-info naar de console in plaats van het debug.log bestand</translation>
+        <translation>Enviar información de trazas/depuración a la consola en lugar de al archivo debug.log</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="84"/>
@@ -3016,27 +3028,27 @@ for example: alertnotify=echo %%s | mail -s &quot;eMark Alert&quot; admin@foo.co
     <message>
         <location filename="../bitcoinstrings.cpp" line="87"/>
         <source>Username for JSON-RPC connections</source>
-        <translation>Gebruikersnaam voor JSON-RPC-verbindingen</translation>
+        <translation>Nombre de usuario para las conexiones JSON-RPC</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="88"/>
         <source>Password for JSON-RPC connections</source>
-        <translation>Wachtwoord voor JSON-RPC-verbindingen</translation>
+        <translation>Contraseña para las conexiones JSON-RPC</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="90"/>
         <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 6666 or testnet: 16666)</source>
-        <translation>Wacht op JSON-RPC-connecties op poort &lt;port&gt; (standaard: 6666 of testnet: 16666)</translation>
+        <translation>Escuchar conexiones JSON-RPC en &lt;puerto&gt; (predeterminado: 6666 o testnet:16666)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="91"/>
         <source>Allow JSON-RPC connections from specified IP address</source>
-        <translation>Sta JSON-RPC verbindingen van opgegeven IP-adres toe</translation>
+        <translation>Permitir conexiones JSON-RPC desde la dirección IP especificada</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="92"/>
         <source>Send commands to node running on &lt;ip&gt; (default: 127.0.0.1)</source>
-        <translation>Verstuur commando&apos;s naar proces dat op &lt;ip&gt; draait (standaard: 127.0.0.1)</translation>
+        <translation>Enviar comando al nodo situado en &lt;ip&gt; (predeterminado: 127.0.0.1)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="93"/>
@@ -3046,17 +3058,17 @@ for example: alertnotify=echo %%s | mail -s &quot;eMark Alert&quot; admin@foo.co
     <message>
         <location filename="../bitcoinstrings.cpp" line="94"/>
         <source>Set the number of threads to service RPC calls (default: 4)</source>
-        <translation>Stel het aantal threads in om RPC-aanvragen mee te bedienen (standaard: 4)</translation>
+        <translation>Establecer el número de hilos para atender las llamadas RPC (predeterminado: 4)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="96"/>
         <source>Execute command when the best block changes (%s in cmd is replaced by block hash)</source>
-        <translation>Voer commando uit zodra het beste blok verandert (%s in cmd wordt vervangen door blockhash)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="99"/>
         <source>Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)</source>
-        <translation>Voer opdracht uit zodra een portemonneetransactie verandert (%s in cmd wordt vervangen door TxID)</translation>
+        <translation>Ejecutar comando cuando una transacción del monedero cambia (%s en cmd se remplazará por TxID)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="101"/>
@@ -3071,42 +3083,42 @@ for example: alertnotify=echo %%s | mail -s &quot;eMark Alert&quot; admin@foo.co
     <message>
         <location filename="../bitcoinstrings.cpp" line="104"/>
         <source>Execute command when a relevant alert is received (%s in cmd is replaced by message)</source>
-        <translation>Voer opdracht uit zodra een relevante melding ontvangen is (%s  wordt in cmd vervangen door het bericht)</translation>
+        <translation>Ejecutar orden cuando se reciba un aviso relevante (%s en cmd se reemplazará por el mensaje)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="106"/>
         <source>Upgrade wallet to latest format</source>
-        <translation>Vernieuw portemonnee naar nieuwste versie</translation>
+        <translation>Actualizar el monedero al último formato</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="107"/>
         <source>Set key pool size to &lt;n&gt; (default: 100)</source>
-        <translation>Stel sleutelpoelgrootte in op &lt;n&gt; (standaard: 100)</translation>
+        <translation>Ajustar el número de claves en reserva &lt;n&gt; (predeterminado: 100)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="108"/>
         <source>Rescan the block chain for missing wallet transactions</source>
-        <translation>Doorzoek de blokketen op ontbrekende portemonnee-transacties</translation>
+        <translation>Volver a examinar la cadena de bloques en busca de transacciones del monedero perdidas</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="109"/>
         <source>Attempt to recover private keys from a corrupt wallet.dat</source>
-        <translation>Poog de geheime sleutels uit een corrupt wallet.dat bestand terug te halen</translation>
+        <translation>Intento de recuperar claves privadas de un wallet.dat corrupto</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="110"/>
         <source>How many blocks to check at startup (default: 500, 0 = all)</source>
-        <translation>Aantal te checken blokken bij het opstarten (standaard: 500, 0 = allemaal)</translation>
+        <translation>Cuántos bloques comprobar al iniciar (predeterminado: 500, 0 = todos)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="111"/>
         <source>How thorough the block verification is (0-6, default: 1)</source>
-        <translation>Hoe grondig de blokverificatie is (0-6, standaard: 1)</translation>
+        <translation>Como es de exhaustiva la verificación de bloques (0-6, por defecto 1)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="112"/>
         <source>Imports blocks from external blk000?.dat file</source>
-        <translation>Importeert blokken van extern blk000??.dat bestand</translation>
+        <translation>Importa los bloques desde un archivo blk000??.dat externo</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="113"/>
@@ -3116,47 +3128,47 @@ for example: alertnotify=echo %%s | mail -s &quot;eMark Alert&quot; admin@foo.co
     <message>
         <location filename="../bitcoinstrings.cpp" line="114"/>
         <source>Block creation options:</source>
-        <translation>Blokcreatie-opties:</translation>
+        <translation>Opciones de creación de bloques:</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="115"/>
         <source>Set minimum block size in bytes (default: 0)</source>
-        <translation>Stel minimum blokgrootte in in bytes (standaard: 0)</translation>
+        <translation>Establecer tamaño mínimo de bloque en bytes (predeterminado: 0)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="116"/>
         <source>Set maximum block size in bytes (default: 250000)</source>
-        <translation>Stel maximum blokgrootte in in bytes (standaard: 250000)</translation>
+        <translation>Establecer tamaño máximo de bloque en bytes (predeterminado: 250000)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="118"/>
         <source>Set maximum size of high-priority/low-fee transactions in bytes (default: 27000)</source>
-        <translation>Stel maximumgrootte in in bytes voor hoge-prioriteits-/lage-transactiekosten-transacties (standaard: 27000)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="120"/>
         <source>SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
-        <translation>SSL-opties: (zie de Bitcoin wiki voor SSL-instructies)</translation>
+        <translation>Opciones SSL: (ver la Bitcoin Wiki para instrucciones de configuración SSL)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="121"/>
         <source>Use OpenSSL (https) for JSON-RPC connections</source>
-        <translation>Gebruik OpenSSL (https) voor JSON-RPC-verbindingen</translation>
+        <translation>Usar OpenSSL (https) para las conexiones JSON-RPC</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="122"/>
         <source>Server certificate file (default: server.cert)</source>
-        <translation>Certificaat-bestand voor server (standaard: server.cert)</translation>
+        <translation>Certificado del servidor (predeterminado: server.cert)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="123"/>
         <source>Server private key (default: server.pem)</source>
-        <translation>Geheime sleutel voor server (standaard: server.pem)</translation>
+        <translation>Clave privada del servidor (predeterminado: server.pem)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="125"/>
         <source>Acceptable ciphers (default: TLSv1.2+HIGH:TLSv1+HIGH:!SSLv2:!aNULL:!eNULL:!3DES:@STRENGTH)</source>
-        <translation>Aanvaardbare ciphers (standaard: TLSv1.2+HIGH:TLSv1+HIGH:!SSLv2:!aNULL:!eNULL:!3DES:@STRENGTH)</translation>
+        <translation>Cifrados aceptados (predeterminado: TLSv1.2+HIGH:TLSv1+HIGH:!SSLv2:!aNULL:!eNULL:!3DES:@STRENGTH)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="127"/>
@@ -3166,17 +3178,17 @@ for example: alertnotify=echo %%s | mail -s &quot;eMark Alert&quot; admin@foo.co
     <message>
         <location filename="../bitcoinstrings.cpp" line="128"/>
         <source>Invalid amount for -paytxfee=&lt;amount&gt;: &apos;%s&apos;</source>
-        <translation>Ongeldig bedrag voor -paytxfee=&lt;bedrag&gt;: &apos;%s&apos;</translation>
+        <translation>Cantidad inválida para -paytxfee=&lt;amount&gt;: &apos;%s&apos;</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="130"/>
         <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
-        <translation>Waarschuwing: -paytxfee is zeer hoog ingesteld.  Dit zijn de transactiekosten die u betaalt bij het versturen van een transactie.</translation>
+        <translation>Aviso: ¡-paytxfee tiene un valor muy alto! Esta es la comisión que pagará si envía una transacción.</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="132"/>
         <source>Invalid amount for -mininput=&lt;amount&gt;: &apos;%s&apos;</source>
-        <translation>Ongeldig bedrag voor -mininput=&lt;bedrag&gt;: &apos;%s&apos;</translation>
+        <translation>Cantidad inválida para -mininput=&lt;amount&gt;: &apos;%s&apos;</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="133"/>
@@ -3191,7 +3203,7 @@ for example: alertnotify=echo %%s | mail -s &quot;eMark Alert&quot; admin@foo.co
     <message>
         <location filename="../bitcoinstrings.cpp" line="136"/>
         <source>Cannot obtain a lock on data directory %s. eMark Core is probably already running.</source>
-        <translation>Kan geen lock op de datamap %s verkrijgen. eMark Core draait vermoedelijk reeds.</translation>
+        <translation>No se puede bloquear el directorio de datos %s. Probablemente eMark Core ya se está ejecutando.</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="138"/>
@@ -3201,57 +3213,57 @@ for example: alertnotify=echo %%s | mail -s &quot;eMark Alert&quot; admin@foo.co
     <message>
         <location filename="../bitcoinstrings.cpp" line="139"/>
         <source>Error initializing wallet database environment %s!</source>
-        <translation>Probleem met initializeren van de database-omgeving %s!</translation>
+        <translation>Error al inicializar el entorno de la base de datos del monedero  %s!</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="141"/>
         <source>Warning: wallet.dat corrupt, data salvaged! Original wallet.dat saved as wallet.{timestamp}.bak in %s; if your balance or transactions are incorrect you should restore from a backup.</source>
-        <translation>Waarschuwing: wallet.dat is corrupt, data is veiliggesteld! Originele wallet.dat is opgeslagen als wallet.{tijdstip}.bak in %s; als uw balans of transacties incorrect zijn dient u een backup terug te zetten.</translation>
+        <translation>Aviso: ¡Recuperados datos de wallet.dat corrupto! El wallet.dat original se ha guardado como wallet.{timestamp}.bak en %s; si hubiera errores en su saldo o transacciones, deberá restaurar una copia de seguridad.</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="144"/>
         <source>wallet.dat corrupt, salvage failed</source>
-        <translation>wallet.dat corrupt, veiligstellen mislukt</translation>
+        <translation>wallet.dat corrupto. Ha fallado la recuperación</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="145"/>
         <source>Unknown -socks proxy version requested: %i</source>
-        <translation>Onbekende -socks proxyversie aangegeven: %i</translation>
+        <translation>Solicitada versión de proxy -socks desconocida: %i</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="146"/>
         <source>Unknown network specified in -onlynet: &apos;%s&apos;</source>
-        <translation>Onbekend netwerk gespecificeerd in -onlynet: &apos;%s&apos;</translation>
+        <translation>La red especificada en -onlynet &apos;%s&apos; es desconocida</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="147"/>
         <source>Invalid -proxy address: &apos;%s&apos;</source>
-        <translation>Ongeldig -proxy adres: &apos;%s&apos;</translation>
+        <translation>Dirección -proxy inválida: &apos;%s&apos;</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="148"/>
         <source>Invalid -tor address: &apos;%s&apos;</source>
-        <translation>Ongeldig -tor adres: &apos;%s&apos;</translation>
+        <translation>Dirección -tor inválida: &apos;%s&apos;</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="149"/>
         <source>Cannot resolve -bind address: &apos;%s&apos;</source>
-        <translation>Kan -bind adres niet herleiden: &apos;%s&apos;</translation>
+        <translation>No se puede resolver la dirección de -bind: &apos;%s&apos;</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="150"/>
         <source>Failed to listen on any port. Use -listen=0 if you want this.</source>
-        <translation>Mislukt om op welke poort dan ook te luisteren. Gebruik -listen=0 as u dit wilt.</translation>
+        <translation>Ha fallado la escucha en todos los puertos. Use -listen=0 si desea esto.</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="151"/>
         <source>Cannot resolve -externalip address: &apos;%s&apos;</source>
-        <translation>Kan -externlip adres niet herleiden: &apos;%s&apos;</translation>
+        <translation>No se puede resolver la dirección de -externalip: &apos;%s&apos;</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="152"/>
         <source>Invalid amount for -reservebalance=&lt;amount&gt;</source>
-        <translation>Ongeldig bedrag voor -reservebalance=&lt;bedrag&gt;</translation>
+        <translation>Inválido por el monto -reservebalance=&lt;amount&gt;</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="153"/>
@@ -3261,7 +3273,7 @@ for example: alertnotify=echo %%s | mail -s &quot;eMark Alert&quot; admin@foo.co
     <message>
         <location filename="../bitcoinstrings.cpp" line="154"/>
         <source>Loading block index...</source>
-        <translation>Blokindex aan het laden...</translation>
+        <translation>Cargando el índice de bloques...</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="155"/>
@@ -3271,106 +3283,106 @@ for example: alertnotify=echo %%s | mail -s &quot;eMark Alert&quot; admin@foo.co
     <message>
         <location filename="../bitcoinstrings.cpp" line="156"/>
         <source>Loading wallet...</source>
-        <translation>Portemonnee aan het laden...</translation>
+        <translation>Cargando monedero...</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="157"/>
         <source>Error loading wallet.dat: Wallet corrupted</source>
-        <translation>Fout bij laden wallet.dat: Portemonnee corrupt</translation>
+        <translation>Error al cargar wallet.dat: el monedero está dañado</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="159"/>
         <source>Warning: error reading wallet.dat! All keys read correctly, but transaction data or address book entries might be missing or incorrect.</source>
-        <translation>Waarschuwing: Fout bij het lezen van wallet.dat! Alle sleutels zijn in goede orde uitgelezen, maar transactiedata of adresboeklemma&apos;s zouden kunnen ontbreken of fouten bevatten.</translation>
+        <translation>Aviso: ¡Error al leer wallet.dat! Todas las claves se han leído correctamente, pero podrían faltar o ser incorrectos los datos de transacciones o las entradas de la libreta de direcciones.</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="161"/>
         <source>Error loading wallet.dat: Wallet requires newer version of eMark Core</source>
-        <translation>Fout bij laden wallet.dat: Portemonnee vereist een nieuwere versie van eMark Core</translation>
+        <translation>Error al cargar wallet.dat: El monedero requiere una versión más reciente de eMark Core</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="162"/>
         <source>Wallet needed to be rewritten: restart eMark Core to complete</source>
-        <translation>Portemonnee moest herschreven worden: Herstart eMark Core om te voltooien</translation>
+        <translation>El monedero ha necesitado ser reescrito. Reinicie eMark Core para completar el proceso</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="163"/>
         <source>Error loading wallet.dat</source>
-        <translation>Fout bij laden wallet.dat</translation>
+        <translation>Error al cargar wallet.dat</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="164"/>
         <source>Cannot downgrade wallet</source>
-        <translation>Kan portemonnee niet downgraden</translation>
+        <translation>No se puede rebajar el monedero</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="165"/>
         <source>Cannot write default address</source>
-        <translation>Kan standaardadres niet schrijven</translation>
+        <translation>No se puede escribir la dirección predeterminada</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="166"/>
         <source>Rescanning...</source>
-        <translation>Blokketen aan het doorzoeken...</translation>
+        <translation>Reexplorando...</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="167"/>
         <source>Loading addresses...</source>
-        <translation>Adressen aan het laden...</translation>
+        <translation>Cargando direcciones...</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="168"/>
         <source>Done loading</source>
-        <translation>Klaar met laden</translation>
+        <translation>Generado pero no aceptado</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="170"/>
         <source>Unable to bind to %s on this computer. eMark Core is probably already running.</source>
-        <translation>Niet in staat om aan %s te binden op deze computer. eMark Core draait vermoedelijk reeds.</translation>
+        <translation>No es posible conectar con %s en este sistema. Probablemente eMark Core ya está ejecutándose.</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="171"/>
         <source>Unable to bind to %s on this computer (bind returned error %d, %s)</source>
-        <translation>Niet in staat om aan %s te binden op deze computer (bind gaf error %d, %s)</translation>
+        <translation>No es posible conectar con %s en este sistema (bind ha dado el error %d, %s)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="172"/>
         <source>eMark Core version</source>
-        <translation>eMark Coreversie</translation>
+        <translation>Versión de eMark Core</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="173"/>
         <source>Usage:</source>
-        <translation>Gebruik:</translation>
+        <translation>Uso:</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="174"/>
         <source>Send command to -server or eMarkd</source>
-        <translation>Stuur commando naar -server of eMarkd</translation>
+        <translation>Envíar comando a -server o eMarkd</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="175"/>
         <source>List commands</source>
-        <translation>Lijst van commando&apos;s</translation>
+        <translation>Muestra comandos</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="176"/>
         <source>Get help for a command</source>
-        <translation>Toon hulp voor een commando</translation>
+        <translation>Recibir ayuda para un comando</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="178"/>
         <source>You must set rpcpassword=&lt;password&gt; in the configuration file:
 %s
 If the file does not exist, create it with owner-readable-only file permissions.</source>
-        <translation>U dient rpcpassword=&lt;wachtwoord&gt; in te stellen in het configuratiebestand:
-%s
-Als het bestand niet bestaat, maak het dan aan, met een alleen-lezen-permissie.</translation>
+        <translation>Tiene que establecer rpcpassword=&lt;contraseña&gt; en el fichero de configuración: 
+%s 
+Si el archivo no existe, créelo con permiso de lectura solamente del propietario.</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="182"/>
         <source>Error: Wallet locked, unable to create transaction!</source>
-        <translation>Fout: Portemonnee vergrendeld, aanmaak transactie niet mogelijk!</translation>
+        <translation>Error: ¡El monedero está bloqueado; no se puede crear la transacción!</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="183"/>
@@ -3380,7 +3392,7 @@ Als het bestand niet bestaat, maak het dan aan, met een alleen-lezen-permissie.<
     <message>
         <location filename="../bitcoinstrings.cpp" line="185"/>
         <source>Error: This transaction requires a transaction fee of at least %s because of its amount, complexity, or use of recently received funds!</source>
-        <translation>Fout: Deze transactie vereist transactiekosten van tenminste %s, vanwege zijn grootte, complexiteit, of het gebruik van onlangs ontvangen munten!</translation>
+        <translation>¡Error: Esta transacción requiere una comisión de al menos %s debido a su monto, complejidad, o al uso de fondos recién recibidos!</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="187"/>
@@ -3395,37 +3407,37 @@ Als het bestand niet bestaat, maak het dan aan, met een alleen-lezen-permissie.<
     <message>
         <location filename="../bitcoinstrings.cpp" line="190"/>
         <source>Error: The transaction was rejected! This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
-        <translation>Fout: De transactie was afgewezen! Dit kan gebeuren als sommige munten in uw portemonnee al eerder uitgegeven zijn, zoals wanneer u een kopie van uw wallet.dat heeft gebruikt en in de kopie deze munten zijn uitgegeven, maar in deze portemonnee die munten nog niet als zodanig zijn gemarkeerd.</translation>
+        <translation>¡Error: se ha rechazado la transacción! Esto puede ocurrir si ya se han gastado algunas de las monedas del monedero, como ocurriría si hubiera hecho una copia de wallet.dat y se hubieran gastado monedas a partir de la copia, con lo que no se habrían marcado aquí como gastadas.</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="193"/>
         <source>Invalid amount</source>
-        <translation>Ongeldig bedrag</translation>
+        <translation>Cuantía no válida</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="194"/>
         <source>Insufficient funds</source>
-        <translation>Ontoereikend saldo</translation>
+        <translation>Fondos insuficientes</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="195"/>
         <source>Error</source>
-        <translation>Fout</translation>
+        <translation>Error</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="196"/>
         <source>Warning</source>
-        <translation>Waarschuwing</translation>
+        <translation>Aviso</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="197"/>
         <source>Information</source>
-        <translation>Informatie</translation>
+        <translation>Información</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="198"/>
         <source>Warning: This version is obsolete, upgrade required!</source>
-        <translation>Waarschuwing: Deze versie is verouderd, een upgrade is vereist!</translation>
+        <translation>Aviso: Esta versión es obsoleta, actualización necesaria!</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="199"/>
@@ -3435,17 +3447,17 @@ Als het bestand niet bestaat, maak het dan aan, met een alleen-lezen-permissie.<
     <message>
         <location filename="../bitcoinstrings.cpp" line="200"/>
         <source>Error: Disk space is low!</source>
-        <translation>Fout: Weinig vrije diskruimte!</translation>
+        <translation>Error: ¡Espacio en disco bajo!</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="202"/>
         <source>This is a pre-release test build - use at your own risk - do not use for mining or merchant applications</source>
-        <translation>Dit is een pre-release testversie - gebruik op eigen risico! Gebruik deze niet voor het delven van munten of handelsdoeleinden</translation>
+        <translation>Esta es una versión de pre-prueba - utilícela bajo su propio riesgo. No la utilice para usos comerciales o de minería</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="205"/>
         <source>WARNING: Invalid checkpoint found! Displayed transactions may not be correct! You may need to upgrade, or notify developers.</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
 </context>
 </TS>
