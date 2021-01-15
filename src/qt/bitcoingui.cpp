@@ -82,7 +82,7 @@ BitcoinGUI::BitcoinGUI(QWidget *parent):
     nWeight(0)
 {
     resize(850+95, 550);
-    setWindowTitle(tr("Deutsche eMark Core"));
+    setWindowTitle(tr("Deutsche eMark Core") + " - " + tr("Wallet"));
 #ifndef Q_OS_MAC
     qApp->setWindowIcon(QIcon(":icons/bitcoin"));
     setWindowIcon(QIcon(":icons/bitcoin"));
@@ -230,7 +230,7 @@ void BitcoinGUI::createActions()
 {
     QActionGroup *tabGroup = new QActionGroup(this);
 
-    overviewAction = new QAction(QIcon(":/icons/overview"), tr("&Dashboard"), this);
+    overviewAction = new QAction(QIcon(":/icons/overview"), tr("&Overview"), this);
     overviewAction->setToolTip(tr("Show general overview of wallet"));
     overviewAction->setCheckable(true);
     overviewAction->setShortcut(QKeySequence(Qt::ALT + Qt::Key_1));
@@ -300,7 +300,7 @@ void BitcoinGUI::createActions()
 
     exportAction = new QAction(tr("&Export..."), this);
     exportAction->setToolTip(tr("Export the data in the current tab to a file"));
-    openRPCConsoleAction = new QAction(tr("&Debug window"), this);
+    openRPCConsoleAction = new QAction(tr("eMark Core - &Debug window"), this);
     openRPCConsoleAction->setToolTip(tr("Open debugging and diagnostic console"));
 
     connect(quitAction, SIGNAL(triggered()), qApp, SLOT(quit()));
