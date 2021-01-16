@@ -316,7 +316,7 @@ Hierdie produk bevat sagteware wat ontwikkel is deur die OpenSSL Project vir geb
     <message>
         <location filename="../bitcoin.cpp" line="104"/>
         <source>A fatal error occurred. eMark Core can no longer continue safely and will quit.</source>
-        <translation type="unfinished"></translation>
+        <translation>&apos;N fatale fout het voorgekom. eMark Core kan nie meer veilig voortgaan nie en sal nou toemaak.</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -817,7 +817,7 @@ Address: %4
     <message>
         <location filename="../forms/coincontroldialog.ui" line="326"/>
         <source>Change:</source>
-        <translation type="unfinished"></translation>
+        <translation>Verander:</translation>
     </message>
     <message>
         <location filename="../forms/coincontroldialog.ui" line="395"/>
@@ -923,7 +923,7 @@ Address: %4
     <message>
         <location filename="../coincontroldialog.cpp" line="71"/>
         <source>Copy change</source>
-        <translation type="unfinished"></translation>
+        <translation>Kopieer verandering</translation>
     </message>
     <message>
         <location filename="../coincontroldialog.cpp" line="388"/>
@@ -1018,12 +1018,12 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../coincontroldialog.cpp" line="643"/>
         <source>change from %1 (%2)</source>
-        <translation type="unfinished"></translation>
+        <translation>verander van %1 (%2)</translation>
     </message>
     <message>
         <location filename="../coincontroldialog.cpp" line="644"/>
         <source>(change)</source>
-        <translation type="unfinished"></translation>
+        <translation>(verander)</translation>
     </message>
 </context>
 <context>
@@ -1076,12 +1076,12 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../editaddressdialog.cpp" line="103"/>
         <source>The entered address &quot;%1&quot; is not a valid eMark address.</source>
-        <translation type="unfinished"></translation>
+        <translation>Die ingevoerde adres &quot;%1&quot; is nie &apos;n geldige eMark adres nie.</translation>
     </message>
     <message>
         <location filename="../editaddressdialog.cpp" line="108"/>
         <source>The entered address &quot;%1&quot; is already in the address book.</source>
-        <translation type="unfinished"></translation>
+        <translation>Die ingevoerde adres &quot;%1&quot; is reeds in die adres boek.</translation>
     </message>
     <message>
         <location filename="../editaddressdialog.cpp" line="113"/>
@@ -1148,7 +1148,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../forms/optionsdialog.ui" line="30"/>
         <source>&amp;Main</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Hoof</translation>
     </message>
     <message>
         <location filename="../forms/optionsdialog.ui" line="36"/>
@@ -1173,17 +1173,17 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../forms/optionsdialog.ui" line="128"/>
         <source>Automatically start eMark Core after logging in to the system.</source>
-        <translation type="unfinished"></translation>
+        <translation>Begin eMark Core outomaties nadat jy aangemeld is by die stelsel.</translation>
     </message>
     <message>
         <location filename="../forms/optionsdialog.ui" line="131"/>
         <source>&amp;Start eMark Core on system login</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Begin eMark Core op stelsel aanmelding</translation>
     </message>
     <message>
         <location filename="../forms/optionsdialog.ui" line="152"/>
         <source>&amp;Network</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Netwerk</translation>
     </message>
     <message>
         <location filename="../forms/optionsdialog.ui" line="158"/>
@@ -1218,7 +1218,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../forms/optionsdialog.ui" line="206"/>
         <source>&amp;Port:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Poort:</translation>
     </message>
     <message>
         <location filename="../forms/optionsdialog.ui" line="225"/>
@@ -1236,7 +1236,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../forms/optionsdialog.ui" line="261"/>
         <source>&amp;Window</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Venster</translation>
     </message>
     <message>
         <location filename="../forms/optionsdialog.ui" line="267"/>
@@ -1256,7 +1256,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../forms/optionsdialog.ui" line="280"/>
         <source>M&amp;inimize on close</source>
-        <translation type="unfinished"></translation>
+        <translation>M&amp;inimaliseer op toemaak</translation>
     </message>
     <message>
         <location filename="../forms/optionsdialog.ui" line="301"/>
@@ -1266,7 +1266,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../forms/optionsdialog.ui" line="309"/>
         <source>User Interface &amp;language:</source>
-        <translation type="unfinished"></translation>
+        <translation>Gebruikers Koppelvlak &amp;taal:</translation>
     </message>
     <message>
         <location filename="../forms/optionsdialog.ui" line="322"/>
@@ -1276,7 +1276,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../forms/optionsdialog.ui" line="333"/>
         <source>&amp;Unit to show amounts in:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Eenheid om bedrae te toon in:</translation>
     </message>
     <message>
         <location filename="../forms/optionsdialog.ui" line="346"/>
@@ -1286,7 +1286,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../forms/optionsdialog.ui" line="355"/>
         <source>Whether to show coin control features or not.</source>
-        <translation type="unfinished"></translation>
+        <translation>Of om munt beheer funksies te wys of nie.</translation>
     </message>
     <message>
         <location filename="../forms/optionsdialog.ui" line="358"/>
@@ -1589,7 +1589,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../forms/rpcconsole.ui" line="305"/>
         <source>&amp;Open</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Oop</translation>
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="321"/>
@@ -1604,7 +1604,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../forms/rpcconsole.ui" line="331"/>
         <source>&amp;Show</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Wys</translation>
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="355"/>
@@ -1659,32 +1659,32 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../rpcconsole.cpp" line="461"/>
         <source>%1 B</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 B</translation>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="463"/>
         <source>%1 KB</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 KB</translation>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="465"/>
         <source>%1 MB</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 MB</translation>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="467"/>
         <source>%1 GB</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 GB</translation>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="474"/>
         <source>%1 m</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 m</translation>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="479"/>
         <source>%1 h</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 u</translation>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="481"/>
@@ -1704,32 +1704,32 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <location filename="../sendcoinsdialog.cpp" line="213"/>
         <location filename="../sendcoinsdialog.cpp" line="218"/>
         <source>Send Coins</source>
-        <translation type="unfinished"></translation>
+        <translation>Stuur Munte</translation>
     </message>
     <message>
         <location filename="../forms/sendcoinsdialog.ui" line="87"/>
         <source>Coin Control Features</source>
-        <translation type="unfinished"></translation>
+        <translation>Munt Beheer Kenmerke</translation>
     </message>
     <message>
         <location filename="../forms/sendcoinsdialog.ui" line="107"/>
         <source>Inputs...</source>
-        <translation type="unfinished"></translation>
+        <translation>Insette...</translation>
     </message>
     <message>
         <location filename="../forms/sendcoinsdialog.ui" line="114"/>
         <source>automatically selected</source>
-        <translation type="unfinished"></translation>
+        <translation>outomaties gekies</translation>
     </message>
     <message>
         <location filename="../forms/sendcoinsdialog.ui" line="133"/>
         <source>Insufficient funds!</source>
-        <translation type="unfinished"></translation>
+        <translation>Onvoldoende fondse!</translation>
     </message>
     <message>
         <location filename="../forms/sendcoinsdialog.ui" line="219"/>
         <source>Quantity:</source>
-        <translation type="unfinished"></translation>
+        <translation>Hoeveelheid:</translation>
     </message>
     <message>
         <location filename="../forms/sendcoinsdialog.ui" line="241"/>
@@ -1744,7 +1744,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../forms/sendcoinsdialog.ui" line="308"/>
         <source>Amount:</source>
-        <translation type="unfinished"></translation>
+        <translation>Bedrag:</translation>
     </message>
     <message>
         <location filename="../forms/sendcoinsdialog.ui" line="330"/>
@@ -1757,7 +1757,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../forms/sendcoinsdialog.ui" line="343"/>
         <source>Priority:</source>
-        <translation type="unfinished"></translation>
+        <translation>Prioriteit:</translation>
     </message>
     <message>
         <location filename="../forms/sendcoinsdialog.ui" line="362"/>
@@ -1772,12 +1772,12 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../forms/sendcoinsdialog.ui" line="429"/>
         <source>Low Output:</source>
-        <translation type="unfinished"></translation>
+        <translation>Lae uitset:</translation>
     </message>
     <message>
         <location filename="../forms/sendcoinsdialog.ui" line="448"/>
         <source>no</source>
-        <translation type="unfinished"></translation>
+        <translation>geen</translation>
     </message>
     <message>
         <location filename="../forms/sendcoinsdialog.ui" line="480"/>
@@ -1787,7 +1787,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../forms/sendcoinsdialog.ui" line="515"/>
         <source>Change</source>
-        <translation type="unfinished"></translation>
+        <translation>Verander</translation>
     </message>
     <message>
         <location filename="../forms/sendcoinsdialog.ui" line="565"/>
@@ -1812,7 +1812,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../forms/sendcoinsdialog.ui" line="719"/>
         <source>Add &amp;Recipient</source>
-        <translation type="unfinished"></translation>
+        <translation>Voeg by &amp;Ontvanger</translation>
     </message>
     <message>
         <location filename="../forms/sendcoinsdialog.ui" line="735"/>
@@ -1822,7 +1822,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../forms/sendcoinsdialog.ui" line="738"/>
         <source>Clear &amp;All</source>
-        <translation type="unfinished"></translation>
+        <translation>Maak skoon &amp;Alles</translation>
     </message>
     <message>
         <location filename="../forms/sendcoinsdialog.ui" line="762"/>
@@ -1857,47 +1857,47 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../sendcoinsdialog.cpp" line="56"/>
         <source>Copy quantity</source>
-        <translation type="unfinished"></translation>
+        <translation>Kopieer hoeveelheid</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="57"/>
         <source>Copy amount</source>
-        <translation type="unfinished"></translation>
+        <translation>Kopieer bedrag</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="58"/>
         <source>Copy fee</source>
-        <translation type="unfinished"></translation>
+        <translation>Kopieer fooi</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="59"/>
         <source>Copy after fee</source>
-        <translation type="unfinished"></translation>
+        <translation>Kopieer na fooi</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="60"/>
         <source>Copy bytes</source>
-        <translation type="unfinished"></translation>
+        <translation>Kopieer grepe</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="61"/>
         <source>Copy priority</source>
-        <translation type="unfinished"></translation>
+        <translation>Kopieer prioriteit</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="62"/>
         <source>Copy low output</source>
-        <translation type="unfinished"></translation>
+        <translation>Kopieer lae uitvoer</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="63"/>
         <source>Copy change</source>
-        <translation type="unfinished"></translation>
+        <translation>Kopieer verandering</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="153"/>
         <source>&lt;b&gt;%1&lt;/b&gt; to %2 (%3)</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;b&gt;%1&lt;/b&gt; tot %2 (%3)</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="158"/>
@@ -1912,7 +1912,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../sendcoinsdialog.cpp" line="159"/>
         <source> and </source>
-        <translation type="unfinished"></translation>
+        <translation> en </translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="188"/>
@@ -2782,7 +2782,7 @@ for example: alertnotify=echo %%s | mail -s &quot;eMark Alert&quot; admin@foo.co
     <message>
         <location filename="../bitcoinstrings.cpp" line="30"/>
         <source>Options:</source>
-        <translation type="unfinished"></translation>
+        <translation>Opsies:</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="31"/>
