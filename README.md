@@ -53,21 +53,21 @@ Quick install Linux:
 
 eMarkd:
 -------
-sudo apt-get install git build-essential libssl-dev libdb++-dev libboost-all-dev libprotobuf-dev libqrencode-dev libminiupnpc-dev
-git clone https://github.com/emarkproject/eMark
-cd eMark/src
-make -f makefile.unix
-sudo cp eMarkd /usr/bin
+sudo apt-get install git build-essential libssl-dev libdb++-dev libboost-all-dev libprotobuf-dev libqrencode-dev libminiupnpc-dev  
+git clone https://github.com/emarkproject/eMark  
+cd eMark/src  
+make -f makefile.unix  
+sudo cp eMarkd /usr/bin  
 
 Start with: eMarkd
 
 eMark-qt:
 ---------
-sudo apt-get install qt4-dev-tools libboost-dev libboost-thread-dev libboost-program-options-dev libboost-filesystem-dev libboost-system-dev libdb++-dev libminiupnpc-dev libssl-dev
-git clone https://github.com/emarkproject/eMark
-cd eMark
-qmake
-make
+sudo apt-get install qt4-dev-tools libboost-dev libboost-thread-dev libboost-program-options-dev libboost-filesystem-dev libboost-system-dev libdb++-dev libminiupnpc-dev libssl-dev  
+git clone https://github.com/emarkproject/eMark  
+cd eMark  
+qmake  
+make  
 
 Start the eMark-QT wallet with:
 
