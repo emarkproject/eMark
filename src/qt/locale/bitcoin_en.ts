@@ -1441,8 +1441,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <translation>Transaction &amp;comment: </translation>
     </message>
     <message>
-        <source>Enter a transaction comment  (MAX 256 Characters) (Note: this information is public)</source>
-        <translation>Enter a transaction comment  (MAX 256 Characters) (Note: this information is public)</translation>
+        <source>Enter a transaction comment  (MAX 140 Characters) (Note: this information is public)</source>
+        <translation>Enter a transaction comment  (MAX 140 Characters) (Note: this information is public)</translation>
     </message>
     <message>
         <source>Send to multiple recipients at once</source>
@@ -1481,8 +1481,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <translation>Enter a eMark address (e.g. NgJKYsHctQfF8D8r6otTGxdnB6r311NvJf)</translation>
     </message>
     <message>
-        <source>Enter a transaction comment (MAX 256 Characters) (Note: This information is public)</source>
-        <translation>Enter a transaction comment (MAX 256 Characters) (Note: This information is public)</translation>
+        <source>Enter a transaction comment (MAX 140 Characters) (Note: This information is public)</source>
+        <translation>Enter a transaction comment (MAX 140 Characters) (Note: This information is public)</translation>
     </message>
     <message>
         <source>Copy quantity</source>

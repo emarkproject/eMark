@@ -38,7 +38,7 @@ SendCoinsDialog::SendCoinsDialog(QWidget *parent) :
     /* Do not move this to the XML file, Qt before 4.7 will choke on it */
     ui->lineEditCoinControlChange->setPlaceholderText(tr("Enter a eMark address (e.g. NgJKYsHctQfF8D8r6otTGxdnB6r311NvJf)"));
     //TX Comment
-    ui->editTxComment->setPlaceholderText(tr("Enter a transaction comment (MAX 256 Characters) (Note: This information is public)"));
+    ui->editTxComment->setPlaceholderText(tr("Enter a transaction comment (MAX 140 Characters) (Note: This information is public)"));
 #endif
 
     addEntry();

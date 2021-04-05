@@ -1448,7 +1448,7 @@ Das bedeutet, dass eine Gebühr von %2 benötigt wird.
         <translation>&amp;Verwendungszweck:</translation>
     </message>
     <message>
-        <source>Enter a transaction comment  (MAX 256 Characters) (Note: this information is public)</source>
+        <source>Enter a transaction comment  (MAX 140 Characters) (Note: this information is public)</source>
         <translation>Nachricht zur Transaktion einfügen (Maximal 140 Zeichen) (Achtung, ist öffentlich einsehbar)</translation>
     </message>
     <message>
