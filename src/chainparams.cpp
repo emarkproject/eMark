@@ -92,13 +92,14 @@ public:
         assert(genesis.hashMerkleRoot == uint256("0x5def52f0e380a698fc529c4aa8c9810d79149a3b2d45b33bb262cb11e22cc5e9"));
 
 	// SIPA DNS Seeders - DEM served on port 5336 (DEM=336)
-        vSeeds.push_back(CDNSSeedData(        "emarks.cc",	   "dnsseed.emarks.cc"  ));
+        vSeeds.push_back(CDNSSeedData("emarks.cc",	   "dnsseed.emarks.cc"  ));
+	vSeeds.push_back(CDNSSeedData("emark.ninja",       "dnsseed.emark.ninja"));
         vSeeds.push_back(CDNSSeedData("deutsche-emark.cc", "dnsseed.deutsche-emark.cc"	));
-        vSeeds.push_back(CDNSSeedData("deutsche-emark.de",    "seed.deutsche-emark.de"	));
+        vSeeds.push_back(CDNSSeedData("deutsche-emark.de", "seed.deutsche-emark.de"	));
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 53);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 30);
         base58Prefixes[SECRET_KEY] =     std::vector<unsigned char>(1, 181);
-		base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(0x04)(0x88)(0xB2)(0x1E).convert_to_container<std::vector<unsigned char> >();
+	base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(0x04)(0x88)(0xB2)(0x1E).convert_to_container<std::vector<unsigned char> >();
         base58Prefixes[EXT_SECRET_KEY] = boost::assign::list_of(0x04)(0x88)(0xAD)(0xE4).convert_to_container<std::vector<unsigned char> >();
 
         convertSeed6(vFixedSeeds, pnSeed6_main, ARRAYLEN(pnSeed6_main));
