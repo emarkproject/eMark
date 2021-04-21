@@ -63,6 +63,13 @@ bool AppInit(int argc, char* argv[])
             return false;
         }
 
+  	if (mapArgs.count("-v") || mapArgs.count("--version"))
+          { 
+            std::string strUsage = _("eMark Core Daemon") + " " + _("version") + " " + FormatFullVersion() + "\n";
+            fprintf(stdout, "%s", strUsage.c_str());
+            return false;
+          }
+
         // Command-line RPC
         for (int i = 1; i < argc; i++)
             if (!IsSwitchChar(argv[i][0]) && !boost::algorithm::istarts_with(argv[i], "eMark:"))
