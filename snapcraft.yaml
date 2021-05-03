@@ -1,0 +1,38 @@
+name: emarkproject
+version: master
+summary: decentralized peer-to-peer platform
+description: |
+  The eMark Project is a decentralized peer-to-peer platform, created under an
+  open source license, featuring a built-in cryptocurrency, end-to-end
+  encrypted messaging and decentralized marketplace. The decentralized network
+  aims to provide anonymity and privacy for everyone through a simple
+  user-friendly interface by taking care of all the advanced cryptography in
+  the background.
+grade: devel
+confinement: strict
+
+apps:
+  emarkproject:
+    command: desktop-launch $SNAP/usr/local/bin/eMark
+    plugs: [network, network-bind, unity7]
+
+parts:
+  emarkproject:
+    source: .
+    plugin: qmake
+    qt-version: qt5
+    build-packages:
+      - build-essential
+      - qt5-default
+      - qtbase5-dev-tools
+      - qttools5-dev-tools
+      - libboost-dev
+      - libboost-filesystem-dev
+      - libboost-program-options-dev
+      - libboost-system-dev
+      - libboost-thread-dev
+      - libdb++-dev
+      - libminiupnpc-dev
+      - libqt5webkit5-dev
+      - libssl-dev
+    after: [desktop-qt5]
