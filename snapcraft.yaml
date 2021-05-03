@@ -21,8 +21,6 @@ apps:
     command: desktop-launch eMark-qt
     plugs: [network, network-bind, unity7]
     desktop: eMark.desktop
-  cli:
-    command: eMark-cli
 
 parts:
   emarkproject:
@@ -42,6 +40,10 @@ parts:
     # build-essential libtool autotools-dev autoconf pkg-config libssl-dev libboost-all-dev
     # libqrencode-dev libminiupnpc-dev libevent-dev libcap-dev libseccomp-dev git bsdmainutils
     # software-properties-common libqt5gui5 libqt5core5a libqt5dbus5 qttools5-dev qttools5-dev-tools libprotobuf-dev protobuf-compiler
+      - build-essential
+      - libdb++-dev
+      - libboost-all-dev
+      
       - g++
       - pkg-config
       - libssl-dev
