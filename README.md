@@ -6,7 +6,8 @@
   when queried, they give back a short list of the best nodes to connect to.
 - Adds two DNS Servers:
 1. dnsseed.deutsche-emark.cc	<--- NOTE: the Top-Level Domain is  ".CC" for Crypto Currency ! 
-1. dnsseed.emarks.cc		<---	Crypto Currency, top level domain (TLD)    
+2. dnsseed.emarks.cc		    <--- Crypto Currency, top level domain (TLD)
+3. dnsseed.emark.ninja          <--- Support this Server Ninja7VNjR3cZNati6XDt9jVDs81XCZ48g
 
  - Also adds some static hard-coded nodes as backup
  
