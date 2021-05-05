@@ -13,7 +13,7 @@ confinement: strict
 
 apps:
   emarkproject:
-    command: desktop-launch $SNAP/usr/local/bin/eMark
+    command: desktop-launch $SNAP/usr/bin/eMark
     plugs: [network, network-bind, unity7]
 
 parts:
@@ -22,17 +22,30 @@ parts:
     plugin: qmake
     qt-version: qt5
     build-packages:
-      - build-essential
-      - qt5-default
-      - qtbase5-dev-tools
-      - qttools5-dev-tools
+      - qt4-dev-tools
       - libboost-dev
-      - libboost-filesystem-dev
-      - libboost-program-options-dev
-      - libboost-system-dev
       - libboost-thread-dev
+      - libboost-program-options-dev
+      - libboost-filesystem-dev
+      - libboost-system-dev
       - libdb++-dev
       - libminiupnpc-dev
-      - libqt5webkit5-dev
       - libssl-dev
+      - build-essential
+      - libdb++-dev
+      - libboost-all-dev
+      - libprotobuf-dev
+      - libqrencode-dev
+      - libminiupnpc-dev
+      - qt5-default
+      - qt5-qmake
+      - qtbase5-dev-tools
+      - qttools5-dev-tools
+      - g++
+      - g++-10
+      - libstdc++-10-dev
+      - g++-multilib
+      - g++-10-multilib
+      - gcc-10-doc
+      - libstdc++-10-doc
     after: [desktop-qt5]
