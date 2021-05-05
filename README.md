@@ -4,7 +4,7 @@
 ### Version 1.6.1 ###
   DNS Servers track active eMark nodes in real-time and,
   when queried, they give back a short list of the best nodes to connect to.
-- Adds two DNS Servers:
+- Adds three DNS Servers:
 1. dnsseed.deutsche-emark.cc	<--- NOTE: the Top-Level Domain is  ".CC" for Crypto Currency ! 
 2. dnsseed.emarks.cc		    <--- Crypto Currency, top level domain (TLD)
 3. dnsseed.emark.ninja          <--- Support this Server Ninja7VNjR3cZNati6XDt9jVDs81XCZ48g
