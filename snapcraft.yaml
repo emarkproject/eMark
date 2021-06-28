@@ -36,7 +36,6 @@ parts:
       - libboost-all-dev
       - libprotobuf-dev
       - libqrencode-dev
-      - libminiupnpc-dev
       - qt5-default
       - qt5-qmake
       - qtbase5-dev-tools
