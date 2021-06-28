@@ -24,9 +24,7 @@ parts:
     build-packages:
       - build-essential
       - g++
-      - g++-10
       - g++-10-multilib
-      - g++-multilib
       - gcc-10-doc
       - libboost-all-dev
       - libboost-dev
@@ -40,7 +38,6 @@ parts:
       - libqrencode-dev
       - libssl-dev
       - libstdc++-10-dev
-      - libstdc++-10-doc
       - qt4-dev-tools
       - qt5-default
       - qt5-qmake
