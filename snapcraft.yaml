@@ -22,29 +22,28 @@ parts:
     plugin: qmake
     qt-version: qt5
     build-packages:
-      - qt4-dev-tools
+      - build-essential
+      - g++
+      - g++-10
+      - g++-10-multilib
+      - g++-multilib
+      - gcc-10-doc
+      - libboost-all-dev
       - libboost-dev
-      - libboost-thread-dev
-      - libboost-program-options-dev
       - libboost-filesystem-dev
+      - libboost-program-options-dev
       - libboost-system-dev
+      - libboost-thread-dev
       - libdb++-dev
       - libminiupnpc-dev
-      - libssl-dev
-      - build-essential
-      - libdb++-dev
-      - libboost-all-dev
       - libprotobuf-dev
       - libqrencode-dev
+      - libssl-dev
+      - libstdc++-10-dev
+      - libstdc++-10-doc
+      - qt4-dev-tools
       - qt5-default
       - qt5-qmake
       - qtbase5-dev-tools
       - qttools5-dev-tools
-      - g++
-      - g++-10
-      - libstdc++-10-dev
-      - g++-multilib
-      - g++-10-multilib
-      - gcc-10-doc
-      - libstdc++-10-doc
     after: [desktop-qt5]
