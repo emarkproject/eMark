@@ -24,7 +24,6 @@ parts:
     build-packages:
       - build-essential
       - g++
-      - g++-10-multilib
       - libboost-all-dev
       - libboost-dev
       - libboost-filesystem-dev
