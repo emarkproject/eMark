@@ -1,5 +1,14 @@
-
 # Deutsche eMark [DEM] #
+
+### Version 2.0.1 ###
+  A vulnerability introduced in version 1.3 was exploited and wreaked havoc in the DEM-blockchain.
+  This build contains a patch of that vulnerability. In the same time it causes a Hardfork where the chainparameters are slightly changed:
+  - The POW reward is halved to 25 DEM per block
+  - halving will repeat after each 500.000 blocks
+  - Network/chain parameters are changed to avoid interference with the old software
+  - For the same reason The RPC port has changed
+
+  All the hacks that occured propagated in the blockchain. All outputs from these hacks however could be tainted and were put on a list of tainted unspend outputs. All DEM that originated from the hacks but were sold (about 8M) were excluded from the taint-procedure. A provision in the new chain was made to duplicate all not tainted unspend outputs to the new chain. 20M eMark from the hack is reserved for representatives of the Deutche eMark community to enhance DEM development and marketing.
 
 ### Version 1.6.1 ###
   DNS Servers track active eMark nodes in real-time and,
