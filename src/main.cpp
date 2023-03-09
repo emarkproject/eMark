@@ -983,9 +983,16 @@ static CBigNum GetProofOfStakeLimit(int nTime)
 }
 
 // miner's coin base reward
-int64_t GetProofOfWorkReward(int64_t nFees)
+int64_t GetProofOfWorkReward(int64_t nFees, int nHeight)
 {
-    int64_t nSubsidy = 50 * COIN;
+    int halvings = nHeight / 500000;
+    int64_t nSubsidy = 25 * COIN;  // DEM Volume Two
+
+    nSubsidy >>= halvings;
+
+    if(nHeight < 1000) nSubsidy = 1 * COIN;
+    if(nHeight == 1) nSubsidy = 130149312 * COIN;
+    if(nHeight == 2) nSubsidy = 20000000 * COIN;
 
     LogPrint("creation", "GetProofOfWorkReward() : create=%s nSubsidy=%d\n", FormatMoney(nSubsidy), nSubsidy);
 
@@ -1563,7 +1570,7 @@ bool CBlock::ConnectBlock(CTxDB& txdb, CBlockIndex* pindex, bool fJustCheck)
 
     if (IsProofOfWork())
     {
-        int64_t nReward = GetProofOfWorkReward(nFees);
+        int64_t nReward = GetProofOfWorkReward(nFees, pindex->nHeight);
         // Check coinbase reward
         if (vtx[0].GetValueOut() > nReward)
             return DoS(50, error("ConnectBlock() : coinbase reward exceeded (actual=%d vs calculated=%d)",
@@ -2193,6 +2200,14 @@ bool CBlock::CheckBlock(bool fCheckPOW, bool fCheckMerkleRoot, bool fCheckSig) c
         for (unsigned int i = 2; i < vtx.size(); i++)
             if (vtx[i].IsCoinStake())
                 return DoS(100, error("CheckBlock() : more than one coinstake"));
+    } else {
+
+        /* No coin stakes in PoW blocks */
+        for(unsigned i = 1; i < vtx.size(); i++) {
+            if(vtx[i].IsCoinStake() )
+              return(DoS(100, error("CheckBlock() : rogue coin stake")));
+        }
+
     }
 
     // Check proof-of-stake block signature
@@ -2506,7 +2521,7 @@ bool ProcessBlock(CNode* pfrom, CBlock* pblock)
         mapOrphanBlocksByPrev.erase(hashPrev);
     }
 
-    LogPrintf("ProcessBlock: ACCEPTED\n");
+    // LogPrintf("ProcessBlock: ACCEPTED\n");
 
     // ppcoin: if responsible for sync-checkpoint send it
     if (pfrom && !CSyncCheckpoint::strMasterPrivKey.empty())

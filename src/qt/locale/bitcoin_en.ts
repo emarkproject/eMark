@@ -17,7 +17,8 @@ Copyright © 2012-2012 The Peercoin developers
 Copyright © 2015 The eMark developers</source>
         <translation>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2012 The Peercoin developers
-Copyright © 2015 The eMark developers</translation>
+Copyright © 2015- The eMark developers
+Copyright © 2023- The Communitycoins developers</translation>
     </message>
     <message>
         <source>
