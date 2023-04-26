@@ -92,10 +92,16 @@ public:
         assert(hashGenesisBlock == uint256("0x000000bc0ddf15573115c44b81d8b10e9ebd868b5c967f408bda273656f30e28"));
         assert(genesis.hashMerkleRoot == uint256("0x60aeca51b138f65fcfdd0e188859ad6ae06ea37a85471e865110c6828520d6c0"));
 
-        // SIPA DNS Seeders 
-        vSeeds.push_back(CDNSSeedData("seed1.communitycoins.org", "dem-seed1.communitycoins.org" ));
-        vSeeds.push_back(CDNSSeedData("seed2.communitycoins.org", "dem-seed2.communitycoins.org" ));
-        vSeeds.push_back(CDNSSeedData("seed3.communitycoins.org", "dem-seed3.communitycoins.org" ));
+        // SIPA DNS Seeders
+        //     communitycoins.org 
+        //                              Domain                          Sub-Domain
+        vSeeds.push_back(CDNSSeedData("communitycoins.org", "dem-seed1.communitycoins.org" )); 
+        vSeeds.push_back(CDNSSeedData("communitycoins.org", "dem-seed2.communitycoins.org" )); 
+        vSeeds.push_back(CDNSSeedData("communitycoins.org", "dem-seed3.communitycoins.org" )); 
+        //     chainetics.com (dbkeys) 
+        //                              Domain                          Sub-Domain
+        vSeeds.push_back(CDNSSeedData("emarks.cc",          "dnsseed.emarks.cc" )); 
+        vSeeds.push_back(CDNSSeedData("deutsche-emark.cc",  "dnsseed.deutsche-emark.cc" )); 
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 53);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 30);
