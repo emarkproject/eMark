@@ -93,15 +93,24 @@ public:
         assert(genesis.hashMerkleRoot == uint256("0x60aeca51b138f65fcfdd0e188859ad6ae06ea37a85471e865110c6828520d6c0"));
 
         // SIPA DNS Seeders
+	//
+	//     test with 'dig' command
+	//
+	//     	    examples:  dig dnsseed.emarks.cc A		     //     A for IPv4
+	//     	               dig dnsseed.deutsche.emark.cc AAAA    //  AAAA for IPv6
+	//		       dig dem-seed1.communitycoins.org A
+	//                     dig dem-seed2.communitycoins.ort AAAA 
+	//    
+        //     chainetics.com (dbkeys) 
+        //                              Domain                          Sub-Domain
+        vSeeds.push_back(CDNSSeedData("emarks.cc",          "dnsseed.emarks.cc" )); 
+        vSeeds.push_back(CDNSSeedData("deutsche-emark.cc",  "dnsseed.deutsche-emark.cc" )); 
+	//
         //     communitycoins.org 
         //                              Domain                          Sub-Domain
         vSeeds.push_back(CDNSSeedData("communitycoins.org", "dem-seed1.communitycoins.org" )); 
         vSeeds.push_back(CDNSSeedData("communitycoins.org", "dem-seed2.communitycoins.org" )); 
         vSeeds.push_back(CDNSSeedData("communitycoins.org", "dem-seed3.communitycoins.org" )); 
-        //     chainetics.com (dbkeys) 
-        //                              Domain                          Sub-Domain
-        vSeeds.push_back(CDNSSeedData("emarks.cc",          "dnsseed.emarks.cc" )); 
-        vSeeds.push_back(CDNSSeedData("deutsche-emark.cc",  "dnsseed.deutsche-emark.cc" )); 
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 53);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 30);
