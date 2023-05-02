@@ -177,14 +177,14 @@ public:
         vFixedSeeds.clear();
         vSeeds.clear();
 
-        // SIPA DNS Seeders
+        // SIPA DNS Seeders for Testnet
         //
         //     test with 'dig' command
         //
-        //          examples:  dig tesnet.emarks.cc A               //     A for IPv4
-        //            	       dig tesnet.emarks.cc AAAA            //     A for IPv6
+        //          examples:  dig testnet.emarks.cc A               //     A for IPv4
+        //            	       dig testnet.emarks.cc AAAA            //     A for IPv6
         //    
-        //                              Domain                          Sub-Domain
+        //                              Domain                    Sub-Domain
         vSeeds.push_back(CDNSSeedData("emarks.cc",          "testnet.emarks.cc" ));
 
 
