@@ -8,7 +8,7 @@
 // Name of client reported in the 'version' message. Report the same name
 // for both eMarkd and eMark-qt, to make it harder for attackers to
 // target servers or GUI users specifically.
-const std::string CLIENT_NAME("eMark");
+const std::string CLIENT_NAME("eMark-v2");
 
 // Client version number
 #define CLIENT_VERSION_SUFFIX   ""
@@ -37,7 +37,7 @@ const std::string CLIENT_NAME("eMark");
 #define GIT_ARCHIVE 1
 #ifdef GIT_ARCHIVE
 #    define GIT_COMMIT_ID ""
-#    define GIT_COMMIT_DATE "05.03.2020"
+#    define GIT_COMMIT_DATE "03.08.2023"
 #endif
 
 #define BUILD_DESC_FROM_COMMIT(maj,min,rev,build,commit) \

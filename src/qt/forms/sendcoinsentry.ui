@@ -52,7 +52,7 @@
       </widget>
      </item>
      <item>
-      <widget class="QToolButton" name="addressBookButton">
+      <widget class="QPushButton" name="addressBookButton">
        <property name="toolTip">
         <string>Choose address from address book</string>
        </property>
@@ -69,7 +69,7 @@
       </widget>
      </item>
      <item>
-      <widget class="QToolButton" name="pasteButton">
+      <widget class="QPushButton" name="pasteButton">
        <property name="toolTip">
         <string>Paste address from clipboard</string>
        </property>
@@ -86,7 +86,7 @@
       </widget>
      </item>
      <item>
-      <widget class="QToolButton" name="deleteButton">
+      <widget class="QPushButton" name="deleteButton">
        <property name="toolTip">
         <string>Remove this recipient</string>
        </property>

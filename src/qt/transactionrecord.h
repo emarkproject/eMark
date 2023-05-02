@@ -122,7 +122,7 @@ public:
     QString getTxID() const;
 
     /** Format subtransaction id */
-    static QString formatSubTxId(const uint256 &hash, int vout);
+    static QString formatSubTxId(const uint256 &hash);
 
     /** Update status from core wallet tx.
      */

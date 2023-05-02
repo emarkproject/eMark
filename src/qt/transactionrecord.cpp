@@ -258,11 +258,11 @@ bool TransactionRecord::statusUpdateNeeded()
 
 QString TransactionRecord::getTxID() const
 {
-    return formatSubTxId(hash, idx);
+    return formatSubTxId(hash);
 }
 
-QString TransactionRecord::formatSubTxId(const uint256 &hash, int vout)
+QString TransactionRecord::formatSubTxId(const uint256 &hash)
 {
-    return QString::fromStdString(hash.ToString() + strprintf("-%03d", vout));
+    return QString::fromStdString(hash.ToString());
 }
 

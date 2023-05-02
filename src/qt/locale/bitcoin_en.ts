@@ -17,7 +17,8 @@ Copyright © 2012-2012 The Peercoin developers
 Copyright © 2015 The eMark developers</source>
         <translation>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2012 The Peercoin developers
-Copyright © 2015 The eMark developers</translation>
+Copyright © 2015- The eMark developers
+Copyright © 2023- The Communitycoins developers</translation>
     </message>
     <message>
         <source>
@@ -1441,8 +1442,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <translation>Transaction &amp;comment: </translation>
     </message>
     <message>
-        <source>Enter a transaction comment  (MAX 256 Characters) (Note: this information is public)</source>
-        <translation>Enter a transaction comment  (MAX 256 Characters) (Note: this information is public)</translation>
+        <source>Enter a transaction comment  (MAX 140 Characters) (Note: this information is public)</source>
+        <translation>Enter a transaction comment  (MAX 140 Characters) (Note: this information is public)</translation>
     </message>
     <message>
         <source>Send to multiple recipients at once</source>
@@ -1481,8 +1482,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <translation>Enter a eMark address (e.g. NgJKYsHctQfF8D8r6otTGxdnB6r311NvJf)</translation>
     </message>
     <message>
-        <source>Enter a transaction comment (MAX 256 Characters) (Note: This information is public)</source>
-        <translation>Enter a transaction comment (MAX 256 Characters) (Note: This information is public)</translation>
+        <source>Enter a transaction comment (MAX 140 Characters) (Note: This information is public)</source>
+        <translation>Enter a transaction comment (MAX 140 Characters) (Note: This information is public)</translation>
     </message>
     <message>
         <source>Copy quantity</source>
@@ -1886,8 +1887,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <translation>Message</translation>
     </message>
     <message>
-        <source>Generated coins must mature 100 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to &quot;not accepted&quot; and it won&apos;t be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
-        <translation>Generated coins must mature 100 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to &quot;not accepted&quot; and it won&apos;t be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</translation>
+        <source>Generated coins must mature 80 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to &quot;not accepted&quot; and it won&apos;t be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
+        <translation>Generated coins must mature 80 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to &quot;not accepted&quot; and it won&apos;t be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</translation>
     </message>
     <message>
         <source>Debug information</source>

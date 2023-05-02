@@ -1448,7 +1448,7 @@ Das bedeutet, dass eine Gebühr von %2 benötigt wird.
         <translation>&amp;Verwendungszweck:</translation>
     </message>
     <message>
-        <source>Enter a transaction comment  (MAX 256 Characters) (Note: this information is public)</source>
+        <source>Enter a transaction comment  (MAX 140 Characters) (Note: this information is public)</source>
         <translation>Nachricht zur Transaktion einfügen (Maximal 140 Zeichen) (Achtung, ist öffentlich einsehbar)</translation>
     </message>
     <message>
@@ -1889,8 +1889,8 @@ Das bedeutet, dass eine Gebühr von %2 benötigt wird.
         <translation>Nachricht</translation>
     </message>
     <message>
-        <source>Generated coins must mature 100 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to &quot;not accepted&quot; and it won&apos;t be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
-        <translation>Generierte Coins müssen 100 Bestätigungen erhalten bevor sie verfügbar sind. Dieser Block wurde ans Netzwerk gesendet und der Blockkette angehängt als der Block generiert wurde. Wenn er der Blockkette nicht erfolgreich angehängt werden konnte, wird er den Status in &quot;nicht Akzeptiert&quot; ändern und wird nicht verfügbar sein. Das kann zufällig geschehen wenn jemand anderes einen Block innerhalb von ein paar Sekunden generiert.</translation>
+        <source>Generated coins must mature 80 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to &quot;not accepted&quot; and it won&apos;t be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
+        <translation>Generierte Coins müssen 80 Bestätigungen erhalten bevor sie verfügbar sind. Dieser Block wurde ans Netzwerk gesendet und der Blockkette angehängt als der Block generiert wurde. Wenn er der Blockkette nicht erfolgreich angehängt werden konnte, wird er den Status in &quot;nicht Akzeptiert&quot; ändern und wird nicht verfügbar sein. Das kann zufällig geschehen wenn jemand anderes einen Block innerhalb von ein paar Sekunden generiert.</translation>
     </message>
     <message>
         <source>Debug information</source>
