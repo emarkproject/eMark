@@ -65,7 +65,7 @@ public:
         //   Coinbase(hash=60aeca51b138f65fcfdd0e188859ad6ae06ea37a85471e865110c6828520d6c0, nTime=1678306980, ver=1, vin.size=1, vout.size=1, nLockTime=0, strTxComment=dem v2 genesis block)
         //     CTxIn(COutPoint(0000000000, 4294967295), coinbase 04ffff001d020f2742446f6e277420747275737420796f75722062616e6b202d20547275737420446575747363686520654d61726b21203732646533623132313820313136303635353031)
         //     CTxOut(empty)
-        // 
+        //
 
         const char* pszTimestamp = "Don't trust your bank - Trust Deutsche eMark! 72de3b1218 116065501";
         std::vector<CTxIn> vin;
@@ -99,22 +99,22 @@ public:
 	//     	    examples:  dig dnsseed.emarks.cc A		     //     A for IPv4
         //                     dig dnsseed.deutsche-emark.cc AAAA    //  AAAA for IPv6
 	//		       dig dem-seed1.communitycoins.org A
-	//                     dig dem-seed2.communitycoins.ort AAAA 
-	//    
-        //     chainetics.com (dbkeys) 
-        //                              Domain                          Sub-Domain
-        vSeeds.push_back(CDNSSeedData("emarks.cc",          "dnsseed.emarks.cc" )); 
-        vSeeds.push_back(CDNSSeedData("deutsche-emark.cc",  "dnsseed.deutsche-emark.cc" )); 
+	//                     dig dem-seed2.communitycoins.ort AAAA
 	//
-        //     communitycoins.org 
+        //     chainetics.com (dbkeys)
         //                              Domain                          Sub-Domain
-        vSeeds.push_back(CDNSSeedData("communitycoins.org", "dem-seed1.communitycoins.org" )); 
-        vSeeds.push_back(CDNSSeedData("communitycoins.org", "dem-seed2.communitycoins.org" )); 
-        vSeeds.push_back(CDNSSeedData("communitycoins.org", "dem-seed3.communitycoins.org" )); 
+        vSeeds.push_back(CDNSSeedData("emarks.cc",          "dnsseed.emarks.cc" ));
+        vSeeds.push_back(CDNSSeedData("deutsche-emark.cc",  "dnsseed.deutsche-emark.cc" ));
+	//
+        //     communitycoins.org
+        //                              Domain                          Sub-Domain
+        vSeeds.push_back(CDNSSeedData("communitycoins.org", "dem-seed1.communitycoins.org" ));
+        vSeeds.push_back(CDNSSeedData("communitycoins.org", "dem-seed2.communitycoins.org" ));
+        vSeeds.push_back(CDNSSeedData("communitycoins.org", "dem-seed3.communitycoins.org" ));
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 53);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 30);
-        base58Prefixes[SECRET_KEY] =     std::vector<unsigned char>(1, 181);        
+        base58Prefixes[SECRET_KEY] =     std::vector<unsigned char>(1, 181);
         base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(0x04)(0x88)(0xB2)(0x1E).convert_to_container<std::vector<unsigned char> >();
         base58Prefixes[EXT_SECRET_KEY] = boost::assign::list_of(0x04)(0x88)(0xAD)(0xE4).convert_to_container<std::vector<unsigned char> >();
 
@@ -155,7 +155,7 @@ public:
         //   Coinbase(hash=60aeca51b138f65fcfdd0e188859ad6ae06ea37a85471e865110c6828520d6c0, nTime=1678306980, ver=1, vin.size=1, vout.size=1, nLockTime=0, strTxComment=dem v2 genesis block)
         //     CTxIn(COutPoint(0000000000, 4294967295), coinbase 04ffff001d020f2742446f6e277420747275737420796f75722062616e6b202d20547275737420446575747363686520654d61726b21203732646533623132313820313136303635353031)
         //     CTxOut(empty)
-        // 
+        //
 
         bnProofOfWorkLimit = CBigNum(~uint256(0) >> 16);
         vAlertPubKey = ParseHex("04b8c8527578d8d6023f0b8736eb9b929f045441b5dd0ac3339b5a821dc462eba60029e94bfb55766445951d5da3913333d91539f205573d436375cdf0d4859a62");
@@ -169,10 +169,6 @@ public:
         hashGenesisBlock = genesis.GetHash();
         assert(hashGenesisBlock == uint256("0x0000752b9e9142c3ec3d9e84f86feb59ce9e7e44d64996b5a021dbf55e3b4355"));
         assert(genesis.hashMerkleRoot == uint256("0x60aeca51b138f65fcfdd0e188859ad6ae06ea37a85471e865110c6828520d6c0"));
-<<<<<<< HEAD
-
-=======
->>>>>>> c23806f511c723f9c465c4b13f704ee8440ac7f3
 
         vFixedSeeds.clear();
         vSeeds.clear();
@@ -183,7 +179,7 @@ public:
         //
         //          examples:  dig testnet.emarks.cc A               //     A for IPv4
         //            	       dig testnet.emarks.cc AAAA            //     A for IPv6
-        //    
+        //
         //                              Domain                    Sub-Domain
         vSeeds.push_back(CDNSSeedData("emarks.cc",          "testnet.emarks.cc" ));
 
@@ -193,7 +189,7 @@ public:
         base58Prefixes[SECRET_KEY]     = std::vector<unsigned char>(1, 239);
         base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(0x04)(0x35)(0x87)(0xCF).convert_to_container<std::vector<unsigned char> >();
         base58Prefixes[EXT_SECRET_KEY] = boost::assign::list_of(0x04)(0x35)(0x83)(0x94).convert_to_container<std::vector<unsigned char> >();
- 
+
         convertSeed6(vFixedSeeds, pnSeed6_test, ARRAYLEN(pnSeed6_test));
 
     }
@@ -218,7 +214,7 @@ public:
         //   Coinbase(hash=60aeca51b138f65fcfdd0e188859ad6ae06ea37a85471e865110c6828520d6c0, nTime=1678306980, ver=1, vin.size=1, vout.size=1, nLockTime=0, strTxComment=dem v2 genesis block)
         //     CTxIn(COutPoint(0000000000, 4294967295), coinbase 04ffff001d020f2742446f6e277420747275737420796f75722062616e6b202d20547275737420446575747363686520654d61726b21203732646533623132313820313136303635353031)
         //     CTxOut(empty)
-        // 
+        //
 
         bnProofOfWorkLimit = CBigNum(~uint256(0) >> 8);
         genesis.nTime = 1678306980;
