@@ -1,4 +1,4 @@
-eMark 1.3.0
+eMark 2.0.1.1
 
 Copyright (c) 2013 NovaCoin Developers
 Copyright (c) 2011-2013 PPCoin Developers

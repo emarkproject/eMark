@@ -1,6 +1,6 @@
 TEMPLATE = app
 TARGET = eMark-qt
-VERSION = 1.6.1
+VERSION = 2.0.1.1
 INCLUDEPATH += src src/json src/qt
 QT += network
 DEFINES += ENABLE_WALLET
