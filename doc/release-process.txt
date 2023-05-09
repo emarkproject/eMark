@@ -1,6 +1,6 @@
 * update translations (ping tcatm on IRC for now)
 
-* update (commit) version in sources
+* update (git commit) version in sources   // to record new BUILD_DATE
   bitcoin-qt.pro
   src/clientversion.h (change CLIENT_VERSION_IS_RELEASE to true)
   share/setup.nsi
@@ -8,7 +8,11 @@
 
 * tag version in git
 
-   git tag -a v0.5.1
+   git tag -a v2.0.1.2       // -a  means "annotated" tag, theise tag contain a creation date, the tagger name and e-mail, 
+			     //     as well as a tagging message, and an optional GnuPG signature. 
+
+* generate new build.h
+while in eMark/src     ../share/genbuild.sh  obj/build.h
 
 * write release notes.  git shortlog helps a lot:
 
