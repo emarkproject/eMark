@@ -5,7 +5,7 @@ SetCompressor /SOLID lzma
 
 # General Symbol Definitions
 !define REGKEY "SOFTWARE\$(^Name)"
-!define VERSION 2.0.1.1
+!define VERSION 2.0.1.2
 !define COMPANY "eMark project"
 !define URL http://www.deutsche-emark.org/
 
