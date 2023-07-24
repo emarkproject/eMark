@@ -6,7 +6,6 @@
 #include "transactiontablemodel.h"
 
 #include "chainparams.h"
-#include "alert.h"
 #include "main.h"
 #include "ui_interface.h"
 
