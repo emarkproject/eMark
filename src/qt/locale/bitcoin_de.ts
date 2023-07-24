@@ -809,7 +809,7 @@ Dazu wird eine Minimumgebühr von %1pro kb benötigt.</translation>
     <message>
         <source>This label turns red, if any recipient receives an amount smaller than %1.
 
- This means a fee of at least %2 is required. 
+ This means a fee of at least %2 is required.
 
  Amounts below 0.546 times the minimum relay fee are shown as DUST.</source>
         <translation>Diese Beschriftung wird rot, wenn alle Empfänger zusammen weniger als %1 empfangen.
@@ -2733,10 +2733,6 @@ Falls die Konfigurationsdatei nicht existiert, erzeugen Sie diese bitte mit Lese
     <message>
         <source>Information</source>
         <translation>Information</translation>
-    </message>
-    <message>
-        <source>Warning: This version is obsolete, upgrade required!</source>
-        <translation>Warnung: Diese Version is veraltet, Aktualisierung erforderlich!</translation>
     </message>
     <message>
         <source>WARNING: syncronized checkpoint violation detected, but skipped!</source>

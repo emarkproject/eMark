@@ -804,12 +804,12 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <source>This label turns red, if any recipient receives an amount smaller than %1.
 
- This means a fee of at least %2 is required. 
+ This means a fee of at least %2 is required.
 
  Amounts below 0.546 times the minimum relay fee are shown as DUST.</source>
         <translation>This label turns red, if any recipient receives an amount smaller than %1.
 
- This means a fee of at least %2 is required. 
+ This means a fee of at least %2 is required.
 
  Amounts below 0.546 times the minimum relay fee are shown as DUST.</translation>
     </message>
@@ -2725,10 +2725,6 @@ If the file does not exist, create it with owner-readable-only file permissions.
     <message>
         <source>Information</source>
         <translation>Information</translation>
-    </message>
-    <message>
-        <source>Warning: This version is obsolete, upgrade required!</source>
-        <translation>Warning: This version is obsolete, upgrade required!</translation>
     </message>
     <message>
         <source>WARNING: syncronized checkpoint violation detected, but skipped!</source>
