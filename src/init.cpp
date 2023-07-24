@@ -210,7 +210,7 @@ std::string HelpMessage()
     strUsage += "  -debug=<category>      " + _("Output debugging information (default: 0, supplying <category> is optional)") + "\n";
     strUsage +=                               _("If <category> is not supplied, output all debugging information.") + "\n";
     strUsage +=                               _("<category> can be:");
-    strUsage +=                                 " addrman, alert, db, lock, rand, rpc, selectcoins, mempool, net,"; // Don't translate these and qt below
+    strUsage +=                                 " addrman, db, lock, rand, rpc, selectcoins, mempool, net,"; // Don't translate these and qt below
     strUsage +=                                 " coinage, coinstake, creation, stakemodifier";
     if (fHaveGUI)
     {
@@ -239,7 +239,6 @@ std::string HelpMessage()
     strUsage += "  -walletnotify=<cmd>    " + _("Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)") + "\n";
     strUsage += "  -confchange            " + _("Require a confirmations for change (default: 0)") + "\n";
     strUsage += "  -minimizecoinage       " + _("Minimize weight consumption (experimental) (default: 0)") + "\n";
-    strUsage += "  -alertnotify=<cmd>     " + _("Execute command when a relevant alert is received (%s in cmd is replaced by message)") + "\n";
     strUsage += "  -upgradewallet         " + _("Upgrade wallet to latest format") + "\n";
     strUsage += "  -keypool=<n>           " + _("Set key pool size to <n> (default: 100)") + "\n";
     strUsage += "  -rescan                " + _("Rescan the block chain for missing wallet transactions") + "\n";
