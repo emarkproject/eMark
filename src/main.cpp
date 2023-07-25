@@ -1854,9 +1854,10 @@ bool CBlock::SetBestChain(CTxDB& txdb, CBlockIndex* pindexNew)
         }
         if (nUpgraded > 0)
             LogPrintf("SetBestChain: %d of last 100 blocks above version %d\n", nUpgraded, (int)CBlock::CURRENT_VERSION);
-        if (nUpgraded > 100/2)
-            // strMiscWarning is read by GetWarnings(), called by Qt and the JSON-RPC code to warn the user:
-            strMiscWarning = _("Warning: This version is obsolete, upgrade required!");
+       // As long as  miners may change nVersion just to meet difficulty target, following warning makes no sense
+       //if (nUpgraded > 100/2)
+       //     // strMiscWarning is read by GetWarnings(), called by Qt and the JSON-RPC code to warn the user:
+       //     strMiscWarning = _("Warning: This version is obsolete, upgrade required!");
     }
 
     std::string strCmd = GetArg("-blocknotify", "");
