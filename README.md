@@ -1,5 +1,8 @@
 # Deutsche eMark [DEM] #
 
+### Version 2.1.0 ###
+  The obsolete Alert System was removed and deactivated, as it represented a central point of failure.
+
 ### Version 2.0.1 ###
   A vulnerability introduced in version 1.3 was exploited and wreaked havoc in the DEM-blockchain.
   This build contains a patch of that vulnerability. In the same time it causes a Hardfork where the chainparameters are slightly changed:
