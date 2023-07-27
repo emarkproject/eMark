@@ -2,8 +2,8 @@
 
 ### Version 2.1.0 ###
   - The obsolete Alert System was removed and deactivated, as it represented a central point of failure.
-  - Added DNS Seeders (fixes #86)
-  - fixed bug preventing setting a tranaction comment via RPC (fixes #81)
+  - Added DNS Seeders ( fixes #86 )
+  - fixed bug preventing setting a tranaction comment via RPC ( fixes #81 )
   - made code compilation compatible with newer Linux versions including Ubuntu 22.04
 
 ### Version 2.0.1 ###
