@@ -24,3 +24,4 @@ qrc_*.cpp
 build
 Thumbs.db
 !src/leveldb/Makefile
+.qmake.stash
