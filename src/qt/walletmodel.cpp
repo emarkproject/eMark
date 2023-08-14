@@ -9,6 +9,8 @@
 #include "walletdb.h" // for BackupWallet
 #include "base58.h"
 
+#include <boost/bind.hpp>
+
 #include <QSet>
 #include <QTimer>
 #include <QDebug>
@@ -21,7 +23,7 @@ WalletModel::WalletModel(CWallet *wallet, OptionsModel *optionsModel, QObject *p
     cachedNumBlocks(0)
 {
 	fForceCheckBalanceChanged = false;
-	
+
     addressTableModel = new AddressTableModel(wallet, this);
     transactionTableModel = new TransactionTableModel(wallet, this);
 
@@ -92,7 +94,7 @@ void WalletModel::pollBalanceChanged()
     if(fForceCheckBalanceChanged || nBestHeight != cachedNumBlocks)
     {
 		fForceCheckBalanceChanged = false;
-		
+
         // Balance and number of transactions might have changed
         cachedNumBlocks = nBestHeight;
 
@@ -373,7 +375,7 @@ void WalletModel::unsubscribeFromCoreSignals()
 WalletModel::UnlockContext WalletModel::requestUnlock()
 {
     bool was_locked = getEncryptionStatus() == Locked;
-    
+
     if ((!was_locked) && fWalletUnlockStakingOnly)
     {
        setWalletLocked(true);
@@ -415,7 +417,7 @@ void WalletModel::UnlockContext::CopyFrom(const UnlockContext& rhs)
 
 bool WalletModel::getPubKey(const CKeyID &address, CPubKey& vchPubKeyOut) const
 {
-    return wallet->GetPubKey(address, vchPubKeyOut);   
+    return wallet->GetPubKey(address, vchPubKeyOut);
 }
 
 // returns a list of COutputs from COutPoints
@@ -432,7 +434,7 @@ void WalletModel::getOutputs(const std::vector<COutPoint>& vOutpoints, std::vect
     }
 }
 
-// AvailableCoins + LockedCoins grouped by wallet address (put change in one group with wallet address) 
+// AvailableCoins + LockedCoins grouped by wallet address (put change in one group with wallet address)
 void WalletModel::listCoins(std::map<QString, std::vector<COutput> >& mapCoins) const
 {
     std::vector<COutput> vCoins;
