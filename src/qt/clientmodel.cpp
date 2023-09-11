@@ -6,8 +6,11 @@
 #include "transactiontablemodel.h"
 
 #include "chainparams.h"
+#include "alert.h"
 #include "main.h"
 #include "ui_interface.h"
+
+#include <boost/bind.hpp>
 
 #include <QDateTime>
 #include <QTimer>
